@@ -2,12 +2,9 @@ package com.example.lawson.androidsummery.bitmap;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Matrix;
-import android.graphics.Paint;
+import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Display;
@@ -23,11 +20,14 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
     private TextView byte_count;
     private TextView destiny_Dpi;
     private ImageView image;
+    private ImageView image2;
+    private ImageView image3;
     private Button get_destiny;
     private Button xxhdpi;
     private Button load_compression;
     private Button load_without_compression;
-    private Button matrix;
+    private Button inBitmap;
+    private Button no_inBitmap;
 
     private String TAG = "lawson";
     private String fileStr;
@@ -41,6 +41,8 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
     //手机密度Dpi
     private int densityDpi;
 
+    private Bitmap bitmap;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,11 +52,14 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         byte_count = (TextView) findViewById(R.id.byte_count);
         destiny_Dpi = (TextView) findViewById(R.id.destiny_Dpi);
         image = (ImageView) findViewById(R.id.image);
+        image2 = (ImageView) findViewById(R.id.image2);
+        image3 = (ImageView) findViewById(R.id.image3);
         get_destiny = (Button) findViewById(R.id.get_destiny);
         xxhdpi = (Button) findViewById(R.id.xxhdpi);
         load_compression = (Button) findViewById(R.id.load_compression);
         load_without_compression = (Button) findViewById(R.id.load_without_compression);
-        matrix = (Button) findViewById(R.id.matrix);
+        inBitmap = (Button) findViewById(R.id.inBitmap);
+        no_inBitmap = (Button) findViewById(R.id.no_inBitmap);
 
         fileStr = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Pictures/kisum3.jpg";
 
@@ -62,7 +67,8 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         xxhdpi.setOnClickListener(this);
         load_compression.setOnClickListener(this);
         load_without_compression.setOnClickListener(this);
-        matrix.setOnClickListener(this);
+        inBitmap.setOnClickListener(this);
+        no_inBitmap.setOnClickListener(this);
 
     }
 
@@ -84,21 +90,24 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
             case R.id.load_without_compression:
                 loadWithoutCompression();
                 break;
-            case R.id.matrix:
-                useMatrix();
+            case R.id.inBitmap:
+                inBitmap();
+                break;
+            case R.id.no_inBitmap:
+                noInBitmap();
                 break;
         }
     }
 
     private void loadxxhdpi() {
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.kisum3);
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.kisum3);
         byte_count.setText("byteCount : " + bitmap.getByteCount());
         Log.d(TAG, "byteCount : " + bitmap.getByteCount());
         image.setImageBitmap(bitmap);
     }
 
     private void loadWithoutCompression() {
-        Bitmap bitmap = BitmapFactory.decodeFile(fileStr);
+        bitmap = BitmapFactory.decodeFile(fileStr);
         byte_count.setText("byteCount : " + bitmap.getByteCount());
         image.setImageBitmap(bitmap);
     }
@@ -116,7 +125,7 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         options.inSampleSize = scale;
         options.inPreferredConfig = Bitmap.Config.ARGB_4444;
         options.inJustDecodeBounds = false;
-        Bitmap bitmap = BitmapFactory.decodeFile(fileStr, options);
+        bitmap = BitmapFactory.decodeFile(fileStr, options);
         int width2 = options.outWidth;
         int height2 = options.outHeight;
         byte_count.setText("byteCount : " + bitmap.getByteCount());
@@ -124,15 +133,29 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         image.setImageBitmap(bitmap);
     }
 
-    private void useMatrix() {
-        Canvas canvas = new Canvas();
-        Bitmap bitmap = BitmapFactory.decodeFile(fileStr);
-        Paint paint = new Paint();
-        Matrix matrix = new Matrix();
-        matrix.preScale(2, 2, 0f, 0f);
-//如果使用直接替换矩阵的话，在Nexus6 5.1.1上必须关闭硬件加速
-        canvas.concat(matrix);
-        canvas.drawBitmap(bitmap, 0, 0, paint);
+    private void inBitmap() {
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        //这个必须在decodeFile之前设置，否则会出现
+        //BitmapFactory: Unable to reuse an immutable bitmap as an image decoder target.
+        options.inMutable = true;
+        bitmap = BitmapFactory.decodeFile(fileStr,options);
+        image.setImageBitmap(bitmap);
+        //使用谷歌推荐的方法，这里可以认为是复用了这个bitmap
+        options.inBitmap = bitmap;
+
+        image2.setImageBitmap(BitmapFactory.decodeFile(fileStr, options));
+        image3.setImageBitmap(BitmapFactory.decodeFile(fileStr, options));
+    }
+
+    private void noInBitmap() {
+        BitmapFactory.Options options = new BitmapFactory.Options();
+
+        bitmap = BitmapFactory.decodeFile(fileStr);
+        image.setImageBitmap(bitmap);
+        options.inBitmap = bitmap;
+
+        image2.setImageBitmap(BitmapFactory.decodeFile(fileStr));
+        image3.setImageBitmap(BitmapFactory.decodeFile(fileStr));
     }
 
     //获得手机的宽度和高度像素单位为px
@@ -168,4 +191,14 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         Log.d(TAG, "Screen mDisplay: " + mDisplay);
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (bitmap != null && !bitmap.isRecycled()) {
+            // 回收并且置为null
+            bitmap.recycle();
+            bitmap = null;
+        }
+        System.gc();
+    }
 }
