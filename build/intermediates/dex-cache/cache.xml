@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_ec14df6488e9974db568fa36db85c6e421111358/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_f6412173a85a1303ee40e0774ed58812795d8bd7/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_a9b4b93a0d17ff0dbaa91eddb5a0c90782984a6b/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="48d589dd9410f15f2d023c677276103613e3d7cf">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a3f9947d139d9b35bf0256c1a03b2dc117096645/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_2ee7cbf1ea68a98c949abe6b2d6bab65b19f45da/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_05a0182eaaee5c8c87b3c7e61a1b834bf1c9a594/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_b9d2b29ef90a4a4aa94155e2ce0898b8f51de05c/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_56b464b1695316c28aa4895cb3d4933016f86202/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_d52e63f772dbfd73ab7fb4eb31c699c2c188bf6a/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_b3773e92ac1aafd57a7eaef9af58498c59b702eb/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_e24127c01b15c8b9e51fdb13135d7a6b72a6dc75/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_5b37a8e29b208243e651c941db1f7e90ace3abd3/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_c9e06e5834f4cd85c212021ae9a6d71826f17580/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a85adb8303f940a61e84744dea6988a32a84e9f6">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_326e7f24a759468b261c424f291aa91b459dc4f8/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_70eaacbf3b930205d6d3700873dd39c6e37d50f8/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_1f1bdb5736ae15a346abf9b3093d256392f1f268/classes.dex" />
+    </item>
+    <item
+        jar="/home/lawson/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/lawson/Android/projects/AndroidSummery/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_fbfc66d127d01090415732ddb266345f5a2fb85e/classes.dex" />
+    </item>
+
+</items>
