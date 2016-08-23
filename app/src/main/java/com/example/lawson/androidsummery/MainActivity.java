@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
+import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.pointtopoint.DrawingView;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 
@@ -28,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, BitmapActivity.class));
+            }
+        });
+
+        findViewById(R.id.detect_memory).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DetectMemoryActivity.class));
             }
         });
 

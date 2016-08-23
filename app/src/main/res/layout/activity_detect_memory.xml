@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/single_oom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="静态变量引用Activity对象" />
+
+        <Button
+            android:id="@+id/inner_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内部类" />
+
+        <Button
+            android:id="@+id/inner_anonymity_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="匿名内部类" />
+
+        <Button
+            android:id="@+id/handler_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handler" />
+
+        <Button
+            android:id="@+id/thread_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thread和Timer" />
+
+        <Button
+            android:id="@+id/listener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="监听器" />
+
+        <Button
+            android:id="@+id/collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="集合对象造成的泄漏" />
+
+    </LinearLayout>
+
+
+</ScrollView>
