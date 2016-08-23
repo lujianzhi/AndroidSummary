@@ -8,6 +8,7 @@ AndroidSummary
 ####3.从内存卡中读取图片，直接显示
 ####4.从内存卡中读取图片，经过压缩处理后显示
 ####5.使用inBitmap属性进行对Bitmap的复用
+<br />
 ###安卓中几种常见的内存泄露情况
 ####1.Activity对象未被回收
 #####1.静态变量引用Activity对象
@@ -32,6 +33,7 @@ This project includes my opinions about Android.And I do summary for these(codin
 ####3.show sdcard's picture without any operation
 ####4.show sdcard's picture with photo compression
 ####5.use inBitmap to reuse Bitmap
+<br />
 ###Common memory leaks situation in Android
 ####1.Activity not be recycled
 #####1.static variables hold Activity
