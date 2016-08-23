@@ -28,7 +28,8 @@
         <activity android:name=".detectmemory.HandlerActivity" />
         <activity android:name=".detectmemory.ThreadTimerActivity" />
         <activity android:name=".detectmemory.ListenerActivity" />
-        <activity android:name=".detectmemory.CollectionActivity"></activity>
+        <activity android:name=".detectmemory.CollectionActivity" />
+        <activity android:name=".collection.set.SetActivity"></activity>
     </application>
 
 </manifest>
