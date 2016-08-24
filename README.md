@@ -21,6 +21,17 @@ AndroidSummary
 ####2.集合对象造成的泄漏
 ####3.资源对象没关闭造成内存泄漏
 ####4.使用对象池避免频繁创建对象
+###Collection
+####1.List
+#####1.ArrayList
+#####2.LinkedList
+#####3.Vector
+####2.Set
+#####1.HashSet
+#####2.TreeSet
+####3.Map
+#####1.HashMap
+#####2.TreeMap
 <br />
 <br />
 <br />
@@ -46,3 +57,13 @@ This project includes my opinions about Android.And I do summary for these(codin
 ####2.Collcetion
 ####3.Resource not closed
 ####4.use object pool instead of new object frequently
+###Collection
+####1.List
+#####1.ArrayList
+#####2.LinkedList
+#####3.Vector
+####2.Set
+#####1.HashSet
+#####2.TreeSet
+####3.Map
+#####1.HashMap
