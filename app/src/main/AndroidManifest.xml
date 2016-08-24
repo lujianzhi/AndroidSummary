@@ -29,7 +29,8 @@
         <activity android:name=".detectmemory.ThreadTimerActivity" />
         <activity android:name=".detectmemory.ListenerActivity" />
         <activity android:name=".detectmemory.MemoryCollectionActivity" />
-        <activity android:name=".collection.Collection_Activity"/>
+        <activity android:name=".collection.Collection_Activity" />
+        <activity android:name=".touchevent.TouchEventActivity"></activity>
     </application>
 
 </manifest>
