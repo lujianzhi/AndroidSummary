@@ -60,7 +60,7 @@ public class DetectMemoryActivity extends AppCompatActivity {
         findViewById(R.id.collection).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(DetectMemoryActivity.this, CollectionActivity.class));
+                startActivity(new Intent(DetectMemoryActivity.this, MemoryCollectionActivity.class));
             }
         });
 

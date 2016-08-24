@@ -17,7 +17,7 @@ import com.example.lawson.androidsummery.detectmemory.entity.SinglePoolObj;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CollectionActivity extends AppCompatActivity {
+public class MemoryCollectionActivity extends AppCompatActivity {
 
     private ListView listView;
     private static List<ObjWithContext> list;
@@ -27,7 +27,7 @@ public class CollectionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_collection);
+        setContentView(R.layout.activity_collection_memory);
 
         content = "123";
 
