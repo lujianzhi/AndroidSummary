@@ -51,8 +51,6 @@ public class TouchEventActivity extends AppCompatActivity {
                 break;
         }
 
-        Log.i(TAG,CURRENT+"dispatchTouchEvent : "+super.dispatchTouchEvent(ev));
-
         return super.dispatchTouchEvent(ev);
     }
 
@@ -68,7 +66,6 @@ public class TouchEventActivity extends AppCompatActivity {
                 break;
         }
 
-        Log.i(TAG,CURRENT+"onTouchEvent : "+super.dispatchTouchEvent(event));
         return super.onTouchEvent(event);
     }
 }

@@ -47,7 +47,6 @@ public class MyLinearLayout extends LinearLayout {
                 Log.i(TAG, CURRENT + "onInterceptTouchEvent : ACTION_UP");
                 break;
         }
-        Log.i(TAG, CURRENT + "onInterceptTouchEvent : " + super.dispatchTouchEvent(ev));
         return super.onInterceptTouchEvent(ev);
     }
 
@@ -61,7 +60,6 @@ public class MyLinearLayout extends LinearLayout {
                 Log.i(TAG, CURRENT + "onTouchEvent : ACTION_UP");
                 break;
         }
-        Log.i(TAG, CURRENT + "onTouchEvent : " + super.dispatchTouchEvent(event));
         return super.onTouchEvent(event);
     }
 }

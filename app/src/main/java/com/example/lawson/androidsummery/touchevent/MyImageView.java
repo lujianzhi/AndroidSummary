@@ -35,7 +35,6 @@ public class MyImageView extends ImageView {
                 break;
         }
 
-        Log.i(TAG,CURRENT+"dispatchTouchEvent : "+super.dispatchTouchEvent(event));
         return super.dispatchTouchEvent(event);
 
     }
@@ -50,7 +49,6 @@ public class MyImageView extends ImageView {
                 Log.i(TAG, CURRENT+"onTouchEvent : ACTION_UP");
                 break;
         }
-        Log.i(TAG,CURRENT+"onTouchEvent : "+super.dispatchTouchEvent(event));
         return super.onTouchEvent(event);
     }
 }
