@@ -1,16 +1,67 @@
 package com.example.lawson.androidsummery.touchevent;
 
 import android.content.Context;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.view.MotionEvent;
 import android.widget.LinearLayout;
 
-/**
- * Created by Administrator on 2016/8/24.
- */
 public class MyLinearLayout extends LinearLayout {
+
+    private final String TAG = "lawson";
+    private final String CURRENT = "MyLinearLayout : ";
 
     public MyLinearLayout(Context context) {
         super(context);
     }
 
+    public MyLinearLayout(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
 
+    public MyLinearLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        switch (ev.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_DOWN");
+                break;
+            case MotionEvent.ACTION_UP:
+                Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_UP");
+                break;
+        }
+        Log.i(TAG, CURRENT + "dispatchTouchEvent : " + super.dispatchTouchEvent(ev));
+        return super.dispatchTouchEvent(ev);
+    }
+
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+        switch (ev.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                Log.i(TAG, CURRENT + "onInterceptTouchEvent : ACTION_DOWN");
+                break;
+            case MotionEvent.ACTION_UP:
+                Log.i(TAG, CURRENT + "onInterceptTouchEvent : ACTION_UP");
+                break;
+        }
+        Log.i(TAG, CURRENT + "onInterceptTouchEvent : " + super.dispatchTouchEvent(ev));
+        return super.onInterceptTouchEvent(ev);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                Log.i(TAG, CURRENT + "onTouchEvent : ACTION_DOWN");
+                break;
+            case MotionEvent.ACTION_UP:
+                Log.i(TAG, CURRENT + "onTouchEvent : ACTION_UP");
+                break;
+        }
+        Log.i(TAG, CURRENT + "onTouchEvent : " + super.dispatchTouchEvent(event));
+        return super.onTouchEvent(event);
+    }
 }

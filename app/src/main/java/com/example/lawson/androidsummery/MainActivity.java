@@ -10,6 +10,7 @@ import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.detectmemory.MemoryCollectionActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
+import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +44,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, Collection_Activity.class));
+            }
+        });
+
+        findViewById(R.id.touch_event).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TouchEventActivity.class));
             }
         });
 

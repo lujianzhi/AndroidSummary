@@ -9,4 +9,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lawson.androidsummery.touchevent.TouchEventActivity">
 
+    <com.example.lawson.androidsummery.touchevent.MyLinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <com.example.lawson.androidsummery.touchevent.MyImageView
+            android:id="@+id/image_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/selector_image_view" />
+
+    </com.example.lawson.androidsummery.touchevent.MyLinearLayout>
+
 </RelativeLayout>
