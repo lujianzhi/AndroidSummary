@@ -33,7 +33,6 @@ public class MyLinearLayout extends LinearLayout {
                 Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_UP");
                 break;
         }
-        Log.i(TAG, CURRENT + "dispatchTouchEvent : " + super.dispatchTouchEvent(ev));
         return super.dispatchTouchEvent(ev);
     }
 
