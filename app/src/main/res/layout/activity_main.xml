@@ -37,6 +37,12 @@
             android:layout_height="wrap_content"
             android:text="集合" />
 
+        <Button
+            android:id="@+id/touch_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="事件分发机制" />
+
     </LinearLayout>
 
 
