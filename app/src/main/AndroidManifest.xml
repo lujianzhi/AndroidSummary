@@ -30,7 +30,8 @@
         <activity android:name=".detectmemory.ListenerActivity" />
         <activity android:name=".detectmemory.MemoryCollectionActivity" />
         <activity android:name=".collection.Collection_Activity" />
-        <activity android:name=".touchevent.TouchEventActivity"></activity>
+        <activity android:name=".touchevent.TouchEventActivity" />
+        <activity android:name=".toast.ToastActivity"></activity>
     </application>
 
 </manifest>
