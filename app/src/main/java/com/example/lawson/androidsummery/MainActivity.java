@@ -10,6 +10,7 @@ import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.detectmemory.MemoryCollectionActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
+import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
 
@@ -59,6 +60,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ToastActivity.class));
+            }
+        });
+
+        findViewById(R.id.popup_window).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, PopupWindowActivity.class));
             }
         });
 

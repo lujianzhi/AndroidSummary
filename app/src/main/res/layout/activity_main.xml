@@ -49,6 +49,12 @@
             android:layout_height="wrap_content"
             android:text="自定义Toast" />
 
+        <Button
+            android:id="@+id/popup_window"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PopupWindow" />
+
     </LinearLayout>
 
 

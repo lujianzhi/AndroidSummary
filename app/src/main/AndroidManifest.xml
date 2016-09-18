@@ -33,6 +33,7 @@
         <activity android:name=".touchevent.TouchEventActivity" />
         <activity android:name=".diyview.DIYViewActivity" />
         <activity android:name=".toast.ToastActivity" />
+        <activity android:name=".popupwindow.PopupWindowActivity"></activity>
     </application>
 
 </manifest>
