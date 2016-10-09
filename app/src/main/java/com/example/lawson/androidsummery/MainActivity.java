@@ -1,18 +1,21 @@
 package com.example.lawson.androidsummery;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
-import com.example.lawson.androidsummery.detectmemory.MemoryCollectionActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
+import com.example.lawson.androidsummery.eventbus.EventBusActivity;
+import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
+
+import de.greenrobot.event.EventBus;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        findViewById(R.id.send).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                EventBus.getDefault().postSticky(new StickyObj());
+            }
+        });
 
         findViewById(R.id.pointToPoint).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +78,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, PopupWindowActivity.class));
+            }
+        });
+
+        findViewById(R.id.event_bus).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, EventBusActivity.class));
             }
         });
 
