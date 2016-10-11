@@ -10,6 +10,7 @@ import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
+import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
@@ -85,6 +86,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, EventBusActivity.class));
+            }
+        });
+
+        findViewById(R.id.hide_navigation_bar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, HideNavigationBar.class));
             }
         });
 

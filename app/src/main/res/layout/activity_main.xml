@@ -59,13 +59,20 @@
             android:id="@+id/event_bus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="EventBus粘性事件" />
+            android:text="EventBus粘性事件(下方按钮发送粘性事件)" />
 
         <Button
             android:id="@+id/send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="发送粘性事件" />
+
+        <Button
+            android:id="@+id/hide_navigation_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐藏底部栏" />
+
 
     </LinearLayout>
 
