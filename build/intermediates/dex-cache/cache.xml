@@ -3,6 +3,33 @@
 
     <item
         is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android-no-op\1.4-beta2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="560bca701ac165c2081e0b7196556a968c84893e">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\release\com.squareup.leakcanary-leakcanary-android-no-op-1.4-beta2_52cc0a6150ca98e1706aa95a29022270fdabefc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\debug\com.squareup.leakcanary-leakcanary-android-1.4-beta2_1c548ec940a037a5521ae20b635537e3e767b181.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_9844d82706715d0353aae93f081cac8c941bfc92.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -81,24 +108,6 @@
         revision="23.0.3"
         sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_fe14ad7fde311a5d061b181ccb226cb32ff96271.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\debug\com.squareup.leakcanary-leakcanary-android-1.4-beta2_1c548ec940a037a5521ae20b635537e3e767b181.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_9844d82706715d0353aae93f081cac8c941bfc92.jar" />
     </item>
 
 </items>

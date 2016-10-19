@@ -16,6 +16,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:maxEms="5"
+        android:maxLines="1"
+        android:ellipsize="end"
         android:text="我在底部我在底部我在底部我在底部我在底部我在底部" />
 
 </RelativeLayout>
