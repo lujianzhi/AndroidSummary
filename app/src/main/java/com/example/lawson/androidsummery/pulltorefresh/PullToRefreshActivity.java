@@ -64,7 +64,7 @@ public class PullToRefreshActivity extends AppCompatActivity implements View.OnC
     }
 
     private void changeRadioButtonState(int position) {
-        switch (position) {
+        switch (position) {//
             case 0:
                 tab1.setChecked(true);
                 break;
