@@ -59,3 +59,5 @@ eclipsebin
 #NDK
 obj/
 jniLibs
+
+*.md
