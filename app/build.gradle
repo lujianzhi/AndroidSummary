@@ -32,14 +32,15 @@ android {
 
     productFlavors{
         m360{}
-        xiaomi{
-            applicationId "com.example.lawson.xiaomi.androidsummery"
-        }
+//        xiaomi{
+//            applicationId "com.example.lawson.xiaomi.androidsummery"
+//        }
     }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':library')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
@@ -48,5 +49,7 @@ dependencies {
     compile files('E:/AS/Project/AndroidSummary/libs/eventbus.jar')
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.1.6'
-    compile project(':library')
+//    compile files('E:/AS/Project/AndroidSummary/libs/lekehttp-1.0.6.jar')
+    compile 'com.yolanda.nohttp:nohttp:1.1.0'
+    compile 'com.yanzhenjie.nohttp:okhttp:1.1.0'
 }

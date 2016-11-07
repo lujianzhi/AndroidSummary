@@ -61,7 +61,7 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         inBitmap = (Button) findViewById(R.id.inBitmap);
         no_inBitmap = (Button) findViewById(R.id.no_inBitmap);
 
-        fileStr = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Pictures/kisum3.jpg";
+        fileStr = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Pictures/p.jpg";
 
         get_destiny.setOnClickListener(this);
         xxhdpi.setOnClickListener(this);
@@ -138,13 +138,16 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         //这个必须在decodeFile之前设置，否则会出现
         //BitmapFactory: Unable to reuse an immutable bitmap as an image decoder target.
         options.inMutable = true;
-        bitmap = BitmapFactory.decodeFile(fileStr,options);
         image.setImageBitmap(bitmap);
         //使用谷歌推荐的方法，这里可以认为是复用了这个bitmap
         options.inBitmap = bitmap;
+        bitmap = BitmapFactory.decodeFile(fileStr, options);
 
         image2.setImageBitmap(BitmapFactory.decodeFile(fileStr, options));
         image3.setImageBitmap(BitmapFactory.decodeFile(fileStr, options));
+
+        Bitmap bitmap = image2.getDrawingCache();
+
     }
 
     private void noInBitmap() {

@@ -36,7 +36,8 @@
         <activity android:name=".popupwindow.PopupWindowActivity" />
         <activity android:name=".eventbus.EventBusActivity" />
         <activity android:name=".hidenavigationbar.HideNavigationBar" />
-        <activity android:name=".pulltorefresh.PullToRefreshActivity"></activity>
+        <activity android:name=".pulltorefresh.PullToRefreshActivity" />
+        <activity android:name=".nohttp.NoHttpActivity"></activity>
     </application>
 
 </manifest>

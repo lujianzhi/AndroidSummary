@@ -11,6 +11,7 @@ import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
+import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
@@ -101,6 +102,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, PullToRefreshActivity.class));
+            }
+        });
+
+        findViewById(R.id.nohttp).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, NoHttpActivity.class));
             }
         });
 
