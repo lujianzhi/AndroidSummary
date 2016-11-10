@@ -37,7 +37,9 @@
         <activity android:name=".eventbus.EventBusActivity" />
         <activity android:name=".hidenavigationbar.HideNavigationBar" />
         <activity android:name=".pulltorefresh.PullToRefreshActivity" />
-        <activity android:name=".nohttp.NoHttpActivity"></activity>
+        <activity android:name=".nohttp.NoHttpActivity" />
+        <activity android:name=".draw.DrawActivity" />
+        <activity android:name=".ongloballayoutlistener.OnGlobalLayoutListenerActivity"></activity>
     </application>
 
 </manifest>

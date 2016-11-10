@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity">
+
+    <com.example.lawson.androidsummery.ongloballayoutlistener.DiyRelativeLayout
+        android:layout_width="50px"
+        android:layout_height="50px">
+
+        <com.example.lawson.androidsummery.ongloballayoutlistener.DiyTextView
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:text="20" />
+
+    </com.example.lawson.androidsummery.ongloballayoutlistener.DiyRelativeLayout>
+
+    <com.example.lawson.androidsummery.ongloballayoutlistener.MixLayout
+        android:layout_width="700px"
+        android:layout_height="700px"/>
+
+</LinearLayout>

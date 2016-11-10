@@ -8,10 +8,12 @@ import android.view.View;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
+import com.example.lawson.androidsummery.draw.DrawActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
+import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
@@ -109,6 +111,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, NoHttpActivity.class));
+            }
+        });
+
+        findViewById(R.id.draw).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DrawActivity.class));
+            }
+        });
+
+        findViewById(R.id.ongloballayoutlistener).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, OnGlobalLayoutListenerActivity.class));
             }
         });
 
