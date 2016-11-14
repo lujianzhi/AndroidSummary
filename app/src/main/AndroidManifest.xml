@@ -39,7 +39,8 @@
         <activity android:name=".pulltorefresh.PullToRefreshActivity" />
         <activity android:name=".nohttp.NoHttpActivity" />
         <activity android:name=".draw.DrawActivity" />
-        <activity android:name=".ongloballayoutlistener.OnGlobalLayoutListenerActivity"></activity>
+        <activity android:name=".ongloballayoutlistener.OnGlobalLayoutListenerActivity" />
+        <activity android:name=".fragmentlazy.FragmentLazyLoadActivity"></activity>
     </application>
 
 </manifest>
