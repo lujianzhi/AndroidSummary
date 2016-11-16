@@ -8,6 +8,7 @@ import android.view.View;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
+import com.example.lawson.androidsummery.diyview.DIYViewActivity;
 import com.example.lawson.androidsummery.draw.DrawActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
@@ -133,6 +134,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, FragmentLazyLoadActivity.class));
+            }
+        });
+
+        findViewById(R.id.diy_view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DIYViewActivity.class));
             }
         });
 
