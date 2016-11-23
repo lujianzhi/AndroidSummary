@@ -117,6 +117,12 @@
             android:layout_height="wrap_content"
             android:text="自定义View"/>
 
+        <Button
+            android:id="@+id/drag_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拖拉改变View宽度"/>
+
     </LinearLayout>
 
 
