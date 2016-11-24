@@ -11,6 +11,7 @@ import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.diyview.DIYViewActivity;
 import com.example.lawson.androidsummery.dragview.DragViewActivity;
 import com.example.lawson.androidsummery.draw.DrawActivity;
+import com.example.lawson.androidsummery.edittext.EditTextActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.fragmentlazy.FragmentLazyLoadActivity;
@@ -149,6 +150,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DragViewActivity.class));
+            }
+        });
+
+        findViewById(R.id.edit_text_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, EditTextActivity.class));
             }
         });
 

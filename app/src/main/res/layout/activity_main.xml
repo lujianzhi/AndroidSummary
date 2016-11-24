@@ -123,6 +123,12 @@
             android:layout_height="wrap_content"
             android:text="拖拉改变View宽度"/>
 
+        <Button
+            android:id="@+id/edit_text_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="满屏的EditText"/>
+
     </LinearLayout>
 
 
