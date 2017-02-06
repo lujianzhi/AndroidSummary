@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
+import com.example.lawson.androidsummery.debug.DebugActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.diyview.DIYViewActivity;
 import com.example.lawson.androidsummery.dragview.DragViewActivity;
@@ -21,8 +22,11 @@ import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutLi
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
+import com.example.lawson.androidsummery.thread.ThreadActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
+import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
+import com.example.lawson.androidsummery.webview.WebViewActivity;
 
 import de.greenrobot.event.EventBus;
 
@@ -157,6 +161,34 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, EditTextActivity.class));
+            }
+        });
+
+        findViewById(R.id.web_view_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, WebViewActivity.class));
+            }
+        });
+
+        findViewById(R.id.debug_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DebugActivity.class));
+            }
+        });
+
+        findViewById(R.id.scroll_event).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ScrollEventActivity.class));
+            }
+        });
+
+        findViewById(R.id.thread_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ThreadActivity.class));
             }
         });
 

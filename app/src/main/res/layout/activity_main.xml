@@ -37,11 +37,24 @@
             android:layout_height="wrap_content"
             android:text="集合" />
 
-        <Button
-            android:id="@+id/touch_event"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="事件分发机制" />
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/touch_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="事件分发机制" />
+
+            <Button
+                android:id="@+id/scroll_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="滑动冲突" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/toast"
@@ -85,49 +98,67 @@
             android:id="@+id/pull_to_refresh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PullToRefresh框架"/>
+            android:text="PullToRefresh框架" />
 
         <Button
             android:id="@+id/nohttp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nohttp"/>
+            android:text="Nohttp" />
 
         <Button
             android:id="@+id/draw"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="画板"/>
+            android:text="画板" />
 
         <Button
             android:id="@+id/ongloballayoutlistener"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ongloballayoutlistener监听器"/>
+            android:text="ongloballayoutlistener监听器" />
 
         <Button
             android:id="@+id/fragment_lazy_load"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fragment懒加载"/>
+            android:text="Fragment懒加载" />
 
         <Button
             android:id="@+id/diy_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="自定义View"/>
+            android:text="自定义View" />
 
         <Button
             android:id="@+id/drag_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="拖拉改变View宽度"/>
+            android:text="拖拉改变View宽度" />
 
         <Button
             android:id="@+id/edit_text_activity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="满屏的EditText"/>
+            android:text="满屏的EditText" />
+
+        <Button
+            android:id="@+id/web_view_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WebView" />
+
+        <Button
+            android:id="@+id/debug_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debug" />
+
+        <Button
+            android:id="@+id/thread_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="线程、线程池" />
 
     </LinearLayout>
 

@@ -42,7 +42,12 @@
         <activity android:name=".ongloballayoutlistener.OnGlobalLayoutListenerActivity" />
         <activity android:name=".fragmentlazy.FragmentLazyLoadActivity" />
         <activity android:name=".dragview.DragViewActivity" />
-        <activity android:name=".edittext.EditTextActivity"></activity>
+        <activity android:name=".edittext.EditTextActivity" />
+        <activity android:name=".webview.WebViewActivity" />
+        <activity android:name=".debug.DebugActivity" />
+        <activity android:name=".touchevent.ScrollEventActivity" />
+        <activity android:name=".nohttp.yanzhenjie.OriginActivity" />
+        <activity android:name=".thread.ThreadActivity"></activity>
     </application>
 
 </manifest>
