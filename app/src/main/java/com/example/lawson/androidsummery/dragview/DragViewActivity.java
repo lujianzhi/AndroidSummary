@@ -6,14 +6,14 @@ import android.util.Log;
 import android.view.ViewTreeObserver;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
+import android.widget.ScrollView;
 
 import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.dragview.view.DemoView;
 
 public class DragViewActivity extends AppCompatActivity {
     private DemoView demoView;
-    private TextView top;
+    private ScrollView top;
     private LinearLayout content_area;
     private RelativeLayout activity_drag_view;
 
@@ -21,7 +21,7 @@ public class DragViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drag_view);
-        top = (TextView) findViewById(R.id.top);
+        top = (ScrollView) findViewById(R.id.top);
         demoView = (DemoView) findViewById(R.id.demo_view);
         content_area = (LinearLayout) findViewById(R.id.content_area);
         activity_drag_view = (RelativeLayout) findViewById(R.id.activity_drag_view);
