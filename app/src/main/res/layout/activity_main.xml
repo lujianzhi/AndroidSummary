@@ -160,6 +160,32 @@
             android:layout_height="wrap_content"
             android:text="线程、线程池" />
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/router_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="router_activity"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_customHyperLink"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="http://ian.com/ian_router/ian/23/male" />-->
+            <!---->
+            <TextView
+                android:id="@+id/tv_customHyperLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://ian.com/ian/lujianzhi/23/男" />
+        </LinearLayout>
+
     </LinearLayout>
 
 

@@ -3,7 +3,9 @@ package com.example.lawson.androidsummery;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.util.Linkify;
 import android.view.View;
+import android.widget.TextView;
 
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
@@ -27,6 +29,9 @@ import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
+import com.github.mzule.activityrouter.router.Routers;
+
+import java.util.regex.Pattern;
 
 import de.greenrobot.event.EventBus;
 
@@ -191,6 +196,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ThreadActivity.class));
             }
         });
+
+        findViewById(R.id.router_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Routers.open(MainActivity.this, "http://ian.com/ian_router/ian/23/male");
+            }
+        });
+
+        TextView tv_customHyperLink = (TextView) findViewById(R.id.tv_customHyperLink);
+        Pattern p = Pattern.compile("http://\\S*");
+        Linkify.addLinks(tv_customHyperLink, p, "http");
 
     }
 

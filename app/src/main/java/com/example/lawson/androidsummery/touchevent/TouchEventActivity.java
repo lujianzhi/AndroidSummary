@@ -1,7 +1,7 @@
 package com.example.lawson.androidsummery.touchevent;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -30,6 +30,13 @@ public class TouchEventActivity extends AppCompatActivity {
         });
 
         imageView = (MyImageView) findViewById(R.id.image_view);
+//        imageView.setOnLongClickListener(new View.OnLongClickListener() {
+//            @Override
+//            public boolean onLongClick(View v) {
+//                Toast.makeText(TouchEventActivity.this, "长按", Toast.LENGTH_SHORT).show();
+//                return false;
+//            }
+//        });
 //        imageView.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {

@@ -15,9 +15,9 @@ public class DIYViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diyview);
 
-        firstView = (FirstView) findViewById(R.id.first_view);
-
-        new Thread(firstView).start();
+//        firstView = (FirstView) findViewById(R.id.first_view);
+//
+//        new Thread(firstView).start();
 
     }
 }

@@ -1,18 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.lawson.androidsummery.diyview.DIYViewActivity">
 
     <com.example.lawson.androidsummery.diyview.view.FirstView
         android:id="@+id/first_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
 
+    <com.example.lawson.androidsummery.diyview.view.SecondView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
 
-</RelativeLayout>
+    <com.example.lawson.androidsummery.diyview.view.EraserView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.ThirdView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.MaskFilterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.PathEffectView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.MatrixView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.MatrixImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.MultiCircleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.CanvasView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.PathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.CapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.MeasureView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.example.lawson.androidsummery.diyview.view.MyViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="123" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="456789" />
+    </com.example.lawson.androidsummery.diyview.view.MyViewGroup>
+
+</LinearLayout>

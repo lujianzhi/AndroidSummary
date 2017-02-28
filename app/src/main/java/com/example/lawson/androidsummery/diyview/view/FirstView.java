@@ -81,7 +81,7 @@ public class FirstView extends View implements Runnable {
                     yPosition = 800;
                 }
                 postInvalidate();
-                invalidate();
+//                invalidate();
                 Thread.sleep(225);
             } catch (InterruptedException e) {
                 e.printStackTrace();
