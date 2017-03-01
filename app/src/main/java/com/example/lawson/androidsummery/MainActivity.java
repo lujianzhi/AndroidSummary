@@ -21,6 +21,7 @@ import com.example.lawson.androidsummery.fragmentlazy.FragmentLazyLoadActivity;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
 import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity;
+import com.example.lawson.androidsummery.permission.PermissionActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
@@ -207,6 +208,13 @@ public class MainActivity extends AppCompatActivity {
         TextView tv_customHyperLink = (TextView) findViewById(R.id.tv_customHyperLink);
         Pattern p = Pattern.compile("http://\\S*");
         Linkify.addLinks(tv_customHyperLink, p, "http");
+
+        findViewById(R.id.permisson_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, PermissionActivity.class));
+            }
+        });
 
     }
 
