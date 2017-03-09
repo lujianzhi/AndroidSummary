@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
+apply plugin: 'com.antfortune.freeline'
 
 android {
     compileSdkVersion 24
@@ -7,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.lawson.androidsummery"
-        minSdkVersion 23
+        minSdkVersion 19
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"

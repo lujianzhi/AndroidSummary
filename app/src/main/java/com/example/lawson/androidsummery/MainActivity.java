@@ -25,6 +25,7 @@ import com.example.lawson.androidsummery.permission.PermissionActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
+import com.example.lawson.androidsummery.spinner.SpinnerActivity;
 import com.example.lawson.androidsummery.thread.ThreadActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
@@ -213,6 +214,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, PermissionActivity.class));
+            }
+        });
+
+        findViewById(R.id.spinner_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SpinnerActivity.class));
             }
         });
 
