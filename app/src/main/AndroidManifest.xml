@@ -65,7 +65,8 @@
         <activity android:name=".router.MyRouterActivity" />
         <activity android:name=".router.MyRouter2Activity" />
         <activity android:name=".permission.PermissionActivity" />
-        <activity android:name=".spinner.SpinnerActivity"></activity>
+        <activity android:name=".spinner.SpinnerActivity" />
+        <activity android:name=".switchtheme.SwitchThemeActivity"></activity>
     </application>
 
 </manifest>

@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="app_night_bg_color">#303F9F</color>
+    <color name="app_night_text_color">#FFFFFF</color>
+    <color name="app_night_text_bg_color">#888888</color>
+
+    <color name="app_day_bg_color">#3F51B5</color>
+    <color name="app_day_text_color">#888888</color>
+    <color name="app_day_text_bg_color">#1F1F1F</color>
 </resources>

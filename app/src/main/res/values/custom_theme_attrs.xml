@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="app_bg_color" format="color|reference" />
+    <attr name="app_text_color" format="color|reference" />
+    <attr name="app_text_bg_color" format="color|reference" />
+</resources>

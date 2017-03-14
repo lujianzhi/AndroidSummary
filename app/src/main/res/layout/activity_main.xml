@@ -197,6 +197,12 @@
             android:layout_height="wrap_content"
             android:text="Spinner测试" />
 
+        <Button
+            android:id="@+id/theme_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换主题" />
+
     </LinearLayout>
 
 
