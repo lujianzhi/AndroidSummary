@@ -2,10 +2,13 @@ package com.example.lawson.androidsummery.spinner;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.lawson.androidsummery.R;
 
@@ -35,7 +38,7 @@ public class SpinnerActivity extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
         adapter.addAll(str);
         spinner.setAdapter(adapter);
-        spinner.setSelection(11);
+        spinner.setSelection(10, true);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,7 +47,21 @@ public class SpinnerActivity extends AppCompatActivity {
                 adapter.add("新增" + 42);
                 adapter.add("新增" + 43);
                 adapter.notifyDataSetChanged();
-                spinner.setSelection(21);
+                spinner.setSelection(21, true);
+            }
+        });
+
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getBaseContext(), "onItemSelected", Toast.LENGTH_SHORT).show();
+                Log.i("Ian", "onItemSelected");
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                Toast.makeText(getBaseContext(), "onNothingSelected", Toast.LENGTH_SHORT).show();
+                Log.i("Ian", "onNothingSelected");
             }
         });
     }
