@@ -77,11 +77,10 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="223" column="44" selection-start-line="223" selection-start-column="44" selection-end-line="223" selection-end-column="44" />
+            <state relative-caret-position="492">
+              <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
               <folding>
                 <element signature="e#9132#9336#0" expanded="true" />
-                <element signature="e#9335#9336#0" expanded="true" />
                 <element signature="e#9680#9887#0" expanded="true" />
                 <element signature="e#9886#9887#0" expanded="true" />
               </folding>
@@ -3717,7 +3716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490335384729</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ignore提交">
+      <created>1490335462458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1490335462458</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -4377,11 +4383,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="223" column="44" selection-start-line="223" selection-start-column="44" selection-end-line="223" selection-end-column="44" />
+        <state relative-caret-position="492">
+          <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
           <folding>
             <element signature="e#9132#9336#0" expanded="true" />
-            <element signature="e#9335#9336#0" expanded="true" />
             <element signature="e#9680#9887#0" expanded="true" />
             <element signature="e#9886#9887#0" expanded="true" />
           </folding>
