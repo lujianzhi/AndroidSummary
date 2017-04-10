@@ -1,6 +1,5 @@
 package com.example.lawson.androidsummery.touchevent;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -46,14 +45,6 @@ public class TouchEventActivity extends AppCompatActivity {
 //
 //            }
 //        });
-
-        next = (Button) findViewById(R.id.next);
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                TouchEventActivity.this.startActivity(new Intent(TouchEventActivity.this, SameLevelViewActivity.class));
-            }
-        });
     }
 
     @Override

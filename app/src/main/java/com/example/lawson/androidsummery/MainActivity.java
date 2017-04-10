@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
+import com.example.lawson.androidsummery.constraintlayout.ConstraintLayoutActivity;
 import com.example.lawson.androidsummery.debug.DebugActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.diyview.DIYViewActivity;
@@ -237,6 +238,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, KillProcessActivity.class));
+            }
+        });
+
+        findViewById(R.id.constraint_layout_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ConstraintLayoutActivity.class));
             }
         });
 

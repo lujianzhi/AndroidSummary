@@ -209,6 +209,12 @@
             android:layout_height="wrap_content"
             android:text="杀死进程" />
 
+        <Button
+            android:id="@+id/constraint_layout_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="约束布局" />
+
     </LinearLayout>
 
 
