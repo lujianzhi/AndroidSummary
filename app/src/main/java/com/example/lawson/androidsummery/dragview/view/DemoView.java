@@ -32,6 +32,11 @@ public class DemoView extends ImageView {
     }
 
     private void init(Context context) {
+//        setTranslationX(500);
+//        setTranslationY(500);
+//        Log.i("Ian", "top:" + getTop() + "; left:" + getLeft() + "; right:" + getRight() + "; bottom:" + getBottom());
+//        Log.i("Ian", "y:" + getY() + "; x:" + getX());
+//        Log.i("Ian", "getTranslationX:" + getTranslationX() + "; getTranslationY:" + getTranslationY());
     }
 
     public void setScreenHeight(int screenHeight) {
@@ -65,6 +70,9 @@ public class DemoView extends ImageView {
                 }
                 layout(getLeft(), t, getRight(), b);
                 isMoveEffect = Math.abs(lastTop - getTop()) > getHeight();
+                Log.i("Ian", "top:" + getTop() + "; left:" + getLeft() + "; right:" + getRight() + "; bottom:" + getBottom());
+                Log.i("Ian", "y:" + getY() + "; x:" + getX());
+                Log.i("Ian", "getTranslationX:" + getTranslationX() + "; getTranslationY:" + getTranslationY());
                 break;
             case MotionEvent.ACTION_UP:
                 if (iActionUp != null && isMoveEffect) {

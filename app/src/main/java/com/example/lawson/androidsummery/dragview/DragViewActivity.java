@@ -39,12 +39,12 @@ public class DragViewActivity extends AppCompatActivity {
             public void actionUp(int offY) {
                 RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) top.getLayoutParams();
                 params.height = top.getHeight() + offY;
-                Log.i("Ian", "增量offY : " + offY);
-                Log.i("Ian", "TextView高params.height : " + params.height);
+//                Log.i("Ian", "增量offY : " + offY);
+//                Log.i("Ian", "TextView高params.height : " + params.height);
                 top.setLayoutParams(params);
                 RelativeLayout.LayoutParams params1 = (RelativeLayout.LayoutParams) content_area.getLayoutParams();
                 params1.height = content_area.getHeight() - offY;
-                Log.i("Ian", "LinearLayout高params.height : " + params1.height);
+//                Log.i("Ian", "LinearLayout高params.height : " + params1.height);
                 content_area.setLayoutParams(params1);
                 Log.i("Ian", "----------------------------------------------");
             }
