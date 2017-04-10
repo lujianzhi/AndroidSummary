@@ -18,7 +18,7 @@
         <com.example.lawson.androidsummery.touchevent.MyImageView
             android:layout_width="100dp"
             android:layout_height="200dp"
-            android:background="@color/colorAccent"/>
+            android:background="@color/black"/>
     </com.example.lawson.androidsummery.touchevent.MyLinearLayout>
 
     <com.example.lawson.androidsummery.touchevent.MyLinearLayout
@@ -35,10 +35,4 @@
             android:background="@drawable/selector_image_view" />
 
     </com.example.lawson.androidsummery.touchevent.MyLinearLayout>
-
-    <Button
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="同级View事件分发"/>
 </RelativeLayout>

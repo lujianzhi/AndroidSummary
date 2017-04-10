@@ -17,6 +17,7 @@ public class TouchEventActivity extends AppCompatActivity {
     private MyLinearLayout linearLayout;
     private MyImageView imageView;
     private Button next;
+    private LongPressView longPressView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,15 +32,15 @@ public class TouchEventActivity extends AppCompatActivity {
             }
         });
 
-        imageView = (MyImageView) findViewById(R.id.image_view);
-//        imageView.setOnLongClickListener(new View.OnLongClickListener() {
+//        longPressView = (LongPressView) findViewById(R.id.image_view);
+//        longPressView.setOnLongClickListener(new View.OnLongClickListener() {
 //            @Override
 //            public boolean onLongClick(View v) {
 //                Toast.makeText(TouchEventActivity.this, "长按", Toast.LENGTH_SHORT).show();
 //                return false;
 //            }
 //        });
-//        imageView.setOnClickListener(new View.OnClickListener() {
+//        longPressView.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
 //
