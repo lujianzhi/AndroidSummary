@@ -41,13 +41,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/m360Debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/m360Debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/m360Debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/m360/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/m360/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/m360/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/m360/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/m360/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/m360/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/m360/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/m360/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360Debug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360Debug/resources" type="java-test-resource" />
@@ -56,6 +49,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testM360Debug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360Debug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360Debug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/m360/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/m360/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/m360/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/m360/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/m360/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/m360/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/m360/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/m360/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/m360/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/m360/assets" type="java-resource" />
@@ -63,13 +63,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/m360/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/m360/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/m360/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360/assets" type="java-test-resource" />
@@ -77,6 +70,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testM360/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testM360/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestM360/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
@@ -131,21 +131,16 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.yolanda.nohttp/nohttp/1.1.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/multi-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/restart-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tinker_intermediates" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />

@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
 
     <application
         android:name=".MyApplication"
@@ -66,7 +67,8 @@
         <activity android:name=".router.MyRouter2Activity" />
         <activity android:name=".permission.PermissionActivity" />
         <activity android:name=".spinner.SpinnerActivity" />
-        <activity android:name=".switchtheme.SwitchThemeActivity"></activity>
+        <activity android:name=".switchtheme.SwitchThemeActivity" />
+        <activity android:name=".killprocess.KillProcessActivity" />
     </application>
 
 </manifest>

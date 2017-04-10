@@ -36,4 +36,9 @@
 
     </com.example.lawson.androidsummery.touchevent.MyLinearLayout>
 
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同级View事件分发"/>
 </RelativeLayout>

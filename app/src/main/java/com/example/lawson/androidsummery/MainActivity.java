@@ -19,6 +19,7 @@ import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.fragmentlazy.FragmentLazyLoadActivity;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
+import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
 import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity;
 import com.example.lawson.androidsummery.permission.PermissionActivity;
@@ -229,6 +230,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SwitchThemeActivity.class));
+            }
+        });
+
+        findViewById(R.id.kill_process_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, KillProcessActivity.class));
             }
         });
 

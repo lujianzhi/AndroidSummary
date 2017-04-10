@@ -11,6 +11,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
+import com.example.lawson.androidsummery.R;
+
 /**
  * Created by Ian.Lu on 2016/11/7.
  * Project : AndroidSummary
@@ -51,7 +53,8 @@ public class DrawView extends View {
 
                 mPaint = new Paint();
                 mPaint.setAntiAlias(true);
-                mPaint.setColor(Color.BLACK);
+                setColor(getContext().getResources().getColor(R.color.app_day_bg_color));
+//                mPaint.setColor(Color.BLACK);
                 mPaint.setStyle(Paint.Style.STROKE);
                 mPaint.setStrokeWidth(2);
 
@@ -60,6 +63,13 @@ public class DrawView extends View {
             }
         });
 
+    }
+
+    public void setColor(int color) {
+        int red = (color & 0xff0000) >> 16;
+        int green = (color & 0x00ff00) >> 8;
+        int blue = (color & 0x0000ff);
+        mPaint.setColor(Color.rgb(red, green, blue));
     }
 
     @Override
