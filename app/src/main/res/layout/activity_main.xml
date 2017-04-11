@@ -213,13 +213,19 @@
             android:id="@+id/constraint_layout_activity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="约束布局" />
+            android:text="约束布局ConstraintLayout" />
 
         <Button
             android:id="@+id/velocity_tracker_activity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="追踪手指滑动速度" />
+            android:text="追踪手指滑动速度VelocityTracker" />
+
+        <Button
+            android:id="@+id/gesture_detector_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手势检测GestureDetector" />
 
     </LinearLayout>
 

@@ -70,7 +70,8 @@
         <activity android:name=".switchtheme.SwitchThemeActivity" />
         <activity android:name=".killprocess.KillProcessActivity" />
         <activity android:name=".constraintlayout.ConstraintLayoutActivity" />
-        <activity android:name=".velocitytracker.VelocityTrackerActivity"></activity>
+        <activity android:name=".velocitytracker.VelocityTrackerActivity" />
+        <activity android:name=".gesturedetector.GestureDetectorActivity"></activity>
     </application>
 
 </manifest>
