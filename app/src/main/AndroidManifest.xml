@@ -69,7 +69,8 @@
         <activity android:name=".spinner.SpinnerActivity" />
         <activity android:name=".switchtheme.SwitchThemeActivity" />
         <activity android:name=".killprocess.KillProcessActivity" />
-        <activity android:name=".constraintlayout.ConstraintLayoutActivity"></activity>
+        <activity android:name=".constraintlayout.ConstraintLayoutActivity" />
+        <activity android:name=".velocitytracker.VelocityTrackerActivity"></activity>
     </application>
 
 </manifest>

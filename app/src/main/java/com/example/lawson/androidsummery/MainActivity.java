@@ -33,6 +33,7 @@ import com.example.lawson.androidsummery.thread.ThreadActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
+import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.github.mzule.activityrouter.router.Routers;
 
@@ -245,6 +246,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ConstraintLayoutActivity.class));
+            }
+        });
+
+        findViewById(R.id.velocity_tracker_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, VelocityTrackerActivity.class));
             }
         });
 

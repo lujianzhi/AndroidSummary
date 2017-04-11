@@ -215,6 +215,12 @@
             android:layout_height="wrap_content"
             android:text="约束布局" />
 
+        <Button
+            android:id="@+id/velocity_tracker_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="追踪手指滑动速度" />
+
     </LinearLayout>
 
 
