@@ -227,6 +227,12 @@
             android:layout_height="wrap_content"
             android:text="手势检测GestureDetector" />
 
+        <Button
+            android:id="@+id/scroller_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="弹性滑动Scroller" />
+
     </LinearLayout>
 
 

@@ -71,7 +71,8 @@
         <activity android:name=".killprocess.KillProcessActivity" />
         <activity android:name=".constraintlayout.ConstraintLayoutActivity" />
         <activity android:name=".velocitytracker.VelocityTrackerActivity" />
-        <activity android:name=".gesturedetector.GestureDetectorActivity"></activity>
+        <activity android:name=".gesturedetector.GestureDetectorActivity" />
+        <activity android:name=".scroller.ScrollerActivity"></activity>
     </application>
 
 </manifest>
