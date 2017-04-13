@@ -45,6 +45,7 @@ public class MyScrollerView extends ImageView {
         int deltaX = destX - scrollX;
         int deltaY = destY - scrollY;
         scroller.startScroll(scrollX, scrollY, deltaX, deltaY, 3000);
+        invalidate();
     }
 
     @Override

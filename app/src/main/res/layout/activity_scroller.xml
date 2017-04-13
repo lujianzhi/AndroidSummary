@@ -6,6 +6,7 @@
     tools:context="com.example.lawson.androidsummery.scroller.ScrollerActivity">
 
     <LinearLayout
+        android:id="@+id/top"
         android:layout_width="match_parent"
         android:layout_height="250dp">
 
@@ -35,6 +36,22 @@
     <com.example.lawson.androidsummery.scroller.MyDragView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:src="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/iv_anim_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:src="@drawable/img" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="开始移动" />
 
 </RelativeLayout>
