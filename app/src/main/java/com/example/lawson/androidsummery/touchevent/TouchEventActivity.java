@@ -4,14 +4,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
 import android.widget.Button;
 
 import com.example.lawson.androidsummery.R;
 
 public class TouchEventActivity extends AppCompatActivity {
 
-    private final String TAG = "lawson";
+    private final String TAG = "Ian";
     private final String CURRENT = "TouchEventActivity : ";
 
     private MyLinearLayout linearLayout;
@@ -25,12 +24,29 @@ public class TouchEventActivity extends AppCompatActivity {
         setContentView(R.layout.activity_touch_event);
 
         linearLayout = (MyLinearLayout) findViewById(R.id.layout);
-        linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        imageView = (MyImageView) findViewById(R.id.image_view);
 
-            }
-        });
+//        linearLayout.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//            }
+//        });
+//        imageView.setClickable(true);
+//        imageView.setOnTouchListener(new View.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event) {
+//                Log.i("Ian", "MyImageView : onTouch");
+//                return false;
+//            }
+//        });
+
+//        imageView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Log.i("Ian", "MyImageView : onClick");
+//            }
+//        });
 
 //        longPressView = (LongPressView) findViewById(R.id.image_view);
 //        longPressView.setOnLongClickListener(new View.OnLongClickListener() {
@@ -55,6 +71,9 @@ public class TouchEventActivity extends AppCompatActivity {
             case MotionEvent.ACTION_DOWN:
                 Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_DOWN");
                 break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_MOVE");
+                break;
             case MotionEvent.ACTION_UP:
                 Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_UP");
                 break;
@@ -69,6 +88,9 @@ public class TouchEventActivity extends AppCompatActivity {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 Log.i(TAG, CURRENT + "onTouchEvent : ACTION_DOWN");
+                break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i(TAG, CURRENT + "onTouchEvent : ACTION_MOVE");
                 break;
             case MotionEvent.ACTION_UP:
                 Log.i(TAG, CURRENT + "onTouchEvent : ACTION_UP");

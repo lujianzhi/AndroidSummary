@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 
 public class MyLinearLayout extends LinearLayout {
 
-    private final String TAG = "lawson";
+    private final String TAG = "Ian";
     private final String CURRENT = "MyLinearLayout : ";
 
     public MyLinearLayout(Context context) {
@@ -29,6 +29,9 @@ public class MyLinearLayout extends LinearLayout {
             case MotionEvent.ACTION_DOWN:
                 Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_DOWN");
                 break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_MOVE");
+                break;
             case MotionEvent.ACTION_UP:
                 Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_UP");
                 break;
@@ -42,6 +45,9 @@ public class MyLinearLayout extends LinearLayout {
             case MotionEvent.ACTION_DOWN:
                 Log.i(TAG, CURRENT + "onInterceptTouchEvent : ACTION_DOWN");
                 break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i(TAG, CURRENT + "onInterceptTouchEvent : ACTION_MOVE");
+                break;
             case MotionEvent.ACTION_UP:
                 Log.i(TAG, CURRENT + "onInterceptTouchEvent : ACTION_UP");
                 break;
@@ -54,6 +60,9 @@ public class MyLinearLayout extends LinearLayout {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 Log.i(TAG, CURRENT + "onTouchEvent : ACTION_DOWN");
+                break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i(TAG, CURRENT + "onTouchEvent : ACTION_MOVE");
                 break;
             case MotionEvent.ACTION_UP:
                 Log.i(TAG, CURRENT + "onTouchEvent : ACTION_UP");

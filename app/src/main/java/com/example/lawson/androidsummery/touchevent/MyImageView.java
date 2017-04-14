@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MyImageView extends ImageView {
 
-    private final String TAG = "lawson";
+    private final String TAG = "Ian";
     private final String CURRENT = "MyImageView : ";
 
     public MyImageView(Context context) {
@@ -31,6 +31,9 @@ public class MyImageView extends ImageView {
             case MotionEvent.ACTION_DOWN:
                 Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_DOWN");
                 break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_MOVE");
+                break;
             case MotionEvent.ACTION_UP:
                 Log.i(TAG, CURRENT + "dispatchTouchEvent : ACTION_UP");
                 break;
@@ -43,6 +46,9 @@ public class MyImageView extends ImageView {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 Log.i(TAG, CURRENT + "onTouchEvent : ACTION_DOWN");
+                break;
+            case MotionEvent.ACTION_MOVE:
+                Log.i(TAG, CURRENT + "onTouchEvent : ACTION_MOVE");
                 break;
             case MotionEvent.ACTION_UP:
                 Log.i(TAG, CURRENT + "onTouchEvent : ACTION_UP");
