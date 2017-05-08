@@ -87,18 +87,33 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+//        try {
+//            Thread.sleep(5000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         Log.i("Ian", "AboutActivity - onStart");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Log.i("Ian", "AboutActivity - onResume");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Log.i("Ian", "AboutActivity - onPause");
     }
 
