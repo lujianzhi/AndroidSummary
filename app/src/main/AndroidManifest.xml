@@ -72,7 +72,24 @@
         <activity android:name=".constraintlayout.ConstraintLayoutActivity" />
         <activity android:name=".velocitytracker.VelocityTrackerActivity" />
         <activity android:name=".gesturedetector.GestureDetectorActivity" />
-        <activity android:name=".scroller.ScrollerActivity"></activity>
+        <activity android:name=".scroller.ScrollerActivity" />
+        <activity
+            android:name=".activityabout.AboutActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activityabout.AboutSecondActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name=".activityabout.AboutThirdActivity"
+            android:launchMode="standard">
+
+            <intent-filter>
+                <action android:name="action_one" />
+                <action android:name="action_two" />
+                <category android:name = "android.intent.category.DEFAULT"  />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

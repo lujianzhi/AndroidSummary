@@ -4,9 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.util.Linkify;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.lawson.androidsummery.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.constraintlayout.ConstraintLayoutActivity;
@@ -49,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Log.i("Ian", "MainActivity - onCreate");
 
 
         findViewById(R.id.send).setOnClickListener(new View.OnClickListener() {
@@ -272,6 +276,48 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.about_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, AboutActivity.class));
+            }
+        });
+
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i("Ian", "MainActivity - onRestart");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("Ian", "MainActivity - onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("Ian", "MainActivity - onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("Ian", "MainActivity - onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("Ian", "MainActivity - onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("Ian", "MainActivity - onDestroy");
+    }
 }
