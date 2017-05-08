@@ -39,7 +39,7 @@ public class DetectMemoryActivity extends AppCompatActivity {
         findViewById(R.id.handler_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(DetectMemoryActivity.this, HandlerActivity.class));
+                startActivity(new Intent(DetectMemoryActivity.this, HandlerLeakActivity.class));
             }
         });
 

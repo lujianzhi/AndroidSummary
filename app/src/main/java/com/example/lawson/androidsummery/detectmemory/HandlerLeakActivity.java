@@ -1,30 +1,26 @@
 package com.example.lawson.androidsummery.detectmemory;
 
-import android.app.Activity;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.Toast;
 
 import com.example.lawson.androidsummery.R;
 
-import java.lang.ref.WeakReference;
-
-public class HandlerActivity extends AppCompatActivity {
+public class HandlerLeakActivity extends AppCompatActivity {
 
 //    private static class MyHandler extends Handler {
 //
-//        private WeakReference<HandlerActivity> activity;
+//        private WeakReference<HandlerLeakActivity> activity;
 //
-//        public MyHandler(HandlerActivity activity) {
-//            this.activity = new WeakReference<HandlerActivity>(activity);
+//        public MyHandler(HandlerLeakActivity activity) {
+//            this.activity = new WeakReference<HandlerLeakActivity>(activity);
 //        }
 //
 //        @Override
 //        public void handleMessage(Message msg) {
 //            super.handleMessage(msg);
-//            HandlerActivity handlerActivity = activity.get();
+//            HandlerLeakActivity handlerActivity = activity.get();
 //            if (handlerActivity != null) {
 //
 //            }
@@ -41,7 +37,7 @@ public class HandlerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_handler);
+        setContentView(R.layout.activity_handler_leak);
 
         //延时入队，会造成泄露
         handler.sendEmptyMessageDelayed(0,20000);

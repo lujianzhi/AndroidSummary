@@ -26,7 +26,7 @@
         <activity android:name=".detectmemory.SingleOOMActivity" />
         <activity android:name=".detectmemory.InnerClassActivity" />
         <activity android:name=".detectmemory.InnerAnonymityClassActivity" />
-        <activity android:name=".detectmemory.HandlerActivity" />
+        <activity android:name=".detectmemory.HandlerLeakActivity" />
         <activity android:name=".detectmemory.ThreadTimerActivity" />
         <activity android:name=".detectmemory.ListenerActivity" />
         <activity android:name=".detectmemory.MemoryCollectionActivity" />
@@ -83,13 +83,14 @@
         <activity
             android:name=".activityabout.AboutThirdActivity"
             android:launchMode="standard">
-
             <intent-filter>
                 <action android:name="action_one" />
                 <action android:name="action_two" />
-                <category android:name = "android.intent.category.DEFAULT"  />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".handler.HandlerPolicyActivity"></activity>
     </application>
 
 </manifest>
