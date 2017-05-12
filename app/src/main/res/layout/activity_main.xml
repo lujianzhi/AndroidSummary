@@ -245,6 +245,12 @@
             android:layout_height="wrap_content"
             android:text="Android消息机制" />
 
+        <Button
+            android:id="@+id/rxjava2_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RxJava2" />
+
     </LinearLayout>
 
 

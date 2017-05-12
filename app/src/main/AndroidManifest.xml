@@ -90,7 +90,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".handler.HandlerPolicyActivity"></activity>
+        <activity android:name=".handler.HandlerPolicyActivity" />
+        <activity android:name=".rxjava.RxJava2Activity"></activity>
     </application>
 
 </manifest>

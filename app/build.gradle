@@ -4,7 +4,7 @@ apply plugin: 'com.antfortune.freeline'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion '24.0.3'
+    buildToolsVersion '25'
 
     defaultConfig {
         applicationId "com.example.lawson.androidsummery"
@@ -47,12 +47,12 @@ dependencies {
     //    compile files('E:/AS/Project/AndroidSummary/libs/lekehttp-1.0.6.jar')
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:recyclerview-v7:21.0.3'
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'io.reactivex:rxjava:1.1.6'
     compile 'com.yolanda.nohttp:nohttp:1.1.0'
     compile 'com.yanzhenjie.nohttp:okhttp:1.1.0'
     compile 'com.github.mzule.activityrouter:activityrouter:1.1.7'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     testCompile 'junit:junit:4.12'
     testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
     apt 'com.github.mzule.activityrouter:compiler:1.1.5'

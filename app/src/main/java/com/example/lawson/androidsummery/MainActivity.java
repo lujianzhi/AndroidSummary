@@ -30,6 +30,7 @@ import com.example.lawson.androidsummery.permission.PermissionActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
+import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
 import com.example.lawson.androidsummery.scroller.ScrollerActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
 import com.example.lawson.androidsummery.switchtheme.SwitchThemeActivity;
@@ -284,6 +285,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, HandlerPolicyActivity.class));
+            }
+        });
+
+        findViewById(R.id.rxjava2_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, RxJava2Activity.class));
             }
         });
 
