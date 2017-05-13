@@ -19,8 +19,17 @@ import com.example.lawson.androidsummery.R;
 public class EditTextActivity extends AppCompatActivity {
 
     private TextView text;
-    private EditText edit_text;
+    private EditText edit_text_1;
     private EditText edit_text_2;
+    private EditText edit_text_3;
+    private EditText edit_text_4;
+    private EditText edit_text_5;
+    private EditText edit_text_6;
+    private EditText edit_text_7;
+    private EditText edit_text_8;
+    private EditText edit_text_9;
+    private EditText edit_text_10;
+    private EditText edit_text_11;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +37,18 @@ public class EditTextActivity extends AppCompatActivity {
         setContentView(R.layout.activity_edit_text);
 
         text = (TextView) findViewById(R.id.text);
-        edit_text = (EditText) findViewById(R.id.edit_text);
-        edit_text.setText("\uD83D\uDE2F");
+        edit_text_1 = (EditText) findViewById(R.id.edit_text_1);
         edit_text_2 = (EditText) findViewById(R.id.edit_text_2);
+        edit_text_3 = (EditText) findViewById(R.id.edit_text_3);
+        edit_text_4 = (EditText) findViewById(R.id.edit_text_4);
+        edit_text_5 = (EditText) findViewById(R.id.edit_text_5);
+        edit_text_6 = (EditText) findViewById(R.id.edit_text_6);
+        edit_text_7 = (EditText) findViewById(R.id.edit_text_7);
+        edit_text_8 = (EditText) findViewById(R.id.edit_text_8);
+        edit_text_9 = (EditText) findViewById(R.id.edit_text_9);
+        edit_text_9.setText("\uD83D\uDE2F");
+        edit_text_10 = (EditText) findViewById(R.id.edit_text_10);
+        edit_text_11 = (EditText) findViewById(R.id.edit_text_11);
 
 //        edit_text.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -39,7 +57,7 @@ public class EditTextActivity extends AppCompatActivity {
 //            }
 //        });
 
-        edit_text.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        edit_text_9.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 if (hasFocus) {
@@ -50,7 +68,7 @@ public class EditTextActivity extends AppCompatActivity {
             }
         });
 
-        edit_text_2.addTextChangedListener(new TextWatcher() {
+        edit_text_1.addTextChangedListener(new TextWatcher() {
 
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -65,18 +83,18 @@ public class EditTextActivity extends AppCompatActivity {
                     if (containsEmoji(charSequence.toString())) {
                         Toast.makeText(EditTextActivity.this, "不支持表情", Toast.LENGTH_SHORT).show();
                         if (wordsStr.length() > 120) {
-                            edit_text_2.setText(wordsStr.substring(0, 120));
+                            edit_text_1.setText(wordsStr.substring(0, 120));
                         } else {
-                            edit_text_2.setText(wordsStr.substring(0, s.toString().length() - 1));
+                            edit_text_1.setText(wordsStr.substring(0, s.toString().length() - 1));
                         }
                         return;
                     }
                 }
                 if (wordsStr.length() > 120) {
-                    edit_text_2.setText(wordsStr.substring(0, 120));
+                    edit_text_1.setText(wordsStr.substring(0, 120));
                 }
-                updateInputNumberState(edit_text_2.getText().length());
-                Selection.setSelection(edit_text_2.getText(), edit_text_2.getText().length());
+                updateInputNumberState(edit_text_1.getText().length());
+                Selection.setSelection(edit_text_1.getText(), edit_text_1.getText().length());
             }
 
             @Override
@@ -92,6 +110,10 @@ public class EditTextActivity extends AppCompatActivity {
 //                return false;
 //            }
 //        });
+
+        edit_text_2.setFocusable(true);
+        edit_text_3.setFocusable(true);
+        edit_text_4.setFocusable(true);
 
     }
 
