@@ -5,6 +5,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
 
     <application
         android:name=".MyApplication"
@@ -91,7 +93,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".handler.HandlerPolicyActivity" />
-        <activity android:name=".rxjava.RxJava2Activity"></activity>
+        <activity android:name=".rxjava.RxJava2Activity" />
+        <activity android:name=".windowandwindowmanager.WindowAndWindowManagerActivity"></activity>
     </application>
 
 </manifest>

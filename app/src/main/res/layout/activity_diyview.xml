@@ -45,7 +45,8 @@
 
     <com.example.lawson.androidsummery.diyview.view.MatrixImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:scaleType="matrix"/>
 
     <com.example.lawson.androidsummery.diyview.view.MultiCircleView
         android:layout_width="match_parent"

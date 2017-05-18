@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.util.Linkify;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.activityabout.AboutActivity;
@@ -40,6 +41,7 @@ import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
 import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
+import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
 import com.github.mzule.activityrouter.router.Routers;
 
 import java.util.regex.Pattern;
@@ -47,6 +49,8 @@ import java.util.regex.Pattern;
 import de.greenrobot.event.EventBus;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -292,6 +296,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, RxJava2Activity.class));
+            }
+        });
+
+        findViewById(R.id.window_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, WindowAndWindowManagerActivity.class));
             }
         });
 
