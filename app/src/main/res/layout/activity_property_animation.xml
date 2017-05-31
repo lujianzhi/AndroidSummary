@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/pure_iv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/combination_iv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/xml_combination_iv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="平移" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="变色" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="组合" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML组合" />
+
+        <View
+            android:id="@+id/btn_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:text="我要长长" />
+    </LinearLayout>
+</RelativeLayout>

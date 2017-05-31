@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.activityabout.AboutActivity;
+import com.example.lawson.androidsummery.animation.AnimationActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.constraintlayout.ConstraintLayoutActivity;
@@ -303,6 +304,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, WindowAndWindowManagerActivity.class));
+            }
+        });
+
+        findViewById(R.id.animation_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, AnimationActivity.class));
             }
         });
 

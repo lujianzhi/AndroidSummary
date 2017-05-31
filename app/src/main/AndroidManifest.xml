@@ -94,7 +94,11 @@
         </activity>
         <activity android:name=".handler.HandlerPolicyActivity" />
         <activity android:name=".rxjava.RxJava2Activity" />
-        <activity android:name=".windowandwindowmanager.WindowAndWindowManagerActivity"></activity>
+        <activity android:name=".windowandwindowmanager.WindowAndWindowManagerActivity" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".animation.viewanimation.ViewAnimationActivity" />
+        <activity android:name=".animation.frameanimation.FrameAnimationActivity" />
+        <activity android:name=".animation.propertyanimation.PropertyAnimationActivity" />
     </application>
 
 </manifest>
