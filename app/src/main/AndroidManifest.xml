@@ -99,6 +99,8 @@
         <activity android:name=".animation.viewanimation.ViewAnimationActivity" />
         <activity android:name=".animation.frameanimation.FrameAnimationActivity" />
         <activity android:name=".animation.propertyanimation.PropertyAnimationActivity" />
+        <activity android:name=".diyview.learn2draw.SubmitButtonActivity" />
+        <activity android:name=".diyview.ViewListActivity"></activity>
     </application>
 
 </manifest>
