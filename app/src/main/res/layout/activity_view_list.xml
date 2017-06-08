@@ -11,4 +11,10 @@
         android:layout_height="wrap_content"
         android:text="按钮自定义动画" />
 
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条" />
+
 </LinearLayout>
