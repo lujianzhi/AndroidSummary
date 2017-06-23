@@ -102,7 +102,8 @@
         <activity android:name=".diyview.learn2draw.SubmitButtonActivity" />
         <activity android:name=".diyview.ViewListActivity" />
         <activity android:name=".diyview.learn2draw.LoadingViewActivity" />
-        <activity android:name=".diyview.learn2draw.FadeInTextViewActivity"></activity>
+        <activity android:name=".diyview.learn2draw.FadeInTextViewActivity" />
+        <activity android:name=".takephoto.TakePhotoActivity"></activity>
     </application>
 
 </manifest>

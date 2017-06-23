@@ -36,6 +36,7 @@ import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
 import com.example.lawson.androidsummery.scroller.ScrollerActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
 import com.example.lawson.androidsummery.switchtheme.SwitchThemeActivity;
+import com.example.lawson.androidsummery.takephoto.TakePhotoActivity;
 import com.example.lawson.androidsummery.thread.ThreadActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
@@ -311,6 +312,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, AnimationActivity.class));
+            }
+        });
+
+        findViewById(R.id.take_photo_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TakePhotoActivity.class));
             }
         });
 
