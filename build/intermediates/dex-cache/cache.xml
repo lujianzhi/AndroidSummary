@@ -3,12 +3,39 @@
 
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\internal_impl-23.3.0_9084508a44b9db816b9cd005c6707d433862d292.jar" />
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\internal_impl-24.2.1_fde770710443c15c869dd1dec38065610eeb4690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-animated-vector-drawable-24.2.1_32b32488e4d69277db64d198a2a79e53a204d075.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-v4-24.2.1_185381b13543077a73f8ea3192335ec3c60db738.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\internal_impl-24.2.1_dbbfec363be1bfbfe2ebc697c3846983230ea3f8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -21,6 +48,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.2-4\3f5f1498bdbb9611cb1413f794b3a3a5a6edef34\kotlin-stdlib-1.1.2-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f5f1498bdbb9611cb1413f794b3a3a5a6edef34">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\kotlin-stdlib-1.1.2-4_47660b1075475f985df6ef2db134c0993b9ea5a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\AS\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha9\constraint-layout-solver-1.0.0-alpha9.jar"
         jumboMode="false"
         optimize="true"
@@ -30,21 +66,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-v4-23.3.0_91350c705db57901310b1a945ab07783a0c89a59.jar" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-core-ui-24.2.1_8af48fa68ffa3702118a5da767cda27d8d841f0f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.1\4d060ca3190df0eda4dc13415532a12e15ca5f11\okhttp-3.8.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-recyclerview-v7-21.0.3_4a56d1f8f44a5894a1049f4a688634ab0e298cb6.jar" />
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\okhttp-3.8.1_a478e0dd1b5af19f64c9a809b29a81abdfd07f49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-appcompat-v7-24.2.1_57c549f04b1eca5cff192a931d290d311199ba50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-recyclerview-v7-24.2.1_d044e163d964a331658a15de5398053a34054774.jar" />
     </item>
     <item
         is-multidex="false"
@@ -54,6 +108,15 @@
         revision="25.0.0"
         sha1="7c88ea064071370129dc785122ec87d1fb25e0dd">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.yolanda.nohttp-nohttp-1.1.0_da87b25fb3d3ef435fab6a03f09bfa3c6bab7a78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-design-24.2.1_c4ce4d1a940c1c08596c6a779207bf8e2b1d7095.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,6 +138,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-core-utils-25.3.0_f2bebd60226a59e810e0635959d29c37b58bab35.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.4-beta2\6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92\leakcanary-watcher-1.4-beta2.jar"
         jumboMode="false"
         optimize="true"
@@ -84,12 +156,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-appcompat-v7-23.3.0_9844d82706715d0353aae93f081cac8c941bfc92.jar" />
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-compat-25.3.0_07fcb9cc5ba7f77e473d3e8401e74f02e6fdee7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\internal_impl-24.2.1_96213692c7fa83957a48493a60c4ccfac4868dda.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,12 +183,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\okhttp-3.4.1_f3d00fec506c36af30b202b206e374bbf0d460d4.jar" />
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\library-1.0.19_9a13c681ab8e51b8672b5c560a34b7f28b42aa66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-vector-drawable-24.2.1_7138ae3d0dc134cb8088fe02ee015b29097e14ff.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,21 +210,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-animated-vector-drawable-23.3.0_ccef7a501f4dfaacdc3388f2506567d9247162ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-vector-drawable-23.3.0_fe14ad7fde311a5d061b181ccb226cb32ff96271.jar" />
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\okio-1.13.0_e38b4406e6f4e0605072019438f00c60cdb74bab.jar" />
     </item>
     <item
         is-multidex="false"
@@ -156,12 +237,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\okio-1.9.0_9260049b347b9f87927491ce168879fff60fdf13.jar" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-media-compat-24.2.1_a588aabd2ca3aa60bd609a838b9f4a7b6ce78e9e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,12 +255,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\AS\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\support-annotations-23.3.0_c929ecdce239b3ba39ccb438df2de8ef5c152a6e.jar" />
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\annotations-13.0_c5edc43a030aaa942cac4ab3a73cc3b65495ed58.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,6 +291,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-fragment-24.2.1_47323810445dd86dc6a866893580ce639a859b87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-dynamic-animation\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8af8693de26b3885d9eaa06877132411c7f0673e">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-dynamic-animation-25.3.0_e220050642da8f0dc91e1935dfde5778c194cecc.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -219,12 +318,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jre7\1.1.2-4\e6a7403299b8f3126e3a1576c02e3f07ae5af6fa\kotlin-stdlib-jre7-1.1.2-4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6a7403299b8f3126e3a1576c02e3f07ae5af6fa">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\kotlin-stdlib-jre7-1.1.2-4_21d6c3f8919b941d54d0fc5eb89bf608c213f6b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.yanzhenjie.nohttp\okhttp\1.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="fb2299ab31977b52a633f703488b1b9cb973dda6">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.yanzhenjie.nohttp-okhttp-1.1.0_b0290e93c3be7e26e7779ef9ec4874c8bded9b1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\support-annotations-25.3.0_937d033ee3042ef49db76e1324e35610d060ea4b.jar" />
     </item>
     <item
         is-multidex="false"

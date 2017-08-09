@@ -26,12 +26,14 @@ import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
+import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
 import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity;
 import com.example.lawson.androidsummery.permission.PermissionActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
+import com.example.lawson.androidsummery.recyclerview.RecyclerViewsActivity;
 import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
 import com.example.lawson.androidsummery.scroller.ScrollerActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
@@ -319,6 +321,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, TakePhotoActivity.class));
+            }
+        });
+
+        findViewById(R.id.recycler_view_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, RecyclerViewsActivity.class));
+            }
+        });
+
+        findViewById(R.id.net_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, NetActivity.class));
             }
         });
 

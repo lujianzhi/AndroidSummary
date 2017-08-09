@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.diyview.learn2draw.ChangeLineViewGroupActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.FadeInTextViewActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.LoadingViewActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.SubmitButtonActivity;
@@ -35,6 +36,13 @@ public class ViewListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), FadeInTextViewActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), ChangeLineViewGroupActivity.class));
             }
         });
     }

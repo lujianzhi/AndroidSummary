@@ -269,6 +269,18 @@
             android:layout_height="wrap_content"
             android:text="调用系统相机拍照" />
 
+        <Button
+            android:id="@+id/recycler_view_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recycler_view试用" />
+
+        <Button
+            android:id="@+id/net_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网络" />
+
     </LinearLayout>
 
 
