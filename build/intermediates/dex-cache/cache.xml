@@ -282,6 +282,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\retrofit-2.3.0_906329f7682a885082829d13af04c115fdb47e71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.1.0\7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5\converter-scalars-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\converter-scalars-2.1.0_1455a31e63729cc2daeb9a613f631cb054aacc19.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -300,6 +318,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\converter-gson-2.1.0_da0f4ae34b777e1249a4863c635cf398d3155b58.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-dynamic-animation\25.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -315,6 +342,15 @@
         revision="25.0.0"
         sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.squareup.leakcanary-leakcanary-android-1.4-beta2_1c548ec940a037a5521ae20b635537e3e767b181.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\gson-2.7_813a64765f5eb13702173e65e75a59529c3421d4.jar" />
     </item>
     <item
         is-multidex="false"
