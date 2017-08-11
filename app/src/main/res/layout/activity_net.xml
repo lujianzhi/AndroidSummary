@@ -29,35 +29,121 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volley : " />
+
         <Button
             android:id="@+id/volley_string_request"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="volley_string_request" />
+            android:text="string_request" />
 
         <Button
             android:id="@+id/volley_json_request"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="volley_json_request" />
+            android:text="json_request" />
 
         <Button
             android:id="@+id/volley_image_request"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="volley_image_request" />
+            android:text="image_request" />
 
         <Button
             android:id="@+id/volley_image_loader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="volley_image_loader" />
+            android:text="image_loader" />
 
         <Button
             android:id="@+id/volley_network_image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="volley_network_image_view" />
+            android:text="network_image_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="okhttp : " />
+
+        <Button
+            android:id="@+id/okhttp_asyn_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="okhttp_asyn_get" />
+
+        <Button
+            android:id="@+id/okhttp_asyn_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asyn_post" />
+
+        <Button
+            android:id="@+id/okhttp_asyn_upload_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asyn_upload_file" />
+
+        <Button
+            android:id="@+id/okhttp_asyn_download_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asyn_download_file" />
+
+        <Button
+            android:id="@+id/okhttp_asyn_cancel_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asyn_cancel_request" />
+
+        <Button
+            android:id="@+id/okhttp_asyn_get_diy_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asyn_get_request(封装)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="retrofit:" />
+
+        <Button
+            android:id="@+id/retrofit_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get_@QueryMap" />
+
+        <Button
+            android:id="@+id/retrofit_get_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get_@Path" />
+
+        <Button
+            android:id="@+id/retrofit_post_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="post_@Field" />
+
+        <Button
+            android:id="@+id/retrofit_post_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="post_@Body" />
     </LinearLayout>
 
     <ScrollView
