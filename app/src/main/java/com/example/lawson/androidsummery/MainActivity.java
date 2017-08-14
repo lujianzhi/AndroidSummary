@@ -48,9 +48,9 @@ import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
 import com.github.mzule.activityrouter.router.Routers;
 
-import java.util.regex.Pattern;
+import org.greenrobot.eventbus.EventBus;
 
-import de.greenrobot.event.EventBus;
+import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 

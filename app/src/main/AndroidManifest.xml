@@ -110,7 +110,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".recyclerview.RecyclerViewsActivity" />
         <activity android:name=".net.ui.NetActivity" />
-        <activity android:name=".diyview.learn2draw.ChangeLineViewGroupActivity"></activity>
+        <activity android:name=".diyview.learn2draw.ChangeLineViewGroupActivity" />
     </application>
 
 </manifest>
