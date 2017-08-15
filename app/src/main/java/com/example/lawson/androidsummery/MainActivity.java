@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.util.Linkify;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.activityabout.AboutActivity;
@@ -43,6 +42,7 @@ import com.example.lawson.androidsummery.thread.ThreadActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
+import com.example.lawson.androidsummery.traceviewtool.TraceViewToolActivity;
 import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
@@ -53,8 +53,6 @@ import org.greenrobot.eventbus.EventBus;
 import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
-
-    private Button a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -335,6 +333,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, NetActivity.class));
+            }
+        });
+
+        findViewById(R.id.trace_view_tool_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TraceViewToolActivity.class));
             }
         });
 

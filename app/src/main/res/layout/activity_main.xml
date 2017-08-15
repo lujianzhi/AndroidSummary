@@ -282,10 +282,10 @@
             android:text="网络" />
 
         <Button
-            android:id="@+id/ipc_activity"
+            android:id="@+id/trace_view_tool_activity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Android IPC 机制" />
+            android:text="TraceView工具的使用" />
 
     </LinearLayout>
 
