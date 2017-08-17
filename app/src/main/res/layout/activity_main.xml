@@ -287,6 +287,12 @@
             android:layout_height="wrap_content"
             android:text="TraceView工具的使用" />
 
+        <Button
+            android:id="@+id/data_binding_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DataBinding" />
+
     </LinearLayout>
 
 

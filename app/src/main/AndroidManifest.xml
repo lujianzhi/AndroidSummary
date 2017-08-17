@@ -111,7 +111,8 @@
         <activity android:name=".recyclerview.RecyclerViewsActivity" />
         <activity android:name=".net.ui.NetActivity" />
         <activity android:name=".diyview.learn2draw.ChangeLineViewGroupActivity" />
-        <activity android:name=".traceviewtool.TraceViewToolActivity"></activity>
+        <activity android:name=".traceviewtool.TraceViewToolActivity" />
+        <activity android:name=".databinding.DataBindingActivity"></activity>
     </application>
 
 </manifest>

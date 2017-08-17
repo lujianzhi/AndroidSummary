@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--class定义了DataBinding的辅助类所在的路径-->
+    <data class="com.example.lawson.androidsummery.databindingbeen.ActivityDataBindingHelper">
+        <!--导包-->
+        <import type="com.example.lawson.androidsummery.databinding.been.Student" />
+
+        <!--声明变量
+            name:变量名
+            type:变量类型(也可以不导包直接写变量的完整路径)-->
+        <variable
+            name="student"
+            type="Student" />
+
+        <!--导包-->
+        <import type="com.example.lawson.androidsummery.databinding.been.ObservableStudent" />
+
+        <!--声明变量
+            name:变量名
+            type:变量类型(也可以不导包直接写变量的完整路径)-->
+        <variable
+            name="observableStudent"
+            type="ObservableStudent" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{student.name}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@{String.valueOf(student.age)}" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{observableStudent.name}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@{String.valueOf(observableStudent.age)}" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@={observableStudent.name}" />
+            <!--这里用的是@={}，多了一个=号-->
+
+            <Button
+                android:id="@+id/binding_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示名字" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
