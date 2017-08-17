@@ -2,6 +2,7 @@ package com.example.lawson.androidsummery.net.retrofit;
 
 import java.util.Map;
 
+import io.reactivex.Observable;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.Field;
@@ -17,7 +18,7 @@ import retrofit2.http.QueryMap;
  */
 
 public interface NewsService {
-    //Retrofit提供的请求方式注解有@GET和@POST等，分别代表GET请求和POST请求，我们在这里访问的界面是“getIpInfo.php”
+    //Retrofit提供的请求方式注解有@GET和@POST等，分别代表GET请求和POST请求，我们在这里访问的界面是“index”
     @GET("index")
     //参数注解有@PATH和@Query、@QueryMap等，@Query就是我们的请求的键值对的设置，在这里@Query(“ip”)代表键，“String ip”则代表值。
     //但是在网络请求中一般为了更精确的查找到我们所需要的数据，需要传入很多的查询参数，如果用@Query会比较麻烦，这时我们可以采用@QueryMap，将所有的参数集成在一个Map统一传递
@@ -36,4 +37,8 @@ public interface NewsService {
     @POST("index")
         //用@Body这个注解标识参数对象，retrofit会将Ip对象转换为字符串
     Call<News> getPostParam(@Body NewsParam newsParam);
+
+    //RxJava与Retrofit结合
+    @GET("index")
+    Observable<News> getRxJavaGetParam(@QueryMap() Map<String, String> map);
 }

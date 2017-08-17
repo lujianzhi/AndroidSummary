@@ -48,6 +48,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.annotations.NonNull;
+import io.reactivex.functions.Consumer;
+import io.reactivex.schedulers.Schedulers;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.FormBody;
@@ -55,8 +59,8 @@ import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.RequestBody;
 import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class NetActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -92,6 +96,7 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
         findViewById(R.id.retrofit_get_path).setOnClickListener(this);
         findViewById(R.id.retrofit_post_field).setOnClickListener(this);
         findViewById(R.id.retrofit_post_body).setOnClickListener(this);
+        findViewById(R.id.retrofit_rxjava).setOnClickListener(this);
         contentTv = (TextView) findViewById(R.id.content);
         imageSv = (ScrollView) findViewById(R.id.image_sv);
         contentSv = (ScrollView) findViewById(R.id.content_sv);
@@ -171,7 +176,37 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
             case R.id.retrofit_post_body:
                 retrofitPostBody();
                 break;
+
+            case R.id.retrofit_rxjava:
+                retrofitRxJava();
+                break;
         }
+    }
+
+    /**
+     * retrofit结合RxJava
+     */
+    private void retrofitRxJava() {
+        String url = "http://v.juhe.cn/toutiao/";
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(url)
+                .addConverterFactory(GsonConverterFactory.create())         //Retrofit到Gson进行转换
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())  //Retrofit到RxJava2进行转换
+                .build();
+        NewsService newsService = retrofit.create(NewsService.class);
+        Map<String, String> map = new HashMap<>();
+        map.put("type", "top");
+        map.put("key", "a112f6137f862e6dadace2ff3489d093");
+        newsService.getRxJavaGetParam(map)  //RxJava提供的工作线程
+                .subscribeOn(Schedulers.io())   //指定了上游：Observable中的线程
+                .observeOn(AndroidSchedulers.mainThread())  //指定了下游：subscribe接口中的线程
+                .subscribe(new Consumer<News>() {
+                    @Override
+                    public void accept(@NonNull News news) throws Exception {
+                        showContent(news.getResult().getData().toString()); //主线程
+                    }
+                });
+
     }
 
     private void retrofitPostBody() {
@@ -257,7 +292,6 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
                 //addConverterFactory用于指定返回的参数数据类型，这里我们支持String和Gson类型。
-                .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.1\99895d4dc6d79efbb74360f13c556d95533ad8f8\rxjava-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="99895d4dc6d79efbb74360f13c556d95533ad8f8">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\rxjava-2.1.1_f8c7334bec3877f1743e959d59df3e186da32539.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -84,6 +93,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.3.0\f436637f9500ab5b8bc32afe556373180894b4a5\adapter-rxjava2-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\adapter-rxjava2-2.3.0_607a1cd41fdc9999a20d7b6d8cdf63186ab9a8e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
         jumboMode="false"
         optimize="true"
@@ -99,15 +117,6 @@
         revision="25.0.0"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-fragment-24.2.1_47323810445dd86dc6a866893580ce639a859b87.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\converter-gson-2.1.0_da0f4ae34b777e1249a4863c635cf398d3155b58.jar" />
     </item>
     <item
         is-multidex="false"
@@ -153,6 +162,15 @@
         revision="25.0.0"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\internal_impl-24.2.1_fde770710443c15c869dd1dec38065610eeb4690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\converter-gson-2.3.0_f9af07fb652f6b1dc86701f13dcc2b325cb89465.jar" />
     </item>
     <item
         is-multidex="false"
@@ -300,15 +318,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.0.1\57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb\rxjava-2.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\rxjava-2.0.1_2635ef9da306d1ab8b28fe3a9c98e0aa76970e13.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\AndroidSummary\library\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -351,15 +360,6 @@
         revision="25.0.0"
         sha1="63994437f62bc861bc20c605d12962f7246116d1">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\okhttp-urlconnection-3.4.1_dbced6be640739cb482f333614e67c9cf00cd5b2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-scalars\2.1.0\7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5\converter-scalars-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\converter-scalars-2.1.0_1455a31e63729cc2daeb9a613f631cb054aacc19.jar" />
     </item>
     <item
         is-multidex="false"
