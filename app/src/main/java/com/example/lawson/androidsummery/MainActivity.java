@@ -26,6 +26,7 @@ import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
+import com.example.lawson.androidsummery.mvp.view.NewsActivity;
 import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
 import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity;
@@ -348,6 +349,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DataBindingActivity.class));
+            }
+        });
+
+        findViewById(R.id.mvp_rxjava_retrofit_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, NewsActivity.class));
             }
         });
 

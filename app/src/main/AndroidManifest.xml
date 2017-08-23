@@ -105,14 +105,15 @@
         <activity android:name=".diyview.learn2draw.FadeInTextViewActivity" />
         <activity android:name=".takephoto.TakePhotoActivity" />
         <activity
-            android:name=".annotation.AnnotationActivity"
+            android:name=".annotation.TestDagger2Activity"
             android:label="@string/title_activity_annotation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".recyclerview.RecyclerViewsActivity" />
         <activity android:name=".net.ui.NetActivity" />
         <activity android:name=".diyview.learn2draw.ChangeLineViewGroupActivity" />
         <activity android:name=".traceviewtool.TraceViewToolActivity" />
-        <activity android:name=".databinding.DataBindingActivity"></activity>
+        <activity android:name=".databinding.DataBindingActivity" />
+        <activity android:name=".mvp.view.NewsActivity"></activity>
     </application>
 
 </manifest>

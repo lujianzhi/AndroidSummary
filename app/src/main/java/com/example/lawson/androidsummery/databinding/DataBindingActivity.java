@@ -19,7 +19,7 @@ public class DataBindingActivity extends AppCompatActivity implements View.OnCli
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //不需要Activity的setContentView了
-//        setContentView(R.layout.activity_data_binding);
+//        setTvContentView(R.layout.activity_data_binding);
         //ActivityDataBindingHelper这个辅助类就是在步骤二中data class中声明定义的辅助类
         ActivityDataBindingHelper bindingHelper = DataBindingUtil.setContentView(this, R.layout.activity_data_binding);
         Student student = new Student("Ian", 24);
