@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-animated-vector-drawable-24.2.1_32b32488e4d69277db64d198a2a79e53a204d075.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\internal_impl-24.2.1_fde770710443c15c869dd1dec38065610eeb4690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-animated-vector-drawable-24.2.1_32b32488e4d69277db64d198a2a79e53a204d075.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.7\f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb\dagger-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f60e4926b5f05a62ff73e73b6eb3a856cdc74ddb">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\dagger-2.7_9fdeda302fd05abb9f12d8e66680980b84f19999.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.1.2-4\3f5f1498bdbb9611cb1413f794b3a3a5a6edef34\kotlin-stdlib-1.1.2-4.jar"
         jumboMode="false"
         optimize="true"
@@ -72,6 +81,15 @@
         revision="25.0.0"
         sha1="e1d81f36ef9a5803689b3e888eb93a8759a17be0">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\baseLibrary-2.2.0_add01606669f603ad8e3f0152b2fddbe2a306d2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\javax.inject-1_9e35b5640c41b68dbfe07baf23b4c388cfd46bf0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,21 +228,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.1\99895d4dc6d79efbb74360f13c556d95533ad8f8\rxjava-2.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="99895d4dc6d79efbb74360f13c556d95533ad8f8">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\rxjava-2.1.1_f8c7334bec3877f1743e959d59df3e186da32539.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\library-1.0.19_9a13c681ab8e51b8672b5c560a34b7f28b42aa66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.1\99895d4dc6d79efbb74360f13c556d95533ad8f8\rxjava-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="99895d4dc6d79efbb74360f13c556d95533ad8f8">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\rxjava-2.1.1_f8c7334bec3877f1743e959d59df3e186da32539.jar" />
     </item>
     <item
         is-multidex="false"
@@ -336,15 +354,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-fragment-24.2.1_47323810445dd86dc6a866893580ce639a859b87.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Ian.Lu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -354,12 +363,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
-        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.squareup.leakcanary-leakcanary-android-1.4-beta2_1c548ec940a037a5521ae20b635537e3e767b181.jar" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-fragment-24.2.1_47323810445dd86dc6a866893580ce639a859b87.jar" />
     </item>
     <item
         is-multidex="false"
@@ -369,6 +378,15 @@
         revision="25.0.0"
         sha1="8af8693de26b3885d9eaa06877132411c7f0673e">
         <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.android.support-support-dynamic-animation-25.3.0_e220050642da8f0dc91e1935dfde5778c194cecc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\Project\AndroidSummary\app\build\intermediates\exploded-aar\com.squareup.leakcanary\leakcanary-android\1.4-beta2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="E:\AS\Project\AndroidSummary\app\build\intermediates\pre-dexed\m360\debug\com.squareup.leakcanary-leakcanary-android-1.4-beta2_1c548ec940a037a5521ae20b635537e3e767b181.jar" />
     </item>
     <item
         is-multidex="false"
