@@ -115,7 +115,8 @@
         <activity android:name=".databinding.DataBindingActivity" />
         <activity android:name=".mvp.view.NewsActivity" />
         <activity android:name=".diyview.primary.PrimaryViewListActivity" />
-        <activity android:name=".diyview.primary.view.PrimaryViewActivity"></activity>
+        <activity android:name=".diyview.primary.view.PrimaryViewActivity" />
+        <activity android:name=".diyview.primary.viewgroup.PrimaryViewGroupActivity"></activity>
     </application>
 
 </manifest>
