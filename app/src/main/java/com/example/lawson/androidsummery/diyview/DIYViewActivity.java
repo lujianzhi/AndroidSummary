@@ -7,12 +7,14 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.diyview.primary.PrimaryViewListActivity;
 import com.example.lawson.androidsummery.diyview.view.FirstView;
 
 public class DIYViewActivity extends Activity {
 
     private FirstView firstView;
     private Button enter;
+    private Button primary;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,13 @@ public class DIYViewActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), ViewListActivity.class));
+            }
+        });
+
+        findViewById(R.id.primary).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), PrimaryViewListActivity.class));
             }
         });
 

@@ -113,7 +113,9 @@
         <activity android:name=".diyview.learn2draw.ChangeLineViewGroupActivity" />
         <activity android:name=".traceviewtool.TraceViewToolActivity" />
         <activity android:name=".databinding.DataBindingActivity" />
-        <activity android:name=".mvp.view.NewsActivity"></activity>
+        <activity android:name=".mvp.view.NewsActivity" />
+        <activity android:name=".diyview.primary.PrimaryViewListActivity" />
+        <activity android:name=".diyview.primary.view.PrimaryViewActivity"></activity>
     </application>
 
 </manifest>

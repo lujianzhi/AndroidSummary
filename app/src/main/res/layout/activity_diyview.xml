@@ -6,11 +6,24 @@
     android:orientation="vertical"
     tools:context="com.example.lawson.androidsummery.diyview.DIYViewActivity">
 
-    <Button
-        android:id="@+id/enter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="自定义View"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View初步"/>
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义View"/>
+
+    </LinearLayout>
 
     <com.example.lawson.androidsummery.diyview.view.FirstView
         android:id="@+id/first_view"
