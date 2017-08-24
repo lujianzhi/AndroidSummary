@@ -2,4 +2,5 @@
     <string name="app_name">AndroidSummery</string>
 
     <string name="experiences_of_answer_max_number">最多输入120字,%1$d/120</string>
+    <string name="title_activity_annotation">AnnotationActivity</string>
 </resources>
