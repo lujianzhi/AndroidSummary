@@ -15,7 +15,6 @@ import android.widget.ImageView;
 
 public class VelocityImageView extends ImageView {
 
-
     public VelocityImageView(Context context) {
         super(context);
         init();
@@ -60,5 +59,11 @@ public class VelocityImageView extends ImageView {
     public void clear() {
         velocityTracker.clear();
         velocityTracker.recycle();
+    }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        clear();
     }
 }
