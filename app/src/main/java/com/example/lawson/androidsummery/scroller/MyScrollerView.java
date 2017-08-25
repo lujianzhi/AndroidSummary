@@ -1,8 +1,10 @@
 package com.example.lawson.androidsummery.scroller;
 
 import android.content.Context;
+import android.databinding.tool.util.L;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.Scroller;
 
@@ -39,6 +41,9 @@ public class MyScrollerView extends ImageView {
         scroller = new Scroller(getContext());
     }
 
+    /**
+     * 需要将View移动到左上角为坐标(destX,destY)的地方
+     */
     public void smoothScrollTo(int destX, int destY) {
         int scrollX = getScrollX();
         int scrollY = getScrollY();
@@ -52,6 +57,9 @@ public class MyScrollerView extends ImageView {
     public void computeScroll() {
         if (scroller.computeScrollOffset()) {
             scrollTo(scroller.getCurrX(), scroller.getCurrY());
+            // 调用scrollTo(x,y)方法，改变了View的mScrollX和mScrollY值，
+            // 而不是translationX和translationY
+            Log.i("Ian", "getScrollX:" + getScrollX() + " ; getScrollY:" + getScrollY());
             postInvalidate();
         }
     }

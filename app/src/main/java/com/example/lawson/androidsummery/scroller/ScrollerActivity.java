@@ -24,21 +24,26 @@ public class ScrollerActivity extends AppCompatActivity {
     private ImageView ivAnimScroll;
     private Button change;
 
-    private int deltaX = 300;
+    private int deltaX = 240;
     private int x = 0;
 
     private final int startHandlerScroll = 1;
+    private boolean directionRight = true;
 
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case startHandlerScroll:
-                    if (x < deltaX) {
-                        x++;
-                        ivAnimScroll.scrollTo(x, 0);
-                        handler.sendEmptyMessageDelayed(1, 100);
+                    if (x <= -deltaX) {
+                        directionRight = true;
+                    } else if (x >= deltaX) {
+                        directionRight = false;
                     }
+                    //View左右循环移动
+                    x = directionRight ? x + 1 : x - 1;
+                    ivAnimScroll.scrollTo(x, 0);
+                    handler.sendEmptyMessageDelayed(1, 10);
                     break;
             }
         }
@@ -53,6 +58,7 @@ public class ScrollerActivity extends AppCompatActivity {
         ivAnimScroll = (ImageView) findViewById(R.id.iv_anim_scroll);
 
         ivNormalAnim = (ImageView) findViewById(R.id.iv_normal_anim);
+        //补间动画
         Animation animation = AnimationUtils.loadAnimation(getBaseContext(), R.anim.scroll_normal_ani);
         ivNormalAnim.startAnimation(animation);
         ivNormalAnim.setOnClickListener(new View.OnClickListener() {
@@ -63,6 +69,7 @@ public class ScrollerActivity extends AppCompatActivity {
         });
 
         ivPropertyAnim = (ImageView) findViewById(R.id.iv_property_anim);
+        //属性动画
         ObjectAnimator.ofFloat(ivPropertyAnim, "translationY", 100, 200, 0).setDuration(2000).start();
         ObjectAnimator.ofFloat(ivPropertyAnim, "translationX", 0, 150).setDuration(1000).start();
         ivPropertyAnim.setOnClickListener(new View.OnClickListener() {
