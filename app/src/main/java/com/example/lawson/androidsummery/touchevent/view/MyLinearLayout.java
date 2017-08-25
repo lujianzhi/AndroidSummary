@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.touchevent;
+package com.example.lawson.androidsummery.touchevent.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

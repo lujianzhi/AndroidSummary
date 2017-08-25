@@ -7,6 +7,9 @@ import android.view.MotionEvent;
 import android.widget.Button;
 
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.touchevent.view.LongPressView;
+import com.example.lawson.androidsummery.touchevent.view.MyImageView;
+import com.example.lawson.androidsummery.touchevent.view.MyLinearLayout;
 
 public class TouchEventActivity extends AppCompatActivity {
 
