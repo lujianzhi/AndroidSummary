@@ -27,11 +27,13 @@ public class ScrollerActivity extends AppCompatActivity {
     private int deltaX = 300;
     private int x = 0;
 
+    private final int startHandlerScroll = 1;
+
     private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
-                case 1:
+                case startHandlerScroll:
                     if (x < deltaX) {
                         x++;
                         ivAnimScroll.scrollTo(x, 0);
@@ -79,7 +81,7 @@ public class ScrollerActivity extends AppCompatActivity {
             }
         });
 
-        handler.sendEmptyMessageDelayed(1, 1000);
+        handler.sendEmptyMessageDelayed(startHandlerScroll, 1000);
     }
 
     private void startAni() {
@@ -94,5 +96,13 @@ public class ScrollerActivity extends AppCompatActivity {
             }
         });
         valueAnimator.start();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //handler不remove掉的话会造成内存泄露
+        handler.removeMessages(startHandlerScroll);
+        handler = null;
     }
 }
