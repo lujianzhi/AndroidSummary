@@ -84,6 +84,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
      * 改变View属性
      */
     private void changeView() {
+        //包装类，使得自己定义的属性asd，能够生效
 //        ViewWrapper my = new ViewWrapper(btn_5);
 //        ObjectAnimator.ofInt(my, "asd", 500).setDuration(1000).start();
 
@@ -101,6 +102,9 @@ public class PropertyAnimationActivity extends AppCompatActivity {
                 Log.i("Ian", "AnimatedFraction : " + fraction);
 
                 btn_5.getLayoutParams().width = intEvaluator.evaluate(fraction, 10, 500);
+                //当view确定自身已经不再适合现有的区域时，
+                //该view本身调用这个方法要求parent view重新调用他的onMeasure onLayout来对重新设置自己位置。
+                //特别的当view的layoutparameter发生改变，并且它的值还没能应用到view上，这时候适合调用这个方法。
                 btn_5.requestLayout();
             }
         });
@@ -122,6 +126,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     private void changeCombination() {
         AnimatorSet set = new AnimatorSet();
         ValueAnimator colorAnimator = ObjectAnimator.ofInt(combination_iv, "backgroundColor", 0xFFFF8080, 0xFF8080FF);
+        //颜色的类型估值器
         colorAnimator.setEvaluator(new ArgbEvaluator());
         colorAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override

@@ -2,6 +2,7 @@ package com.example.lawson.androidsummery.animation.viewanimation;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -73,16 +74,19 @@ public class ViewAnimationActivity extends AppCompatActivity {
         set.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
+                Log.i("Ian", "onAnimationStart");
                 Toast.makeText(getBaseContext(), "onAnimationStart", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onAnimationEnd(Animation animation) {
+                Log.i("Ian", "onAnimationEnd");
                 Toast.makeText(getBaseContext(), "onAnimationEnd", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onAnimationRepeat(Animation animation) {
+                Log.i("Ian", "onAnimationRepeat");
                 Toast.makeText(getBaseContext(), "onAnimationRepeat", Toast.LENGTH_SHORT).show();
             }
         });
@@ -98,6 +102,6 @@ public class ViewAnimationActivity extends AppCompatActivity {
     @Override
     public void finish() {
         super.finish();
-//        overridePendingTransition(R.anim.enter_anim, R.anim.exit_anim);
+        overridePendingTransition(R.anim.enter_anim, R.anim.exit_anim);
     }
 }

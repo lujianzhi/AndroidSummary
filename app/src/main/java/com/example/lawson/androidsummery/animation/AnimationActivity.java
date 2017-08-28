@@ -21,6 +21,8 @@ public class AnimationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(AnimationActivity.this, ViewAnimationActivity.class));
+                //enter_anim : 新的Activity进入时的动画
+                //exit_anim : 旧的Activity出去时的动画
                 overridePendingTransition(R.anim.enter_anim, R.anim.exit_anim);
             }
         });
