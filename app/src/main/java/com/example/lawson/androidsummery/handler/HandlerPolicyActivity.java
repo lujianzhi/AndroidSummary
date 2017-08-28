@@ -58,6 +58,7 @@ public class HandlerPolicyActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         Log.i("Ian", "这是来自子线程的handler任务");
+                        //在子线程中如果手动创建了Looper，那么应该在所有事情完成以后退出Looper，否则这个子线程会一直处于等待状态。
                         handler.getLooper().quit();
                     }
                 });
@@ -74,7 +75,7 @@ public class HandlerPolicyActivity extends AppCompatActivity {
             Bundle data = msg.getData();
             switch (msg.what) {
                 case 1:
-                    Log.i("Ian", "msg.what : " + msg.what + "msg.getData() : " + data.toString());
+                    Log.i("Ian", "msg.what : " + msg.what + " ; msg.getData() : " + data.toString());
                     break;
             }
         }
