@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服务端中的List类型为CopyOnWriteArrayList" />
+
+    <TextView
+        android:id="@+id/type_of_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="客户端接受的List类型为..." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="调用服务端方法getBookList:" />
+
+    <TextView
+        android:id="@+id/data_from_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服务端数据"/>
+
+</LinearLayout>

@@ -299,6 +299,12 @@
             android:layout_height="wrap_content"
             android:text="MVP+RxJava+Retrofit" />
 
+        <Button
+            android:id="@+id/ipc_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IPC" />
+
     </LinearLayout>
 
 

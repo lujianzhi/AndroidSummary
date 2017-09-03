@@ -116,7 +116,25 @@
         <activity android:name=".mvp.view.NewsActivity" />
         <activity android:name=".diyview.primary.PrimaryViewListActivity" />
         <activity android:name=".diyview.primary.view.PrimaryViewActivity" />
-        <activity android:name=".diyview.primary.viewgroup.PrimaryViewGroupActivity"></activity>
+        <activity android:name=".diyview.primary.viewgroup.PrimaryViewGroupActivity" />
+        <activity android:name=".ipc.IPCActivity" />
+        <activity
+            android:name=".ipc.activity.process.ColonProcessActivity"
+            android:process=":ian" />
+        <activity
+            android:name=".ipc.activity.process.FullProcessActivity"
+            android:process="com.example.lawson.androidsummery.ian" />
+
+        <service
+            android:name=".ipc.service.MessengerService"
+            android:process=":MessengerService" />
+
+        <activity android:name=".ipc.activity.messenger.MessengerActivity" />
+        <activity android:name=".ipc.activity.aidl.AIDLActivity" />
+
+        <service
+            android:name=".ipc.service.AIDLService"
+            android:process=":AIDLService" />
     </application>
 
 </manifest>
