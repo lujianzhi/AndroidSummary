@@ -135,6 +135,18 @@
         <service
             android:name=".ipc.service.AIDLService"
             android:process=":AIDLService" />
+
+        <activity android:name=".remoteviews.RemoteViewsActivity" />
+
+        <receiver android:name=".remoteviews.MyAppWidgetProvider">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_widget_info" />
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

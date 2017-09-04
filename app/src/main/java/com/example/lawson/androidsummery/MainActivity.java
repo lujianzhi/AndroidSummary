@@ -36,6 +36,7 @@ import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
 import com.example.lawson.androidsummery.recyclerview.RecyclerViewsActivity;
+import com.example.lawson.androidsummery.remoteviews.RemoteViewsActivity;
 import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
 import com.example.lawson.androidsummery.scroller.ScrollerActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
@@ -364,6 +365,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, IPCActivity.class));
+            }
+        });
+
+        findViewById(R.id.remoteviews_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, RemoteViewsActivity.class));
             }
         });
 

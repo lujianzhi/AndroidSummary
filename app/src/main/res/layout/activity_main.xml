@@ -305,6 +305,12 @@
             android:layout_height="wrap_content"
             android:text="IPC" />
 
+        <Button
+            android:id="@+id/remoteviews_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RemoteViews" />
+
     </LinearLayout>
 
 
