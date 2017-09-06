@@ -147,6 +147,10 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".thread.AndroidThreadActivity" />
+
+        <service android:name=".thread.intentservice.MyIntentService" />
     </application>
 
 </manifest>

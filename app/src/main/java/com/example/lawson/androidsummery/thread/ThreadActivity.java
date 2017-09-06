@@ -195,14 +195,16 @@ public class ThreadActivity extends AppCompatActivity implements View.OnClickLis
         scheduledThreadPool.schedule(new Runnable() {
             @Override
             public void run() {
-
+                String threadName = Thread.currentThread().getName();
+                Log.i("Ian", "线程：" + threadName + ",正在执行 : 延迟2秒后执行该任务");
             }
         }, 2, TimeUnit.SECONDS);
         //延迟1秒后，每隔2秒执行一次该任务
         scheduledThreadPool.scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
-
+                String threadName = Thread.currentThread().getName();
+                Log.i("Ian", "线程：" + threadName + ",正在执行 : 延迟1秒后，每隔2秒执行一次该任务");
             }
         }, 1, 2, TimeUnit.SECONDS);
     }
@@ -214,7 +216,7 @@ public class ThreadActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void run() {
                 String threadName = Thread.currentThread().getName();
-                Log.i("Ian", "线程：" + threadName + ",正在执行");
+                Log.i("Ian", "线程：" + threadName + ",正在执行 : 延迟1秒后，每隔2秒执行一次该任务");
             }
         }, 1, 2, TimeUnit.SECONDS);
     }

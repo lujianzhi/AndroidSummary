@@ -154,11 +154,25 @@
             android:layout_height="wrap_content"
             android:text="Debug" />
 
-        <Button
-            android:id="@+id/thread_activity"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="线程、线程池" />
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/android_thread_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android的线程和线程池" />
+
+            <Button
+                android:id="@+id/thread_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="线程、线程池" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
