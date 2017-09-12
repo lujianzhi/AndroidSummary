@@ -19,11 +19,25 @@
             android:layout_height="wrap_content"
             android:text="点对点连线" />
 
-        <Button
-            android:id="@+id/bitmap"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="不同资源文件下加载bitmap" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bitmap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不同资源文件下加载bitmap" />
+
+            <Button
+                android:id="@+id/bitmap_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bitmap的加载和Cache"/>
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/detect_memory"

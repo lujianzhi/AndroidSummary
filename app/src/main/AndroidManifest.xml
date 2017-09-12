@@ -151,6 +151,8 @@
         <activity android:name=".thread.AndroidThreadActivity" />
 
         <service android:name=".thread.intentservice.MyIntentService" />
+
+        <activity android:name=".bitmap.BitmapAndCacheActivity"></activity>
     </application>
 
 </manifest>

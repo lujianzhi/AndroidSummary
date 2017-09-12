@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.example.lawson.androidsummery.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
+import com.example.lawson.androidsummery.bitmap.BitmapAndCacheActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.constraintlayout.ConstraintLayoutActivity;
 import com.example.lawson.androidsummery.databinding.DataBindingActivity;
@@ -380,6 +381,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, RemoteViewsActivity.class));
+            }
+        });
+
+        findViewById(R.id.bitmap_cache).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, BitmapAndCacheActivity.class));
             }
         });
 
