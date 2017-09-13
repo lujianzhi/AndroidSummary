@@ -22,6 +22,7 @@ import com.example.lawson.androidsummery.draw.DrawActivity;
 import com.example.lawson.androidsummery.edittext.EditTextActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
+import com.example.lawson.androidsummery.fourcomponent.FourComponentActivity;
 import com.example.lawson.androidsummery.fragmentlazy.FragmentLazyLoadActivity;
 import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity;
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
@@ -388,6 +389,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, BitmapAndCacheActivity.class));
+            }
+        });
+
+        findViewById(R.id.component_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, FourComponentActivity.class));
             }
         });
 

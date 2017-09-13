@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我就是Activity" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service,需要在AndroidManifest.xml中注册" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="start service" />
+
+            <Button
+                android:id="@+id/stop_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="stop service" />
+
+            <Button
+                android:id="@+id/bind_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bind service" />
+
+            <Button
+                android:id="@+id/unbind_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="unbind service" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BroadcastReceiver,需要在AndroidManifest.xml中注册" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/normal_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通广播" />
+
+            <Button
+                android:id="@+id/ordered_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="有序广播" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

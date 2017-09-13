@@ -152,7 +152,32 @@
 
         <service android:name=".thread.intentservice.MyIntentService" />
 
-        <activity android:name=".bitmap.BitmapAndCacheActivity"></activity>
+        <activity android:name=".bitmap.BitmapAndCacheActivity" />
+        <activity android:name=".fourcomponent.FourComponentActivity" />
+
+        <service android:name=".fourcomponent.service.MyService" />
+
+        <receiver android:name=".fourcomponent.broadcastreceiver.NormalBroadcastReceiver">
+            <intent-filter>
+                <action android:name="normal" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver">
+            <!--priority在有序广播中代表优先级，范围是-1000到1000，数值越大优先级越高-->
+            <intent-filter android:priority="1000">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".fourcomponent.broadcastreceiver.OrderTwoBroadcastReceiver">
+            <intent-filter android:priority="0">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".fourcomponent.broadcastreceiver.OrderThreeBroadcastReceiver">
+            <intent-filter android:priority="-1000">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
