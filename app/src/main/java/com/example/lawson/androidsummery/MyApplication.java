@@ -3,12 +3,14 @@ package com.example.lawson.androidsummery;
 import android.app.Application;
 import android.content.Context;
 import android.net.Uri;
+import android.support.multidex.MultiDex;
 import android.widget.Toast;
 
+import com.antfortune.freeline.FreelineCore;
+import com.example.lawson.androidsummery.thread.CrashHandler;
 import com.github.mzule.activityrouter.router.RouterCallback;
 import com.github.mzule.activityrouter.router.RouterCallbackProvider;
 import com.squareup.leakcanary.LeakCanary;
-import com.squareup.leakcanary.RefWatcher;
 import com.yanzhenjie.nohttp.OkHttpNetworkExecutor;
 import com.yolanda.nohttp.Logger;
 import com.yolanda.nohttp.NoHttp;
@@ -17,17 +19,31 @@ import com.yolanda.nohttp.cookie.DBCookieStore;
 
 public class MyApplication extends Application implements RouterCallbackProvider {
 
-    private RefWatcher refWatcher;
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
+    }
 
     @Override
     public void onCreate() {
         super.onCreate();
         initLeakCanary();
         initNoHttp();
+        initCrashHandler();
+        initFreeLine();
+    }
+
+    private void initFreeLine() {
+        FreelineCore.init(this);
+    }
+
+    private void initCrashHandler() {
+        CrashHandler.getInstance().init(getApplicationContext());
     }
 
     private void initLeakCanary() {
-        refWatcher = LeakCanary.install(this);
+        LeakCanary.install(this);
     }
 
     private void initNoHttp() {

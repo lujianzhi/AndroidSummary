@@ -13,6 +13,8 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+
+        multiDexEnabled true
     }
 
     signingConfigs {
@@ -34,32 +36,55 @@ android {
     }
 
     productFlavors {
-        m360 {}
+//        m360 {}
 //        xiaomi{
 //            applicationId "com.example.lawson.xiaomi.androidsummery"
 //        }
+    }
+
+    dataBinding {
+        enabled = true;
+    }
+
+    freeline {
+        hack true
     }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':library')
-    compile files('E:/AS/Project/AndroidSummary/libs/eventbus.jar')
     //    compile files('E:/AS/Project/AndroidSummary/libs/lekehttp-1.0.6.jar')
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'org.greenrobot:eventbus:3.0.0'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:recyclerview-v7:21.0.3'
     compile 'com.yolanda.nohttp:nohttp:1.1.0'
     compile 'com.yanzhenjie.nohttp:okhttp:1.1.0'
     compile 'com.github.mzule.activityrouter:activityrouter:1.1.7'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
-    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.android.support:support-dynamic-animation:25.3.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.1'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //ConverterFactory的String依赖包
+    //converter-gson是Retrofit到Gson进行转换的库
+    //adapter-rxjava2是Retrofit到RxJava2进行转换的库
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    compile 'com.google.dagger:dagger:2.7'
+    compile 'com.jakewharton:disklrucache:2.0.2'
     testCompile 'junit:junit:4.12'
     testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.7'
     apt 'com.github.mzule.activityrouter:compiler:1.1.5'
+    apt 'com.google.dagger:dagger-compiler:2.7'
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+    compile 'com.antfortune.freeline:runtime:0.8.7'
 }
 repositories {
     mavenCentral()
