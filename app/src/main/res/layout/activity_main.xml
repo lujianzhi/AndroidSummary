@@ -21,9 +21,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
+            android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/bitmap"
@@ -35,7 +35,7 @@
                 android:id="@+id/bitmap_cache"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bitmap的加载和Cache"/>
+                android:text="Bitmap的加载和Cache" />
 
         </LinearLayout>
 
@@ -344,6 +344,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="四大组件的工作过程" />
+
+        <Button
+            android:id="@+id/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检验CrashHandler，出错报告在ian_cache目录下" />
 
     </LinearLayout>
 

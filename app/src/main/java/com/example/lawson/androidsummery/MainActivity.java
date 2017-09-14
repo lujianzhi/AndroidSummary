@@ -57,6 +57,7 @@ import com.github.mzule.activityrouter.router.Routers;
 
 import org.greenrobot.eventbus.EventBus;
 
+import java.io.File;
 import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
@@ -399,6 +400,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.error).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                error();
+            }
+        });
+
     }
 
+    private void error() {
+        try {
+            File file = null;
+            file.exists();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        throw new RuntimeException("德玛西亚出错了");
+    }
 }
