@@ -351,6 +351,12 @@
             android:layout_height="wrap_content"
             android:text="检验CrashHandler，出错报告在ian_cache目录下" />
 
+        <Button
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试--UI测试" />
+
     </LinearLayout>
 
 

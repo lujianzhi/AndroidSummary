@@ -15,6 +15,7 @@ android {
         versionName "1.0"
 
         multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     signingConfigs {
@@ -49,6 +50,10 @@ android {
     freeline {
         hack true
     }
+
+    packagingOptions {
+        exclude 'LICENSE.txt'
+    }
 }
 
 dependencies {
@@ -77,14 +82,19 @@ dependencies {
     compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
     compile 'com.google.dagger:dagger:2.7'
     compile 'com.jakewharton:disklrucache:2.0.2'
-    testCompile 'junit:junit:4.12'
+    compile 'com.antfortune.freeline:runtime:0.8.7'
     testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.7'
     apt 'com.github.mzule.activityrouter:compiler:1.1.5'
     apt 'com.google.dagger:dagger-compiler:2.7'
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
-    compile 'com.antfortune.freeline:runtime:0.8.7'
+
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support:support-annotations:25.3.0'
 }
 repositories {
     mavenCentral()

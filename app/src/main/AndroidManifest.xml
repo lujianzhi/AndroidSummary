@@ -163,7 +163,8 @@
             </intent-filter>
         </receiver>
         <receiver android:name=".fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver">
-            <!--priority在有序广播中代表优先级，范围是-1000到1000，数值越大优先级越高-->
+
+            <!-- priority在有序广播中代表优先级，范围是-1000到1000，数值越大优先级越高 -->
             <intent-filter android:priority="1000">
                 <action android:name="order" />
             </intent-filter>
@@ -178,6 +179,8 @@
                 <action android:name="order" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".junittest.UITestActivity"></activity>
     </application>
 
 </manifest>
