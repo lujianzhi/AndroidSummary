@@ -17,7 +17,8 @@ import com.example.lawson.androidsummery.databinding.DataBindingActivity;
 import com.example.lawson.androidsummery.debug.DebugActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.diyview.DIYViewActivity;
-import com.example.lawson.androidsummery.dragview.DragViewActivity;
+import com.example.lawson.androidsummery.diyview.dragview.DragViewActivity;
+import com.example.lawson.androidsummery.diyview.timer.TimerManager;
 import com.example.lawson.androidsummery.draw.DrawActivity;
 import com.example.lawson.androidsummery.edittext.EditTextActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
@@ -25,7 +26,9 @@ import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.fourcomponent.FourComponentActivity;
 import com.example.lawson.androidsummery.fragmentlazy.FragmentLazyLoadActivity;
 import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity;
+import com.example.lawson.androidsummery.greendao.GreenDaoActivity;
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
+import com.example.lawson.androidsummery.hencoder.HenCoderActivity;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.ipc.IPCActivity;
 import com.example.lawson.androidsummery.junittest.UITestActivity;
@@ -67,6 +70,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        timer();
+
+        findViewById(R.id.hen_coder).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, HenCoderActivity.class));
+            }
+        });
 
         findViewById(R.id.send).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -415,6 +427,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.green_dao).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, GreenDaoActivity.class));
+            }
+        });
+
+    }
+
+    private TimerManager timerManager;
+
+    private void timer() {
+        TextView textView = (TextView) findViewById(R.id.time);
+        timerManager = new TimerManager(textView, TimerManager.CLOCKWISE, 188000);
+        timerManager.startTiming();
     }
 
     private void error() {
@@ -425,5 +452,11 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         throw new RuntimeException("德玛西亚出错了");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        timerManager.releaseTimer();
     }
 }

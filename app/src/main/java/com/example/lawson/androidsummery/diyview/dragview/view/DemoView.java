@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.dragview.view;
+package com.example.lawson.androidsummery.diyview.dragview.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

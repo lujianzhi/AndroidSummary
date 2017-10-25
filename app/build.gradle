@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'android-apt'
 apply plugin: 'com.antfortune.freeline'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion 24
@@ -56,6 +57,12 @@ android {
     }
 }
 
+greendao{
+    schemaVersion 1
+    daoPackage 'com.example.lawson.androidsummery.greendao.gen'
+    targetGenDir 'src/main/java'
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':library')
@@ -74,9 +81,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.8.1'
     compile 'io.reactivex.rxjava2:rxjava:2.1.1'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    //ConverterFactory的String依赖包
-    //converter-gson是Retrofit到Gson进行转换的库
-    //adapter-rxjava2是Retrofit到RxJava2进行转换的库
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
@@ -84,17 +88,18 @@ dependencies {
     compile 'com.jakewharton:disklrucache:2.0.2'
     compile 'com.antfortune.freeline:runtime:0.8.7'
     testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.7'
-    apt 'com.github.mzule.activityrouter:compiler:1.1.5'
-    apt 'com.google.dagger:dagger-compiler:2.7'
-    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
-    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
-
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test:runner:0.5'
     androidTestCompile 'com.android.support.test:rules:0.5'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
     androidTestCompile 'com.android.support:support-annotations:25.3.0'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.7'
+    apt 'com.github.mzule.activityrouter:compiler:1.1.5'
+    apt 'com.google.dagger:dagger-compiler:2.7'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+    //GreenDao
+    compile 'org.greenrobot:greendao:3.2.0'
 }
 repositories {
     mavenCentral()

@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.dragview;
+package com.example.lawson.androidsummery.diyview.dragview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 
 import com.example.lawson.androidsummery.R;
-import com.example.lawson.androidsummery.dragview.view.DemoView;
+import com.example.lawson.androidsummery.diyview.dragview.view.DemoView;
 
 public class DragViewActivity extends AppCompatActivity {
     private DemoView demoView;

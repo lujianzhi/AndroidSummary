@@ -7,357 +7,381 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/pointToPoint"
+        <TextView
+            android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="点对点连线" />
+            android:text="计时" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
             <Button
-                android:id="@+id/bitmap"
+                android:id="@+id/hen_coder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="不同资源文件下加载bitmap" />
+                android:text="HenCoder" />
 
             <Button
-                android:id="@+id/bitmap_cache"
+                android:id="@+id/pointToPoint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bitmap的加载和Cache" />
+                android:text="点对点连线" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bitmap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不同资源文件下加载bitmap" />
+
+                <Button
+                    android:id="@+id/bitmap_cache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bitmap的加载和Cache" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/detect_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="利用LeakCanary检测内存泄露" />
+
+            <Button
+                android:id="@+id/collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="集合" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/touch_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="事件分发机制" />
+
+                <Button
+                    android:id="@+id/scroll_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="滑动冲突" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自定义Toast" />
+
+            <Button
+                android:id="@+id/popup_window"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PopupWindow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/event_bus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EventBus粘性事件" />
+
+                <Button
+                    android:id="@+id/send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发送粘性事件" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/hide_navigation_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="隐藏底部栏" />
+
+            <Button
+                android:id="@+id/pull_to_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PullToRefresh框架" />
+
+            <Button
+                android:id="@+id/nohttp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nohttp" />
+
+            <Button
+                android:id="@+id/draw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="画板" />
+
+            <Button
+                android:id="@+id/ongloballayoutlistener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ongloballayoutlistener监听器" />
+
+            <Button
+                android:id="@+id/fragment_lazy_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fragment懒加载" />
+
+            <Button
+                android:id="@+id/diy_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自定义View" />
+
+            <Button
+                android:id="@+id/drag_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拖拉改变View宽度" />
+
+            <Button
+                android:id="@+id/edit_text_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="满屏的EditText" />
+
+            <Button
+                android:id="@+id/web_view_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WebView" />
+
+            <Button
+                android:id="@+id/debug_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Debug" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/android_thread_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android的线程和线程池" />
+
+                <Button
+                    android:id="@+id/thread_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="线程、线程池" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/router_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="router_activity" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_customHyperLink"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="http://ian.com/ian_router/ian/23/male" />-->
+                <!---->
+                <TextView
+                    android:id="@+id/tv_customHyperLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="http://ian.com/ian/lujianzhi/23/男" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/permisson_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.0权限" />
+
+            <Button
+                android:id="@+id/spinner_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spinner测试" />
+
+            <Button
+                android:id="@+id/theme_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="切换主题" />
+
+            <Button
+                android:id="@+id/kill_process_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="杀死进程" />
+
+            <Button
+                android:id="@+id/constraint_layout_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="约束布局ConstraintLayout" />
+
+            <Button
+                android:id="@+id/velocity_tracker_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="追踪手指滑动速度VelocityTracker" />
+
+            <Button
+                android:id="@+id/gesture_detector_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手势检测GestureDetector" />
+
+            <Button
+                android:id="@+id/scroller_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="弹性滑动Scroller" />
+
+            <Button
+                android:id="@+id/about_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activity相关" />
+
+            <Button
+                android:id="@+id/handler_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android消息机制" />
+
+            <Button
+                android:id="@+id/rxjava2_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RxJava2" />
+
+            <Button
+                android:id="@+id/window_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Window和WindowManager" />
+
+            <Button
+                android:id="@+id/animation_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android动画" />
+
+            <Button
+                android:id="@+id/take_photo_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调用系统相机拍照" />
+
+            <Button
+                android:id="@+id/recycler_view_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="recycler_view试用" />
+
+            <Button
+                android:id="@+id/net_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网络" />
+
+            <Button
+                android:id="@+id/trace_view_tool_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TraceView工具的使用" />
+
+            <Button
+                android:id="@+id/data_binding_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DataBinding" />
+
+            <Button
+                android:id="@+id/mvp_rxjava_retrofit_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MVP+RxJava+Retrofit" />
+
+            <Button
+                android:id="@+id/ipc_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IPC" />
+
+            <Button
+                android:id="@+id/remoteviews_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RemoteViews" />
+
+            <Button
+                android:id="@+id/component_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="四大组件的工作过程" />
+
+            <Button
+                android:id="@+id/error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检验CrashHandler，出错报告在ian_cache目录下" />
+
+            <Button
+                android:id="@+id/test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试--UI测试" />
+
+            <Button
+                android:id="@+id/green_dao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GreenDao使用" />
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/detect_memory"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="利用LeakCanary检测内存泄露" />
-
-        <Button
-            android:id="@+id/collection"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="集合" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/touch_event"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="事件分发机制" />
-
-            <Button
-                android:id="@+id/scroll_event"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="滑动冲突" />
-        </LinearLayout>
-
-        <Button
-            android:id="@+id/toast"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="自定义Toast" />
-
-        <Button
-            android:id="@+id/popup_window"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PopupWindow" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/event_bus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="EventBus粘性事件" />
-
-            <Button
-                android:id="@+id/send"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="发送粘性事件" />
-
-        </LinearLayout>
-
-        <Button
-            android:id="@+id/hide_navigation_bar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="隐藏底部栏" />
-
-        <Button
-            android:id="@+id/pull_to_refresh"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PullToRefresh框架" />
-
-        <Button
-            android:id="@+id/nohttp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nohttp" />
-
-        <Button
-            android:id="@+id/draw"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="画板" />
-
-        <Button
-            android:id="@+id/ongloballayoutlistener"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ongloballayoutlistener监听器" />
-
-        <Button
-            android:id="@+id/fragment_lazy_load"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Fragment懒加载" />
-
-        <Button
-            android:id="@+id/diy_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="自定义View" />
-
-        <Button
-            android:id="@+id/drag_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="拖拉改变View宽度" />
-
-        <Button
-            android:id="@+id/edit_text_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="满屏的EditText" />
-
-        <Button
-            android:id="@+id/web_view_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="WebView" />
-
-        <Button
-            android:id="@+id/debug_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Debug" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/android_thread_activity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Android的线程和线程池" />
-
-            <Button
-                android:id="@+id/thread_activity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="线程、线程池" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/router_activity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="router_activity" />
-
-            <!--<TextView-->
-            <!--android:id="@+id/tv_customHyperLink"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="http://ian.com/ian_router/ian/23/male" />-->
-            <!---->
-            <TextView
-                android:id="@+id/tv_customHyperLink"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="http://ian.com/ian/lujianzhi/23/男" />
-        </LinearLayout>
-
-        <Button
-            android:id="@+id/permisson_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="6.0权限" />
-
-        <Button
-            android:id="@+id/spinner_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Spinner测试" />
-
-        <Button
-            android:id="@+id/theme_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="切换主题" />
-
-        <Button
-            android:id="@+id/kill_process_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="杀死进程" />
-
-        <Button
-            android:id="@+id/constraint_layout_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="约束布局ConstraintLayout" />
-
-        <Button
-            android:id="@+id/velocity_tracker_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="追踪手指滑动速度VelocityTracker" />
-
-        <Button
-            android:id="@+id/gesture_detector_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="手势检测GestureDetector" />
-
-        <Button
-            android:id="@+id/scroller_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="弹性滑动Scroller" />
-
-        <Button
-            android:id="@+id/about_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Activity相关" />
-
-        <Button
-            android:id="@+id/handler_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Android消息机制" />
-
-        <Button
-            android:id="@+id/rxjava2_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RxJava2" />
-
-        <Button
-            android:id="@+id/window_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Window和WindowManager" />
-
-        <Button
-            android:id="@+id/animation_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Android动画" />
-
-        <Button
-            android:id="@+id/take_photo_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="调用系统相机拍照" />
-
-        <Button
-            android:id="@+id/recycler_view_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="recycler_view试用" />
-
-        <Button
-            android:id="@+id/net_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="网络" />
-
-        <Button
-            android:id="@+id/trace_view_tool_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TraceView工具的使用" />
-
-        <Button
-            android:id="@+id/data_binding_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="DataBinding" />
-
-        <Button
-            android:id="@+id/mvp_rxjava_retrofit_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="MVP+RxJava+Retrofit" />
-
-        <Button
-            android:id="@+id/ipc_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="IPC" />
-
-        <Button
-            android:id="@+id/remoteviews_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RemoteViews" />
-
-        <Button
-            android:id="@+id/component_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="四大组件的工作过程" />
-
-        <Button
-            android:id="@+id/error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="检验CrashHandler，出错报告在ian_cache目录下" />
-
-        <Button
-            android:id="@+id/test"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="测试--UI测试" />
-
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </ScrollView>

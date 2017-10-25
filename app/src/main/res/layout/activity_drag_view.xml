@@ -24,7 +24,7 @@
         android:background="@color/colorAccent"
         android:orientation="vertical" />
 
-    <com.example.lawson.androidsummery.dragview.view.DemoView
+    <com.example.lawson.androidsummery.diyview.dragview.view.DemoView
         android:id="@+id/demo_view"
         android:layout_width="match_parent"
         android:layout_height="36px"
