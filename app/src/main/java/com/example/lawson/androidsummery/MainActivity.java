@@ -24,7 +24,7 @@ import com.example.lawson.androidsummery.edittext.EditTextActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.fourcomponent.FourComponentActivity;
-import com.example.lawson.androidsummery.fragmentlazy.FragmentLazyLoadActivity;
+import com.example.lawson.androidsummery.fragment.fragmentlazy.FragmentLazyLoadActivity;
 import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity;
 import com.example.lawson.androidsummery.greendao.GreenDaoActivity;
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;

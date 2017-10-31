@@ -43,7 +43,7 @@
         <activity android:name=".nohttp.NoHttpActivity" />
         <activity android:name=".draw.DrawActivity" />
         <activity android:name=".ongloballayoutlistener.OnGlobalLayoutListenerActivity" />
-        <activity android:name=".fragmentlazy.FragmentLazyLoadActivity" />
+        <activity android:name=".fragment.fragmentlazy.FragmentLazyLoadActivity" />
         <activity android:name=".diyview.dragview.DragViewActivity" />
         <activity android:name=".edittext.EditTextActivity" />
         <activity android:name=".webview.WebViewActivity" />
