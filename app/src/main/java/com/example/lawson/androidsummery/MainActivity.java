@@ -2,6 +2,7 @@ package com.example.lawson.androidsummery;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.text.util.Linkify;
 import android.view.View;
@@ -41,6 +42,7 @@ import com.example.lawson.androidsummery.permission.PermissionActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
+import com.example.lawson.androidsummery.record.RecordDialogManager;
 import com.example.lawson.androidsummery.recyclerview.RecyclerViewsActivity;
 import com.example.lawson.androidsummery.remoteviews.RemoteViewsActivity;
 import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
@@ -434,6 +436,29 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        createDir();
+
+        findViewById(R.id.record).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RecordDialogManager.getInstance().startRecording(getSupportFragmentManager(), getApplicationContext());
+            }
+        });
+
+    }
+
+    private void createDir() {
+        String tempPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/record_temp";
+        String recordPath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/record";
+
+        File tempFile = new File(tempPath);
+        if (!tempFile.exists()) {
+            tempFile.mkdir();
+        }
+        File recordFile = new File(recordPath);
+        if (!recordFile.exists()) {
+            recordFile.mkdir();
+        }
     }
 
     private TimerManager timerManager;

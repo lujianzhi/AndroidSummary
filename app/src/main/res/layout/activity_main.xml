@@ -379,6 +379,12 @@
                 android:layout_height="wrap_content"
                 android:text="GreenDao使用" />
 
+            <Button
+                android:id="@+id/record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="录音封装" />
+
         </LinearLayout>
 
     </RelativeLayout>
