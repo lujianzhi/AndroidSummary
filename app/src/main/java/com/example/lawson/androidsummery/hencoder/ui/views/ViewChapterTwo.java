@@ -87,7 +87,6 @@ public class ViewChapterTwo extends View {
         paint11 = new Paint(Paint.ANTI_ALIAS_FLAG);
         paint12 = new Paint(Paint.ANTI_ALIAS_FLAG);
         textPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
-        textPaint.setTextSize(100);
         textPaint.setColor(Color.RED);
     }
 
@@ -148,6 +147,7 @@ public class ViewChapterTwo extends View {
         paint12.setStrokeWidth(1);
         paint12.setStyle(Paint.Style.STROKE);
         paint12.setColor(Color.RED);
+        textPaint.setTextSize(100);
 
         String text = "Ian";
         canvas.drawText(text, 1720, 600, textPaint);
@@ -490,6 +490,7 @@ public class ViewChapterTwo extends View {
     }
 
     private void sweepGradient(Canvas canvas) {
+        textPaint.setTextSize(20);
         Shader sweepGradient = new SweepGradient(720, 70, Color.RED, Color.BLACK);
         paint3.setShader(sweepGradient);
         canvas.drawRect(670, 20, 770, 120, paint3);
@@ -497,6 +498,7 @@ public class ViewChapterTwo extends View {
     }
 
     private void radialGradient(Canvas canvas) {
+        textPaint.setTextSize(20);
         Shader radialGradient1 = new RadialGradient(390, 70, 20, Color.RED, Color.BLACK, Shader.TileMode.CLAMP);
         paint2.setShader(radialGradient1);
         canvas.drawRect(340, 20, 440, 120, paint2);
@@ -514,6 +516,7 @@ public class ViewChapterTwo extends View {
     }
 
     private void linearGradient(Canvas canvas) {
+        textPaint.setTextSize(20);
         Shader linearGradient1 = new LinearGradient(20, 20, 40, 40, Color.BLACK, Color.RED, Shader.TileMode.CLAMP);
         paint1.setShader(linearGradient1);
         canvas.drawRect(20, 20, 120, 120, paint1);
