@@ -8,14 +8,21 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.example.lawson.androidsummery.hencoder.ui.views.ViewChapterOne
+        <com.example.lawson.androidsummery.hencoder.ui.views.ViewChapterThree
             android:layout_width="match_parent"
-            android:layout_height="150dp" />
+            android:layout_height="300dp" />
 
         <com.example.lawson.androidsummery.hencoder.ui.views.ViewChapterTwo
             android:layout_width="match_parent"
             android:layout_height="700dp"
             android:layout_marginTop="10dp" />
+
+        <com.example.lawson.androidsummery.hencoder.ui.views.ViewChapterOne
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp" />
+
+
     </LinearLayout>
 
 </ScrollView>
