@@ -385,6 +385,12 @@
                 android:layout_height="wrap_content"
                 android:text="录音封装" />
 
+            <Button
+                android:id="@+id/level_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View层级测试" />
+
         </LinearLayout>
 
     </RelativeLayout>
