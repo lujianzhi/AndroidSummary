@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_day_bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:background="@color/app_day_text_bg_color">
+
+        <LinearLayout
+            android:layout_width="490dp"
+            android:layout_height="490dp"
+            android:background="@color/app_day_bg_color">
+
+            <LinearLayout
+                android:layout_width="480dp"
+                android:layout_height="480dp"
+                android:background="@color/app_day_text_bg_color">
+
+                <LinearLayout
+                    android:layout_width="470dp"
+                    android:layout_height="470dp"
+                    android:background="@color/app_day_bg_color">
+
+                    <LinearLayout
+                        android:layout_width="460dp"
+                        android:layout_height="460dp"
+                        android:background="@color/app_day_text_bg_color">
+
+                        <LinearLayout
+                            android:layout_width="450dp"
+                            android:layout_height="450dp"
+                            android:background="@color/app_day_bg_color">
+
+                            <LinearLayout
+                                android:layout_width="440dp"
+                                android:layout_height="440dp"
+                                android:background="@color/app_day_text_bg_color">
+
+                                <LinearLayout
+                                    android:layout_width="430dp"
+                                    android:layout_height="430dp"
+                                    android:background="@color/app_day_bg_color">
+
+                                    <LinearLayout
+                                        android:layout_width="420dp"
+                                        android:layout_height="420dp"
+                                        android:background="@color/app_day_text_bg_color">
+
+                                        <LinearLayout
+                                            android:layout_width="410dp"
+                                            android:layout_height="410dp"
+                                            android:background="@color/app_day_bg_color">
+
+                                            <LinearLayout
+                                                android:layout_width="400dp"
+                                                android:layout_height="400dp"
+                                                android:background="@color/app_day_text_bg_color">
+
+                                                <LinearLayout
+                                                    android:layout_width="390dp"
+                                                    android:layout_height="390dp"
+                                                    android:background="@color/app_day_bg_color">
+
+                                                    <LinearLayout
+                                                        android:layout_width="380dp"
+                                                        android:layout_height="380dp"
+                                                        android:background="@color/app_day_text_bg_color">
+
+                                                        <LinearLayout
+                                                            android:layout_width="370dp"
+                                                            android:layout_height="370dp"
+                                                            android:background="@color/app_day_bg_color">
+
+                                                            <LinearLayout
+                                                                android:layout_width="360dp"
+                                                                android:layout_height="360dp"
+                                                                android:background="@color/app_day_text_bg_color">
+
+                                                                <LinearLayout
+                                                                    android:layout_width="350dp"
+                                                                    android:layout_height="350dp"
+                                                                    android:background="@color/app_day_bg_color">
+
+                                                                    <LinearLayout
+                                                                        android:layout_width="340dp"
+                                                                        android:layout_height="340dp"
+                                                                        android:background="@color/app_day_text_bg_color">
+
+                                                                        <LinearLayout
+                                                                            android:layout_width="330dp"
+                                                                            android:layout_height="330dp"
+                                                                            android:background="@color/app_day_bg_color">
+
+                                                                            <LinearLayout
+                                                                                android:layout_width="320dp"
+                                                                                android:layout_height="320dp"
+                                                                                android:background="@color/app_day_text_bg_color">
+
+                                                                                <LinearLayout
+                                                                                    android:layout_width="310dp"
+                                                                                    android:layout_height="310dp"
+                                                                                    android:background="@color/app_day_bg_color">
+
+                                                                                    <LinearLayout
+                                                                                        android:layout_width="300dp"
+                                                                                        android:layout_height="300dp"
+                                                                                        android:background="@color/app_day_text_bg_color">
+
+                                                                                    </LinearLayout>
+                                                                                </LinearLayout>
+                                                                            </LinearLayout>
+                                                                        </LinearLayout>
+                                                                    </LinearLayout>
+                                                                </LinearLayout>
+                                                            </LinearLayout>
+                                                        </LinearLayout>
+                                                    </LinearLayout>
+                                                </LinearLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

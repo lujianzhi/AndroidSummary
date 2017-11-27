@@ -34,6 +34,7 @@ import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.ipc.IPCActivity;
 import com.example.lawson.androidsummery.junittest.UITestActivity;
 import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
+import com.example.lawson.androidsummery.levelcount.LevelCountActivity;
 import com.example.lawson.androidsummery.mvp.view.NewsActivity;
 import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
@@ -442,6 +443,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 RecordDialogManager.getInstance().startRecording(getSupportFragmentManager(), getApplicationContext());
+            }
+        });
+
+        findViewById(R.id.level_count).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LevelCountActivity.class));
             }
         });
 
