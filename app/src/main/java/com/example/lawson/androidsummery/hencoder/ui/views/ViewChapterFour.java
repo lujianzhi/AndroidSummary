@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.Region;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
@@ -74,7 +75,7 @@ public class ViewChapterFour extends View {
 
         camera2.save();
         //参数单位为inch，默认是(0,0,-8)位置
-        camera2.setLocation(0, 0, -20);
+        camera2.setLocation(0, 0, -30);
         camera2.rotateX(30);
         canvas.translate(bitmap.getWidth() / 2, 0);
         camera2.applyToCanvas(canvas);
@@ -91,7 +92,7 @@ public class ViewChapterFour extends View {
 
         //Camera也需要save
         camera.save();
-        //根据图片中X轴的旋转方向，旋转30度
+        //根据图片中Z轴的旋转方向，旋转30度
         camera.rotateZ(-30);
         //将画布移动回原来的位置(注意顺序)
         canvas.translate(bitmap.getWidth() / 2, 0);
@@ -112,7 +113,7 @@ public class ViewChapterFour extends View {
 
         //Camera也需要save
         camera.save();
-        //根据图片中X轴的旋转方向，旋转30度
+        //根据图片中Y轴的旋转方向，旋转30度
         camera.rotateY(30);
         //将画布移动回原来的位置(注意顺序)
         canvas.translate(bitmap.getWidth() / 2, 0);
@@ -131,19 +132,19 @@ public class ViewChapterFour extends View {
         canvas.save();
         canvas.translate(0, 850);
 
-        //Camera也需要save
-        camera.save();
-        //根据图片中X轴的旋转方向，旋转30度
-        camera.rotateX(30);
-        //将画布移动回原来的位置(注意顺序)
-        canvas.translate(bitmap.getWidth() / 2, 0);
-        //将camera应用到画布上
-        camera.applyToCanvas(canvas);
-        //将画布移动到靠近坐标系原点位置(注意顺序)
-        canvas.translate(-bitmap.getWidth() / 2, 0);
-        //Camera也需要restore
-        camera.restore();
+        //使用Matrix对象来进行移动
+        Matrix matrix = new Matrix();
 
+        camera.save();
+        camera.rotateX(30);
+        //获取Camera的matrix赋值给指定matrix
+        camera.getMatrix(matrix);
+        camera.restore();
+        //先移动到原点
+        matrix.preTranslate(-bitmap.getWidth() / 2, 0);
+        //再移动到指定位置
+        matrix.postTranslate(bitmap.getWidth() / 2, 0);
+        canvas.concat(matrix);
         canvas.drawBitmap(bitmap, 50, 0, paint);
         canvas.restore();
     }
@@ -244,8 +245,17 @@ public class ViewChapterFour extends View {
         canvas.save();
         Path path = new Path();
         path.addCircle(500, 100, 50, Path.Direction.CW);
+        //Op参数默认为Region.Op.INTERSECT
         canvas.clipPath(path);
         canvas.drawBitmap(bitmap, 300, 20, paint);
+        canvas.restore();
+
+        canvas.save();
+        Path path2 = new Path();
+        path2.addCircle(200, 180 + bitmap.getHeight(), 50, Path.Direction.CW);
+        //Op参数，决定裁剪模式
+        canvas.clipPath(path2, Region.Op.DIFFERENCE);
+        canvas.drawBitmap(bitmap, 130, 30 + bitmap.getHeight(), paint);
         canvas.restore();
     }
 
