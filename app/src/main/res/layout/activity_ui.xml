@@ -8,6 +8,15 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <com.example.lawson.androidsummery.hencoder.ui.views.ViewChapterFive
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:foreground="@drawable/bg"
+            android:foregroundGravity="left"
+            android:foregroundTint="@color/colorAccent"
+            android:foregroundTintMode="screen" />
+
         <com.example.lawson.androidsummery.hencoder.ui.views.ViewChapterFour
             android:layout_width="match_parent"
             android:layout_height="900dp"
