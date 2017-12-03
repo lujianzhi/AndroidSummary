@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="MyStyle">
-
+    <declare-styleable name="NameImageView">
+        <attr name="view_name" format="string" />
     </declare-styleable>
 
 </resources>
