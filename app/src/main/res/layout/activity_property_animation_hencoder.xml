@@ -6,8 +6,89 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="再来一次" />
+
+        <com.example.lawson.androidsummery.hencoder.ui.views.ArcAnimationView
+            android:id="@+id/imageView13"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            app:view_name="AnimatorSet_playSequentially" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.example.lawson.androidsummery.hencoder.ui.views.NameImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img"
+                app:view_name="AnimatorSet_playSequentially" />
+
+            <com.example.lawson.androidsummery.hencoder.ui.views.NameImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/img"
+                app:view_name="AnimatorSet_playTogether" />
+
+            <com.example.lawson.androidsummery.hencoder.ui.views.NameImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/img"
+                app:view_name="AnimatorSet_playSequentially" />
+
+        </LinearLayout>
+
+        <com.example.lawson.androidsummery.hencoder.ui.views.NameImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img"
+            app:view_name="PropertyValuesHolder" />
+
+        <com.example.lawson.androidsummery.hencoder.ui.views.NameImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img"
+            app:view_name="自定义Evaluator" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.example.lawson.androidsummery.hencoder.ui.views.ArcAnimationView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:view_name="ArgbEvaluator" />
+
+            <com.example.lawson.androidsummery.hencoder.ui.views.ArcAnimationView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                app:view_name="自定义Evaluator" />
+
+        </LinearLayout>
 
         <com.example.lawson.androidsummery.hencoder.ui.views.NameImageView
             android:id="@+id/imageView5"

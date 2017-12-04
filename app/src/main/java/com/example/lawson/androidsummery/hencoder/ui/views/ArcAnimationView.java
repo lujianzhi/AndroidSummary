@@ -25,6 +25,8 @@ public class ArcAnimationView extends View {
     private TextPaint textPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
     //自定义属性
     private float degree = 0;
+    private int color = Color.RED;
+
     private String nameString;
 
     /**
@@ -40,8 +42,18 @@ public class ArcAnimationView extends View {
         return degree;
     }
 
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+        paint.setColor(color);
+        invalidate();
+    }
+
     {
-        paint.setColor(Color.RED);
+        paint.setColor(color);
         paint.setStrokeWidth(20);
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeCap(Paint.Cap.ROUND);
@@ -69,6 +81,6 @@ public class ArcAnimationView extends View {
         canvas.drawArc(20, 20, 200, 200, 0, degree, false, paint);
         canvas.drawText(String.format(Locale.CHINA, "%.0f", degree / 3.6) + "%",
                 85, 120, textPaint);
-        canvas.drawText(nameString, 20, getHeight()-30, textPaint);
+        canvas.drawText(nameString, 20, getHeight() - 30, textPaint);
     }
 }
