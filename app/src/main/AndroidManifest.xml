@@ -186,7 +186,8 @@
         <activity android:name=".hencoder.ui.UIActivity" />
         <activity android:name=".greendao.GreenDaoActivity" />
         <activity android:name=".levelcount.LevelCountActivity" />
-        <activity android:name=".hencoder.ui.PropertyAnimationActivity"></activity>
+        <activity android:name=".hencoder.ui.PropertyAnimationActivity" />
+        <activity android:name=".hencoder.ui.imitative.ImitativeActivity" />
     </application>
 
 </manifest>

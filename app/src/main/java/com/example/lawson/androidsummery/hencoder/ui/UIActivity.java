@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.hencoder.ui.imitative.ImitativeActivity;
 
 public class UIActivity extends AppCompatActivity {
 
@@ -18,6 +19,13 @@ public class UIActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), PropertyAnimationActivity.class));
+            }
+        });
+
+        findViewById(R.id.imitative).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), ImitativeActivity.class));
             }
         });
     }

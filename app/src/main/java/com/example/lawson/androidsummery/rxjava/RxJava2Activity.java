@@ -486,10 +486,25 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 RxBeen rxBeen = new RxBeen(1, "线程控制");
                 Log.i("Ian", "Observable : subscribe - onNext : " + rxBeen.toString());
                 e.onNext(rxBeen);
+                RxBeen rxBeen2 = new RxBeen(2, "线程控制2");
+                Log.i("Ian", "Observable : subscribe - onNext : " + rxBeen.toString());
+                e.onNext(rxBeen2);
             }
         })
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeOn(Schedulers.newThread())
+                .doOnNext(new Consumer<RxBeen>() {
+                    @Override
+                    public void accept(RxBeen rxBeen) throws Exception {
+                        Log.i("Ian", "第一次doOnNext : " + rxBeen.getId());
+                    }
+                })
+                .doOnNext(new Consumer<RxBeen>() {
+                    @Override
+                    public void accept(RxBeen rxBeen) throws Exception {
+                        Log.i("Ian", "第二次doOnNext : " + rxBeen.getId());
+                    }
+                })
                 .subscribe(new Consumer<RxBeen>() {
                     @Override
                     public void accept(RxBeen rxBeen) throws Exception {
