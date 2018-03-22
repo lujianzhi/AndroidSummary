@@ -4,10 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
-import android.text.util.Linkify;
 import android.view.View;
 import android.widget.TextView;
 
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.lawson.androidsummery.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
@@ -46,6 +46,7 @@ import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
 import com.example.lawson.androidsummery.record.RecordDialogManager;
 import com.example.lawson.androidsummery.recyclerview.RecyclerViewsActivity;
 import com.example.lawson.androidsummery.remoteviews.RemoteViewsActivity;
+import com.example.lawson.androidsummery.router.Constant;
 import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
 import com.example.lawson.androidsummery.scroller.ScrollerActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
@@ -60,12 +61,10 @@ import com.example.lawson.androidsummery.traceviewtool.TraceViewToolActivity;
 import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
-import com.github.mzule.activityrouter.router.Routers;
 
 import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
-import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -244,16 +243,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.router_activity).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.arouter_activity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Routers.open(MainActivity.this, "http://ian.com/ian_router/ian/23/male");
+                ARouter.getInstance().build(Constant.AROUTER_ACTIVITY).navigation();
             }
         });
-
-        TextView tv_customHyperLink = (TextView) findViewById(R.id.tv_customHyperLink);
-        Pattern p = Pattern.compile("http://\\S*");
-        Linkify.addLinks(tv_customHyperLink, p, "http");
 
         findViewById(R.id.permisson_activity).setOnClickListener(new View.OnClickListener() {
             @Override

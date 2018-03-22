@@ -10,6 +10,7 @@ import com.example.lawson.androidsummery.diyview.learn2draw.ChangeLineViewGroupA
 import com.example.lawson.androidsummery.diyview.learn2draw.FadeInTextViewActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.LoadingViewActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.SubmitButtonActivity;
+import com.example.lawson.androidsummery.diyview.learn2draw.WaterWaveActivity;
 
 public class ViewListActivity extends AppCompatActivity {
 
@@ -43,6 +44,13 @@ public class ViewListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), ChangeLineViewGroupActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), WaterWaveActivity.class));
             }
         });
     }

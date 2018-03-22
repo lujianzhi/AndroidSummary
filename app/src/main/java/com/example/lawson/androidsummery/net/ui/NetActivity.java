@@ -484,8 +484,15 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
      * okhttp_asyn_post
      */
     private void okhttpAsynPost() {
-        OkHttpClient okHttpClient = new OkHttpClient.Builder().connectTimeout(10, TimeUnit.SECONDS).writeTimeout(10, TimeUnit.SECONDS).readTimeout(10, TimeUnit.SECONDS).build();
-        RequestBody requestBody = new FormBody.Builder().add("type", "top").add("key", "a112f6137f862e6dadace2ff3489d093").build();
+        OkHttpClient okHttpClient = new OkHttpClient.Builder()
+                .connectTimeout(10, TimeUnit.SECONDS)
+                .writeTimeout(10, TimeUnit.SECONDS)
+                .readTimeout(10, TimeUnit.SECONDS)
+                .build();
+        RequestBody requestBody = new FormBody.Builder()
+                .add("type", "top")
+                .add("key", "a112f6137f862e6dadace2ff3489d093")
+                .build();
         okhttp3.Request request = new okhttp3.Request.Builder().url("http://v.juhe.cn/toutiao/index")
                 .post(requestBody)
                 .build();
@@ -522,7 +529,11 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
      * okhttp_asyn_get
      */
     private void okhttpAsynGet() {
-        OkHttpClient okHttpClient = new OkHttpClient.Builder().connectTimeout(10, TimeUnit.SECONDS).writeTimeout(10, TimeUnit.SECONDS).readTimeout(10, TimeUnit.SECONDS).build();
+        OkHttpClient okHttpClient = new OkHttpClient.Builder()
+                .connectTimeout(10, TimeUnit.SECONDS)
+                .writeTimeout(10, TimeUnit.SECONDS)
+                .readTimeout(10, TimeUnit.SECONDS)
+                .build();
         //默认就为GET
         okhttp3.Request.Builder requestBuilder = new okhttp3.Request.Builder().url("http://www.baidu.com").method("GET", null);
         okhttp3.Request request = requestBuilder.build();

@@ -66,8 +66,6 @@
                     android:scheme="http" /> <!-- 改成自己的 scheme -->
             </intent-filter>
         </activity>
-        <activity android:name=".router.MyRouterActivity" />
-        <activity android:name=".router.MyRouter2Activity" />
         <activity android:name=".permission.PermissionActivity" />
         <activity android:name=".spinner.SpinnerActivity" />
         <activity android:name=".switchtheme.SwitchThemeActivity" />
@@ -188,6 +186,10 @@
         <activity android:name=".levelcount.LevelCountActivity" />
         <activity android:name=".hencoder.ui.PropertyAnimationActivity" />
         <activity android:name=".hencoder.ui.imitative.ImitativeActivity" />
+        <activity android:name=".diyview.learn2draw.WaterWaveActivity" />
+        <activity android:name=".router.activity.ARouterActivity" />
+        <activity android:name=".router.activity.ParamActivity" />
+        <activity android:name=".router.activity.StartActivityForResultActivity"></activity>
     </application>
 
 </manifest>
