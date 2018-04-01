@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.fragment.fragmentlazy.fragment;
+package com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -67,14 +67,15 @@ public abstract class BaseFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         Log.i("Ian", tag + "-> onCreateView");
         View view = createView(inflater, container, savedInstanceState);
+        isViewInitiated = true;
         data = (TextView) view.findViewById(R.id.data);
+        loadData();
         return view;
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        isViewInitiated = true;
         Log.i("Ian", tag + "-> onViewCreated");
     }
 
@@ -82,7 +83,6 @@ public abstract class BaseFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         Log.i("Ian", tag + "-> onActivityCreated");
-        loadData();
     }
 
     @Override

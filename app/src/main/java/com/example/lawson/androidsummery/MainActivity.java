@@ -25,7 +25,7 @@ import com.example.lawson.androidsummery.edittext.EditTextActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.fourcomponent.FourComponentActivity;
-import com.example.lawson.androidsummery.fragment.fragmentlazy.FragmentLazyLoadActivity;
+import com.example.lawson.androidsummery.fragment.normal.FragmentNormalActivity;
 import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity;
 import com.example.lawson.androidsummery.greendao.GreenDaoActivity;
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.fragment_lazy_load).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, FragmentLazyLoadActivity.class));
+                startActivity(new Intent(MainActivity.this, FragmentNormalActivity.class));
             }
         });
 

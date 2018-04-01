@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.fragment.fragmentlazy.fragment;
+package com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,16 +13,16 @@ import com.example.lawson.androidsummery.R;
  * Project : AndroidSummary
  */
 
-public class ThreeFragment extends BaseFragment {
+public class OneFragment extends BaseFragment {
     @Override
     void initTag() {
-        tag = "3";
+        tag = "1";
         forceLoadData = true;
     }
 
     @Override
     View createView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_three, container, false);
+        return inflater.inflate(R.layout.fragment_one, container, false);
     }
 
     @Override

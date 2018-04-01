@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.fragment.fragmentlazy.fragment;
+package com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

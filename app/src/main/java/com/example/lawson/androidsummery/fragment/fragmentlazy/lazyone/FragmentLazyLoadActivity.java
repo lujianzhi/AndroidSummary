@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.fragment.fragmentlazy;
+package com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,16 +7,20 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.example.lawson.androidsummery.R;
-import com.example.lawson.androidsummery.fragment.fragmentlazy.fragment.BaseFragment;
-import com.example.lawson.androidsummery.fragment.fragmentlazy.fragment.OneFragment;
-import com.example.lawson.androidsummery.fragment.fragmentlazy.fragment.ThreeFragment;
-import com.example.lawson.androidsummery.fragment.fragmentlazy.fragment.TwoFragment;
+import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.BaseFragment;
+import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.OneFragment;
+import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.ThreeFragment;
+import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.TwoFragment;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Route(path = FragmentLazyLoadActivity.PATH)
 public class FragmentLazyLoadActivity extends AppCompatActivity {
+
+    public static final String PATH = "/ian/fragment_lazy_load/one";
 
     private ViewPager viewPager;
     private List<BaseFragment> fragmentList;
