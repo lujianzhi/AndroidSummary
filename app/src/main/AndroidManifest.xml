@@ -191,7 +191,11 @@
         <activity android:name=".router.activity.ParamActivity" />
         <activity android:name=".router.activity.StartActivityForResultActivity" />
         <activity android:name=".fragment.normal.FragmentNormalActivity" />
-        <activity android:name=".fragment.fragmentlazy.lazytwo.FragmentLazyLoadTwoActivity"></activity>
+        <activity android:name=".fragment.fragmentlazy.lazytwo.FragmentLazyLoadTwoActivity" />
+        <activity android:name=".viewvisibility.ViewVisibilityActivity" />
+        <activity android:name=".viewvisibility.ScrollViewVisibilityActivity" />
+        <activity android:name=".viewvisibility.NormalViewVisibilityActivity" />
+        <activity android:name=".viewvisibility.ListViewVisibilityActivity"></activity>
     </application>
 
 </manifest>

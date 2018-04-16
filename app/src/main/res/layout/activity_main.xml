@@ -372,6 +372,12 @@
                 android:layout_height="wrap_content"
                 android:text="View层级测试" />
 
+            <Button
+                android:id="@+id/view_visibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View在屏幕上的可见性" />
+
         </LinearLayout>
 
     </RelativeLayout>

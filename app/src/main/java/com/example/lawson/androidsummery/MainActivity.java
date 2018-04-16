@@ -59,6 +59,7 @@ import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
 import com.example.lawson.androidsummery.traceviewtool.TraceViewToolActivity;
 import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity;
+import com.example.lawson.androidsummery.viewvisibility.ViewVisibilityActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
 
@@ -445,6 +446,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, LevelCountActivity.class));
+            }
+        });
+
+        findViewById(R.id.view_visibility).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ViewVisibilityActivity.class));
+                ARouter.getInstance().build(Constant.VIEW_VISIBILITY_ACTIVITY).navigation();
             }
         });
 
