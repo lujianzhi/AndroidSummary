@@ -112,7 +112,7 @@
         <activity android:name=".recyclerview.RecyclerViewsActivity" />
         <activity android:name=".net.ui.NetActivity" />
         <activity android:name=".diyview.learn2draw.ChangeLineViewGroupActivity" />
-        <activity android:name=".traceviewtool.TraceViewToolActivity" />
+        <activity android:name=".androidtools.traceviewtool.TraceViewToolActivity" />
         <activity android:name=".databinding.DataBindingActivity" />
         <activity android:name=".mvp.view.NewsActivity" />
         <activity android:name=".diyview.primary.PrimaryViewListActivity" />
@@ -197,7 +197,9 @@
         <activity android:name=".viewvisibility.ViewVisibilityActivity" />
         <activity android:name=".viewvisibility.ScrollViewVisibilityActivity" />
         <activity android:name=".viewvisibility.NormalViewVisibilityActivity" />
-        <activity android:name=".viewvisibility.ListViewVisibilityActivity"></activity>
+        <activity android:name=".viewvisibility.ListViewVisibilityActivity" />
+        <activity android:name=".androidtools.AndroidToolsActivity" />
+        <activity android:name=".androidtools.uiautomatorviewer.UiAutoMatorViewerActivity"></activity>
     </application>
 
 </manifest>

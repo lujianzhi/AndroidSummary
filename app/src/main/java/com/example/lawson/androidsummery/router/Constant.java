@@ -16,4 +16,8 @@ public class Constant {
     public static final String VIEW_VISIBILITY_ACTIVITY_NORMAL_VIEW = "/ian/view_visibility/normal_view";
     public static final String VIEW_VISIBILITY_ACTIVITY_SCROLL_VIEW = "/ian/view_visibility/scroll_view";
     public static final String VIEW_VISIBILITY_ACTIVITY_LIST_VIEW = "/ian/view_visibility/list_view";
+
+    public static final String ANDROID_TOOLS_ACTIVITY = "/ian/android_tools";
+    public static final String ANDROID_TOOLS_ACTIVITY_TRACE_VIEW = "/ian/android_tools/trace_view";
+    public static final String ANDROID_TOOLS_ACTIVITY_UI_AUTO_MATOR_VIEWER = "/ian/android_tools/ui_auto_mator_viewer";
 }

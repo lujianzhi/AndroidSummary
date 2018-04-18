@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.traceviewtool;
+package com.example.lawson.androidsummery.androidtools.traceviewtool;
 
 import android.os.Bundle;
 import android.os.Debug;
@@ -7,7 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.router.Constant;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -20,6 +22,7 @@ import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 
+@Route(path = Constant.ANDROID_TOOLS_ACTIVITY_TRACE_VIEW)
 public class TraceViewToolActivity extends AppCompatActivity {
 
     private TextView one;

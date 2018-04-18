@@ -57,8 +57,8 @@ import com.example.lawson.androidsummery.thread.ThreadActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
-import com.example.lawson.androidsummery.traceviewtool.TraceViewToolActivity;
 import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity;
+import com.example.lawson.androidsummery.viewserver.ViewServer;
 import com.example.lawson.androidsummery.viewvisibility.ViewVisibilityActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
@@ -74,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
         setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ViewServer.get(this).addWindow(this);
 
         timer();
 
@@ -364,10 +366,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.trace_view_tool_activity).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.android_tool_activity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, TraceViewToolActivity.class));
+                ARouter.getInstance().build(Constant.ANDROID_TOOLS_ACTIVITY).navigation();
             }
         });
 
@@ -493,8 +495,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        ViewServer.get(this).setFocusedWindow(this);
+    }
+
+    @Override
     protected void onStop() {
         super.onStop();
         timerManager.releaseTimer();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        ViewServer.get(this).removeWindow(this);
     }
 }
