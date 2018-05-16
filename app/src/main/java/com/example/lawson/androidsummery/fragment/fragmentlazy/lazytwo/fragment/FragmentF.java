@@ -2,7 +2,6 @@ package com.example.lawson.androidsummery.fragment.fragmentlazy.lazytwo.fragment
 
 import android.util.Log;
 import android.widget.TextView;
-
 import com.example.lawson.androidsummery.R;
 
 /**
@@ -10,10 +9,9 @@ import com.example.lawson.androidsummery.R;
  * Project : AndroidSummary
  */
 
-public class FragmentA extends BaseFragment {
+public class FragmentF extends BaseFragment {
 
     private TextView textView;
-    private String str;
 
     @Override
     int setLayoutId() {
@@ -27,12 +25,12 @@ public class FragmentA extends BaseFragment {
 
     @Override
     void initData() {
-        textView.setText("Fragment     A      获取到了数据Fragment     A      获取到了数据Fragment     A      获取到了数据");
+        textView.setText("Fragment     F      获取到了数据Fragment     F      获取到了数据Fragment     F      获取到了数据");
     }
 
     @Override
     void abandonData() {
-        Log.i("Ian", "Fragment     A      清除数据");
+        Log.i("Ian", "Fragment     F      清除数据");
     }
 
     @Override

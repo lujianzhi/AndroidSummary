@@ -22,6 +22,7 @@ public abstract class BaseFragment extends Fragment {
     protected boolean mForceLoad;
     //数据已经加载完成
     private boolean mDataInited;
+    private boolean visibleToUser;
 
     /**
      * 每次调用这个方法，isVisibleToUser参数为true
@@ -29,7 +30,8 @@ public abstract class BaseFragment extends Fragment {
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
-        initData();
+        visibleToUser = isVisibleToUser;
+        prepareData();
     }
 
     @Nullable
@@ -51,22 +53,20 @@ public abstract class BaseFragment extends Fragment {
         //界面初始化完成
         mViewInit = true;
         //获取数据
-        initData();
+        prepareData();
         //钩子函数
         hook();
     }
 
-    abstract void initView();
-
-    private void initData() {
+    private void prepareData() {
         if (!mViewInit) {
             //没有初始化直接返回
             return;
         }
 
-        if (getUserVisibleHint() || mForceLoad) {
+        if ((visibleToUser && !mDataInited) || mForceLoad) {
             //对用户可见时，加载数据
-            getData();
+            initData();
             mDataInited = true;
         } else {
             if (mDataInited) {
@@ -76,11 +76,19 @@ public abstract class BaseFragment extends Fragment {
         }
     }
 
-    abstract void getData();
+    abstract void initData();
+
+    abstract void initView();
 
     abstract void abandonData();
 
     protected abstract void hook();
 
-
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        mFragmentView = null;
+        mViewInit = false;
+        mDataInited = false;
+    }
 }

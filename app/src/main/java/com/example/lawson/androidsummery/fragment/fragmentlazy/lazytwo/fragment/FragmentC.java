@@ -16,7 +16,7 @@ public class FragmentC extends BaseFragment {
 
     @Override
     int setLayoutId() {
-        return R.layout.fragment_c;
+        return R.layout.fragment;
     }
 
     @Override
@@ -25,8 +25,8 @@ public class FragmentC extends BaseFragment {
     }
 
     @Override
-    void getData() {
-        textView.setText("Fragment     C      获取到了数据");
+    void initData() {
+        textView.setText("Fragment     C      获取到了数据Fragment     C      获取到了数据Fragment     C      获取到了数据");
     }
 
     @Override
