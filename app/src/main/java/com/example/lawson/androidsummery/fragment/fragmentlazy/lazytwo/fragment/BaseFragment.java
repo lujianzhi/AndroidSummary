@@ -22,6 +22,7 @@ public abstract class BaseFragment extends Fragment {
     protected boolean mForceLoad;
     //数据已经加载完成
     private boolean mDataInited;
+    //在onCreateView中，getUserVisibleHint()方法出现为false的情况，所以这里要单独记录下来
     private boolean visibleToUser;
 
     /**
