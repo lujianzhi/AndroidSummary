@@ -6,7 +6,6 @@ import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
-
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.lawson.androidsummery.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
@@ -59,10 +58,8 @@ import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
 import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity;
 import com.example.lawson.androidsummery.viewserver.ViewServer;
-import com.example.lawson.androidsummery.viewvisibility.ViewVisibilityActivity;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
-
 import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
@@ -455,8 +452,14 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.view_visibility).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, ViewVisibilityActivity.class));
                 ARouter.getInstance().build(Constant.VIEW_VISIBILITY_ACTIVITY).navigation();
+            }
+        });
+
+        findViewById(R.id.text_view_support_html).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ARouter.getInstance().build(Constant.TEXT_VIEW_SUPPORT_HTML).navigation();
             }
         });
 
