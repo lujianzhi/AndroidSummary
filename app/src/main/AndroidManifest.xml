@@ -188,7 +188,6 @@
         <activity android:name=".levelcount.LevelCountActivity"/>
         <activity android:name=".hencoder.ui.PropertyAnimationActivity"/>
         <activity android:name=".hencoder.ui.imitative.ImitativeActivity"/>
-        <activity android:name=".diyview.learn2draw.WaterWaveActivity"/>
         <activity android:name=".router.activity.ARouterActivity"/>
         <activity android:name=".router.activity.ParamActivity"/>
         <activity android:name=".router.activity.StartActivityForResultActivity"/>
@@ -201,6 +200,10 @@
         <activity android:name=".androidtools.AndroidToolsActivity"/>
         <activity android:name=".androidtools.uiautomatorviewer.UiAutoMatorViewerActivity"/>
         <activity android:name=".tvsupporthtml.TextViewSupportHtmlActivity">
+        </activity>
+        <activity android:name=".diyview.hideview.HideViewRVActivity">
+        </activity>
+        <activity android:name=".diyview.hideview.HideViewLVActivity">
         </activity>
     </application>
 

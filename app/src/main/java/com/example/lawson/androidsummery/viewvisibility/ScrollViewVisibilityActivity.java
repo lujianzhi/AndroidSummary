@@ -6,10 +6,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.router.Constant;
@@ -17,7 +15,7 @@ import com.example.lawson.androidsummery.router.Constant;
 @Route(path = Constant.VIEW_VISIBILITY_ACTIVITY_SCROLL_VIEW)
 public class ScrollViewVisibilityActivity extends AppCompatActivity {
 
-    private ScrollView scrollView;
+    private MyScrollView scrollView;
     private TextView tv1;
 
     @Override
@@ -25,7 +23,7 @@ public class ScrollViewVisibilityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scroll_view_visiblity);
 
-        scrollView = (ScrollView) findViewById(R.id.scroll_view);
+        scrollView = (MyScrollView) findViewById(R.id.scroll_view);
         tv1 = (TextView) findViewById(R.id.tv_1);
 
         printViewVisibility(tv1);
@@ -47,6 +45,8 @@ public class ScrollViewVisibilityActivity extends AppCompatActivity {
                     }
                 }
             });
+        } else {
+            scrollView.setTextView(tv1);
         }
     }
 }
