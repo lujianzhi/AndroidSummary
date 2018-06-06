@@ -4,13 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.diyview.hideview.HideViewLVActivity;
+import com.example.lawson.androidsummery.diyview.hideview.HideViewRVActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.ChangeLineViewGroupActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.FadeInTextViewActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.LoadingViewActivity;
 import com.example.lawson.androidsummery.diyview.learn2draw.SubmitButtonActivity;
-import com.example.lawson.androidsummery.diyview.learn2draw.WaterWaveActivity;
 
 public class ViewListActivity extends AppCompatActivity {
 
@@ -50,7 +50,14 @@ public class ViewListActivity extends AppCompatActivity {
         findViewById(R.id.btn5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getBaseContext(), WaterWaveActivity.class));
+                startActivity(new Intent(getBaseContext(), HideViewRVActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), HideViewLVActivity.class));
             }
         });
     }

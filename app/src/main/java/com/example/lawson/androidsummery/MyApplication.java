@@ -2,8 +2,6 @@ package com.example.lawson.androidsummery;
 
 import android.app.Application;
 import android.content.Context;
-import android.support.multidex.MultiDex;
-
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.antfortune.freeline.FreelineCore;
 import com.example.lawson.androidsummery.thread.CrashHandler;
@@ -19,7 +17,7 @@ public class MyApplication extends Application {
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
-        MultiDex.install(this);
+//        MultiDex.install(this);
     }
 
     @Override

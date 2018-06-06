@@ -33,6 +33,12 @@
         android:id="@+id/btn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="仿百度外卖的酷炫水波纹效果" />
+        android:text="随着RecyclerView的滑动而隐藏和显示的view" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="随着ListView的滑动而隐藏和显示的view" />
 
 </LinearLayout>
