@@ -205,6 +205,8 @@
         </activity>
         <activity android:name=".diyview.hideview.HideViewLVActivity">
         </activity>
+        <activity android:name=".test.TestActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -51,6 +51,7 @@ import com.example.lawson.androidsummery.scroller.ScrollerActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
 import com.example.lawson.androidsummery.switchtheme.SwitchThemeActivity;
 import com.example.lawson.androidsummery.takephoto.TakePhotoActivity;
+import com.example.lawson.androidsummery.test.TestActivity;
 import com.example.lawson.androidsummery.thread.AndroidThreadActivity;
 import com.example.lawson.androidsummery.thread.ThreadActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
@@ -75,6 +76,13 @@ public class MainActivity extends AppCompatActivity {
         ViewServer.get(this).addWindow(this);
 
         timer();
+
+        findViewById(R.id.test_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TestActivity.class));
+            }
+        });
 
         findViewById(R.id.hen_coder).setOnClickListener(new View.OnClickListener() {
             @Override
