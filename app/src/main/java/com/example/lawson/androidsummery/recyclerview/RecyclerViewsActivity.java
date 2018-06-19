@@ -4,9 +4,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.ImageView;
 import com.example.lawson.androidsummery.R;
 
 import java.util.ArrayList;
@@ -15,8 +16,10 @@ import java.util.List;
 public class RecyclerViewsActivity extends AppCompatActivity implements View.OnClickListener {
 
     private RecyclerView recyclerView;
+    private ImageView ivBg;
     private MyAdapter myAdapter;
     private List<String> datas = new ArrayList<>();
+    private int y;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +27,7 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
         setContentView(R.layout.activity_recycler_view_list);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        ivBg = (ImageView) findViewById(R.id.iv_bg);
 
         Button vertical = (Button) findViewById(R.id.vertical);
         vertical.setOnClickListener(this);
@@ -40,7 +44,23 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
 
         myAdapter = new MyAdapter(datas);
         recyclerView.setAdapter(myAdapter);
+        recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                y += dy;
+                Log.i("Ian", "dx : " + dx + " ; dy : " + dy + " ; y : " + y);
+                translate(y);
+            }
+        });
 
+    }
+
+    private void translate(int y) {
+//        RelativeLayout.LayoutParams layoutParams = (RelativeLayout.LayoutParams) ivBg.getLayoutParams();
+//        layoutParams.topMargin = -y;
+//        ivBg.invalidate();
+        ivBg.setTranslationY(-y);
     }
 
     @Override
