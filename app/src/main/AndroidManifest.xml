@@ -207,6 +207,8 @@
         </activity>
         <activity android:name=".test.TestActivity">
         </activity>
+        <activity android:name=".diyview.learn2draw.AddableHorizontalTextViewActivity">
+        </activity>
     </application>
 
 </manifest>
