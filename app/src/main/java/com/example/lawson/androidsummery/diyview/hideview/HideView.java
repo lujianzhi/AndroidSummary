@@ -7,7 +7,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ListView;
@@ -31,21 +30,49 @@ public class HideView extends android.support.v7.widget.AppCompatImageView {
         super(context, attrs, defStyleAttr);
     }
 
+    int totalDy = 0;
+    int singleHeight = -1;
+    boolean needShow = false;
+
     public void bindRecyclerView(RecyclerView recyclerView) {
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
-                if (newState == RecyclerView.SCROLL_STATE_DRAGGING && !hide) {
-                    HideView.this.hideAndFadeOutAni();
-                } else if (newState == RecyclerView.SCROLL_STATE_IDLE) {
-                    HideView.this.showAndFadeInAni();
+                if (needShow) {
+                    if (newState == RecyclerView.SCROLL_STATE_DRAGGING && !hide) {
+                        HideView.this.hideAndFadeOutAni();
+                    } else if (newState == RecyclerView.SCROLL_STATE_IDLE) {
+                        HideView.this.showAndFadeInAni();
+                    }
                 }
             }
 
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
+                if (singleHeight == -1) {
+                    singleHeight = recyclerView.getLayoutManager().findViewByPosition(0).getHeight();
+                }
+                totalDy += dy;
+                if (totalDy / singleHeight > 10) {
+                    if (!needShow) {
+                        setVisibility(View.VISIBLE);
+                        hideAndFadeOutAni();
+                    }
+                    needShow = true;
+                } else {
+                    if (needShow) {
+                        goneAni();
+                    }
+                    needShow = false;
+                    if (hideSet != null) {
+                        hideSet.cancel();
+                    }
+                    if (showSet != null) {
+                        showSet.cancel();
+                    }
+                }
             }
         });
     }
@@ -63,33 +90,62 @@ public class HideView extends android.support.v7.widget.AppCompatImageView {
 
             @Override
             public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-
-            }
-        });
-        listView.setOnTouchListener(new OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                Log.i("Ian", "Action : " + event.getAction());
-                return false;
+                Log.i("Ian", "firstVisibleItem : " + firstVisibleItem);
+                if (firstVisibleItem > 10) {
+                    if (!needShow) {
+                        setVisibility(View.VISIBLE);
+                        hideAndFadeOutAni();
+                    }
+                    needShow = true;
+                } else {
+                    if (needShow) {
+                        goneAni();
+                    }
+                    needShow = false;
+                    if (hideSet != null) {
+                        hideSet.cancel();
+                    }
+                    if (showSet != null) {
+                        showSet.cancel();
+                    }
+                }
             }
         });
     }
+
+    private AnimatorSet hideSet;
 
     private void hideAndFadeOutAni() {
         hide = true;
-        AnimatorSet set = new AnimatorSet();
-        ObjectAnimator fadeOut = ObjectAnimator.ofFloat(this, "alpha", 0.5F);
-        ObjectAnimator hide = ObjectAnimator.ofFloat(this, "translationX", 0, getWidth() / 2);
-        set.playTogether(fadeOut, hide);
-        set.setDuration(300).start();
+        hideSet = new AnimatorSet();
+        ObjectAnimator fadeOut = ObjectAnimator.ofFloat(this, "alpha", 0.2F);
+//        ObjectAnimator hide = ObjectAnimator.ofFloat(this, "translationX", 0, getWidth() / 2);
+        hideSet.playTogether(fadeOut);
+        hideSet.setDuration(300).start();
     }
+
+    private AnimatorSet showSet;
 
     private void showAndFadeInAni() {
         hide = false;
-        AnimatorSet set = new AnimatorSet();
-        ObjectAnimator fadeIn = ObjectAnimator.ofFloat(this, "alpha", 0.5F, 1);
-        ObjectAnimator show = ObjectAnimator.ofFloat(this, "translationX", getWidth() / 2, 0);
-        set.playTogether(fadeIn, show);
-        set.setDuration(300).start();
+        showSet = new AnimatorSet();
+        ObjectAnimator fadeIn = ObjectAnimator.ofFloat(this, "alpha", 0.2F, 1);
+//        ObjectAnimator show = ObjectAnimator.ofFloat(this, "translationX", getWidth() / 2, 0);
+        showSet.playTogether(fadeIn);
+        showSet.setDuration(300).start();
+    }
+
+    private void goneAni() {
+        AnimatorSet goneSet = new AnimatorSet();
+        ObjectAnimator gone = ObjectAnimator.ofFloat(this, "alpha", 0.2F, 0F);
+        goneSet.playTogether(gone);
+        goneSet.setDuration(300).start();
+    }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        totalDy = 0;
+        needShow = false;
     }
 }

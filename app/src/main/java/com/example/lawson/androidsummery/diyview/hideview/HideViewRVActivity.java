@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import com.example.lawson.androidsummery.R;
 
 import java.util.ArrayList;
@@ -28,5 +29,6 @@ public class HideViewRVActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(new MyAdapter(stringList));
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mHideView.bindRecyclerView(mRecyclerView);
+        mHideView.setVisibility(View.GONE);
     }
 }

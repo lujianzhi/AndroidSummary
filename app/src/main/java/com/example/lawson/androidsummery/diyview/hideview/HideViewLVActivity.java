@@ -2,6 +2,7 @@ package com.example.lawson.androidsummery.diyview.hideview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.example.lawson.androidsummery.R;
@@ -24,5 +25,6 @@ public class HideViewLVActivity extends AppCompatActivity {
         }
         listView.setAdapter(new ArrayAdapter<String>(getBaseContext(), android.R.layout.simple_list_item_1, list));
         hideView.bindListView(listView);
+        hideView.setVisibility(View.GONE);
     }
 }
