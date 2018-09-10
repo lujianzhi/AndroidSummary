@@ -1,10 +1,16 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
+println "build.gradle starting : " + gradle.hashCode()
+println "build.gradle gradleHomeDir : " + gradle.gradleHomeDir
+println "build.gradle gradle.gradleUserHomeDir : " + gradle.gradleUserHomeDir
+println "build.gradle parent : " + gradle.parent
+
 buildscript {
     ext.kotlin_version = '1.2.30'
     repositories {
         jcenter()
         mavenCentral()
+        maven { url "https://maven.google.com" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.0'
@@ -20,6 +26,7 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
+        maven { url "https://maven.google.com" }
     }
 }
 

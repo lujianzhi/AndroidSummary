@@ -1,2 +1,7 @@
 include ':app'
 include ':library'
+
+println "settings.gradle starting : " + gradle.hashCode()
+println "settings.gradle gradleHomeDir : " + gradle.gradleHomeDir
+println "settings.gradle gradle.gradleUserHomeDir : " + gradle.gradleUserHomeDir
+println "settings.gradle parent : " + gradle.parent

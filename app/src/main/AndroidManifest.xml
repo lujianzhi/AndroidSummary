@@ -209,6 +209,10 @@
         </activity>
         <activity android:name=".diyview.learn2draw.AddableHorizontalTextViewActivity">
         </activity>
+        <activity android:name=".timeline.WXTimelineShareActivity">
+        </activity>
+        <activity android:name=".lottie.LottieActivity">
+        </activity>
     </application>
 
 </manifest>

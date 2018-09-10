@@ -390,6 +390,18 @@
                 android:layout_height="wrap_content"
                 android:text="TextView支持html格式" />
 
+            <Button
+                android:id="@+id/share_multi_pics_to_time_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信多图分享至朋友圈" />
+
+            <Button
+                android:id="@+id/lottie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lottie" />
+
         </LinearLayout>
 
     </RelativeLayout>

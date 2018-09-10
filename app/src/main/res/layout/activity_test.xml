@@ -44,4 +44,12 @@
             android:layout_height="wrap_content"
             android:text="提示"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="呀呀呀"
+        android:background="@drawable/change_color_bg"/>
+
 </LinearLayout>

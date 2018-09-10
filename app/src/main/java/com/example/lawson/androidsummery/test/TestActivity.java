@@ -1,5 +1,7 @@
 package com.example.lawson.androidsummery.test;
 
+import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -16,16 +18,24 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
-        Switch switchOne = (Switch) findViewById(R.id.switch_one);
-        Switch switchTwo = (Switch) findViewById(R.id.switch_two);
-        testSwitch(switchOne, switchTwo);
+        testSwitch();
 
-        EditText editText = (EditText) findViewById(R.id.edit_text);
-        TextView tip = (TextView) findViewById(R.id.tip);
-        testEditText(editText, tip);
+        testEditText();
+
+        testEditShapeRes();
     }
 
-    private void testEditText(final EditText editText, final TextView textView) {
+
+    private void testEditShapeRes() {
+        TextView tip = (TextView) findViewById(R.id.text_view);
+        GradientDrawable gradientDrawable = (GradientDrawable) tip.getBackground();
+        gradientDrawable.setColors(new int[]{Color.parseColor("#00FF00"), Color.parseColor("#FF4081")});
+        tip.setBackground(gradientDrawable);
+    }
+
+    private void testEditText() {
+        final EditText editText = (EditText) findViewById(R.id.edit_text);
+        final TextView tip = (TextView) findViewById(R.id.tip);
         editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -38,9 +48,9 @@ public class TestActivity extends AppCompatActivity {
                 int textLen = editable.length();
                 Log.i("Ian", "editable : " + editable.toString() + " ; editable.length : " + textLen);
                 if (textLen < 5) {
-                    textView.setText("还需要输入" + (5 - textLen) + "个字");
+                    tip.setText("还需要输入" + (5 - textLen) + "个字");
                 } else if (textLen <= 10) {
-                    textView.setText(textLen + "/10");
+                    tip.setText(textLen + "/10");
                 } else {
                     int selEndIndex = Selection.getSelectionEnd(editable);
                     String oriStr = editable.toString();
@@ -62,7 +72,9 @@ public class TestActivity extends AppCompatActivity {
         });
     }
 
-    private void testSwitch(final Switch switchOne, final Switch switchTwo) {
+    private void testSwitch() {
+        final Switch switchOne = (Switch) findViewById(R.id.switch_one);
+        final Switch switchTwo = (Switch) findViewById(R.id.switch_two);
         CompoundButton.OnCheckedChangeListener onCheckedChangeListener = new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {

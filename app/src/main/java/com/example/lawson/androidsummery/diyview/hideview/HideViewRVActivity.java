@@ -1,12 +1,13 @@
 package com.example.lawson.androidsummery.diyview.hideview;
 
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import com.example.lawson.androidsummery.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,6 +30,25 @@ public class HideViewRVActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(new MyAdapter(stringList));
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mHideView.bindRecyclerView(mRecyclerView);
+        mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                View view = recyclerView.getLayoutManager().findViewByPosition(0);
+                Rect rect = new Rect();
+                mRecyclerView.getHitRect(rect);
+                if (view != null && view.getLocalVisibleRect(rect)) {
+                    Log.i("Ian", "可见");
+                } else {
+                    Log.i("Ian", "不可见");
+                }
+            }
+        });
         mHideView.setVisibility(View.GONE);
     }
 }

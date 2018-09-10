@@ -1,0 +1,77 @@
+{
+  "user_info": {
+    "invite_desc": "我的邀请码：",
+    "invite_code": "BMWDLQ",
+    "nick_name": "ljz",
+    "avatar":
+      "http://b3.hucdn.com/upload/face/1807/19/82037252589210_414x414.jpg",
+    "vip_icon": {
+      "icon": "http://h0.hucdn.com/open/201822/9148c39f366c042f_189x48.png",
+      "width": 126,
+      "height": 32
+    },
+    "mine": {
+      "label": "我的VIP",
+      "target":
+        "https://m.beibei.com?beibeiapp_info=%7B%22target%22%3A%22bb%2Fbase%2Fweex%22%2C%22url%22%3A%22https://m.beibei.com%2Fweex%2Fs_vip%2Fmy_vip.js%22%2C%22fallback_url%22%3A%22https://m.beibei.com%22%2C%22ver%22%3A%225.9.03%22%2C%22hide_nav_bar%22%3A0%7D"
+    },
+    "nezha": {
+      "复制邀请码11": {
+        "nz_block": "default",
+        "nz_id": 333,
+        "nz_ver": "1.0.0",
+        "nz_testing": true,
+        "track_id": "1.33.578.0.0.0.333"
+      },
+      "我的VIP11": {
+        "nz_block": "default",
+        "nz_id": 334,
+        "nz_ver": "1.0.0",
+        "nz_testing": true,
+        "track_id": "1.33.578.0.0.0.334"
+      }
+    }
+  },
+
+  "suspension_upgrade_button": {
+    "button_type": "suspension",
+    "price": 9900,
+    "icon": "http://h0.hucdn.com/open/201822/5bf6da34e0d95347_66x66.png",
+    "label": "续费VIP 继续尊享4大权益",
+    "button_text": "立即续费",
+    "target":
+      "https://m.beibei.com/trade/vip_buy.html?beibeiapp_info=%7B%22target%22%3A%22bb%2Fbase%2Fwebview%22%2C%22url%22%3A%22https://m.beibei.com%2Ftrade%2Fvip_buy.html%3Futm_source%3Dxfxd%22%7D",
+    "nezha": {
+      "复制邀请码22": {
+        "nz_block": "default",
+        "nz_id": 333,
+        "nz_ver": "1.0.0",
+        "nz_testing": true,
+        "track_id": "1.33.578.0.0.0.333"
+      },
+      "我的VIP22": {
+        "nz_block": "default",
+        "nz_id": 334,
+        "nz_ver": "1.0.0",
+        "nz_testing": true,
+        "track_id": "1.33.578.0.0.0.334"
+      }
+    }
+  },
+  "nezha": {
+    "复制邀请码": {
+      "nz_block": "default",
+      "nz_id": 333,
+      "nz_ver": "1.0.0",
+      "nz_testing": true,
+      "track_id": "1.33.578.0.0.0.333"
+    },
+    "我的VIP": {
+      "nz_block": "default",
+      "nz_id": 334,
+      "nz_ver": "1.0.0",
+      "nz_testing": true,
+      "track_id": "1.33.578.0.0.0.334"
+    }
+  }
+}

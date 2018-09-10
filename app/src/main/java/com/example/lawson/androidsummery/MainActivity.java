@@ -33,6 +33,7 @@ import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.ipc.IPCActivity;
 import com.example.lawson.androidsummery.junittest.UITestActivity;
 import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
+import com.example.lawson.androidsummery.lottie.LottieActivity;
 import com.example.lawson.androidsummery.levelcount.LevelCountActivity;
 import com.example.lawson.androidsummery.mvp.view.NewsActivity;
 import com.example.lawson.androidsummery.net.ui.NetActivity;
@@ -54,6 +55,7 @@ import com.example.lawson.androidsummery.takephoto.TakePhotoActivity;
 import com.example.lawson.androidsummery.test.TestActivity;
 import com.example.lawson.androidsummery.thread.AndroidThreadActivity;
 import com.example.lawson.androidsummery.thread.ThreadActivity;
+import com.example.lawson.androidsummery.timeline.WXTimelineShareActivity;
 import com.example.lawson.androidsummery.toast.ToastActivity;
 import com.example.lawson.androidsummery.touchevent.ScrollEventActivity;
 import com.example.lawson.androidsummery.touchevent.TouchEventActivity;
@@ -61,9 +63,8 @@ import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity
 import com.example.lawson.androidsummery.viewserver.ViewServer;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
-import org.greenrobot.eventbus.EventBus;
-
 import java.io.File;
+import org.greenrobot.eventbus.EventBus;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -468,6 +469,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 ARouter.getInstance().build(Constant.TEXT_VIEW_SUPPORT_HTML).navigation();
+            }
+        });
+
+        findViewById(R.id.share_multi_pics_to_time_line).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, WXTimelineShareActivity.class));
+            }
+        });
+
+        findViewById(R.id.lottie).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LottieActivity.class));
             }
         });
 

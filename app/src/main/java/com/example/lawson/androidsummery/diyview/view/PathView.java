@@ -66,9 +66,9 @@ public class PathView extends View {
         canvas.drawColor(Color.BLUE);
         canvas.save();
 
-        canvas.clipRegion(regionA);
+//        canvas.clipRegion(regionA);
 
-        canvas.clipRegion(regionB, Region.Op.DIFFERENCE);
+//        canvas.clipRegion(regionB, Region.Op.DIFFERENCE);
 
         canvas.drawColor(Color.RED);
 
