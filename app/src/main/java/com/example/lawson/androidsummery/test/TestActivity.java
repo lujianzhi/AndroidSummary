@@ -23,6 +23,27 @@ public class TestActivity extends AppCompatActivity {
         testEditText();
 
         testEditShapeRes();
+
+        testPost();
+    }
+
+    private void testPost() {
+        final TextView post = (TextView) findViewById(R.id.post_view);
+//        post.post(new Runnable() {
+//            @Override
+//            public void run() {
+//                post.setText("width : " + post.getWidth() + " ; height : " + post.getHeight());
+//            }
+//        });
+
+        final LinearLayout postViewGroup = (LinearLayout) findViewById(R.id.post_view_group);
+        postViewGroup.post(new Runnable() {
+            @Override
+            public void run() {
+                post.setText("width : " + postViewGroup.getWidth() + " ; height : " + postViewGroup.getHeight());
+            }
+        });
+
     }
 
 

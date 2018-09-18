@@ -52,4 +52,16 @@
         android:text="呀呀呀"
         android:background="@drawable/change_color_bg"/>
 
+    <LinearLayout
+        android:id="@+id/post_view_group"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/post_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="post获取宽高"/>
+    </LinearLayout>
 </LinearLayout>

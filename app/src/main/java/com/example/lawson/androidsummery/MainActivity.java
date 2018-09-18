@@ -15,6 +15,7 @@ import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.constraintlayout.ConstraintLayoutActivity;
 import com.example.lawson.androidsummery.databinding.DataBindingActivity;
 import com.example.lawson.androidsummery.debug.DebugActivity;
+import com.example.lawson.androidsummery.delegate.DelegateActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.diyview.DIYViewActivity;
 import com.example.lawson.androidsummery.diyview.dragview.DragViewActivity;
@@ -33,8 +34,8 @@ import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
 import com.example.lawson.androidsummery.ipc.IPCActivity;
 import com.example.lawson.androidsummery.junittest.UITestActivity;
 import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
-import com.example.lawson.androidsummery.lottie.LottieActivity;
 import com.example.lawson.androidsummery.levelcount.LevelCountActivity;
+import com.example.lawson.androidsummery.lottie.LottieActivity;
 import com.example.lawson.androidsummery.mvp.view.NewsActivity;
 import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
@@ -483,6 +484,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, LottieActivity.class));
+            }
+        });
+
+        findViewById(R.id.delegate).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DelegateActivity.class));
             }
         });
 

@@ -26,7 +26,7 @@ public class MyApplication extends Application {
 //        initLeakCanary();
         initNoHttp();
         initCrashHandler();
-        initFreeLine();
+//        initFreeLine();
         initARouter();
     }
 
