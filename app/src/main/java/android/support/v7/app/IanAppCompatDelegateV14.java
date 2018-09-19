@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.Window;
+import com.example.lawson.androidsummery.delegate.IanAccessibilityDelegateManager;
 import com.example.lawson.androidsummery.delegate.IanViewFactory;
 
 /**
@@ -15,19 +16,18 @@ public class IanAppCompatDelegateV14 extends AppCompatDelegateImplV14 {
         super(context, window, callback);
     }
 
-    /**
-     * 个人认为重写该方法是曲线救国的意思。
-     * 因为最关键的LayoutInflater.Factory2接口的onCreateView方法，被设了final，哈哈哈哈哈哈哈哈哈
-     */
     @Override
     View callActivityOnCreateView(View parent, String name, Context context, AttributeSet attrs) {
+        //代理了TextView等控件，这里先注释
 //        View view = super.createView(parent, name, context, attrs);
 //        if (view != null) {
+//            view.setAccessibilityDelegate(IanAccessibilityDelegateManager.getDelegate());
 //            return view;
 //        }
 
         View view = IanViewFactory.createView(parent, name, context, attrs);
         if (view != null) {
+            view.setAccessibilityDelegate(IanAccessibilityDelegateManager.getDelegate());
             return view;
         }
 
