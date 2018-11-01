@@ -409,6 +409,12 @@
                 android:layout_height="wrap_content"
                 android:text="无痕打点小试"/>
 
+            <Button
+                android:id="@+id/date_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DatePicker"/>
+
         </LinearLayout>
 
     </RelativeLayout>

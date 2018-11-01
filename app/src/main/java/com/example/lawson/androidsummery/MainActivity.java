@@ -19,6 +19,7 @@ import com.example.lawson.androidsummery.delegate.DelegateActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.diyview.DIYViewActivity;
 import com.example.lawson.androidsummery.diyview.dragview.DragViewActivity;
+import com.example.lawson.androidsummery.diyview.timepicker.DatePickerActivity;
 import com.example.lawson.androidsummery.diyview.timer.TimerManager;
 import com.example.lawson.androidsummery.draw.DrawActivity;
 import com.example.lawson.androidsummery.edittext.EditTextActivity;
@@ -491,6 +492,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DelegateActivity.class));
+            }
+        });
+
+        findViewById(R.id.date_picker).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DatePickerActivity.class));
             }
         });
 

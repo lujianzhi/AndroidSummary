@@ -215,6 +215,8 @@
         </activity>
         <activity android:name=".delegate.DelegateActivity">
         </activity>
+        <activity android:name=".diyview.timepicker.DatePickerActivity">
+        </activity>
     </application>
 
 </manifest>
