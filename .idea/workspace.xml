@@ -9,7 +9,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="BookmarkManager">
@@ -22,12 +22,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_time_picker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/bundles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/BeiBeiActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/ClickHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/DelegateActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/IanAccessibilityDelegateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/IanViewFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/view/IanTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/Bundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/IAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/TestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_action.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bei_bei.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateV14.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateV14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/ClickHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/DelegateActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/IanAccessibilityDelegateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/IanViewFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/view/IanTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/RecyclerViewsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/RecyclerViewsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/TouchEventActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/TouchEventActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delegate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delegate.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="">
@@ -248,70 +270,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_time_picker.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_time_picker.xml">
+      <file leaf-file-name="activity_action.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_action.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatePickerActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java">
+      <file leaf-file-name="ActionActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="292">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="e#634#780#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#551#745#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrashHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/CrashHandler.java">
+      <file leaf-file-name="bundles.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/bundles.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="100">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
+      <file leaf-file-name="ActionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8550">
-              <caret line="493" column="85" selection-start-line="493" selection-start-column="85" selection-end-line="493" selection-end-column="85" />
+            <state relative-caret-position="158">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="Bundle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/Bundle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10300">
-              <caret line="412" column="44" selection-start-line="412" selection-start-column="33" selection-end-line="412" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatePickerDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="231">
+              <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#3630#3631#0" expanded="true" />
+                <element signature="e#3665#3666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/TestAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -325,11 +352,11 @@
         <option value="ASClass" />
         <option value="valueResourceFile" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="layoutResourceFile_vertical" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -339,9 +366,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mFirst</find>
-      <find>mView</find>
-      <find>ViewRootHandler</find>
       <find>performTraversals</find>
       <find>dispatchAttachedToWindow</find>
       <find>mHandler</find>
@@ -365,10 +389,13 @@
       <find>setContentView</find>
       <find>createViewFromTag</find>
       <find>mListenerInfo</find>
-      <find>mOnClickListener</find>
       <find>mAccessibilityDelegate</find>
       <find>callActivityOnCreateView</find>
       <find>mDatePicker</find>
+      <find>touch_event</find>
+      <find>mOnClickListener</find>
+      <find>onTouchEvent</find>
+      <find>delegate</find>
     </findStrings>
     <replaceStrings>
       <replace>500</replace>
@@ -3538,28 +3565,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" />
-        <option value="$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/vivo-vivo_x7-4734ea17/sdcard/ian/html/js/learn.js" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/webview/AndroidToJs.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideViewLVActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/change_color_bg.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/webview/WebViewActivity.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/test/nezha.json" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/example/lawson/androidsummery/junittest/JUnitTestTest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_wxtimeline_share.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/timeline/WXTimelineShareActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideViewRVActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_leaf.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/leaf/LeafDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/leaf/LeafActivity.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/view/PathView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ui_auto_mator_viewer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/androidtools/uiautomatorviewer/UiAutoMatorViewerActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/NormalViewVisibilityActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_normal_view_visibility.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/impl/IanAppCompatDelegateV11.java" />
@@ -3585,10 +3596,26 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/TimePickerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/TimePickerDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_time_picker.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/TouchEventActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/RecyclerViewsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/BeiBeiActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bei_bei.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/BeiBeiActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/action.json" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/bundles.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_action.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/Action.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/IAction.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/TestIAction.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/TestAction.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/Bundle.java" />
       </list>
     </option>
   </component>
@@ -3691,18 +3718,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AndroidSummary" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3734,6 +3749,14 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3753,7 +3776,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="diyview" type="462c0819:PsiDirectoryNode" />
+              <item name="beibei" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
@@ -3763,24 +3786,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="diyview" type="462c0819:PsiDirectoryNode" />
-              <item name="timepicker" type="462c0819:PsiDirectoryNode" />
+              <item name="beibei" type="462c0819:PsiDirectoryNode" />
+              <item name="hbaction" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
             <path>
-              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AndroidSummary" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3802,7 +3827,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538127085568" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="device.picker.selection" value="4734ea17" />
+    <property name="device.picker.selection" value="2db0196d" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DoubleDatePicker-master" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -3810,28 +3835,28 @@
     <property name="show.do.not.ask.upgrade.gradle.plugin.version" value="2.2.2" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.lawson.androidsummery.junittest" />
     </key>
     <key name="android.template.packageName">
+      <recent name="com.example.lawson.androidsummery.beibei.hbaction" />
+      <recent name="com.example.lawson.androidsummery.beibei.delegate" />
       <recent name="com.example.lawson.androidsummery.diyview.timepicker" />
       <recent name="com.example.lawson.androidsummery.delegate" />
       <recent name="com.example.lawson.androidsummery.leaf" />
-      <recent name="com.example.lawson.androidsummery.timeline" />
-      <recent name="com.example.lawson.androidsummery.diyview.learn2draw" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.lawson.androidsummery.beibei" />
       <recent name="com.example.lawson.androidsummery.androidtools" />
       <recent name="com.example.lawson.androidsummery" />
       <recent name="com.example.lawson.androidsummery.fragment" />
       <recent name="com.example.lawson.androidsummery.mvp" />
-      <recent name="com.example.lawson.androidsummery.net" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\AS\Project\AndroidSummary\app\src\main\assets" />
@@ -3846,8 +3871,8 @@
       <recent name="com.example.lawson.androidsummery.fragment.normal.fragment" />
       <recent name="com.example.lawson.androidsummery.record" />
     </key>
-    <key name="android.template.parentActivityClass">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -4338,13 +4363,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475486850205</updated>
     </task>
-    <task id="LOCAL-00044" summary="VelocityTracker&#10;">
-      <created>1503576813644</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1503576813645</updated>
-    </task>
     <task id="LOCAL-00045" summary="处理一个内存泄露">
       <created>1503626226412</created>
       <option name="number" value="00045" />
@@ -4681,7 +4699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538126693737</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="时间选择器">
+      <created>1541066206814</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1541066206814</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -4727,7 +4752,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.669967" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
@@ -4737,6 +4761,7 @@
       <window_info id="Build Variants" order="3" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" weight="0.33113313" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32995737" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4904051" weight="0.6809681" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936007" weight="0.5808581" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48081023" weight="0.46754676" />
@@ -4757,13 +4782,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" visible="true" weight="0.3992964" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Nl-Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33443344" />
       <window_info anchor="right" id="Android Model" order="3" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Freeline" order="8" sideWeight="0.5021322" visible="true" weight="0.30143014" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33443344" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Android Monitor" order="7" sideWeight="0.48720136" weight="0.5529801" />
       <window_info anchor="bottom" id="Gradle Console" order="7" sideWeight="0.5021322" side_tool="true" weight="0.3289183" />
@@ -4771,46 +4795,46 @@
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48667377" weight="0.21122113" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" weight="0.4807481" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.4807481" />
       <window_info active="true" anchor="bottom" id="Freeline" order="17" sideWeight="0.5021322" visible="true" weight="0.30143014" />
-      <window_info id="Designer" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Build" order="16" sideWeight="0.49573562" weight="0.3058306" />
-      <window_info anchor="bottom" id="Gradle Console" order="15" sideWeight="0.5021322" side_tool="true" weight="0.3289183" />
+      <window_info anchor="bottom" id="Gradle Console" order="8" sideWeight="0.5021322" side_tool="true" weight="0.3289183" />
       <window_info id="Build Variants" order="4" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
-      <window_info id="Image Layers" order="7" />
+      <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4904051" weight="0.6809681" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.669967" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" weight="0.669967" />
       <window_info anchor="bottom" id="Android Monitor" order="10" sideWeight="0.48720136" weight="0.5529801" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.59381896" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5042644" side_tool="true" weight="0.33113313" />
-      <window_info anchor="right" id="Preview" order="11" weight="0.3464819" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5042644" side_tool="true" weight="0.33113313" />
+      <window_info anchor="right" id="Preview" order="10" weight="0.32995737" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33443344" />
-      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.4520256" />
-      <window_info anchor="right" id="Assistant" order="10" weight="0.4291809" />
-      <window_info anchor="bottom" id="Logcat" order="11" sideWeight="0.4978678" weight="0.5489549" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.4520256" />
+      <window_info anchor="right" id="Assistant" order="11" weight="0.4291809" />
+      <window_info anchor="bottom" id="Logcat" order="12" sideWeight="0.4978678" weight="0.45544556" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4936007" weight="0.5808581" />
-      <window_info id="Nl-Palette" order="3" />
-      <window_info anchor="right" id="Android Model" order="5" side_tool="true" />
+      <window_info id="Nl-Palette" order="8" />
+      <window_info anchor="right" id="Android Model" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.48081023" weight="0.46754676" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.32977816" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49227372" visible="true" weight="0.24253732" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48667377" weight="0.21122113" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.32977816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49227372" visible="true" weight="0.23347548" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.48667377" weight="0.21122113" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" visible="true" weight="0.3992964" />
-      <window_info id="Favorites" order="8" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49616042" weight="0.3630363" />
+      <window_info id="Favorites" order="6" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49616042" weight="0.33773378" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -4825,7 +4849,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="自定义 View 1-5 绘制顺序" />
     <MESSAGE value="上传图片" />
     <MESSAGE value="自定义 View 1-6：属性动画 Property Animation（上手篇）" />
     <MESSAGE value="自定义 View 1-7：属性动画 Property Animation（进阶篇）" />
@@ -4850,7 +4873,8 @@
     <MESSAGE value="无痕打点初步" />
     <MESSAGE value="点击事件代理" />
     <MESSAGE value="LottieAnimationView" />
-    <option name="LAST_COMMIT_MESSAGE" value="LottieAnimationView" />
+    <MESSAGE value="时间选择器" />
+    <option name="LAST_COMMIT_MESSAGE" value="时间选择器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4903,19 +4927,19 @@
           <option name="timeStamp" value="421" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/IanViewFactory.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/IanViewFactory.java</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="435" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/ClickHelper.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/ClickHelper.java</url>
           <line>14</line>
           <properties />
           <option name="timeStamp" value="438" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/IanAccessibilityDelegateManager.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/IanAccessibilityDelegateManager.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="439" />
@@ -4944,11 +4968,17 @@
           <properties />
           <option name="timeStamp" value="453" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/Bundle.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="454" />
+      <option name="time" value="455" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
@@ -5010,146 +5040,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_normal_view_visibility.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/NormalViewVisibilityActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ViewVisibilityActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/26.1.0/73bfdb5cca1949a51219d3676700996990ea3b52/support-compat-26.1.0-sources.jar!/android/support/v4/view/LayoutInflaterCompat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2650">
-          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/mvp/view/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatDelegateImplBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_delegate.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatDelegateImplV14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/Ian.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatViewInflater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="150" column="46" lean-forward="true" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/view/LayoutInflater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="771" column="45" selection-start-line="771" selection-start-column="33" selection-end-line="771" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="138" column="36" selection-start-line="138" selection-start-column="22" selection-end-line="138" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/DelegateActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatDelegateImplV11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatDelegateImplV9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22925">
-          <caret line="1008" column="16" selection-start-line="1008" selection-start-column="16" selection-end-line="1008" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/view/ViewRootImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1368" selection-start-line="1368" selection-end-line="1368" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateImplV23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateImplN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -5157,7 +5047,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/IanAccessibilityDelegateManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/IanAccessibilityDelegateManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -5169,14 +5059,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/ClickHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/ClickHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/IanViewFactory.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/IanViewFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -5190,7 +5080,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/view/IanTextView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/view/IanTextView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
@@ -5265,13 +5155,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lottie.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1225">
           <caret line="49" column="32" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="32" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java">
@@ -5289,13 +5179,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/TestActivity.java">
@@ -5305,55 +5195,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10300">
-          <caret line="412" column="44" selection-start-line="412" selection-start-column="33" selection-end-line="412" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8550">
-          <caret line="493" column="85" selection-start-line="493" selection-start-column="85" selection-end-line="493" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="250">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="6252" selection-start-line="6252" selection-end-line="6252" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_time_picker.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/CrashHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="825">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
@@ -5362,10 +5223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding>
-            <element signature="e#1997#1998#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5379,10 +5236,198 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/view/MyImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="3122" column="58" selection-start-line="3122" selection-start-column="58" selection-end-line="3122" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/TouchEventActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_view_visibility.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ViewVisibilityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ListViewVisibilityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/RecyclerViewsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/BeiBeiActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bei_bei.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/content/res/AssetManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="346" column="28" selection-start-line="346" selection-start-column="17" selection-end-line="346" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding>
-            <element signature="e#634#780#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/IAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/org/json/JSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="284" column="18" selection-start-line="284" selection-start-column="18" selection-end-line="284" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/TestAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_action.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#551#745#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/bundles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/org/json/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="586" selection-start-line="586" selection-end-line="586" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="17372" selection-start-line="17372" selection-end-line="17372" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/Bundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3630#3631#0" expanded="true" />
+            <element signature="e#3665#3666#0" expanded="true" />
           </folding>
         </state>
       </provider>

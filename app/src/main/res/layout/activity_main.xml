@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:paddingBottom="@dimen/activity_vertical_margin">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,7 +15,7 @@
             android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="计时"/>
+            android:text="计时" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,22 +24,28 @@
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/beibei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="贝贝技术模仿" />
+
+            <Button
                 android:id="@+id/test_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="一般测试用页面"/>
+                android:text="一般测试用页面" />
 
             <Button
                 android:id="@+id/hen_coder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="HenCoder"/>
+                android:text="HenCoder" />
 
             <Button
                 android:id="@+id/pointToPoint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="点对点连线"/>
+                android:text="点对点连线" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -52,13 +57,13 @@
                     android:id="@+id/bitmap"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="不同资源文件下加载bitmap"/>
+                    android:text="不同资源文件下加载bitmap" />
 
                 <Button
                     android:id="@+id/bitmap_cache"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bitmap的加载和Cache"/>
+                    android:text="Bitmap的加载和Cache" />
 
             </LinearLayout>
 
@@ -66,13 +71,13 @@
                 android:id="@+id/detect_memory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="利用LeakCanary检测内存泄露"/>
+                android:text="利用LeakCanary检测内存泄露" />
 
             <Button
                 android:id="@+id/collection"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="集合"/>
+                android:text="集合" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -84,26 +89,26 @@
                     android:id="@+id/touch_event"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="事件分发机制"/>
+                    android:text="事件分发机制" />
 
                 <Button
                     android:id="@+id/scroll_event"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="滑动冲突"/>
+                    android:text="滑动冲突" />
             </LinearLayout>
 
             <Button
                 android:id="@+id/toast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="自定义Toast"/>
+                android:text="自定义Toast" />
 
             <Button
                 android:id="@+id/popup_window"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="PopupWindow"/>
+                android:text="PopupWindow" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,13 +120,13 @@
                     android:id="@+id/event_bus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="EventBus粘性事件"/>
+                    android:text="EventBus粘性事件" />
 
                 <Button
                     android:id="@+id/send"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="发送粘性事件"/>
+                    android:text="发送粘性事件" />
 
             </LinearLayout>
 
@@ -129,67 +134,67 @@
                 android:id="@+id/hide_navigation_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="隐藏底部栏"/>
+                android:text="隐藏底部栏" />
 
             <Button
                 android:id="@+id/pull_to_refresh"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="PullToRefresh框架"/>
+                android:text="PullToRefresh框架" />
 
             <Button
                 android:id="@+id/nohttp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nohttp"/>
+                android:text="Nohttp" />
 
             <Button
                 android:id="@+id/draw"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="画板"/>
+                android:text="画板" />
 
             <Button
                 android:id="@+id/ongloballayoutlistener"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ongloballayoutlistener监听器"/>
+                android:text="ongloballayoutlistener监听器" />
 
             <Button
                 android:id="@+id/fragment_lazy_load"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fragment懒加载"/>
+                android:text="Fragment懒加载" />
 
             <Button
                 android:id="@+id/diy_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="自定义View"/>
+                android:text="自定义View" />
 
             <Button
                 android:id="@+id/drag_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="拖拉改变View宽度"/>
+                android:text="拖拉改变View宽度" />
 
             <Button
                 android:id="@+id/edit_text_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="满屏的EditText"/>
+                android:text="满屏的EditText" />
 
             <Button
                 android:id="@+id/web_view_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="WebView"/>
+                android:text="WebView" />
 
             <Button
                 android:id="@+id/debug_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Debug"/>
+                android:text="Debug" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -201,13 +206,13 @@
                     android:id="@+id/android_thread_activity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Android的线程和线程池"/>
+                    android:text="Android的线程和线程池" />
 
                 <Button
                     android:id="@+id/thread_activity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="线程、线程池"/>
+                    android:text="线程、线程池" />
 
             </LinearLayout>
 
@@ -215,205 +220,199 @@
                 android:id="@+id/arouter_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ARouter"/>
+                android:text="ARouter" />
 
             <Button
                 android:id="@+id/permisson_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="6.0权限"/>
+                android:text="6.0权限" />
 
             <Button
                 android:id="@+id/spinner_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Spinner测试"/>
+                android:text="Spinner测试" />
 
             <Button
                 android:id="@+id/theme_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="切换主题"/>
+                android:text="切换主题" />
 
             <Button
                 android:id="@+id/kill_process_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="杀死进程"/>
+                android:text="杀死进程" />
 
             <Button
                 android:id="@+id/constraint_layout_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="约束布局ConstraintLayout"/>
+                android:text="约束布局ConstraintLayout" />
 
             <Button
                 android:id="@+id/velocity_tracker_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="追踪手指滑动速度VelocityTracker"/>
+                android:text="追踪手指滑动速度VelocityTracker" />
 
             <Button
                 android:id="@+id/gesture_detector_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="手势检测GestureDetector"/>
+                android:text="手势检测GestureDetector" />
 
             <Button
                 android:id="@+id/scroller_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="弹性滑动Scroller"/>
+                android:text="弹性滑动Scroller" />
 
             <Button
                 android:id="@+id/about_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Activity相关"/>
+                android:text="Activity相关" />
 
             <Button
                 android:id="@+id/handler_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Android消息机制"/>
+                android:text="Android消息机制" />
 
             <Button
                 android:id="@+id/rxjava2_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RxJava2"/>
+                android:text="RxJava2" />
 
             <Button
                 android:id="@+id/window_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Window和WindowManager"/>
+                android:text="Window和WindowManager" />
 
             <Button
                 android:id="@+id/animation_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Android动画"/>
+                android:text="Android动画" />
 
             <Button
                 android:id="@+id/take_photo_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="调用系统相机拍照"/>
+                android:text="调用系统相机拍照" />
 
             <Button
                 android:id="@+id/recycler_view_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="recycler_view试用"/>
+                android:text="recycler_view试用" />
 
             <Button
                 android:id="@+id/net_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="网络"/>
+                android:text="网络" />
 
             <Button
                 android:id="@+id/android_tool_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Android工具的使用"/>
+                android:text="Android工具的使用" />
 
             <Button
                 android:id="@+id/data_binding_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="DataBinding"/>
+                android:text="DataBinding" />
 
             <Button
                 android:id="@+id/mvp_rxjava_retrofit_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MVP+RxJava+Retrofit"/>
+                android:text="MVP+RxJava+Retrofit" />
 
             <Button
                 android:id="@+id/ipc_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="IPC"/>
+                android:text="IPC" />
 
             <Button
                 android:id="@+id/remoteviews_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="RemoteViews"/>
+                android:text="RemoteViews" />
 
             <Button
                 android:id="@+id/component_activity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="四大组件的工作过程"/>
+                android:text="四大组件的工作过程" />
 
             <Button
                 android:id="@+id/error"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="检验CrashHandler，出错报告在ian_cache目录下"/>
+                android:text="检验CrashHandler，出错报告在ian_cache目录下" />
 
             <Button
                 android:id="@+id/test"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="测试--UI测试"/>
+                android:text="测试--UI测试" />
 
             <Button
                 android:id="@+id/green_dao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="GreenDao使用"/>
+                android:text="GreenDao使用" />
 
             <Button
                 android:id="@+id/record"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="录音封装"/>
+                android:text="录音封装" />
 
             <Button
                 android:id="@+id/level_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View层级测试"/>
+                android:text="View层级测试" />
 
             <Button
                 android:id="@+id/view_visibility"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View在屏幕上的可见性"/>
+                android:text="View在屏幕上的可见性" />
 
             <Button
                 android:id="@+id/text_view_support_html"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView支持html格式"/>
+                android:text="TextView支持html格式" />
 
             <Button
                 android:id="@+id/share_multi_pics_to_time_line"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="微信多图分享至朋友圈"/>
+                android:text="微信多图分享至朋友圈" />
 
             <Button
                 android:id="@+id/lottie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="lottie"/>
-
-            <Button
-                android:id="@+id/delegate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="无痕打点小试"/>
+                android:text="lottie" />
 
             <Button
                 android:id="@+id/date_picker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="DatePicker"/>
+                android:text="DatePicker" />
 
         </LinearLayout>
 

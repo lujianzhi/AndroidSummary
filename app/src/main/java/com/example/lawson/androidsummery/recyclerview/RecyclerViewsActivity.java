@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
 import com.example.lawson.androidsummery.R;
 
 import java.util.ArrayList;
@@ -38,7 +39,7 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
         Button falls = (Button) findViewById(R.id.falls);
         falls.setOnClickListener(this);
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1; i++) {
             datas.add(String.valueOf(i));
         }
 
@@ -53,7 +54,6 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
                 translate(y);
             }
         });
-
     }
 
     private void translate(int y) {
@@ -63,12 +63,21 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
         ivBg.setTranslationY(-y);
     }
 
+    LinearLayoutManager linearLayoutManager = new LinearLayoutManager(RecyclerViewsActivity.this);
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("Ian", "FirstVisible : " + linearLayoutManager.findFirstVisibleItemPosition() + " ; LastVisible : " + linearLayoutManager.findLastVisibleItemPosition());
+    }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.vertical:
-                recyclerView.setLayoutManager(new LinearLayoutManager(RecyclerViewsActivity.this));
+                recyclerView.setLayoutManager(linearLayoutManager);
 //                recyclerView.addItemDecoration(new MyDividerItemDecoration(RecyclerViewsActivity.this, MyDividerItemDecoration.VERTICAL_DIVIDER));
+                Log.i("Ian", "初始化FirstVisible : " + linearLayoutManager.findFirstVisibleItemPosition() + " ; LastVisible : " + linearLayoutManager.findLastVisibleItemPosition());
                 break;
 
             case R.id.horizontal:

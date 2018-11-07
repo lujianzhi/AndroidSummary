@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "bundles": [
+    {
+      "name": "TestAction",
+      "uri": "ian://test",
+      "package": "com.example.lawson.androidsummery.beibei.hbaction"
+    }
+  ]
+}

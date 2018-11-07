@@ -1,10 +1,10 @@
-package com.example.lawson.androidsummery.delegate;
+package com.example.lawson.androidsummery.beibei.delegate;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
-import com.example.lawson.androidsummery.delegate.view.IanTextView;
+import com.example.lawson.androidsummery.beibei.delegate.view.IanTextView;
 
 /**
  * Created by Ian.Lu on 2018/9/18.

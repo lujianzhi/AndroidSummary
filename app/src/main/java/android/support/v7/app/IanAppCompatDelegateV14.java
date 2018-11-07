@@ -4,8 +4,8 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.Window;
-import com.example.lawson.androidsummery.delegate.IanAccessibilityDelegateManager;
-import com.example.lawson.androidsummery.delegate.IanViewFactory;
+import com.example.lawson.androidsummery.beibei.delegate.IanAccessibilityDelegateManager;
+import com.example.lawson.androidsummery.beibei.delegate.IanViewFactory;
 
 /**
  * Created by Ian.Lu on 2018/9/18.

@@ -2,8 +2,10 @@ package com.example.lawson.androidsummery;
 
 import android.app.Application;
 import android.content.Context;
+
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.antfortune.freeline.FreelineCore;
+import com.example.lawson.androidsummery.beibei.hbaction.ActionManager;
 import com.example.lawson.androidsummery.thread.CrashHandler;
 import com.squareup.leakcanary.LeakCanary;
 import com.yanzhenjie.nohttp.OkHttpNetworkExecutor;
@@ -28,6 +30,11 @@ public class MyApplication extends Application {
         initCrashHandler();
 //        initFreeLine();
         initARouter();
+        initAction();
+    }
+
+    private void initAction() {
+        ActionManager.init(this);
     }
 
     private void initARouter() {

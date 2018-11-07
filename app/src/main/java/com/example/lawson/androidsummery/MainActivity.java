@@ -6,16 +6,17 @@ import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.lawson.androidsummery.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
+import com.example.lawson.androidsummery.beibei.BeiBeiActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapAndCacheActivity;
 import com.example.lawson.androidsummery.collection.Collection_Activity;
 import com.example.lawson.androidsummery.constraintlayout.ConstraintLayoutActivity;
 import com.example.lawson.androidsummery.databinding.DataBindingActivity;
 import com.example.lawson.androidsummery.debug.DebugActivity;
-import com.example.lawson.androidsummery.delegate.DelegateActivity;
 import com.example.lawson.androidsummery.detectmemory.DetectMemoryActivity;
 import com.example.lawson.androidsummery.diyview.DIYViewActivity;
 import com.example.lawson.androidsummery.diyview.dragview.DragViewActivity;
@@ -65,8 +66,10 @@ import com.example.lawson.androidsummery.velocitytracker.VelocityTrackerActivity
 import com.example.lawson.androidsummery.viewserver.ViewServer;
 import com.example.lawson.androidsummery.webview.WebViewActivity;
 import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowManagerActivity;
-import java.io.File;
+
 import org.greenrobot.eventbus.EventBus;
+
+import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -79,6 +82,13 @@ public class MainActivity extends AppCompatActivity {
         ViewServer.get(this).addWindow(this);
 
         timer();
+
+        findViewById(R.id.beibei).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, BeiBeiActivity.class));
+            }
+        });
 
         findViewById(R.id.test_btn).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -485,13 +495,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, LottieActivity.class));
-            }
-        });
-
-        findViewById(R.id.delegate).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, DelegateActivity.class));
             }
         });
 

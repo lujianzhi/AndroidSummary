@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.delegate;
+package com.example.lawson.androidsummery.beibei.delegate;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

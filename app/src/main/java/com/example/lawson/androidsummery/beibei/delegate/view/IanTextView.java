@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.delegate.view;
+package com.example.lawson.androidsummery.beibei.delegate.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

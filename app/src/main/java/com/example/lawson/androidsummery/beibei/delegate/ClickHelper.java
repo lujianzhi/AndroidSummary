@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.delegate;
+package com.example.lawson.androidsummery.beibei.delegate;
 
 import android.view.View;
 import android.widget.Toast;
