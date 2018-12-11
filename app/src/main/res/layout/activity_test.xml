@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -13,55 +12,60 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="switch开关"/>
+            android:text="switch开关" />
 
         <Switch
             android:id="@+id/switch_one"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <Switch
             android:id="@+id/switch_two"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:lines="2"/>
+            android:lines="2" />
 
         <TextView
             android:id="@+id/tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="提示"/>
+            android:text="提示" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="呀呀呀"
-        android:background="@drawable/change_color_bg"/>
+        android:background="@drawable/change_color_bg"
+        android:text="呀呀呀" />
 
     <LinearLayout
         android:id="@+id/post_view_group"
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
 
         <TextView
             android:id="@+id/post_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="post获取宽高"/>
+            android:text="post获取宽高" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/bundle_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>

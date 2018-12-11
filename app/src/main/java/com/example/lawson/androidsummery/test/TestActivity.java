@@ -9,6 +9,7 @@ import android.text.Selection;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.widget.*;
+
 import com.example.lawson.androidsummery.R;
 
 public class TestActivity extends AppCompatActivity {
@@ -25,6 +26,15 @@ public class TestActivity extends AppCompatActivity {
         testEditShapeRes();
 
         testPost();
+
+//        getBundle();
+    }
+
+    private void getBundle() {
+        Bundle bundle = getIntent().getBundleExtra("data");
+        ModelOne modelOne = bundle.getParcelable("obj");
+        TextView textView = findViewById(R.id.test_btn);
+        textView.setText(modelOne.toString());
     }
 
     private void testPost() {

@@ -55,6 +55,9 @@ import com.example.lawson.androidsummery.scroller.ScrollerActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
 import com.example.lawson.androidsummery.switchtheme.SwitchThemeActivity;
 import com.example.lawson.androidsummery.takephoto.TakePhotoActivity;
+import com.example.lawson.androidsummery.test.ModelOne;
+import com.example.lawson.androidsummery.test.ModelThree;
+import com.example.lawson.androidsummery.test.ModelTwo;
 import com.example.lawson.androidsummery.test.TestActivity;
 import com.example.lawson.androidsummery.thread.AndroidThreadActivity;
 import com.example.lawson.androidsummery.thread.ThreadActivity;
@@ -93,7 +96,16 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.test_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, TestActivity.class));
+                ModelTwo modelTwo = new ModelTwo("2");
+                ModelThree modelThree = new ModelThree();
+                modelThree.name = "3";
+                ModelOne modelOne = new ModelOne(modelTwo, modelThree);
+                Bundle bundle = new Bundle();
+                bundle.putParcelable("obj", modelOne);
+
+                Intent intent = new Intent(MainActivity.this, TestActivity.class);
+                intent.putExtra("data", bundle);
+                startActivity(intent);
             }
         });
 
