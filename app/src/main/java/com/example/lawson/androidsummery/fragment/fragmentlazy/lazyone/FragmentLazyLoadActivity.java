@@ -7,12 +7,16 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.BaseFragment;
 import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.OneFragment;
 import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.ThreeFragment;
 import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.TwoFragment;
+import com.example.lawson.androidsummery.test.ModelOne;
+import com.example.lawson.androidsummery.test.ModelThree;
+import com.example.lawson.androidsummery.test.ModelTwo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,8 +42,17 @@ public class FragmentLazyLoadActivity extends AppCompatActivity {
             tabLayout.getTabAt(i).setText(String.valueOf(i));
         }
         tabLayout.setupWithViewPager(viewPager);
+        ModelTwo modelTwo = new ModelTwo("2");
+        ModelThree modelThree = new ModelThree();
+        modelThree.name = "3";
+        ModelOne modelOne = new ModelOne(modelTwo, modelThree);
+        Bundle bundle = new Bundle();
+        bundle.putParcelable("obj", modelOne);
+        OneFragment oneFragment = new OneFragment();
+        oneFragment.setArguments(bundle);
+
         fragmentList = new ArrayList<>();
-        fragmentList.add(new OneFragment());
+        fragmentList.add(oneFragment);
         fragmentList.add(new TwoFragment());
         fragmentList.add(new ThreeFragment());
         fragmentList.add(new ThreeFragment());

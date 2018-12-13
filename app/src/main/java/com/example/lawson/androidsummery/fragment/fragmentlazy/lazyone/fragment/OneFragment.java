@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.test.ModelOne;
 
 /**
  * Created by Ian.Lu on 2016/11/12.
@@ -29,5 +30,6 @@ public class OneFragment extends BaseFragment {
     protected void loadDataView() {
         super.loadDataView();
         data.setVisibility(View.VISIBLE);
+        ModelOne modelOne = getArguments().getParcelable("obj");
     }
 }
