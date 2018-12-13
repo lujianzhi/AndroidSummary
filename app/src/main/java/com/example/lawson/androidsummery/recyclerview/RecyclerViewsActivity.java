@@ -39,7 +39,7 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
         Button falls = (Button) findViewById(R.id.falls);
         falls.setOnClickListener(this);
 
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 100; i++) {
             datas.add(String.valueOf(i));
         }
 
@@ -76,7 +76,7 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
         switch (v.getId()) {
             case R.id.vertical:
                 recyclerView.setLayoutManager(linearLayoutManager);
-//                recyclerView.addItemDecoration(new MyDividerItemDecoration(RecyclerViewsActivity.this, MyDividerItemDecoration.VERTICAL_DIVIDER));
+                recyclerView.addItemDecoration(new MyDividerItemDecoration(RecyclerViewsActivity.this, MyDividerItemDecoration.HORIZONTAL_DIVIDER));
                 Log.i("Ian", "初始化FirstVisible : " + linearLayoutManager.findFirstVisibleItemPosition() + " ; LastVisible : " + linearLayoutManager.findLastVisibleItemPosition());
                 break;
 
