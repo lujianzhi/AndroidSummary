@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
-    <ImageView
-        android:id="@+id/iv_bg"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:layout_below="@+id/ll_one"
-        android:background="@drawable/ani_1"/>
 
     <LinearLayout
         android:id="@+id/ll_one"
@@ -23,32 +15,40 @@
             android:id="@+id/vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="垂直"/>
+            android:text="垂直" />
 
         <Button
             android:id="@+id/horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="水平"/>
+            android:text="水平" />
 
         <Button
             android:id="@+id/grid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="网格"/>
+            android:text="网格" />
 
         <Button
             android:id="@+id/falls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="瀑布"/>
+            android:text="瀑布" />
 
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:layout_below="@id/ll_one"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_one"
+        android:background="@color/color_2" />
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_one"
+        android:background="@drawable/voice_icon" />
 
 </RelativeLayout>

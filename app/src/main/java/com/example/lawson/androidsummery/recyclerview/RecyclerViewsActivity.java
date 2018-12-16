@@ -64,6 +64,7 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
     }
 
     LinearLayoutManager linearLayoutManager = new LinearLayoutManager(RecyclerViewsActivity.this);
+    LinearLayoutManager horizontalManager = new LinearLayoutManager(RecyclerViewsActivity.this, LinearLayoutManager.HORIZONTAL, false);
 
     @Override
     protected void onPause() {
@@ -81,7 +82,8 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
                 break;
 
             case R.id.horizontal:
-
+                recyclerView.setLayoutManager(horizontalManager);
+                recyclerView.addItemDecoration(new MyDividerItemDecoration(RecyclerViewsActivity.this, MyDividerItemDecoration.VERTICAL_DIVIDER));
                 break;
 
             case R.id.grid:
