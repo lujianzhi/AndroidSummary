@@ -155,11 +155,7 @@ public class ViewServer implements Runnable {
             }
 
             if (!sServer.isRunning()) {
-                try {
-                    sServer.start();
-                } catch (IOException e) {
-                    Log.d(LOG_TAG, "Error:", e);
-                }
+                sServer.start();
             }
         } else {
             sServer = new NoopViewServer();
