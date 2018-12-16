@@ -18,7 +18,7 @@ public class AboutThirdActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about_third);
 
 
-        button = (Button) findViewById(R.id.button);
+        button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -45,8 +45,8 @@ public class AIDLActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aidl);
-        typeOfListTv = (TextView) findViewById(R.id.type_of_list);
-        dataFromServerTv = (TextView) findViewById(R.id.data_from_server);
+        typeOfListTv = findViewById(R.id.type_of_list);
+        dataFromServerTv = findViewById(R.id.data_from_server);
         Intent intent = new Intent(this, AIDLService.class);
         bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
     }

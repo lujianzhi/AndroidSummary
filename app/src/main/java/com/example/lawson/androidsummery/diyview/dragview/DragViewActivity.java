@@ -21,10 +21,10 @@ public class DragViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drag_view);
-        top = (ScrollView) findViewById(R.id.top);
-        demoView = (DemoView) findViewById(R.id.demo_view);
-        content_area = (LinearLayout) findViewById(R.id.content_area);
-        activity_drag_view = (RelativeLayout) findViewById(R.id.activity_drag_view);
+        top = findViewById(R.id.top);
+        demoView = findViewById(R.id.demo_view);
+        content_area = findViewById(R.id.content_area);
+        activity_drag_view = findViewById(R.id.activity_drag_view);
         if (activity_drag_view != null) {
             activity_drag_view.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
                 @Override

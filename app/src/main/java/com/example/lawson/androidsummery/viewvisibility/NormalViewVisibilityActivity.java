@@ -26,10 +26,10 @@ public class NormalViewVisibilityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_normal_view_visibility);
 
-        canSee = (ImageView) findViewById(R.id.can_see);
-        canNotSee = (ImageView) findViewById(R.id.can_not_see);
-        logTv = (TextView) findViewById(R.id.log);
-        calBtn = (Button) findViewById(R.id.cal);
+        canSee = findViewById(R.id.can_see);
+        canNotSee = findViewById(R.id.can_not_see);
+        logTv = findViewById(R.id.log);
+        calBtn = findViewById(R.id.cal);
 
         stringBuilder = new StringBuilder();
 

@@ -17,7 +17,7 @@ public class FrameAnimationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame_animation);
 
-        iv = (ImageView) findViewById(R.id.iv);
+        iv = findViewById(R.id.iv);
 
         findViewById(R.id.change).setOnClickListener(new View.OnClickListener() {
             @Override

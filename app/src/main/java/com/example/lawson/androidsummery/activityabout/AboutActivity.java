@@ -25,9 +25,9 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Log.i("Ian", "AboutActivity - onCreate");
         setContentView(R.layout.activity_about);
-        editText = (EditText) findViewById(R.id.text);
-        button = (Button) findViewById(R.id.button);
-        button2 = (Button) findViewById(R.id.button2);
+        editText = findViewById(R.id.text);
+        button = findViewById(R.id.button);
+        button2 = findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

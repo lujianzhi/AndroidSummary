@@ -37,25 +37,25 @@ public class ThreadActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thread);
-        fixedThreadPool = (Button) findViewById(R.id.fixedThreadPool);
+        fixedThreadPool = findViewById(R.id.fixedThreadPool);
         fixedThreadPool.setOnClickListener(this);
-        singleThreadPool = (Button) findViewById(R.id.singleThreadPool);
+        singleThreadPool = findViewById(R.id.singleThreadPool);
         singleThreadPool.setOnClickListener(this);
-        cachedThreadPool = (Button) findViewById(R.id.cachedThreadPool);
+        cachedThreadPool = findViewById(R.id.cachedThreadPool);
         cachedThreadPool.setOnClickListener(this);
-        scheduledThreadPool = (Button) findViewById(R.id.scheduledThreadPool);
+        scheduledThreadPool = findViewById(R.id.scheduledThreadPool);
         scheduledThreadPool.setOnClickListener(this);
-        singleThreadScheduledPool = (Button) findViewById(R.id.singleThreadScheduledPool);
+        singleThreadScheduledPool = findViewById(R.id.singleThreadScheduledPool);
         singleThreadScheduledPool.setOnClickListener(this);
-        diy = (Button) findViewById(R.id.diy);
+        diy = findViewById(R.id.diy);
         diy.setOnClickListener(this);
-        diy_thread_pool_executor = (Button) findViewById(R.id.diy_thread_pool_executor);
+        diy_thread_pool_executor = findViewById(R.id.diy_thread_pool_executor);
         diy_thread_pool_executor.setOnClickListener(this);
-        thread = (Button) findViewById(R.id.thread);
+        thread = findViewById(R.id.thread);
         thread.setOnClickListener(this);
-        runnable = (Button) findViewById(R.id.runnable);
+        runnable = findViewById(R.id.runnable);
         runnable.setOnClickListener(this);
-        join = (Button) findViewById(R.id.join);
+        join = findViewById(R.id.join);
         join.setOnClickListener(this);
     }
 

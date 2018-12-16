@@ -21,8 +21,8 @@ public class HideViewRVActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hide_view);
 
-        mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        mHideView = (HideView) findViewById(R.id.hide_view);
+        mRecyclerView = findViewById(R.id.recycler_view);
+        mHideView = findViewById(R.id.hide_view);
         List<String> stringList = new ArrayList<>();
         for (int i = 0; i < 9999; i++) {
             stringList.add(String.valueOf(i));

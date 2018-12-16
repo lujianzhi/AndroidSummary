@@ -40,8 +40,8 @@ public class MixLayout extends LinearLayout {
     private void init(Context context) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.mix_layout, this);
-        relative_layout = (RelativeLayout) findViewById(R.id.relative_layout);
-        image_view = (ImageView) view.findViewById(R.id.image_view);
+        relative_layout = findViewById(R.id.relative_layout);
+        image_view = view.findViewById(R.id.image_view);
 
         image_view.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override

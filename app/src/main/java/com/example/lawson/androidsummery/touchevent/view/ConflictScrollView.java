@@ -33,11 +33,7 @@ public class ConflictScrollView extends ScrollView {
                 break;
 
             case MotionEvent.ACTION_MOVE:
-                if (getChildAt(0).isSelected()) {
-                    intercept = true;
-                } else {
-                    intercept = false;
-                }
+                intercept = getChildAt(0).isSelected();
                 break;
 
             case MotionEvent.ACTION_UP:

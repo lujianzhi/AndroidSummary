@@ -16,7 +16,7 @@ public class BasePresenter<BaseView> {
     }
 
     protected BaseView getViews() {
-        return views.get() == null ? null : views.get();
+        return views.get();
     }
 
     protected void detachViews() {

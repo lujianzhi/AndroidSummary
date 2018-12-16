@@ -58,7 +58,7 @@ public class OkHttpEngine {
             }
 
             @Override
-            public void onResponse(final Call call, final Response response) throws IOException {
+            public void onResponse(final Call call, final Response response) {
                 myDealBusiness.successWorkThread(call, response);
                 handler.post(new Runnable() {
                     @Override

@@ -23,8 +23,8 @@ public class ScrollViewVisibilityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scroll_view_visiblity);
 
-        scrollView = (MyScrollView) findViewById(R.id.scroll_view);
-        tv1 = (TextView) findViewById(R.id.tv_1);
+        scrollView = findViewById(R.id.scroll_view);
+        tv1 = findViewById(R.id.tv_1);
 
         printViewVisibility(tv1);
     }

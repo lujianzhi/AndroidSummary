@@ -17,7 +17,7 @@ public class DebugActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_debug);
 
-        number = (TextView) findViewById(R.id.number);
+        number = findViewById(R.id.number);
         StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < 100; i++) {

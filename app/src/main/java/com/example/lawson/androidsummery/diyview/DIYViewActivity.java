@@ -21,7 +21,7 @@ public class DIYViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diyview);
 
-        enter = (Button) findViewById(R.id.enter);
+        enter = findViewById(R.id.enter);
         enter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

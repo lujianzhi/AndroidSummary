@@ -27,16 +27,16 @@ public class RecyclerViewsActivity extends AppCompatActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler_view_list);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        ivBg = (ImageView) findViewById(R.id.iv_bg);
+        recyclerView = findViewById(R.id.recycler_view);
+        ivBg = findViewById(R.id.iv_bg);
 
-        Button vertical = (Button) findViewById(R.id.vertical);
+        Button vertical = findViewById(R.id.vertical);
         vertical.setOnClickListener(this);
-        Button horizontal = (Button) findViewById(R.id.horizontal);
+        Button horizontal = findViewById(R.id.horizontal);
         horizontal.setOnClickListener(this);
-        Button grid = (Button) findViewById(R.id.grid);
+        Button grid = findViewById(R.id.grid);
         grid.setOnClickListener(this);
-        Button falls = (Button) findViewById(R.id.falls);
+        Button falls = findViewById(R.id.falls);
         falls.setOnClickListener(this);
 
         for (int i = 0; i < 100; i++) {

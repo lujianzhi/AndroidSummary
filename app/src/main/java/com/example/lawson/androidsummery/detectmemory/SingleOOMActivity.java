@@ -18,7 +18,7 @@ public class SingleOOMActivity extends AppCompatActivity {
 
         String reasonText = "退回上一个界面，等待几秒就会出现内存泄露的报告。";
 
-        TextView reason = (TextView) findViewById(R.id.reason);
+        TextView reason = findViewById(R.id.reason);
         reason.setText(reasonText);
 
         //TextView，在xml解析的时候用到了context对象，与当前的Activity关联，故会内存泄露

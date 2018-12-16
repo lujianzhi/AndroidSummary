@@ -32,8 +32,8 @@ public class SpinnerActivity extends AppCompatActivity {
             str.add("第" + i);
         }
 
-        spinner = (Spinner) findViewById(R.id.spinner);
-        button = (Button) findViewById(R.id.button);
+        spinner = findViewById(R.id.spinner);
+        button = findViewById(R.id.button);
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
         adapter.addAll(str);

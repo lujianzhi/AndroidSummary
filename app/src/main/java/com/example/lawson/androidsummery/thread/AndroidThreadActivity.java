@@ -21,8 +21,8 @@ public class AndroidThreadActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_android_thread);
 
-        progressTv = (TextView) findViewById(R.id.progress);
-        contentTv = (TextView) findViewById(R.id.content);
+        progressTv = findViewById(R.id.progress);
+        contentTv = findViewById(R.id.content);
 
         findViewById(R.id.async_task).setOnClickListener(new View.OnClickListener() {
             @Override

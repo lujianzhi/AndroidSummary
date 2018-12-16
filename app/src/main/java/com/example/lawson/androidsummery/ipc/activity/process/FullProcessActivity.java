@@ -32,8 +32,8 @@ public class FullProcessActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_full_process);
 
-        processNameTv = (TextView) findViewById(R.id.textView);
-        fileDataTv = (TextView) findViewById(textView2);
+        processNameTv = findViewById(R.id.textView);
+        fileDataTv = findViewById(textView2);
 
         getProcessName();
         loadObjFromSDCard();

@@ -24,34 +24,34 @@ public class JUnitTestTest {
     private JUnitTest junitTest;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         a = 4.0;
         b = 8.0;
         junitTest = new JUnitTest();
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
 
     }
 
     @Test
-    public void add() throws Exception {
+    public void add() {
         TestCase.assertEquals(12.0, junitTest.add(a, b));
     }
 
     @Test
-    public void sub() throws Exception {
+    public void sub() {
         TestCase.assertEquals(-4d, junitTest.sub(a, b));
     }
 
     @Test
-    public void mul() throws Exception {
+    public void mul() {
         TestCase.assertEquals(32, junitTest.mul(a, b));
     }
 
     @Test
-    public void div() throws Exception {
+    public void div() {
         TestCase.assertEquals(0.5, junitTest.div(a, b));
     }
 

@@ -36,16 +36,16 @@ public class WebViewActivity extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
 
-        webViewContainer = (FrameLayout) findViewById(R.id.web_view_container);
+        webViewContainer = findViewById(R.id.web_view_container);
         webView = new WebView(getApplicationContext());
         webViewContainer.addView(webView);
-        mTitle = (TextView) findViewById(R.id.title);
-        preview_page = (TextView) findViewById(R.id.preview_page);
-        next_page = (TextView) findViewById(R.id.next_page);
-        enter = (TextView) findViewById(R.id.enter);
-        call_js = (TextView) findViewById(R.id.call_js);
-        url_et = (EditText) findViewById(R.id.url_et);
-        web_activity_layout = (LinearLayout) findViewById(R.id.web_activity_layout);
+        mTitle = findViewById(R.id.title);
+        preview_page = findViewById(R.id.preview_page);
+        next_page = findViewById(R.id.next_page);
+        enter = findViewById(R.id.enter);
+        call_js = findViewById(R.id.call_js);
+        url_et = findViewById(R.id.url_et);
+        web_activity_layout = findViewById(R.id.web_activity_layout);
 
         initWebView();
 

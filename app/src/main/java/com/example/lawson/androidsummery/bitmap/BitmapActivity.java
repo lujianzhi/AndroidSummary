@@ -49,17 +49,17 @@ public class BitmapActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bitmap);
 
-        byte_count = (TextView) findViewById(R.id.byte_count);
-        destiny_Dpi = (TextView) findViewById(R.id.destiny_Dpi);
-        image = (ImageView) findViewById(R.id.image);
-        image2 = (ImageView) findViewById(R.id.image2);
-        image3 = (ImageView) findViewById(R.id.image3);
-        get_destiny = (Button) findViewById(R.id.get_destiny);
-        xxhdpi = (Button) findViewById(R.id.xxhdpi);
-        load_compression = (Button) findViewById(R.id.load_compression);
-        load_without_compression = (Button) findViewById(R.id.load_without_compression);
-        inBitmap = (Button) findViewById(R.id.inBitmap);
-        no_inBitmap = (Button) findViewById(R.id.no_inBitmap);
+        byte_count = findViewById(R.id.byte_count);
+        destiny_Dpi = findViewById(R.id.destiny_Dpi);
+        image = findViewById(R.id.image);
+        image2 = findViewById(R.id.image2);
+        image3 = findViewById(R.id.image3);
+        get_destiny = findViewById(R.id.get_destiny);
+        xxhdpi = findViewById(R.id.xxhdpi);
+        load_compression = findViewById(R.id.load_compression);
+        load_without_compression = findViewById(R.id.load_without_compression);
+        inBitmap = findViewById(R.id.inBitmap);
+        no_inBitmap = findViewById(R.id.no_inBitmap);
 
         fileStr = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Pictures/p.jpg";
 

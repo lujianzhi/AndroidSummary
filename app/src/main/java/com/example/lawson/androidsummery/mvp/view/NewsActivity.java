@@ -19,7 +19,7 @@ public class NewsActivity extends BaseActivity implements LoginView {
 
     @Override
     void initViews() {
-        contentTv = (TextView) findViewById(R.id.content);
+        contentTv = findViewById(R.id.content);
         findViewById(R.id.button).setOnClickListener(this);
     }
 

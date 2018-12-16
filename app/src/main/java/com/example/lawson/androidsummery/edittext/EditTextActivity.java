@@ -36,19 +36,19 @@ public class EditTextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_text);
 
-        text = (TextView) findViewById(R.id.text);
-        edit_text_1 = (EditText) findViewById(R.id.edit_text_1);
-        edit_text_2 = (EditText) findViewById(R.id.edit_text_2);
-        edit_text_3 = (EditText) findViewById(R.id.edit_text_3);
-        edit_text_4 = (EditText) findViewById(R.id.edit_text_4);
-        edit_text_5 = (EditText) findViewById(R.id.edit_text_5);
-        edit_text_6 = (EditText) findViewById(R.id.edit_text_6);
-        edit_text_7 = (EditText) findViewById(R.id.edit_text_7);
-        edit_text_8 = (EditText) findViewById(R.id.edit_text_8);
-        edit_text_9 = (EditText) findViewById(R.id.edit_text_9);
+        text = findViewById(R.id.text);
+        edit_text_1 = findViewById(R.id.edit_text_1);
+        edit_text_2 = findViewById(R.id.edit_text_2);
+        edit_text_3 = findViewById(R.id.edit_text_3);
+        edit_text_4 = findViewById(R.id.edit_text_4);
+        edit_text_5 = findViewById(R.id.edit_text_5);
+        edit_text_6 = findViewById(R.id.edit_text_6);
+        edit_text_7 = findViewById(R.id.edit_text_7);
+        edit_text_8 = findViewById(R.id.edit_text_8);
+        edit_text_9 = findViewById(R.id.edit_text_9);
         edit_text_9.setText("\uD83D\uDE2F");
-        edit_text_10 = (EditText) findViewById(R.id.edit_text_10);
-        edit_text_11 = (EditText) findViewById(R.id.edit_text_11);
+        edit_text_10 = findViewById(R.id.edit_text_10);
+        edit_text_11 = findViewById(R.id.edit_text_11);
 
 //        edit_text.setOnClickListener(new View.OnClickListener() {
 //            @Override

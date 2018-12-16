@@ -43,9 +43,9 @@ public class DrawActivity extends AppCompatActivity {
 
         fileStr = Environment.getExternalStorageDirectory().getAbsolutePath() + "/DCIM/Camera/q.jpg";
 
-        drawView = (DrawView) findViewById(R.id.draw);
-        background = (ImageView) findViewById(R.id.background);
-        save = (Button) findViewById(R.id.save);
+        drawView = findViewById(R.id.draw);
+        background = findViewById(R.id.background);
+        save = findViewById(R.id.save);
 
 //        final Bitmap backgroundBitmap = BitmapFactory.decodeFile(fileStr);
 //        if (backgroundBitmap != null && background != null) {

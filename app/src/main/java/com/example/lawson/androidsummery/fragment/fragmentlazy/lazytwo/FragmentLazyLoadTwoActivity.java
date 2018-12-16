@@ -33,8 +33,8 @@ public class FragmentLazyLoadTwoActivity extends AppCompatActivity {
         fragmentList.add(new FragmentE());
         fragmentList.add(new FragmentF());
 
-        ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        TabLayout tabLayout = findViewById(R.id.tab_layout);
         for (int i = 0; i < 6; i++) {
             tabLayout.addTab(tabLayout.newTab());
         }

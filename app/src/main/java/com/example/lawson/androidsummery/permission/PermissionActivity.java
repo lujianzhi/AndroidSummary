@@ -29,9 +29,9 @@ public class PermissionActivity extends AppCompatActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_permission);
-        textView = (TextView) findViewById(R.id.text_view);
-        button = (Button) findViewById(R.id.button);
-        button2 = (Button) findViewById(R.id.button2);
+        textView = findViewById(R.id.text_view);
+        button = findViewById(R.id.button);
+        button2 = findViewById(R.id.button2);
 
         button.setOnClickListener(this);
         button2.setOnClickListener(this);

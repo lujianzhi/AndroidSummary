@@ -74,8 +74,8 @@ public class MessengerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messenger);
 
-        myProcessNameTv = (TextView) findViewById(R.id.my_process_name);
-        serviceProcessNameTv = (TextView) findViewById(R.id.service_process_name);
+        myProcessNameTv = findViewById(R.id.my_process_name);
+        serviceProcessNameTv = findViewById(R.id.service_process_name);
 
         //服务的Intent
         Intent intent = new Intent(this, MessengerService.class);

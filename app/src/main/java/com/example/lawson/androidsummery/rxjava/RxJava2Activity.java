@@ -59,19 +59,19 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rx_java2);
 
-        button = (Button) findViewById(R.id.button);
-        button2 = (Button) findViewById(R.id.button2);
-        button3 = (Button) findViewById(R.id.button3);
-        textView = (TextView) findViewById(R.id.textView);
-        button3_2 = (Button) findViewById(R.id.button3_2);
-        textView_2 = (TextView) findViewById(R.id.textView_2);
-        button4 = (Button) findViewById(R.id.button4);
-        button5 = (Button) findViewById(R.id.button5);
-        button6 = (Button) findViewById(R.id.button6);
-        button7 = (Button) findViewById(R.id.button7);
-        button8 = (Button) findViewById(R.id.button8);
-        button9 = (Button) findViewById(R.id.button9);
-        button9_1 = (Button) findViewById(R.id.button9_1);
+        button = findViewById(R.id.button);
+        button2 = findViewById(R.id.button2);
+        button3 = findViewById(R.id.button3);
+        textView = findViewById(R.id.textView);
+        button3_2 = findViewById(R.id.button3_2);
+        textView_2 = findViewById(R.id.textView_2);
+        button4 = findViewById(R.id.button4);
+        button5 = findViewById(R.id.button5);
+        button6 = findViewById(R.id.button6);
+        button7 = findViewById(R.id.button7);
+        button8 = findViewById(R.id.button8);
+        button9 = findViewById(R.id.button9);
+        button9_1 = findViewById(R.id.button9_1);
 
         button.setOnClickListener(this);
         button2.setOnClickListener(this);
@@ -151,7 +151,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private void backPressure() {
         Flowable.create(new FlowableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(FlowableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(FlowableEmitter<RxBeen> e) {
 //                for (int i = 0; i < 1000; i++) {
                 int i = 0;
                 while (true) {
@@ -192,7 +192,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private void flowable() {
         Flowable.create(new FlowableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(FlowableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(FlowableEmitter<RxBeen> e) {
 //                Log.i("Ian", "FlowableOnSubscribe-onNext : 1");
 //                e.onNext(new RxBeen(1, "Flowable : 1"));
 //                Log.i("Ian", "FlowableOnSubscribe-onNext : 2");
@@ -246,7 +246,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private void backPressureDIY() {
         Observable.create(new ObservableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(ObservableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(ObservableEmitter<RxBeen> e) {
                 int i = 0;
                 while (true) {
                     i++;
@@ -269,7 +269,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 .observeOn(Schedulers.io())
                 .subscribe(new Consumer<RxBeen>() {
                     @Override
-                    public void accept(RxBeen rxBeen) throws Exception {
+                    public void accept(RxBeen rxBeen) {
                         Log.i("Ian", "输出 : " + rxBeen.getId());
                     }
                 });
@@ -281,7 +281,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     static {
         RxJavaPlugins.setErrorHandler(new Consumer<Throwable>() {
             @Override
-            public void accept(Throwable throwable) throws Exception {
+            public void accept(Throwable throwable) {
                 if (throwable instanceof InterruptedIOException) {
                     Log.d("Ian", "Io interrupted");
                 }
@@ -337,7 +337,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
 
         Observable.zip(a, b, new BiFunction<Integer, String, String>() {
             @Override
-            public String apply(Integer o, String o2) throws Exception {
+            public String apply(Integer o, String o2) {
                 return "合并 : " + o + "-" + o2;
             }
         }).subscribe(new Observer<String>() {
@@ -369,7 +369,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private void flatMap() {
         Observable.create(new ObservableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(ObservableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(ObservableEmitter<RxBeen> e) {
                 e.onNext(new RxBeen(1, "flatMap、concatMap操作符1"));
                 e.onNext(new RxBeen(2, "flatMap、concatMap操作符2"));
                 e.onNext(new RxBeen(3, "flatMap、concatMap操作符3"));
@@ -379,7 +379,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 //有序
                 .concatMap(new Function<RxBeen, ObservableSource<Integer>>() {
                     @Override
-                    public ObservableSource<Integer> apply(RxBeen rxBeen) throws Exception {
+                    public ObservableSource<Integer> apply(RxBeen rxBeen) {
                         List<Integer> list = new ArrayList<Integer>();
                         for (int i = 0; i < 3; i++) {
                             list.add(rxBeen.getId());
@@ -400,7 +400,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
 //                })
                 .subscribe(new Consumer<Integer>() {
                     @Override
-                    public void accept(Integer integer) throws Exception {
+                    public void accept(Integer integer) {
                         Log.i("Ian", "id : " + integer);
                     }
                 });
@@ -412,7 +412,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private void map() {
         Observable.create(new ObservableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(ObservableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(ObservableEmitter<RxBeen> e) {
                 e.onNext(new RxBeen(1, "map操作符1"));
                 e.onNext(new RxBeen(2, "map操作符2"));
                 e.onNext(new RxBeen(3, "map操作符3"));
@@ -421,13 +421,13 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
         })
                 .map(new Function<RxBeen, String>() {
                     @Override
-                    public String apply(RxBeen rxBeen) throws Exception {
+                    public String apply(RxBeen rxBeen) {
                         return rxBeen.getContent();
                     }
                 })
                 .subscribe(new Consumer<String>() {
                     @Override
-                    public void accept(String s) throws Exception {
+                    public void accept(String s) {
                         Log.i("Ian", s);
                     }
                 });
@@ -440,7 +440,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
 
         Observable observable = Observable.create(new ObservableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(ObservableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(ObservableEmitter<RxBeen> e) {
                 Log.i("Ian", "Observable : subscribe - thread : " + Thread.currentThread().getName());
                 Log.i("Ian", "Observable : e.onNext 1");
                 e.onNext(new RxBeen(1, "线程控制1"));
@@ -449,7 +449,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
 
         Consumer<RxBeen> consumer = new Consumer<RxBeen>() {
             @Override
-            public void accept(RxBeen rxBeen) throws Exception {
+            public void accept(RxBeen rxBeen) {
                 Log.i("Ian", "Consumer : accept1 - thread : " + Thread.currentThread().getName());
                 Log.i("Ian", "Consumer : accept2 - rxBeen : " + rxBeen.toString());
             }
@@ -459,7 +459,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 .observeOn(Schedulers.newThread())
                 .doOnNext(new Consumer<RxBeen>() {
                     @Override
-                    public void accept(RxBeen rxBeen) throws Exception {
+                    public void accept(RxBeen rxBeen) {
                         Log.i("Ian", "Consumer : accept2 - thread : " + Thread.currentThread().getName());
                         Log.i("Ian", "Consumer : accept2 - rxBeen : " + rxBeen.toString());
                     }
@@ -467,7 +467,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 .observeOn(Schedulers.newThread())
                 .doOnNext(new Consumer<RxBeen>() {
                     @Override
-                    public void accept(RxBeen rxBeen) throws Exception {
+                    public void accept(RxBeen rxBeen) {
                         Log.i("Ian", "Consumer : accept3 - thread : " + Thread.currentThread().getName());
                         Log.i("Ian", "Consumer : accept2 - rxBeen : " + rxBeen.toString());
                     }
@@ -481,7 +481,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private void aboutThread() {
         Observable.create(new ObservableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(ObservableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(ObservableEmitter<RxBeen> e) {
                 Log.i("Ian", "Observable : subscribe - thread : " + Thread.currentThread().getName());
                 RxBeen rxBeen = new RxBeen(1, "线程控制");
                 Log.i("Ian", "Observable : subscribe - onNext : " + rxBeen.toString());
@@ -495,19 +495,19 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 .subscribeOn(Schedulers.newThread())
                 .doOnNext(new Consumer<RxBeen>() {
                     @Override
-                    public void accept(RxBeen rxBeen) throws Exception {
+                    public void accept(RxBeen rxBeen) {
                         Log.i("Ian", "第一次doOnNext : " + rxBeen.getId());
                     }
                 })
                 .doOnNext(new Consumer<RxBeen>() {
                     @Override
-                    public void accept(RxBeen rxBeen) throws Exception {
+                    public void accept(RxBeen rxBeen) {
                         Log.i("Ian", "第二次doOnNext : " + rxBeen.getId());
                     }
                 })
                 .subscribe(new Consumer<RxBeen>() {
                     @Override
-                    public void accept(RxBeen rxBeen) throws Exception {
+                    public void accept(RxBeen rxBeen) {
                         Log.i("Ian", "Consumer : accept - thread : " + Thread.currentThread().getName());
                         Log.i("Ian", "Consumer : accept - rxBeen : " + rxBeen.toString());
                         textView.setText(rxBeen.toString());
@@ -522,7 +522,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
 
         Observable.create(new ObservableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(ObservableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(ObservableEmitter<RxBeen> e) {
                 Log.i("Ian", "Observable - onNext : 1");
                 e.onNext(new RxBeen(1, "我是链式1"));
                 Log.i("Ian", "Observable - onNext : 2");
@@ -598,7 +598,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private void initObservable() {
         observable = Observable.create(new ObservableOnSubscribe<RxBeen>() {
             @Override
-            public void subscribe(ObservableEmitter<RxBeen> e) throws Exception {
+            public void subscribe(ObservableEmitter<RxBeen> e) {
                 e.onNext(new RxBeen(1, "我是非链式1"));
                 e.onNext(new RxBeen(2, "我是非链式2"));
                 e.onNext(new RxBeen(3, "我是非链式3"));

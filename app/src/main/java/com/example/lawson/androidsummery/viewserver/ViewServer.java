@@ -187,12 +187,11 @@ public class ViewServer implements Runnable {
      * Starts the server.
      *
      * @return True if the server was successfully created, or false if it already exists.
-     * @throws IOException If the server cannot be created.
      * @see #stop()
      * @see #isRunning()
      * @see WindowManagerService#startViewServer(int)
      */
-    public boolean start() throws IOException {
+    public boolean start() {
         if (mThread != null) {
             return false;
         }
@@ -451,7 +450,7 @@ public class ViewServer implements Runnable {
             mStream = stream;
         }
 
-        public void close() throws IOException {
+        public void close() {
             // Don't close the stream
         }
 
@@ -490,7 +489,7 @@ public class ViewServer implements Runnable {
         }
 
         @Override
-        public boolean start() throws IOException {
+        public boolean start() {
             return false;
         }
 

@@ -15,7 +15,7 @@ public class GestureDetectorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gesture_detector);
 
-        iv = (ImageView) findViewById(R.id.iv);
+        iv = findViewById(R.id.iv);
 
     }
 }

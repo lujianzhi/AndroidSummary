@@ -20,7 +20,7 @@ public class FragmentF extends BaseFragment {
 
     @Override
     void initView() {
-        textView = (TextView) mFragmentView.findViewById(R.id.text_view);
+        textView = mFragmentView.findViewById(R.id.text_view);
     }
 
     @Override

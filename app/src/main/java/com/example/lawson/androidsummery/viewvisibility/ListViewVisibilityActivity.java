@@ -25,7 +25,7 @@ public class ListViewVisibilityActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view_visibility);
 
-        listView = (ListView) findViewById(R.id.list_view);
+        listView = findViewById(R.id.list_view);
         List<String> list = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             list.add(String.valueOf(i));

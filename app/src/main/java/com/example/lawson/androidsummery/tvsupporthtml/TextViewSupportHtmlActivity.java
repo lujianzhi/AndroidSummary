@@ -16,7 +16,7 @@ public class TextViewSupportHtmlActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_view_support_html);
 
-        TextView textView = (TextView) findViewById(R.id.textView);
+        TextView textView = findViewById(R.id.textView);
         String str = "<font color='#FF4081'>邀请新用户APP下单，立得</font><font color='#303F9F' size='7'>5</font><font color='#00FF00'>元</font>";
         textView.setText(Html.fromHtml(str));
     }

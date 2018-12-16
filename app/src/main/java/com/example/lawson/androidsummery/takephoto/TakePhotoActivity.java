@@ -20,7 +20,7 @@ public class TakePhotoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_take_photo);
 
-        imageView = (ImageView) findViewById(R.id.take_photo);
+        imageView = findViewById(R.id.take_photo);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -30,13 +30,13 @@ public class PullToRefreshActivity extends AppCompatActivity implements View.OnC
         setContentView(R.layout.activity_pull_to_refresh);
 
         initData();
-        tab1 = (RadioButton) findViewById(R.id.tab1);
-        tab2 = (RadioButton) findViewById(R.id.tab2);
-        tab3 = (RadioButton) findViewById(R.id.tab3);
+        tab1 = findViewById(R.id.tab1);
+        tab2 = findViewById(R.id.tab2);
+        tab3 = findViewById(R.id.tab3);
         tab1.setOnClickListener(this);
         tab2.setOnClickListener(this);
         tab3.setOnClickListener(this);
-        viewPager = (ViewPager) findViewById(R.id.viewPager);
+        viewPager = findViewById(R.id.viewPager);
         adapter = new MyViewPagerAdapter(getSupportFragmentManager(), fragmentList);
         viewPager.setAdapter(adapter);
         //设置缓存的页数为3+1(当前页面)

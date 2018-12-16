@@ -35,7 +35,7 @@ public class PullFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mainView = inflater.inflate(R.layout.fragment_pull_to_refresh, container, false);
-        pullToRefreshListView = (PullToRefreshListView) mainView.findViewById(R.id.pullToRefresh);
+        pullToRefreshListView = mainView.findViewById(R.id.pullToRefresh);
         return mainView;
     }
 

@@ -34,8 +34,8 @@ public class TraceViewToolActivity extends AppCompatActivity {
         setContentView(R.layout.activity_trace_view_tool);
         Debug.startMethodTracing("ian_trace_view");
 
-        one = (TextView) findViewById(R.id.state);
-        two = (TextView) findViewById(R.id.state_two);
+        one = findViewById(R.id.state);
+        two = findViewById(R.id.state_two);
 
         sleep();
 

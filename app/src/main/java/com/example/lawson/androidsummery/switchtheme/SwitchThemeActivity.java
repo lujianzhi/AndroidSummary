@@ -25,10 +25,10 @@ public class SwitchThemeActivity extends AppCompatActivity implements View.OnCli
         setTheme(R.style.IanTheme_Day);
         setContentView(R.layout.activity_switch_theme);
 
-        bg = (LinearLayout) findViewById(R.id.bg);
-        text = (TextView) findViewById(R.id.text);
-        day = (Button) findViewById(R.id.day);
-        night = (Button) findViewById(R.id.night);
+        bg = findViewById(R.id.bg);
+        text = findViewById(R.id.text);
+        day = findViewById(R.id.day);
+        night = findViewById(R.id.night);
 
         day.setOnClickListener(this);
         night.setOnClickListener(this);

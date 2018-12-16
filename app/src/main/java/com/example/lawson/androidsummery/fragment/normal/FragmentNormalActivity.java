@@ -24,7 +24,7 @@ public class FragmentNormalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment_normal);
 
-        viewPager = (ViewPager) findViewById(R.id.view_pager);
+        viewPager = findViewById(R.id.view_pager);
 
         fragmentList = new ArrayList<>();
         fragmentList.add(NormalFragmentOne.getInstance());

@@ -97,12 +97,12 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
         findViewById(R.id.retrofit_post_field).setOnClickListener(this);
         findViewById(R.id.retrofit_post_body).setOnClickListener(this);
         findViewById(R.id.retrofit_rxjava).setOnClickListener(this);
-        contentTv = (TextView) findViewById(R.id.content);
-        imageSv = (ScrollView) findViewById(R.id.image_sv);
-        contentSv = (ScrollView) findViewById(R.id.content_sv);
-        image2Sv = (ScrollView) findViewById(R.id.image2_sv);
-        image = (ImageView) findViewById(R.id.image);
-        image2 = (NetworkImageView) findViewById(R.id.image2);
+        contentTv = findViewById(R.id.content);
+        imageSv = findViewById(R.id.image_sv);
+        contentSv = findViewById(R.id.content_sv);
+        image2Sv = findViewById(R.id.image2_sv);
+        image = findViewById(R.id.image);
+        image2 = findViewById(R.id.image2);
 
     }
 
@@ -202,7 +202,7 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
                 .observeOn(AndroidSchedulers.mainThread())  //指定了下游：subscribe接口中的线程
                 .subscribe(new Consumer<News>() {
                     @Override
-                    public void accept(@NonNull News news) throws Exception {
+                    public void accept(@NonNull News news) {
                         showContent(news.getResult().getData().toString()); //主线程
                     }
                 });
@@ -367,7 +367,7 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
             }
 
             @Override
-            public void onResponse(final Call call, final okhttp3.Response response) throws IOException {
+            public void onResponse(final Call call, final okhttp3.Response response) {
                 //不在主线程
                 Log.i("Ian", "onResponse - Thread : " + Thread.currentThread().getName());
                 runOnUiThread(new Runnable() {
@@ -466,7 +466,7 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
             }
 
             @Override
-            public void onResponse(Call call, okhttp3.Response response) throws IOException {
+            public void onResponse(Call call, okhttp3.Response response) {
                 //不在主线程
                 Log.i("Ian", "onResponse - Thread : " + Thread.currentThread().getName());
                 final String json = response.toString();
@@ -552,7 +552,7 @@ public class NetActivity extends AppCompatActivity implements View.OnClickListen
             }
 
             @Override
-            public void onResponse(Call call, final okhttp3.Response response) throws IOException {
+            public void onResponse(Call call, final okhttp3.Response response) {
                 //不在主线程
                 Log.i("Ian", "onResponse - Thread : " + Thread.currentThread().getName());
                 runOnUiThread(new Runnable() {

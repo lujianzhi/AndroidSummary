@@ -26,11 +26,11 @@ public class AIDLService extends Service {
     private CopyOnWriteArrayList<Book> bookCopyOnWriteArrayList = new CopyOnWriteArrayList<>();
     private Binder binder = new IBookManager.Stub() {
         @Override
-        public List<Book> getBookList() throws RemoteException {
+        public List<Book> getBookList() {
             return bookCopyOnWriteArrayList;
         }
         @Override
-        public void addBook(Book book) throws RemoteException {
+        public void addBook(Book book) {
             bookCopyOnWriteArrayList.add(book);
         }
     };

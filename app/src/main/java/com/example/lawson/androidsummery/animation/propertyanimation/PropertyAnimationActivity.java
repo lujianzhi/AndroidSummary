@@ -34,15 +34,15 @@ public class PropertyAnimationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_property_animation);
 
-        iv = (ImageView) findViewById(R.id.iv);
-        pure_iv = (TextView) findViewById(R.id.pure_iv);
-        combination_iv = (TextView) findViewById(R.id.combination_iv);
-        xml_combination_iv = (TextView) findViewById(R.id.xml_combination_iv);
-        btn = (Button) findViewById(R.id.btn);
-        btn_2 = (Button) findViewById(R.id.btn_2);
-        btn_3 = (Button) findViewById(R.id.btn_3);
-        btn_4 = (Button) findViewById(R.id.btn_4);
-        btn_5 = (View) findViewById(R.id.btn_5);
+        iv = findViewById(R.id.iv);
+        pure_iv = findViewById(R.id.pure_iv);
+        combination_iv = findViewById(R.id.combination_iv);
+        xml_combination_iv = findViewById(R.id.xml_combination_iv);
+        btn = findViewById(R.id.btn);
+        btn_2 = findViewById(R.id.btn_2);
+        btn_3 = findViewById(R.id.btn_3);
+        btn_4 = findViewById(R.id.btn_4);
+        btn_5 = findViewById(R.id.btn_5);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

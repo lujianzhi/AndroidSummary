@@ -536,7 +536,7 @@ public class MainActivity extends AppCompatActivity {
     private TimerManager timerManager;
 
     private void timer() {
-        TextView textView = (TextView) findViewById(R.id.time);
+        TextView textView = findViewById(R.id.time);
         timerManager = new TimerManager(textView, TimerManager.CLOCKWISE, 188000);
         timerManager.startTiming();
     }

@@ -54,10 +54,10 @@ public class ScrollerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scroller);
 
-        sv = (MyScrollerView) findViewById(R.id.my_scroller_view);
-        ivAnimScroll = (ImageView) findViewById(R.id.iv_anim_scroll);
+        sv = findViewById(R.id.my_scroller_view);
+        ivAnimScroll = findViewById(R.id.iv_anim_scroll);
 
-        ivNormalAnim = (ImageView) findViewById(R.id.iv_normal_anim);
+        ivNormalAnim = findViewById(R.id.iv_normal_anim);
         //补间动画
         Animation animation = AnimationUtils.loadAnimation(getBaseContext(), R.anim.scroll_normal_ani);
         ivNormalAnim.startAnimation(animation);
@@ -68,7 +68,7 @@ public class ScrollerActivity extends AppCompatActivity {
             }
         });
 
-        ivPropertyAnim = (ImageView) findViewById(R.id.iv_property_anim);
+        ivPropertyAnim = findViewById(R.id.iv_property_anim);
         //属性动画
         ObjectAnimator.ofFloat(ivPropertyAnim, "translationY", 100, 200, 0).setDuration(2000).start();
         ObjectAnimator.ofFloat(ivPropertyAnim, "translationX", 0, 150).setDuration(1000).start();
@@ -79,7 +79,7 @@ public class ScrollerActivity extends AppCompatActivity {
             }
         });
 
-        change = (Button) findViewById(R.id.change);
+        change = findViewById(R.id.change);
         change.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

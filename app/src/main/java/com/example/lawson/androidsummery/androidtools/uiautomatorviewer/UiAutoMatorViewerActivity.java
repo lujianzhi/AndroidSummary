@@ -18,7 +18,7 @@ public class UiAutoMatorViewerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ui_auto_mator_viewer);
 
-        final ViewStub viewStub = (ViewStub) findViewById(R.id.view_stub);
+        final ViewStub viewStub = findViewById(R.id.view_stub);
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override

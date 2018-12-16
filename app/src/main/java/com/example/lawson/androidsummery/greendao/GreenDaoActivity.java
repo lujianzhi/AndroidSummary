@@ -36,13 +36,13 @@ public class GreenDaoActivity extends AppCompatActivity implements View.OnClickL
         initDB();
         initData();
 
-        nameTv = (TextView) findViewById(R.id.name);
-        ageTv = (TextView) findViewById(R.id.age);
-        queryTv = (TextView) findViewById(R.id.query_tv);
-        insertBtn = (Button) findViewById(R.id.insert);
-        deleteBtn = (Button) findViewById(R.id.delete);
-        updateBtn = (Button) findViewById(R.id.update);
-        queryBtn = (Button) findViewById(R.id.query);
+        nameTv = findViewById(R.id.name);
+        ageTv = findViewById(R.id.age);
+        queryTv = findViewById(R.id.query_tv);
+        insertBtn = findViewById(R.id.insert);
+        deleteBtn = findViewById(R.id.delete);
+        updateBtn = findViewById(R.id.update);
+        queryBtn = findViewById(R.id.query);
 
         insertBtn.setOnClickListener(this);
         deleteBtn.setOnClickListener(this);

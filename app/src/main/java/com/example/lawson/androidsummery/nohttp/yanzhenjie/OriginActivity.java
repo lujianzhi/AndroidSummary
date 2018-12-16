@@ -36,7 +36,7 @@ public class OriginActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void initView() {
-        string_request = (Button) findViewById(R.id.string_request);
+        string_request = findViewById(R.id.string_request);
         string_request.setOnClickListener(this);
     }
 

@@ -359,11 +359,7 @@ public class RecordUtil {
                 synchronized (RecordUtil.this) {
                     if (mMediaRecorder != null && isRecording) {
                         boolean isAmplitude;
-                        if (mMediaRecorder.getMaxAmplitude() > 1000) {
-                            isAmplitude = true;
-                        } else {
-                            isAmplitude = false;
-                        }
+                        isAmplitude = mMediaRecorder.getMaxAmplitude() > 1000;
                         Message message = handler.obtainMessage();
                         message.obj = isAmplitude;
                         message.what = 0;
@@ -434,7 +430,7 @@ public class RecordUtil {
          * @created 2014-10-16 下午4:23:28
          * @since v1.0.0
          */
-        public void isAmplitude(boolean flag);
+        void isAmplitude(boolean flag);
 
     }
 

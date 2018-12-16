@@ -18,7 +18,7 @@ public class ParamActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_param);
 
-        TextView valueTv = (TextView) findViewById(R.id.value);
+        TextView valueTv = findViewById(R.id.value);
 
         Bundle bundle = getIntent().getExtras();
         if (bundle == null) {

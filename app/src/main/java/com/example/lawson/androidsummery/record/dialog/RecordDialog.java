@@ -36,9 +36,9 @@ public class RecordDialog extends DialogFragment implements View.OnClickListener
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         View view = getActivity().getLayoutInflater().inflate(R.layout.dialog_record_layout, null);
-        recordAniIv = (ImageView) view.findViewById(R.id.record_iv);
-        recordingSureTv = (TextView) view.findViewById(R.id.recording_sure_tv);
-        recordingCancelTv = (TextView) view.findViewById(R.id.recording_cancel_tv);
+        recordAniIv = view.findViewById(R.id.record_iv);
+        recordingSureTv = view.findViewById(R.id.recording_sure_tv);
+        recordingCancelTv = view.findViewById(R.id.recording_cancel_tv);
         builder.setView(view);
         return builder.create();
     }

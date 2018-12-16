@@ -30,8 +30,8 @@ public class BitmapAndCacheActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bitmap_and_cache);
 
-        tipTv = (TextView) findViewById(R.id.tip);
-        gridView = (GridView) findViewById(R.id.grid_view);
+        tipTv = findViewById(R.id.tip);
+        gridView = findViewById(R.id.grid_view);
 
         findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -142,7 +142,7 @@ public class BitmapAndCacheActivity extends AppCompatActivity {
             if (convertView == null) {
                 convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_bitmap_cache_grid_view, parent, false);
                 viewHolder = new ViewHolder();
-                viewHolder.imageView = (ImageView) convertView.findViewById(R.id.image_view);
+                viewHolder.imageView = convertView.findViewById(R.id.image_view);
 
                 convertView.setTag(viewHolder);
             } else {

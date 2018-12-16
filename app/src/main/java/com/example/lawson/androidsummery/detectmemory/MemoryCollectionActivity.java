@@ -31,7 +31,7 @@ public class MemoryCollectionActivity extends AppCompatActivity {
 
         content = "123";
 
-        listView = (ListView) findViewById(R.id.list);
+        listView = findViewById(R.id.list);
 
         list = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
@@ -73,7 +73,7 @@ public class MemoryCollectionActivity extends AppCompatActivity {
             if (convertView == null) {
                 convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_view_item, null);
                 viewHolder = new ViewHolder();
-                viewHolder.textView = (TextView) convertView.findViewById(R.id.text);
+                viewHolder.textView = convertView.findViewById(R.id.text);
                 convertView.setTag(viewHolder);
             } else {
                 viewHolder = (ViewHolder) convertView.getTag();

@@ -20,7 +20,7 @@ public class EventBusActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_bus);
 
-        textView = (TextView) findViewById(R.id.text);
+        textView = findViewById(R.id.text);
 
         textView.setText("lalala");
         EventBus.getDefault().register(EventBusActivity.this);

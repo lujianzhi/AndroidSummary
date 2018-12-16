@@ -19,7 +19,7 @@ public class HideNavigationBar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hide_navigation_bar);
 
-        main = (Button) findViewById(R.id.hide);
+        main = findViewById(R.id.hide);
 
         main.setOnClickListener(new View.OnClickListener() {
             @Override

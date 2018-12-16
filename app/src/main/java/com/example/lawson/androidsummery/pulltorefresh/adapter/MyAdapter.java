@@ -48,8 +48,8 @@ public class MyAdapter extends BaseAdapter {
         if (convertView == null) {
             convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_pull_to_refresh_list_view, parent, false);
             viewHolder = new ViewHolder();
-            viewHolder.title = (TextView) convertView.findViewById(R.id.title);
-            viewHolder.content = (TextView) convertView.findViewById(R.id.content);
+            viewHolder.title = convertView.findViewById(R.id.title);
+            viewHolder.content = convertView.findViewById(R.id.content);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) convertView.getTag();

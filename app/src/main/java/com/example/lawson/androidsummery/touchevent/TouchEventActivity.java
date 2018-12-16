@@ -27,8 +27,8 @@ public class TouchEventActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_touch_event);
 
-        linearLayout = (MyLinearLayout) findViewById(R.id.layout);
-        imageView = (MyImageView) findViewById(R.id.image_view);
+        linearLayout = findViewById(R.id.layout);
+        imageView = findViewById(R.id.image_view);
 
 //        linearLayout.setOnClickListener(new View.OnClickListener() {
 //            @Override

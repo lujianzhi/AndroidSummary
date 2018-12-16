@@ -15,7 +15,7 @@ public class FadeInTextViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fade_in_text_view);
 
-        fadeInTV = (FadeInTextView) findViewById(R.id.fade_in_tv);
+        fadeInTV = findViewById(R.id.fade_in_tv);
         fadeInTV.setText("这是一个很屌的View");
     }
 }

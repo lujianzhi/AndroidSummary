@@ -29,10 +29,10 @@ public class TestPopupWindow extends PopupWindow {
     public TestPopupWindow(final Context context) {
         this.mContext = context;
         View view = LayoutInflater.from(context).inflate(R.layout.popup_window_layout, null);
-        TextView textView1 = (TextView) view.findViewById(R.id.tv_1);
-        TextView textView2 = (TextView) view.findViewById(R.id.tv_2);
-        TextView textView3 = (TextView) view.findViewById(R.id.tv_3);
-        TextView textView4 = (TextView) view.findViewById(R.id.tv_4);
+        TextView textView1 = view.findViewById(R.id.tv_1);
+        TextView textView2 = view.findViewById(R.id.tv_2);
+        TextView textView3 = view.findViewById(R.id.tv_3);
+        TextView textView4 = view.findViewById(R.id.tv_4);
 
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override

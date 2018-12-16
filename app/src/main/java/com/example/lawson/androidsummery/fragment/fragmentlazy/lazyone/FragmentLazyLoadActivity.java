@@ -33,8 +33,8 @@ public class FragmentLazyLoadActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment_lazy_load);
-        viewPager = (ViewPager) findViewById(R.id.view_pager);
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        viewPager = findViewById(R.id.view_pager);
+        TabLayout tabLayout = findViewById(R.id.tab_layout);
         for (int i = 0; i < 6; i++) {
             tabLayout.addTab(tabLayout.newTab());
         }

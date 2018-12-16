@@ -17,7 +17,7 @@ public class PopupWindowActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_popup_window);
 
-        show = (Button) findViewById(R.id.show);
+        show = findViewById(R.id.show);
 
         show.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -68,7 +68,7 @@ public abstract class BaseFragment extends Fragment {
         Log.i("Ian", tag + "-> onCreateView");
         View view = createView(inflater, container, savedInstanceState);
         isViewInitiated = true;
-        data = (TextView) view.findViewById(R.id.data);
+        data = view.findViewById(R.id.data);
         loadData();
         return view;
     }

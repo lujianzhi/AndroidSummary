@@ -22,10 +22,10 @@ public class UITestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uitest);
 
-        showTv = (TextView) findViewById(R.id.show_text_view);
-        inputEt = (EditText) findViewById(R.id.input_edit_text);
-        saveBtn = (Button) findViewById(R.id.save_button);
-        clearBtn = (Button) findViewById(R.id.clear_button);
+        showTv = findViewById(R.id.show_text_view);
+        inputEt = findViewById(R.id.input_edit_text);
+        saveBtn = findViewById(R.id.save_button);
+        clearBtn = findViewById(R.id.clear_button);
 
         saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override

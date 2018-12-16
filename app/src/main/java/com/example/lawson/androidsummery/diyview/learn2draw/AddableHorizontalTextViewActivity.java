@@ -17,11 +17,11 @@ public class AddableHorizontalTextViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addable_horizontal_text_view);
 
-        mContainer = (LinearLayout) findViewById(R.id.container);
+        mContainer = findViewById(R.id.container);
 
         for (int i = 0; i < 3; i++) {
             View textViewContainer = LayoutInflater.from(this).inflate(R.layout.frame_text_view, null);
-            TextView textView = (TextView) textViewContainer.findViewById(R.id.text_view);
+            TextView textView = textViewContainer.findViewById(R.id.text_view);
             textView.setText(String.valueOf(i));
             if (i == 1) {
 //                textView.setBackground(null);

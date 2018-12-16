@@ -42,8 +42,8 @@ public class PropertyAnimationActivity extends AppCompatActivity {
             }
         });
 
-        imageView2 = (ImageView) findViewById(R.id.imageView2);
-        imageView3 = (ImageView) findViewById(R.id.imageView3);
+        imageView2 = findViewById(R.id.imageView2);
+        imageView3 = findViewById(R.id.imageView3);
 
         animationSet();
     }
@@ -67,7 +67,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void ofKeyframe() {
-        ArcAnimationView imageView13 = (ArcAnimationView) findViewById(R.id.imageView13);
+        ArcAnimationView imageView13 = findViewById(R.id.imageView13);
         Keyframe keyframe1 = Keyframe.ofFloat(0, 0);
         Keyframe keyframe2 = Keyframe.ofFloat(0.6F, 360);
         Keyframe keyframe3 = Keyframe.ofFloat(1, 250);
@@ -76,7 +76,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void animatorSet() {
-        ImageView imageView10 = (ImageView) findViewById(R.id.imageView10);
+        ImageView imageView10 = findViewById(R.id.imageView10);
 
         ObjectAnimator objectAnimator1 = ObjectAnimator.ofFloat(imageView10, "alpha", 0, 1);
         ObjectAnimator objectAnimator2 = ObjectAnimator.ofFloat(imageView10, "translationX", 0, 100);
@@ -86,7 +86,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
         animatorSet1.playSequentially(objectAnimator1, objectAnimator2, objectAnimator3);
         animatorSet1.setDuration(3000).start();
 
-        ImageView imageView11 = (ImageView) findViewById(R.id.imageView11);
+        ImageView imageView11 = findViewById(R.id.imageView11);
         ObjectAnimator objectAnimator4 = ObjectAnimator.ofFloat(imageView11, "alpha", 0, 1);
         ObjectAnimator objectAnimator5 = ObjectAnimator.ofFloat(imageView11, "translationX", 0, 100);
         ObjectAnimator objectAnimator6 = ObjectAnimator.ofFloat(imageView11, "translationY", 0, 100);
@@ -95,7 +95,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
         animatorSet2.playTogether(objectAnimator4, objectAnimator5, objectAnimator6);
         animatorSet2.setDuration(3000).start();
 
-        ImageView imageView12 = (ImageView) findViewById(R.id.imageView12);
+        ImageView imageView12 = findViewById(R.id.imageView12);
         ObjectAnimator objectAnimator7 = ObjectAnimator.ofFloat(imageView12, "alpha", 0, 1);
         ObjectAnimator objectAnimator8 = ObjectAnimator.ofFloat(imageView12, "translationX", 0, 100);
         ObjectAnimator objectAnimator9 = ObjectAnimator.ofFloat(imageView12, "translationY", 0, 100);
@@ -107,7 +107,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void propertyValuesHolder() {
-        ImageView imageView9 = (ImageView) findViewById(R.id.imageView9);
+        ImageView imageView9 = findViewById(R.id.imageView9);
 
         PropertyValuesHolder holder1 = PropertyValuesHolder.ofFloat("scaleX", 0, 1);
         PropertyValuesHolder holder2 = PropertyValuesHolder.ofFloat("scaleY", 0, 1);
@@ -119,7 +119,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void ofObject() {
-        final ImageView imageView8 = (ImageView) findViewById(R.id.imageView8);
+        final ImageView imageView8 = findViewById(R.id.imageView8);
         //在自定义View中写上position属性，该属性是PointF类型。
         //根据PointF对象写一个PointFEvaluator
         ObjectAnimator objectAnimator = ObjectAnimator.ofObject(imageView8, "position",
@@ -155,7 +155,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void typeEvaluator() {
-        ArcAnimationView imageView6 = (ArcAnimationView) findViewById(R.id.imageView6);
+        ArcAnimationView imageView6 = findViewById(R.id.imageView6);
         ObjectAnimator objectAnimator = ObjectAnimator.ofInt(imageView6, "color", 0xffff0000, 0xff0000ff);
         objectAnimator.setDuration(3000);
         //设置颜色计算器，否则会出现闪烁的现象。使用ArgbEvaluator时，颜色只是从0xffff0000变黑了一下，直接到了0xff0000ff
@@ -165,7 +165,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
         objectAnimator2.setDuration(3000);
         objectAnimator2.start();
 
-        ArcAnimationView imageView7 = (ArcAnimationView) findViewById(R.id.imageView7);
+        ArcAnimationView imageView7 = findViewById(R.id.imageView7);
         ObjectAnimator objectAnimator3 = ObjectAnimator.ofInt(imageView7, "color", 0xffff0000, 0xff0000ff);
         objectAnimator3.setDuration(3000);
         //自定义颜色计算器。颜色平滑过渡，不存在黑一下过渡
@@ -178,8 +178,8 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void setInterpolatorAndListener() {
-        final ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
-        final ImageView imageView5 = (ImageView) findViewById(R.id.imageView5);
+        final ImageView imageView4 = findViewById(R.id.imageView4);
+        final ImageView imageView5 = findViewById(R.id.imageView5);
 
         //PropertyAnimator
         imageView2.animate().translationX(200).setInterpolator(new DecelerateInterpolator()).setDuration(3000).setListener(new Animator.AnimatorListener() {
@@ -276,7 +276,6 @@ public class PropertyAnimationActivity extends AppCompatActivity {
                 }, 500);
             }
         });
-        ;
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Path path = new Path();
@@ -299,7 +298,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void arcAnimationView() {
-        final ArcAnimationView arcAnimationView = (ArcAnimationView) findViewById(R.id.arcAnimationView);
+        final ArcAnimationView arcAnimationView = findViewById(R.id.arcAnimationView);
         //自定义degree属性时，ObjectAnimator会调用degree相应的setter方法
         ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(arcAnimationView,
                 "degree", 0, 360, 137);
@@ -335,7 +334,7 @@ public class PropertyAnimationActivity extends AppCompatActivity {
     }
 
     private void viewPropertyAnimator() {
-        final ImageView imageView = (ImageView) findViewById(R.id.imageView1);
+        final ImageView imageView = findViewById(R.id.imageView1);
         imageView.animate().translationX(200).alpha(0.0f).scaleX(0.0f).scaleY(0.0f).setDuration(3000).withEndAction(new Runnable() {
             @Override
             public void run() {

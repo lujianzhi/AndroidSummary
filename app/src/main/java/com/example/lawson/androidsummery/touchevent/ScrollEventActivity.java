@@ -24,7 +24,7 @@ public class ScrollEventActivity extends AppCompatActivity {
             numbers.add(String.valueOf(i));
         }
 
-        list_view = (ListView) findViewById(R.id.list_view);
+        list_view = findViewById(R.id.list_view);
         list_view.setAdapter(new ArrayAdapter<>(getBaseContext(), android.R.layout.simple_list_item_1, numbers));
 
     }

@@ -17,8 +17,8 @@ public class HideViewLVActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hide_view_lv);
 
-        HideView hideView = (HideView) findViewById(R.id.hide_view);
-        ListView listView = (ListView) findViewById(R.id.list_view);
+        HideView hideView = findViewById(R.id.hide_view);
+        ListView listView = findViewById(R.id.list_view);
         List<String> list = new ArrayList<>();
         for (int i = 0; i < 9999; i++) {
             list.add(String.valueOf(i));

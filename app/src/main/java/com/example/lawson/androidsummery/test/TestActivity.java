@@ -38,7 +38,7 @@ public class TestActivity extends AppCompatActivity {
     }
 
     private void testPost() {
-        final TextView post = (TextView) findViewById(R.id.post_view);
+        final TextView post = findViewById(R.id.post_view);
 //        post.post(new Runnable() {
 //            @Override
 //            public void run() {
@@ -46,7 +46,7 @@ public class TestActivity extends AppCompatActivity {
 //            }
 //        });
 
-        final LinearLayout postViewGroup = (LinearLayout) findViewById(R.id.post_view_group);
+        final LinearLayout postViewGroup = findViewById(R.id.post_view_group);
         postViewGroup.post(new Runnable() {
             @Override
             public void run() {
@@ -58,15 +58,15 @@ public class TestActivity extends AppCompatActivity {
 
 
     private void testEditShapeRes() {
-        TextView tip = (TextView) findViewById(R.id.text_view);
+        TextView tip = findViewById(R.id.text_view);
         GradientDrawable gradientDrawable = (GradientDrawable) tip.getBackground();
         gradientDrawable.setColors(new int[]{Color.parseColor("#00FF00"), Color.parseColor("#FF4081")});
         tip.setBackground(gradientDrawable);
     }
 
     private void testEditText() {
-        final EditText editText = (EditText) findViewById(R.id.edit_text);
-        final TextView tip = (TextView) findViewById(R.id.tip);
+        final EditText editText = findViewById(R.id.edit_text);
+        final TextView tip = findViewById(R.id.tip);
         editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -104,8 +104,8 @@ public class TestActivity extends AppCompatActivity {
     }
 
     private void testSwitch() {
-        final Switch switchOne = (Switch) findViewById(R.id.switch_one);
-        final Switch switchTwo = (Switch) findViewById(R.id.switch_two);
+        final Switch switchOne = findViewById(R.id.switch_one);
+        final Switch switchTwo = findViewById(R.id.switch_two);
         CompoundButton.OnCheckedChangeListener onCheckedChangeListener = new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
