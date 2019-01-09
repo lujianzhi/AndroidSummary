@@ -270,11 +270,23 @@
                 android:layout_height="wrap_content"
                 android:text="弹性滑动Scroller" />
 
-            <Button
-                android:id="@+id/about_activity"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Activity相关" />
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/about_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Activity相关" />
+
+                <Button
+                    android:id="@+id/about_activity_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Activity与Fragment相关" />
+            </LinearLayout>
 
             <Button
                 android:id="@+id/handler_activity"

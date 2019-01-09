@@ -209,7 +209,8 @@
         <activity android:name=".beibei.delegate.DelegateActivity" />
         <activity android:name=".diyview.timepicker.DatePickerActivity" />
         <activity android:name=".beibei.BeiBeiActivity" />
-        <activity android:name=".beibei.hbaction.ActionActivity"></activity>
+        <activity android:name=".beibei.hbaction.ActionActivity" />
+        <activity android:name=".activityabout.MyFragmentActivity"></activity>
     </application>
 
 </manifest>
