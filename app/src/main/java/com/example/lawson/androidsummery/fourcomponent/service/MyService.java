@@ -16,43 +16,28 @@ import java.util.concurrent.Executors;
  */
 
 public class MyService extends Service {
-
     private ExecutorService cachedThreadPool;
     private MyBinder myBinder = new MyBinder();
-
     @Override
     public void onCreate() {
         super.onCreate();
         cachedThreadPool = Executors.newCachedThreadPool();
         Log.i("Ian", "MyService -> onCreate ; Thread:" + Thread.currentThread().getName());
     }
-
-    @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        cachedThreadPool.execute(new Runnable() {
-            @Override
-            public void run() {
-                Log.i("Ian", "MyService -> cachedThreadPool onStartCommand ; Thread:" + Thread.currentThread().getName());
-            }
-        });
-        return super.onStartCommand(intent, flags, startId);
-    }
-
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         Log.i("Ian", "MyService -> onBind ; Thread:" + Thread.currentThread().getName());
         return myBinder;
     }
-
     @Override
     public void onDestroy() {
         super.onDestroy();
         Log.i("Ian", "MyService -> onDestroy ; Thread:" + Thread.currentThread().getName());
     }
-
     public class MyBinder extends Binder {
         public void saySomething(final String say) {
+            Log.i("Ian", "MyService -> Binder -> saySomething:" + say + " ; Thread:" + Thread.currentThread().getName());
             cachedThreadPool.execute(new Runnable() {
                 @Override
                 public void run() {

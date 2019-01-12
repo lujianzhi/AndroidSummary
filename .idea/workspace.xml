@@ -20,6 +20,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/AboutSecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutSecondActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/AboutThirdActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutThirdActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/MyFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/MyFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/TestFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TestFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_third.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_third.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
     <list id="95839285-bb59-4d62-978f-d973452dd3ed" name="ignore" comment="ignore">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" beforeDir="false" />
@@ -131,91 +152,6 @@
       <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
-    <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
-    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/MyFragmentActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/TestFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/test_fragment_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidSummary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidSummary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/release/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/release/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/BuildConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/ILoadingLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/ILoadingLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/IPullToRefresh.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/IPullToRefresh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/LoadingLayoutProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/LoadingLayoutProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/OverscrollHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/OverscrollHelper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/OverscrollHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/OverscrollHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$AnimationStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$AnimationStyle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$Mode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnLastItemVisibleListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnLastItemVisibleListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnPullEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnPullEventListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener2.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnSmoothScrollFinishedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnSmoothScrollFinishedListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$Orientation.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$Orientation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$SmoothScrollRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$SmoothScrollRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListViewSDK9.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListViewSDK9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridViewSDK9.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridViewSDK9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView$InternalHorizontalScrollViewSDK9.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView$InternalHorizontalScrollViewSDK9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListViewSDK9.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListViewSDK9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshScrollView$InternalScrollViewSDK9.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshScrollView$InternalScrollViewSDK9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshScrollView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshScrollView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$InternalWebViewSDK9.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$InternalWebViewSDK9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$anim.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$anim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$attr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$dimen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2$JsValueCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2$JsValueCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/SoundPullEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/SoundPullEventListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/EmptyViewMethodAccessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/EmptyViewMethodAccessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/IndicatorLayout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/IndicatorLayout$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/IndicatorLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/IndicatorLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/LoadingLayout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/LoadingLayout$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/LoadingLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/LoadingLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/RotateLoadingLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/RotateLoadingLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK11.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK16.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat.class" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/release/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/handmark/pulltorefresh/library/PullToRefreshWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/handmark/pulltorefresh/library/PullToRefreshWebView.java" afterDir="false" />
-    </list>
     <ignored path="AndroidSummary.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -252,61 +188,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
+      <file leaf-file-name="MyIntentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3500">
-              <caret line="321" selection-start-line="321" selection-end-line="321" />
-              <folding>
-                <element signature="e#15178#15380#0" expanded="true" />
-                <element signature="e#15379#15380#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1000">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_fragment.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFragmentActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/MyFragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="21" column="28" selection-start-line="19" selection-start-column="56" selection-end-line="21" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/TestFragment.java">
+      <file leaf-file-name="AndroidThreadActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/AndroidThreadActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourComponentActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4314#4315#0" expanded="true" />
+                <element signature="e#4362#4363#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_fragment_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test_fragment_layout.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="OrderOneBroadcastReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderOneBroadcastReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="225">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="14" selection-end-column="51" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderTwoBroadcastReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderThreeBroadcastReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderThreeBroadcastReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderFinalBroadcastReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderFinalBroadcastReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NormalBroadcastReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/NormalBroadcastReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="177" column="61" lean-forward="true" selection-start-line="156" selection-start-column="72" selection-end-line="177" selection-end-column="61" />
+              <folding>
+                <element signature="e#788#806#0" expanded="true" />
+                <element signature="e#6082#6117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -332,12 +302,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>createViewFromTag</find>
-      <find>mListenerInfo</find>
-      <find>mAccessibilityDelegate</find>
-      <find>callActivityOnCreateView</find>
-      <find>mDatePicker</find>
-      <find>touch_event</find>
       <find>mOnClickListener</find>
       <find>onTouchEvent</find>
       <find>delegate</find>
@@ -362,6 +326,12 @@
       <find>butterKnife</find>
       <find>fragment_lazy_load</find>
       <find>AboutActivity</find>
+      <find>Service</find>
+      <find>MyService</find>
+      <find>FourComponentActivity</find>
+      <find>IntentService</find>
+      <find>NormalBroadcastReceiver</find>
+      <find>OrderFinalBroadcastReceiver</find>
     </findStrings>
     <replaceStrings>
       <replace>500</replace>
@@ -3531,14 +3501,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateImplV23.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateImplN.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/delegate/view/IanTextView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/data2.json" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_lottie.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/TimePickerActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/TimePickerDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_time_picker.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java" />
@@ -3575,25 +3537,23 @@
         <option value="$PROJECT_DIR$/library/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/library/src/main/java/com/handmark/pulltorefresh/library/PullToRefreshWebView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/test_fragment_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/FragmentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/TestFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/MyFragmentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/NormalBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderThreeBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" />
       </list>
     </option>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/library/build.gradle">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="1" changelist="95839285-bb59-4d62-978f-d973452dd3ed" />
-        <range start1="3" end1="5" start2="2" end2="4" changelist="95839285-bb59-4d62-978f-d973452dd3ed" />
-        <range start1="7" end1="9" start2="6" end2="8" changelist="89372955-64e8-4060-99f7-a534e92ed80d" />
-        <range start1="19" end1="19" start2="18" end2="20" changelist="95839285-bb59-4d62-978f-d973452dd3ed" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -3694,6 +3654,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -3736,14 +3698,123 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="aidl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="aidl" type="462c0819:PsiDirectoryNode" />
+              <item name="binder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="fourcomponent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="fourcomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="broadcastreceiver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="ipc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="ipc" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="ipc" type="462c0819:PsiDirectoryNode" />
+              <item name="binder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="ipc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="intentservice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3765,7 +3836,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538127085568" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="device.picker.selection" value="192.168.2.2:8889" />
+    <property name="device.picker.selection" value="750BBLG22LS6" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Framework/MultiTypeAdapter" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -4302,13 +4373,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475486850205</updated>
     </task>
-    <task id="LOCAL-00052" summary="Android的线程和线程池">
-      <created>1504678021578</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1504678021579</updated>
-    </task>
     <task id="LOCAL-00053" summary="Bitmap的加载和Cache">
       <created>1505180287916</created>
       <option name="number" value="00053" />
@@ -4645,7 +4709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544972236407</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Activity Fragment生命周期">
+      <created>1547029341199</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1547029341200</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -4691,40 +4762,41 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" weight="0.669967" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.4807481" />
-      <window_info id="Build Variants" order="3" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.5929593" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="7" sideWeight="0.4978678" visible="true" weight="0.45544556" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49573562" weight="0.3058306" />
-      <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.23347548" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.4520256" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49616042" weight="0.25632563" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.4807481" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="3" />
+      <window_info id="Build Variants" order="3" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Preview" order="4" visible="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.5929593" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4904051" weight="0.6809681" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936007" weight="0.5808581" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48081023" weight="0.46754676" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48081023" weight="0.8371837" />
+      <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.4978678" weight="0.3421342" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950495" visible="true" weight="0.23347548" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33443344" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950495" visible="true" weight="0.20362474" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49573562" weight="0.3058306" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32977816" />
+      <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.23347548" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.4520256" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49616042" weight="0.25632563" />
       <window_info id="Favorites" order="3" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
       <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.49946696" weight="0.5929593" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" visible="true" weight="0.3992964" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Nl-Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33443344" />
       <window_info anchor="right" id="Android Model" order="3" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Freeline" order="8" sideWeight="0.5021322" visible="true" weight="0.30143014" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -4734,12 +4806,12 @@
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48667377" weight="0.21122113" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.4807481" />
+      <window_info anchor="bottom" id="Logcat" order="12" sideWeight="0.4978678" weight="0.45544556" />
       <window_info active="true" anchor="bottom" id="Freeline" order="17" sideWeight="0.5021322" visible="true" weight="0.30143014" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Build" order="16" sideWeight="0.49573562" weight="0.3058306" />
       <window_info anchor="bottom" id="Gradle Console" order="8" sideWeight="0.5021322" side_tool="true" weight="0.3289183" />
       <window_info id="Build Variants" order="4" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
+      <window_info id="Favorites" order="6" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4904051" weight="0.6809681" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -4754,10 +4826,10 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.5929593" />
       <window_info anchor="right" id="Preview" order="10" weight="0.32995737" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33443344" />
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.4520256" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.4807481" />
       <window_info anchor="right" id="Assistant" order="11" weight="0.4291809" />
-      <window_info anchor="bottom" id="Logcat" order="12" sideWeight="0.4978678" weight="0.45544556" />
+      <window_info anchor="bottom" id="Build" order="16" sideWeight="0.49573562" weight="0.3058306" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4936007" weight="0.5808581" />
       <window_info id="Nl-Palette" order="8" />
       <window_info anchor="right" id="Android Model" order="6" side_tool="true" />
@@ -4772,7 +4844,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.23347548" />
       <window_info anchor="bottom" id="Inspection" order="5" visible="true" weight="0.3992964" />
-      <window_info id="Favorites" order="6" sideWeight="0.50772625" side_tool="true" weight="0.22228146" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33443344" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49616042" weight="0.25632563" />
     </layout-to-restore>
   </component>
@@ -4788,7 +4860,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新kotlin版本" />
     <MESSAGE value="Android View的可见性检查方法" />
     <MESSAGE value="启动加速之主题切换" />
     <MESSAGE value="一些安卓UI分析工具" />
@@ -4813,7 +4884,8 @@
     <MESSAGE value="lint" />
     <MESSAGE value="自定义ItemDecoration" />
     <MESSAGE value="添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
+    <MESSAGE value="Activity Fragment生命周期" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activity Fragment生命周期" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5032,127 +5104,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="67" column="36" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/ModelTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/ModelOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/ModelThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/android/support/v4/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12825">
-          <caret line="603" column="5" selection-start-line="603" selection-start-column="5" selection-end-line="603" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/TestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113300">
-          <caret line="4757" column="16" selection-start-line="4757" selection-start-column="16" selection-end-line="4757" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/FragmentLazyLoadActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/OneFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/AAaaa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/windowandwindowmanager/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/TestAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewserver/ViewServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="187" column="53" selection-start-line="187" selection-start-column="53" selection-end-line="187" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="3122" column="58" selection-start-line="3122" selection-start-column="58" selection-end-line="3122" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/circle.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/comment_9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/comment_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/comment_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_recycler_view.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -5299,10 +5250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5335,20 +5282,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/AboutActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="284" column="60" selection-start-line="284" selection-start-column="37" selection-end-line="284" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -5356,10 +5293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding>
-            <element signature="e#25828#25829#0" expanded="true" />
-            <element signature="e#25889#25890#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5377,17 +5310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3500">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
-          <folding>
-            <element signature="e#15178#15380#0" expanded="true" />
-            <element signature="e#15379#15380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test_fragment_layout.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -5398,19 +5320,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/TestFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TestFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="425">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/MyFragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/MyFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="400">
           <caret line="21" column="28" selection-start-line="19" selection-start-column="56" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
@@ -5420,8 +5339,161 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/service/MessengerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6800">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/app/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="349" column="16" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/service/AIDLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/binder/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/aidl/com/example/lawson/androidsummery/ipc/binder/Book.aidl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/aidl/com/example/lawson/androidsummery/ipc/binder/IBookManager.aidl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/aidl/debug/com/example/lawson/androidsummery/ipc/binder/IBookManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/AndroidThreadActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/NormalBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderFinalBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderOneBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderThreeBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="177" column="61" lean-forward="true" selection-start-line="156" selection-start-column="72" selection-end-line="177" selection-end-column="61" />
+          <folding>
+            <element signature="e#788#806#0" expanded="true" />
+            <element signature="e#6082#6117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#4314#4315#0" expanded="true" />
+            <element signature="e#4362#4363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

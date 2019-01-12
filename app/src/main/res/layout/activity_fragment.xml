@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/container"
-        android:name="com.example.lawson.androidsummery.activityabout.TestFragment"
+        android:name="com.example.lawson.androidsummery.fourcomponent.activityabout.TestFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

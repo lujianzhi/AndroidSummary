@@ -12,6 +12,7 @@ import android.util.Log;
  */
 
 public class OrderTwoBroadcastReceiver extends BroadcastReceiver {
+    public static final String MY_ACTION = "order";
 
     @Override
     public void onReceive(Context context, Intent intent) {

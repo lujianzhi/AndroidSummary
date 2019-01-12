@@ -1,4 +1,4 @@
-package com.example.lawson.androidsummery.activityabout;
+package com.example.lawson.androidsummery.fourcomponent.activityabout;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

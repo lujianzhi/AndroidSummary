@@ -3,6 +3,7 @@ package com.example.lawson.androidsummery.fourcomponent;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -13,6 +14,7 @@ import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.fourcomponent.broadcastreceiver.NormalBroadcastReceiver;
 import com.example.lawson.androidsummery.fourcomponent.broadcastreceiver.OrderFinalBroadcastReceiver;
 import com.example.lawson.androidsummery.fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver;
+import com.example.lawson.androidsummery.fourcomponent.broadcastreceiver.OrderTwoBroadcastReceiver;
 import com.example.lawson.androidsummery.fourcomponent.service.MyService;
 
 public class FourComponentActivity extends AppCompatActivity {
@@ -57,6 +59,12 @@ public class FourComponentActivity extends AppCompatActivity {
     }
 
     private void orderedBroadcast() {
+        //动态注册
+        IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction(OrderTwoBroadcastReceiver.MY_ACTION);
+        intentFilter.setPriority(0);
+        registerReceiver(new OrderTwoBroadcastReceiver(), intentFilter);
+
         Intent intent = new Intent();
         intent.setAction(OrderOneBroadcastReceiver.MY_ACTION);
         Bundle data = new Bundle();

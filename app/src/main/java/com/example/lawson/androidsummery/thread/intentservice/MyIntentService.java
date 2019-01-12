@@ -19,7 +19,6 @@ public class MyIntentService extends IntentService {
     public MyIntentService() {
         super("MyIntentService");
     }
-
     @Override
     protected void onHandleIntent(@Nullable Intent intent) {
         if (intent != null) {
@@ -28,7 +27,6 @@ public class MyIntentService extends IntentService {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
             String taskAction = intent.getStringExtra(TASK_ACTION);
             if (TASK_ONE.equals(taskAction)) {
                 Log.i("Ian", TASK_ONE);
@@ -39,7 +37,6 @@ public class MyIntentService extends IntentService {
             }
         }
     }
-
     @Override
     public void onDestroy() {
         super.onDestroy();

@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.example.lawson.androidsummery.activityabout.AboutActivity;
-import com.example.lawson.androidsummery.activityabout.MyFragmentActivity;
+import com.example.lawson.androidsummery.fourcomponent.activityabout.AboutActivity;
+import com.example.lawson.androidsummery.fourcomponent.activityabout.MyFragmentActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
 import com.example.lawson.androidsummery.beibei.BeiBeiActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;

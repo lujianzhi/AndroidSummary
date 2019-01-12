@@ -270,6 +270,12 @@
                 android:layout_height="wrap_content"
                 android:text="弹性滑动Scroller" />
 
+            <Button
+                android:id="@+id/component_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="四大组件的工作过程" />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -359,12 +365,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="RemoteViews" />
-
-            <Button
-                android:id="@+id/component_activity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="四大组件的工作过程" />
 
             <Button
                 android:id="@+id/error"
