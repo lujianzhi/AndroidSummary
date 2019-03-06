@@ -65,7 +65,9 @@ public class ViewChapterThree extends View {
         paint.setTextSize(40);
 
         textPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
-        textPaint.setTextSize(20);
+        textPaint.setStyle(Paint.Style.STROKE);
+        textPaint.setTextSize(40);
+        textPaint.setStrokeWidth(5);
     }
 
     @Override
@@ -100,6 +102,46 @@ public class ViewChapterThree extends View {
         getOffsetForAdvance(canvas);
 
         hasGlyph(canvas);
+
+        testFontStroke(canvas);
+    }
+
+    private void testFontStroke(Canvas canvas) {
+        TextPaint textPaintBold = new TextPaint(Paint.ANTI_ALIAS_FLAG);
+        textPaintBold.setStyle(Paint.Style.FILL_AND_STROKE);
+        textPaintBold.setTextSize(40);
+        textPaintBold.setFakeBoldText(true);
+        canvas.drawText("卢 1 a strokeWidth:未设置 fakeBoldText(true)", 10, 550, textPaintBold);
+
+        TextPaint textPaint0 = new TextPaint(Paint.ANTI_ALIAS_FLAG);
+        textPaint0.setStyle(Paint.Style.FILL_AND_STROKE);
+        textPaint0.setTextSize(40);
+        canvas.drawText("卢 1 a strokeWidth:未设置", 10, 600, textPaint0);
+
+        TextPaint textPaint0_5 = new TextPaint(Paint.ANTI_ALIAS_FLAG);
+        textPaint0_5.setStyle(Paint.Style.FILL_AND_STROKE);
+        textPaint0_5.setTextSize(40);
+        textPaint0_5.setStrokeWidth(0.5F);
+        canvas.drawText("卢 1 a strokeWidth:0.5", 10, 650, textPaint0_5);
+
+        TextPaint textPaint1 = new TextPaint(Paint.ANTI_ALIAS_FLAG);
+        textPaint1.setStyle(Paint.Style.FILL_AND_STROKE);
+        textPaint1.setTextSize(40);
+        textPaint1.setStrokeWidth(1);
+        canvas.drawText("卢 1 a strokeWidth:1", 10, 700, textPaint1);
+
+        TextPaint textPaint2 = new TextPaint(Paint.ANTI_ALIAS_FLAG);
+        textPaint2.setStyle(Paint.Style.FILL_AND_STROKE);
+        textPaint2.setTextSize(40);
+        textPaint2.setStrokeWidth(2);
+        canvas.drawText("卢 1 a strokeWidth:2", 10, 750, textPaint2);
+
+        TextPaint textPaint3 = new TextPaint(Paint.ANTI_ALIAS_FLAG);
+        textPaint3.setStyle(Paint.Style.FILL_AND_STROKE);
+        textPaint3.setTextSize(40);
+        textPaint3.setStrokeWidth(3);
+        canvas.drawText("卢 1 a strokeWidth:3", 10, 800, textPaint3);
+
     }
 
     private void hasGlyph(Canvas canvas) {

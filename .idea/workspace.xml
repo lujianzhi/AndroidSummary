@@ -22,25 +22,9 @@
   <component name="ChangeListManager">
     <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/AboutSecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutSecondActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/AboutThirdActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutThirdActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/MyFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/MyFragmentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/TestFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TestFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_second.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_third.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_third.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" afterDir="false" />
     </list>
-    <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
     <list id="95839285-bb59-4d62-978f-d973452dd3ed" name="ignore" comment="ignore">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" beforeDir="false" />
@@ -104,8 +88,6 @@
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh/values-zh.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" beforeDir="false" />
@@ -147,11 +129,11 @@
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values/values.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/resources-debug-androidTest.ap_" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/symbols/androidTest/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
+    <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
     <ignored path="AndroidSummary.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -188,95 +170,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyIntentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java">
+      <file leaf-file-name="ViewChapterThree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidThreadActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/AndroidThreadActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FourComponentActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="434">
+              <caret line="127" column="57" lean-forward="true" selection-start-line="127" selection-start-column="57" selection-end-line="127" selection-end-column="57" />
               <folding>
-                <element signature="e#4314#4315#0" expanded="true" />
-                <element signature="e#4362#4363#0" expanded="true" />
+                <element signature="e#12362#12363#0" expanded="true" />
+                <element signature="e#12416#12417#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderOneBroadcastReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderOneBroadcastReceiver.java">
+      <file leaf-file-name="Paint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/graphics/Paint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="14" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderTwoBroadcastReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderThreeBroadcastReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderThreeBroadcastReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderFinalBroadcastReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderFinalBroadcastReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NormalBroadcastReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/NormalBroadcastReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="177" column="61" lean-forward="true" selection-start-line="156" selection-start-column="72" selection-end-line="177" selection-end-column="61" />
+            <state relative-caret-position="310">
+              <caret line="804" column="14" selection-start-line="804" selection-start-column="14" selection-end-line="804" selection-end-column="14" />
               <folding>
-                <element signature="e#788#806#0" expanded="true" />
-                <element signature="e#6082#6117#0" expanded="true" />
+                <element signature="e#25659#25660#0" expanded="true" />
+                <element signature="e#25719#25720#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
@@ -302,9 +218,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mOnClickListener</find>
-      <find>onTouchEvent</find>
-      <find>delegate</find>
       <find>sourceSets</find>
       <find>mArguments</find>
       <find>test_btn</find>
@@ -332,6 +245,9 @@
       <find>IntentService</find>
       <find>NormalBroadcastReceiver</find>
       <find>OrderFinalBroadcastReceiver</find>
+      <find>textStr</find>
+      <find>textPaint</find>
+      <find>paint</find>
     </findStrings>
     <replaceStrings>
       <replace>500</replace>
@@ -3501,7 +3417,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_time_picker.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/TouchEventActivity.java" />
@@ -3552,6 +3467,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderThreeBroadcastReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/broadcastreceiver/OrderTwoBroadcastReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterThree.java" />
       </list>
     </option>
   </component>
@@ -3654,19 +3570,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AndroidSummary" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3698,23 +3601,6 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="aidl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="aidl" type="462c0819:PsiDirectoryNode" />
-              <item name="binder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3734,7 +3620,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="fourcomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="hencoder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
@@ -3744,8 +3630,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="fourcomponent" type="462c0819:PsiDirectoryNode" />
-              <item name="broadcastreceiver" type="462c0819:PsiDirectoryNode" />
+              <item name="hencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
@@ -3755,7 +3641,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="ipc" type="462c0819:PsiDirectoryNode" />
+              <item name="hencoder" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
@@ -3765,56 +3653,51 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="ipc" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="recyclerview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="ipc" type="462c0819:PsiDirectoryNode" />
-              <item name="binder" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="ipc" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="intentservice" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="aar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AndroidSummary" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3836,7 +3719,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../sdk" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538127085568" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="device.picker.selection" value="750BBLG22LS6" />
+    <property name="device.picker.selection" value="2db0196d" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Framework/MultiTypeAdapter" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -4373,13 +4256,6 @@
       <option name="presentableId" value="Default" />
       <updated>1475486850205</updated>
     </task>
-    <task id="LOCAL-00053" summary="Bitmap的加载和Cache">
-      <created>1505180287916</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1505180287917</updated>
-    </task>
     <task id="LOCAL-00054" summary="BroadcastReceiver和Service">
       <created>1505267409012</created>
       <option name="number" value="00054" />
@@ -4716,7 +4592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547029341200</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="四大组件">
+      <created>1547308989859</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1547308989860</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -4775,11 +4658,11 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4904051" weight="0.6809681" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936007" weight="0.5808581" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48081023" weight="0.8371837" />
-      <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.4978678" weight="0.3421342" />
+      <window_info anchor="bottom" id="Logcat" order="7" sideWeight="0.4978678" weight="0.34108528" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950495" visible="true" weight="0.20362474" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950495" visible="true" weight="0.20362474" />
       <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49573562" weight="0.3058306" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32977816" />
       <window_info id="Structure" order="1" sideWeight="0.5049505" side_tool="true" weight="0.23347548" />
@@ -4860,7 +4743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Android View的可见性检查方法" />
     <MESSAGE value="启动加速之主题切换" />
     <MESSAGE value="一些安卓UI分析工具" />
     <MESSAGE value="懒加载tab页时的问题" />
@@ -4885,7 +4767,8 @@
     <MESSAGE value="自定义ItemDecoration" />
     <MESSAGE value="添加注释" />
     <MESSAGE value="Activity Fragment生命周期" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity Fragment生命周期" />
+    <MESSAGE value="四大组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="四大组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5104,43 +4987,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_recycler_view.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/MyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="98" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/voice_icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/shape_vertical_divider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recycler_view_list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
           <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/graphics/Rect.java">
@@ -5268,10 +5122,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fragment_normal.xml">
-      <provider editor-type-id="android-designer2">
+      <provider selected="true" editor-type-id="text-editor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -5311,13 +5165,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test_fragment_layout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TestFragment.java">
@@ -5335,13 +5189,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/service/MessengerService.java">
@@ -5359,23 +5213,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6800">
           <caret line="272" selection-start-line="272" selection-end-line="272" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/app/Service.java">
@@ -5474,12 +5328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="177" column="61" lean-forward="true" selection-start-line="156" selection-start-column="72" selection-end-line="177" selection-end-column="61" />
-          <folding>
-            <element signature="e#788#806#0" expanded="true" />
-            <element signature="e#6082#6117#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4425">
+          <caret line="177" column="61" selection-start-line="156" selection-start-column="72" selection-end-line="177" selection-end-column="61" />
         </state>
       </provider>
       <provider editor-type-id="android-manifest">
@@ -5488,11 +5338,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="250">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/MyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="98" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/UIActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
-            <element signature="e#4314#4315#0" expanded="true" />
-            <element signature="e#4362#4363#0" expanded="true" />
+            <element signature="e#584#794#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/graphics/Paint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="804" column="14" selection-start-line="804" selection-start-column="14" selection-end-line="804" selection-end-column="14" />
+          <folding>
+            <element signature="e#25659#25660#0" expanded="true" />
+            <element signature="e#25719#25720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="127" column="57" lean-forward="true" selection-start-line="127" selection-start-column="57" selection-end-line="127" selection-end-column="57" />
+          <folding>
+            <element signature="e#12362#12363#0" expanded="true" />
+            <element signature="e#12416#12417#0" expanded="true" />
           </folding>
         </state>
       </provider>
