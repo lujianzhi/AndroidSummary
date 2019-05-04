@@ -75,6 +75,8 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
 
+import me.ele.uetool.UETool;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -522,6 +524,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, GeTuiPicViryActivity.class));
+            }
+        });
+
+        findViewById(R.id.eleme_uetool_open).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                UETool.showUETMenu();
+            }
+        });
+        findViewById(R.id.eleme_uetool_close).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                UETool.dismissUETMenu();
             }
         });
 

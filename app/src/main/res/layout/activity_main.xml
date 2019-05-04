@@ -432,6 +432,26 @@
                 android:layout_height="wrap_content"
                 android:text="个推图形验证" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/eleme_uetool_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="饿了么UETool 打开" />
+
+                <Button
+                    android:id="@+id/eleme_uetool_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="饿了么UETool 关闭" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </RelativeLayout>
