@@ -1,11 +1,10 @@
 package com.example.lawson.androidsummery.scroller;
 
 import android.content.Context;
-import android.databinding.tool.util.L;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.ImageView;
 import android.widget.Scroller;
 
 /**
@@ -13,7 +12,7 @@ import android.widget.Scroller;
  * Project : AndroidSummary
  */
 
-public class MyScrollerView extends ImageView {
+public class MyScrollerView extends AppCompatImageView {
 
     public MyScrollerView(Context context) {
         super(context);
@@ -27,11 +26,6 @@ public class MyScrollerView extends ImageView {
 
     public MyScrollerView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        init();
-    }
-
-    public MyScrollerView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
         init();
     }
 

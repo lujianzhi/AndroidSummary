@@ -4,7 +4,6 @@ import android.app.Application;
 import android.content.Context;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.antfortune.freeline.FreelineCore;
 import com.example.lawson.androidsummery.beibei.hbaction.ActionManager;
 import com.example.lawson.androidsummery.thread.CrashHandler;
 import com.squareup.leakcanary.LeakCanary;
@@ -43,9 +42,6 @@ public class MyApplication extends Application {
         ARouter.init(this);
     }
 
-    private void initFreeLine() {
-        FreelineCore.init(this);
-    }
 
     private void initCrashHandler() {
         CrashHandler.getInstance().init(getApplicationContext());

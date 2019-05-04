@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\AS\Project\AndroidSummary\library\src\main\shaders"/></dataSet><dataSet config="debug"><source path="E:\AS\Project\AndroidSummary\library\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/ian/development/android/project/my/AndroidSummary/library/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/ian/development/android/project/my/AndroidSummary/library/src/debug/shaders"/></dataSet></merger>

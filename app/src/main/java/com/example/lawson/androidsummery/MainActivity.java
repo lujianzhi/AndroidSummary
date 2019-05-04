@@ -30,7 +30,6 @@ import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.fourcomponent.FourComponentActivity;
 import com.example.lawson.androidsummery.fragment.normal.FragmentNormalActivity;
 import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity;
-import com.example.lawson.androidsummery.greendao.GreenDaoActivity;
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
 import com.example.lawson.androidsummery.hencoder.HenCoderActivity;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
@@ -464,13 +463,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, UITestActivity.class));
-            }
-        });
-
-        findViewById(R.id.green_dao).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, GreenDaoActivity.class));
             }
         });
 
