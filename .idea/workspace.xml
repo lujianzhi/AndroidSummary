@@ -73,331 +73,69 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_annotation_1_0_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_databinding_adapters_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_databinding_baseLibrary_3_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_databinding_library_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_dynamic_animation_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_disklrucache_2_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mcxiaoke_volley_library_1_0_19_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_haha_haha_2_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_analyzer_1_4_beta2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_4_beta2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_no_op_1_4_beta2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_watcher_1_4_beta2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_urlconnection_3_4_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yolanda_nohttp_nohttp_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_16_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_airbnb_android_lottie_2_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yanzhenjie_nohttp_okhttp_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" beforeDir="false" />
+    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="四大组件">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gtc_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gysdk_1_4_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GYReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GeTuiPicViryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ge_tui_pic_viry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/yg_test.jks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_annotation_1_0_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_annotation_1_0_4_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidSummary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidSummary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanDelegate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/greendao/GreenDaoActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/greendao/been/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/greendao/been/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyScrollerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyScrollerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lottie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lottie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/generated/source/buildConfig/androidTest/debug/com/handmark/pulltorefresh/library/test/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/generated/source/buildConfig/release/com/handmark/pulltorefresh/library/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/generated/source/r/androidTest/debug/com/handmark/pulltorefresh/library/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/generated/source/r/androidTest/debug/com/handmark/pulltorefresh/library/test/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/generated/source/r/debug/com/handmark/pulltorefresh/library/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/generated/source/r/debug/com/handmark/pulltorefresh/library/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/generated/source/r/release/com/handmark/pulltorefresh/library/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-ar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-cs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-de.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-es.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-fi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-fr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-he.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-it.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-iw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-ja.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-ko.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-nl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-pl.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rBR.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-pt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-ro.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-ru.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values-zh.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/multi/values.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/single/anim.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/single/drawable.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/blame/res/androidTest/debug/single/layout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/anim/slide_in_from_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/anim/slide_in_from_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/anim/slide_out_to_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/anim/slide_out_to_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-hdpi-v4/default_ptr_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-hdpi-v4/default_ptr_rotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-hdpi-v4/indicator_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-mdpi-v4/default_ptr_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-mdpi-v4/default_ptr_rotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-mdpi-v4/indicator_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-xhdpi-v4/default_ptr_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-xhdpi-v4/default_ptr_rotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable-xhdpi-v4/indicator_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable/indicator_bg_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/drawable/indicator_bg_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/layout/pull_to_refresh_header_horizontal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/layout/pull_to_refresh_header_vertical.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-he/values-he.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values-zh/values-zh.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/release/res/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/ILoadingLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/IPullToRefresh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/LoadingLayoutProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/OverscrollHelper$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/OverscrollHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$AnimationStyle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$Mode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnLastItemVisibleListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnPullEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$OnSmoothScrollFinishedListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$Orientation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$SmoothScrollRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListViewSDK9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridViewSDK9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshGridView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView$InternalHorizontalScrollViewSDK9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListViewSDK9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshListView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshScrollView$InternalScrollViewSDK9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshScrollView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView$InternalWebViewSDK9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/PullToRefreshWebView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$anim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$attr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$dimen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$id.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R$styleable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2$JsValueCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/extras/SoundPullEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/EmptyViewMethodAccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/IndicatorLayout$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/IndicatorLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/LoadingLayout$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/LoadingLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/RotateLoadingLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/handmark/pulltorefresh/library/internal/ViewCompat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental-safeguard/release/tag.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/compileReleaseAidl/dependency.store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-he/values-he.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-zh/values-zh.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-47-27-512.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-47-27-512.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-05-464.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-05-464.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-07-863.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-07-863.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-18-537.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-18-537.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-20-872.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-48-20-872.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-15-537.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-15-537.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-17-826.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-17-826.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-29-440.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-29-440.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-31-125.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-49-31-125.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-51-14-965.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-51-14-965.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-51-18-483.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-51-18-483.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-02-028.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-02-028.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-04-757.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-04-757.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-33-309.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-33-309.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-48-824.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-52-48-824.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-53-12-844.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-53-12-844.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-54-18-991.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-54-18-991.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-56-41-321.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-05-04-20-56-41-321.rawproto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-he/values-he.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values-zh/values-zh.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/release/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_rotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/indicator_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/default_ptr_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/default_ptr_rotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/indicator_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/default_ptr_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/default_ptr_rotate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/indicator_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-he/values-he.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values-zh/values-zh.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/merged/androidTest/debug/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/resources-debug-androidTest.ap_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/symbols/androidTest/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
     <list id="95839285-bb59-4d62-978f-d973452dd3ed" name="ignore" comment="ignore" />
@@ -436,39 +174,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ge_tui_pic_viry.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lottie.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="53" selection-start-line="7" selection-end-line="53" />
+            <state relative-caret-position="210">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="231">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -477,44 +197,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyScrollerView.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GeTuiPicViryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="231">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanDelegate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="531" column="23" selection-start-line="531" selection-start-column="23" selection-end-line="531" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#683#1988#0" expanded="true" />
+                <element signature="e#1987#1988#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GYReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -541,7 +249,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mAutoMeasure</find>
       <find>setAutoMeasureEnabled</find>
       <find>allprojects</find>
       <find>butterKnife</find>
@@ -567,17 +274,18 @@
       <find>dialogCornerRadius</find>
       <find>cordova</find>
       <find>+</find>
-      <find>implementation</find>
       <find>25.2.0</find>
       <find>com.android.support</find>
       <find>25.</find>
+      <find>api</find>
+      <find>implementation</find>
     </findStrings>
     <replaceStrings>
       <replace>500</replace>
       <replace>LinearLayout</replace>
-      <replace>implementation</replace>
       <replace>26.0.2</replace>
       <replace>api</replace>
+      <replace>implementation</replace>
     </replaceStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -593,9 +301,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/assets/action.json" />
-        <option value="$PROJECT_DIR$/app/src/main/assets/bundles.json" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_action.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/Action.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/IAction.java" />
@@ -623,7 +328,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/TestFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/activityabout/MyFragmentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_four_component.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" />
@@ -636,14 +340,18 @@
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/library/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_lottie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyScrollerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanDelegate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GYReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GeTuiPicViryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ge_tui_pic_viry.xml" />
       </list>
     </option>
   </component>
@@ -804,16 +512,9 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidSummary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="androidsummery" type="462c0819:PsiDirectoryNode" />
+              <item name="picviry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidSummary" type="b2602c69:ProjectViewProjectNode" />
@@ -851,7 +552,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Framework/MultiTypeAdapter" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -865,18 +566,15 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.parentActivityClass">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.lawson.androidsummery.junittest" />
     </key>
     <key name="android.template.packageName">
+      <recent name="com.example.lawson.androidsummery.picviry" />
       <recent name="com.example.lawson.androidsummery.activityabout" />
       <recent name="com.example.lawson.androidsummery.beibei.hbaction" />
       <recent name="com.example.lawson.androidsummery.beibei.delegate" />
       <recent name="com.example.lawson.androidsummery.diyview.timepicker" />
-      <recent name="com.example.lawson.androidsummery.delegate" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -888,21 +586,25 @@
       <recent name="com.example.lawson.androidsummery.fragment" />
       <recent name="com.example.lawson.androidsummery.mvp" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
       <recent name="E:\AS\Project\AndroidSummary\app\src\main\assets" />
       <recent name="E:\AS\Project\AndroidSummary\test" />
       <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\layout" />
-      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable-hdpi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.lawson.androidsummery.picviry" />
       <recent name="com.example.lawson.androidsummery.diyview.hideview" />
       <recent name="com.example.lawson.androidsummery.fragment.fragmentlazy.lazytwo.fragment" />
       <recent name="com.example.lawson.androidsummery.fragment.normal.fragment" />
       <recent name="com.example.lawson.androidsummery.record" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1777,14 +1479,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.4807481" />
       <window_info anchor="bottom" id="Gradle Console" order="8" sideWeight="0.5021322" side_tool="true" weight="0.3289183" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" weight="0.669967" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.669967" />
       <window_info anchor="bottom" id="Android Monitor" order="10" sideWeight="0.48720136" weight="0.5529801" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5042644" side_tool="true" weight="0.30480167" />
       <window_info anchor="bottom" id="Logcat" order="12" sideWeight="0.4978678" weight="0.34108528" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4936007" weight="0.5808581" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.48081023" weight="0.83716077" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.48667377" weight="0.21122113" />
-      <window_info active="true" anchor="bottom" id="Build" order="16" sideWeight="0.49573562" visible="true" weight="0.30480167" />
+      <window_info active="true" anchor="bottom" id="Build" order="16" sideWeight="0.49573562" visible="true" weight="0.39561588" />
       <window_info active="true" anchor="bottom" id="Freeline" order="17" sideWeight="0.5021322" visible="true" weight="0.30143014" />
       <window_info anchor="bottom" id="Inspection Results" order="18" sideWeight="0.49946696" weight="0.5929593" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1797,7 +1499,7 @@
       <window_info anchor="right" id="Gradle" order="7" weight="0.32977816" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Preview" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Preview" order="10" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Assistant" order="11" weight="0.4291809" />
     </layout>
     <layout-to-restore>
@@ -2087,22 +1789,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/26.1.0/2b34456c30d6b6e5db5fa3e8fa02f6cebd5531fd/appcompat-v7-26.1.0-sources.jar!/android/support/v7/app/AppCompatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../sdk/sources/android-26/android/os/Looper.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test_fragment_layout.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TestFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -2129,14 +1815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6800">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
         </state>
       </provider>
     </entry>
@@ -2334,20 +2012,6 @@
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lottie.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -2370,30 +2034,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Sdk/sources/android-27/android/widget/ImageView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
           <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="531" column="23" selection-start-line="531" selection-start-column="23" selection-end-line="531" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2409,10 +2053,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="630">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="421" selection-start-line="415" selection-end-line="421" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="523" column="74" lean-forward="true" selection-start-line="523" selection-start-column="74" selection-end-line="523" selection-end-column="74" />
+          <folding>
+            <element signature="e#21788#21995#0" expanded="true" />
+            <element signature="e#21994#21995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GYReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GeTuiPicViryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#683#1988#0" expanded="true" />
+            <element signature="e#1987#1988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ge_tui_pic_viry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
   <component name="masterDetails">

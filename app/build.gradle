@@ -6,7 +6,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.example.lawson.androidsummery"
+        applicationId "com.gysdk.demo"
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
@@ -20,6 +20,18 @@ android {
                 arguments = [moduleName: project.getName()]
             }
         }
+
+        manifestPlaceholders = [
+//                GY_APP_ID : "WnnrFehBkxALt9J3com3ZA",
+//                GY_CHANNEL: "getui",
+//                CT_KEY    : "TTEoWtMte29eads6fuVAM9",
+//                CT_SECRET : "UC2owfTxcU7TEr3E45yjX"
+//个推图形验证用Demo里的
+GY_APP_ID : "FzXMk6LUZD6wqRjnOREsWA",//注意：这里的GY_APP_ID开发者应该换成自己申请的GY_APP_ID
+GY_CHANNEL: "getui",
+CT_KEY    : "8024192702",
+CT_SECRET : "hc6R8nXp5emo1lKXW1SJO1IlDrqFwmiR",
+        ]
     }
 
     signingConfigs {
@@ -28,6 +40,13 @@ android {
             storePassword '38246953725'
             keyAlias = 'iankey'
             keyPassword '38246953725'
+        }
+        debug {
+            //个推验证使用Demo里的
+            storeFile file("yg_test.jks")
+            storePassword "gy123456"
+            keyAlias "getui.com"
+            keyPassword "gy123456"
         }
     }
 
@@ -55,6 +74,7 @@ android {
     packagingOptions {
         exclude 'LICENSE.txt'
     }
+
 }
 
 //greendao {
@@ -64,27 +84,29 @@ android {
 //}
 
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar'])
-    api project(':library')
-    api 'com.android.support:design:27.1.1'
-    api 'com.android.support:appcompat-v7:27.1.1'
-    //    api files('E:/AS/Project/AndroidSummary/libs/lekehttp-1.0.6.jar')
-//    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    api 'org.greenrobot:eventbus:3.0.0'
-    api 'com.android.support.constraint:constraint-layout:1.1.3'
-    api 'com.android.support:recyclerview-v7:27.1.1'
-    api 'com.yolanda.nohttp:nohttp:1.1.0'
-    api 'com.yanzhenjie.nohttp:okhttp:1.1.0'
-    api 'com.mcxiaoke.volley:library:1.0.19'
-    api 'com.android.support:support-dynamic-animation:27.1.1'
-    api 'com.squareup.okhttp3:okhttp:3.11.0'
-    api 'io.reactivex.rxjava2:rxjava:2.1.16'
-    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    api 'com.squareup.retrofit2:retrofit:2.3.0'
-    api 'com.squareup.retrofit2:converter-gson:2.3.0'
-    api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-    api 'com.google.dagger:dagger:2.7'
-    api 'com.jakewharton:disklrucache:2.0.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':library')
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    //    implementation files('E:/AS/Project/AndroidSummary/libs/lekehttp-1.0.6.jar')
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.yolanda.nohttp:nohttp:1.1.0'
+    implementation 'com.yanzhenjie.nohttp:okhttp:1.1.0'
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'com.android.support:support-dynamic-animation:27.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.16'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.google.dagger:dagger:2.7'
+    implementation 'com.jakewharton:disklrucache:2.0.2'
+    implementation 'com.getui:gysdk:1.4.2.0'
+    implementation 'com.getui:gtc:2.1.0'
     testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
@@ -95,15 +117,15 @@ dependencies {
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
     //GreenDao
-//    api 'org.greenrobot:greendao:3.2.0'
+//    implementation 'org.greenrobot:greendao:3.2.0'
     //ARouter
     // 替换成最新版本, 需要注意的是api
     // 要与compiler匹配使用，均使用最新版可以保证兼容
-    api 'com.alibaba:arouter-api:1.3.1'
+    implementation 'com.alibaba:arouter-api:1.3.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
     //所在模块需要添加如下代码
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
-//    api 'com.airbnb.android:lottie:3.0.1'
+//    implementation 'com.airbnb.android:lottie:3.0.1'
 }
 repositories {
     mavenCentral()

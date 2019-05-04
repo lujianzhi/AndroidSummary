@@ -43,6 +43,7 @@ import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
 import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity;
 import com.example.lawson.androidsummery.permission.PermissionActivity;
+import com.example.lawson.androidsummery.picviry.GeTuiPicViryActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
@@ -514,6 +515,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DatePickerActivity.class));
+            }
+        });
+
+        findViewById(R.id.getui_pic_viry).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, GeTuiPicViryActivity.class));
             }
         });
 
