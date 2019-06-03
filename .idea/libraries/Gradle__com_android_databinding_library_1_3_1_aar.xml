@@ -1,14 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.databinding:library:1.3.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/45be1d7181614deea8064ba2a5e9d608/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/45be1d7181614deea8064ba2a5e9d608/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/b872565615bca00d8e5b7a4ab52a4c4f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/b872565615bca00d8e5b7a4ab52a4c4f/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../Sdk/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../Sdk/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/library/1.3.1/57b8b62c9912a1cee9bddd86997384ce2b34d0d/library-1.3.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

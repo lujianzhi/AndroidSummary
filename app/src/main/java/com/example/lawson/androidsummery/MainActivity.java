@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.example.lawson.androidsummery.drawerlayout.DrawerLayoutActivity;
 import com.example.lawson.androidsummery.fourcomponent.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.fourcomponent.activityabout.MyFragmentActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
@@ -537,6 +538,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 UETool.dismissUETMenu();
+            }
+        });
+
+        findViewById(R.id.drawer_layout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DrawerLayoutActivity.class));
             }
         });
 
