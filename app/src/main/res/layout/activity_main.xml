@@ -457,6 +457,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="DrawerLayout" />
+
+            <Button
+                android:id="@+id/security_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="root、双开、xpose检查" />
         </LinearLayout>
 
     </RelativeLayout>

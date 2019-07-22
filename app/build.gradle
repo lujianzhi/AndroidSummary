@@ -6,7 +6,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "com.gysdk.demo"
+        applicationId "com.example.lawson.androidsummery"
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
@@ -22,15 +22,15 @@ android {
         }
 
         manifestPlaceholders = [
-//                GY_APP_ID : "WnnrFehBkxALt9J3com3ZA",
-//                GY_CHANNEL: "getui",
-//                CT_KEY    : "TTEoWtMte29eads6fuVAM9",
-//                CT_SECRET : "UC2owfTxcU7TEr3E45yjX"
+                GY_APP_ID : "az6YKqKD7d9WoFxNX36F33",
+                GY_CHANNEL: "",
+                CT_KEY    : "",
+                CT_SECRET : "",
 //个推图形验证用Demo里的
-GY_APP_ID : "FzXMk6LUZD6wqRjnOREsWA",//注意：这里的GY_APP_ID开发者应该换成自己申请的GY_APP_ID
-GY_CHANNEL: "getui",
-CT_KEY    : "8024192702",
-CT_SECRET : "hc6R8nXp5emo1lKXW1SJO1IlDrqFwmiR",
+//GY_APP_ID : "FzXMk6LUZD6wqRjnOREsWA",//注意：这里的GY_APP_ID开发者应该换成自己申请的GY_APP_ID
+//GY_CHANNEL: "getui",
+//CT_KEY    : "8024192702",
+//CT_SECRET : "hc6R8nXp5emo1lKXW1SJO1IlDrqFwmiR",
         ]
     }
 
@@ -43,10 +43,15 @@ CT_SECRET : "hc6R8nXp5emo1lKXW1SJO1IlDrqFwmiR",
         }
         debug {
             //个推验证使用Demo里的
-            storeFile file("yg_test.jks")
-            storePassword "gy123456"
-            keyAlias "getui.com"
-            keyPassword "gy123456"
+//            storeFile file("yg_test.jks")
+//            storePassword "gy123456"
+//            keyAlias "getui.com"
+//            keyPassword "gy123456"
+            storeFile file('mizhe.keystore')
+            storePassword '123456'
+            keyAlias 'mizhe.keystore'
+            keyPassword '123456'
+            v2SigningEnabled false
         }
     }
 

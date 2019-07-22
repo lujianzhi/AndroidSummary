@@ -19,7 +19,7 @@ import com.yolanda.nohttp.cookie.DBCookieStore;
 
 public class MyApplication extends Application {
 
-    private String GY_APP_ID = "FzXMk6LUZD6wqRjnOREsWA";
+    private String GY_APP_ID = "az6YKqKD7d9WoFxNX36F33";
 
     @Override
     protected void attachBaseContext(Context base) {

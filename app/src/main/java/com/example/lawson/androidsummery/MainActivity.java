@@ -54,6 +54,7 @@ import com.example.lawson.androidsummery.remoteviews.RemoteViewsActivity;
 import com.example.lawson.androidsummery.router.Constant;
 import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
 import com.example.lawson.androidsummery.scroller.ScrollerActivity;
+import com.example.lawson.androidsummery.securitycheck.SecurityCheckActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
 import com.example.lawson.androidsummery.switchtheme.SwitchThemeActivity;
 import com.example.lawson.androidsummery.takephoto.TakePhotoActivity;
@@ -545,6 +546,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DrawerLayoutActivity.class));
+            }
+        });
+
+        findViewById(R.id.security_check).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SecurityCheckActivity.class));
             }
         });
 
