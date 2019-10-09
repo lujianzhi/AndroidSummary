@@ -39,6 +39,7 @@ import com.example.lawson.androidsummery.junittest.UITestActivity;
 import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
 import com.example.lawson.androidsummery.levelcount.LevelCountActivity;
 import com.example.lawson.androidsummery.lottie.LottieActivity;
+import com.example.lawson.androidsummery.mmkv.MMKVActivity;
 import com.example.lawson.androidsummery.mvp.view.NewsActivity;
 import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
@@ -553,6 +554,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SecurityCheckActivity.class));
+            }
+        });
+
+        findViewById(R.id.mmkv).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MMKVActivity.class));
             }
         });
 

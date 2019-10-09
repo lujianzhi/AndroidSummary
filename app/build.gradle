@@ -135,6 +135,7 @@ dependencies {
     releaseImplementation 'com.didichuxing.doraemonkit:doraemonkit-no-op:1.1.5'
     debugImplementation 'me.ele:uetool:1.0.17'
     releaseImplementation 'me.ele:uetool-no-op:1.0.17'
+    implementation 'com.tencent:mmkv:1.0.23'
 }
 repositories {
     mavenCentral()

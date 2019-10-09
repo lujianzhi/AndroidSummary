@@ -1,0 +1,3766 @@
+{
+  "app_system_config": {
+    "img_upload_config": {
+      "oss": [
+        "bbavatar",
+        "bbc2c",
+        "bbim",
+        "bbforum",
+        "bbtime",
+        "beiimg_beidian_community"
+      ]
+    },
+    "home_captain_tab_switch": true,
+    "https_gate_white_hosts": [
+      "c.beibei.com",
+      "husor.cn",
+      "hucdn.com",
+      "upaiyun.com",
+      "ip.chinaz.com",
+      "qingting.fm",
+      "umeng.com",
+      "pull.live.beibei.com",
+      "igexin.com",
+      "pull2.live.beibei.com",
+      "getui.com",
+      "qq.com",
+      "dl.beibei.com",
+      "pv.sohu.com",
+      "ip.taobao.com",
+      "apollo.beibei.com.cn",
+      "v0.api.upyun.com",
+      "oss-cn-hangzhou.aliyuncs.com"
+    ],
+    "notify_url": {
+      "alipay": "http:\/\/trade.beibei.com\/gateway\/alipay_m_notify.html"
+    },
+    "item_num": 5,
+    "pay_duration": 1800,
+    "error_report_url": "http:\/\/trace.beibei.com\/trace\/e1",
+    "error_report_days": 2,
+    "error_report_get_ip_url": "http:\/\/ip.chinaz.com\/getip.aspx",
+    "shipping_desc_link": "http:\/\/www.beibei.com\/h5\/aboutPost.html",
+    "customer_service": "https:\/\/m.beibei.com\/help\/myService.html",
+    "idle_product_report_option": {
+      "1": "垃圾广告",
+      "2": "疑似诈骗",
+      "3": "色情",
+      "4": "非法",
+      "99": "其他"
+    },
+    "discovery_channel_tab": [
+      {
+        "desc": "精选",
+        "cat": "",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/newly_recom_get\/%d.html"
+      },
+      {
+        "desc": "女装",
+        "cat": "nvzhuang",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-nvzhuang.html"
+      },
+      {
+        "desc": "童装",
+        "cat": "tongzhuang",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-tongzhuang.html"
+      },
+      {
+        "desc": "童鞋",
+        "cat": "tongxie",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-tongxie.html"
+      },
+      {
+        "desc": "玩具",
+        "cat": "wanju",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-wanju.html"
+      },
+      {
+        "desc": "鞋包",
+        "cat": "xiebao",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-xiebao.html"
+      },
+      {
+        "desc": "用品",
+        "cat": "yongpin",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-yongpin.html"
+      },
+      {
+        "desc": "居家",
+        "cat": "jujia",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-jujia.html"
+      },
+      {
+        "desc": "美妆",
+        "cat": "meizhuang",
+        "api_url": "http:\/\/sapi.beibei.com\/discovery\/channel_recom_get\/%d-meizhuang.html"
+      }
+    ],
+    "discovery_channel_newly_tab": [
+      {
+        "desc": "精选",
+        "cat": "",
+        "api_url": "http:\/\/dsapi.beibei.com\/discovery\/newly_recom_get\/%d-%d.html"
+      },
+      {
+        "desc": "9.9元",
+        "cat": "9kuai9",
+        "api_url": "http:\/\/dsapi.beibei.com\/discovery\/channel_recom_get\/%d-9kuai9-%d.html"
+      }
+    ],
+    "discovery_channel_newly_tab_v2": [
+      {
+        "desc": "精选",
+        "cat": "",
+        "api_url": "http:\/\/dsapi.beibei.com\/discovery\/newly_recom_get\/%d-%d.html"
+      },
+      {
+        "desc": "9.9元",
+        "cat": "9kuai9",
+        "api_url": "http:\/\/dsapi.beibei.com\/discovery\/channel_recom_get\/%d-9kuai9-%d.html"
+      }
+    ],
+    "discovery_channel_newly_tab_v3": [
+      {
+        "desc": "精选",
+        "cat": "",
+        "api_url": "http:\/\/dsapi.beibei.com\/discovery\/newly_recom_get\/%d-%d.html"
+      },
+      {
+        "desc": "9.9元",
+        "cat": "9kuai9",
+        "api_url": "http:\/\/dsapi.beibei.com\/discovery\/channel_recom_get\/%d-9kuai9-%d.html"
+      }
+    ],
+    "discovery_channel_newly_tab_v4": [
+      {
+        "desc": "精选",
+        "cat": "",
+        "api_url": "http:\/\/dsapi.beibei.com\/discovery\/newly_recom_get\/v1\/%d.html"
+      },
+      {
+        "type": "webview",
+        "desc": "首发特惠",
+        "cat": "",
+        "api_url": "http:\/\/mp.beibei.com\/hms2_page_n\/gxpyx\/gxpsf.html"
+      }
+    ],
+    "discovery_follow_img_tab": {
+      "img_url": "http:\/\/h0.hucdn.com\/open\/201720\/75ebf69b9c6f88b3_84x42.png",
+      "img_width": 84,
+      "img_height": 42,
+      "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/discovery\/follow\"}"
+    },
+    "c2c_follow_img_tab": {
+      "img_url": "http:\/\/h0.hucdn.com\/open\/201720\/75ebf69b9c6f88b3_84x42.png",
+      "img_width": 84,
+      "img_height": 42,
+      "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/c2c\/follow\"}"
+    },
+    "hongren_cate_tab": [
+      {
+        "desc": "童装",
+        "cat": "tongzhuang",
+        "api_url": "http:\/\/dsapi.beibei.com\/hongren\/pick_cate_get\/tongzhuang-%d.html"
+      },
+      {
+        "desc": "童鞋",
+        "cat": "tongxie",
+        "api_url": "http:\/\/dsapi.beibei.com\/hongren\/pick_cate_get\/tongxie-%d.html"
+      },
+      {
+        "desc": "辣妈装",
+        "cat": "lamazhuang",
+        "api_url": "http:\/\/dsapi.beibei.com\/hongren\/pick_cate_get\/lamazhuang-%d.html"
+      },
+      {
+        "desc": "女鞋",
+        "cat": "nvxie",
+        "api_url": "http:\/\/dsapi.beibei.com\/hongren\/pick_cate_get\/nvxie-%d.html"
+      },
+      {
+        "desc": "爱生活",
+        "cat": "aishenghuo",
+        "api_url": "http:\/\/dsapi.beibei.com\/hongren\/pick_cate_get\/aishenghuo-%d.html"
+      }
+    ],
+    "receipt_open": 0,
+    "email_register_open": 0,
+    "rating_edge": 4.5,
+    "start_time": "9:00",
+    "about_beibei": "http:\/\/m.beibei.com\/app\/about.html",
+    "home_v4_tabs": [
+      {
+        "type": "martshow",
+        "cat": "dress--",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-dress---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "shoes--",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-shoes---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "babythings--",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-babythings---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "toy--",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-toy---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_dress--",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-woman_dress_no_bags---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_shoes_bags--",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-woman_shoes_bags---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "house--",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-house---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "beauty--",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-beauty---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "food--",
+        "desc": "美食",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-food---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "desc": "最后疯抢",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/last_get\/%d-%d-gender_age.html",
+        "min_ver": "3.7.0",
+        "max_ver": "7.0.0"
+      },
+      {
+        "type": "martshow",
+        "cat": "tomorrow--",
+        "desc": "下期预告",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-tomorrow---gender_age.html"
+      }
+    ],
+    "home_v5_tabs": [
+      {
+        "type": "martshow",
+        "cat": "dress--",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-dress---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "shoes--",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-shoes---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "babythings--",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-babythings---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "toy--",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-toy---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_dress--",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-woman_dress_no_bags---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_shoes_bags--",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-woman_shoes_bags---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "house--",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-house---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "beauty--",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-beauty---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "food--",
+        "desc": "美食",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-food---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "desc": "最后疯抢",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/last_get\/%d-%d-gender_age.html",
+        "min_ver": "3.7.0",
+        "max_ver": "7.0.0"
+      },
+      {
+        "type": "martshow",
+        "cat": "tomorrow--",
+        "desc": "下期预告",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-tomorrow---gender_age.html"
+      }
+    ],
+    "home_v6_tabs": [
+      {
+        "type": "martshow",
+        "cat": "dress--",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-dress---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "shoes--",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-shoes---gender_age.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "milkdiaper--",
+        "desc": "奶粉尿裤",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/home_self_product\/%s-%s.html",
+        "tag_img": {
+          "img_url": "http:\/\/b0.hucdn.com\/img\/op\/1705\/15\/41309496725079_44x24.png",
+          "width": 44,
+          "height": 24,
+          "top_margin": 15,
+          "right_margin": 15
+        }
+      },
+      {
+        "type": "martshow",
+        "cat": "babythings--",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-babythings---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "toy--",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-toy---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_dress--",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-woman_dress_no_bags---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_shoes_bags--",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-woman_shoes_bags---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "beauty--",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-beauty---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "house--",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-house---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "food--",
+        "desc": "美食",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-food---gender_age.html"
+      },
+      {
+        "type": "martshow",
+        "desc": "最后疯抢",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/last_get\/%d-%d-gender_age.html",
+        "min_ver": "3.7.0",
+        "max_ver": "7.0.0"
+      },
+      {
+        "type": "martshow",
+        "cat": "tomorrow--",
+        "desc": "下期预告",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/search\/%d-%d-tomorrow---gender_age.html"
+      }
+    ],
+    "home_v7_tabs": [
+      {
+        "type": "martshow",
+        "cat": "all",
+        "desc": "特卖",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/new\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "dress",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "shoes",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "babythings",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "toy",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_shoes_bags",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "food",
+        "desc": "美食",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "last_buy",
+        "desc": "最后疯抢",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "tomorrow",
+        "desc": "下期预告",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      }
+    ],
+    "home_v8_tabs": [
+      {
+        "type": "martshow",
+        "cat": "all",
+        "desc": "今日特卖",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/new\/%s-%s-%s-%s.html",
+        "img": {
+          "img_url": "http:\/\/h0.hucdn.com\/open\/201801\/2bd757946d97c221_240x90.png",
+          "width": 160,
+          "height": 60
+        }
+      },
+      {
+        "type": "martshow",
+        "cat": "dress",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "shoes",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "babythings",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "toy",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "oversea",
+        "desc": "进口",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "woman_dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "food",
+        "desc": "美食",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      }
+    ],
+    "home_v9_tabs": [
+      {
+        "type": "martshow",
+        "cat": "all",
+        "desc": "今日团购",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/new\/%s-%s-%s-%s.html",
+        "img": {}
+      },
+      {
+        "type": "martshow",
+        "cat": "dress",
+        "desc": "母婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "things",
+        "desc": "百货",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "food",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "women_dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "underwear",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "shoes_bag",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "fruit",
+        "desc": "水果",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "textile",
+        "desc": "家纺",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      },
+      {
+        "type": "martshow",
+        "cat": "appliances",
+        "desc": "家电",
+        "api_url": "http:\/\/sapi.beibei.com\/martshow\/home\/channel\/%s-%s-%s-%s.html"
+      }
+    ],
+    "home_tab_skin": [
+      {
+        "img": "http:\/\/b0.hucdn.com\/img\/op\/1707\/10\/71661880112250_1125x123.png",
+        "height": 750,
+        "width": 82,
+        "gmt_begin": "1499529600",
+        "gmt_end": "1500048000"
+      }
+    ],
+    "oversea_tabs": [
+      {
+        "type": "oversea",
+        "cat": "all",
+        "desc": "上新",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/brand\/%d-%d---gender_age-all.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "babythings_diaper",
+        "desc": "纸尿裤",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/brand\/%d-%d----babythings_diaper.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "milk_powder",
+        "desc": "奶粉",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/brand\/%d-%d----milk_powder.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "solid_food",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/brand\/%d-%d----solid_food.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "babythings",
+        "desc": "用品",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/brand\/%d-%d----babythings.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "beauty",
+        "desc": "美妆个护",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/brand\/%d-%d----beauty.html"
+      }
+    ],
+    "oversea_new_navigations": [
+      {
+        "type": "oversea",
+        "cat": "essence",
+        "desc": "精选",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/index\/%d-%d.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "toiletries",
+        "desc": "母婴",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-toiletries.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "feed",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-feed.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "nutrition",
+        "desc": "营养",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-nutrition.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "toy",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-toy.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "health",
+        "desc": "食品保健",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-health.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "house",
+        "desc": "居家轻奢",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-house.html"
+      }
+    ],
+    "oversea_home_navigations": [
+      {
+        "type": "oversea",
+        "cat": "essence",
+        "desc": "精选",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/index\/%d-%d.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "maternal_child",
+        "desc": "母婴",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-maternal_child.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-beauty.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "health_food",
+        "desc": "保健美食",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-health_food.html"
+      },
+      {
+        "type": "oversea",
+        "cat": "house",
+        "desc": "居家时尚",
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/navigation\/%d-%d-house.html"
+      }
+    ],
+    "oversea_foot_banners": {
+      "img": "http:\/\/b0.hucdn.com\/img\/op\/1609\/06\/33425348774656_750x305.png",
+      "width": "750",
+      "height": "305",
+      "url": "http:\/\/mp.beibei.com\/hms2_page_n\/quanqiugouqudao\/qudaojiemi.html"
+    },
+    "tuan_categorys": [
+      {
+        "cat": "dress--",
+        "desc": "童装"
+      },
+      {
+        "cat": "babythings--",
+        "desc": "孕婴"
+      },
+      {
+        "cat": "toy--",
+        "desc": "玩具"
+      },
+      {
+        "cat": "babyshoes--",
+        "desc": "童鞋"
+      },
+      {
+        "cat": "woman_dress--",
+        "desc": "女装"
+      },
+      {
+        "cat": "house--",
+        "desc": "居家"
+      },
+      {
+        "cat": "beauty--",
+        "desc": "美妆"
+      },
+      {
+        "cat": "food--",
+        "desc": "食品"
+      }
+    ],
+    "tuanlimit_home_tabs_v790": [
+      {
+        "cat": "dress",
+        "desc": "童装",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/0d809fa27620433a_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"dress\"}"
+      },
+      {
+        "cat": "babythings",
+        "desc": "母婴",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/e2f426a15ed0737d_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"babythings\"}"
+      },
+      {
+        "cat": "house",
+        "desc": "居家",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/5c357c7db218d6fd_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"house\"}"
+      },
+      {
+        "cat": "food",
+        "desc": "美食",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/72cbe8f7ee55f840_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"food\"}"
+      },
+      {
+        "cat": "women_dress",
+        "desc": "女装",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/2404a6b10d963b19_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"women_dress\"}"
+      },
+      {
+        "cat": "shoes_bag",
+        "desc": "鞋包",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/7457e339eec8d31f_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"shoes_bag\"}"
+      },
+      {
+        "cat": "beauty",
+        "desc": "美妆",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/c37da3eac0c2be29_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"beauty\"}"
+      },
+      {
+        "cat": "oversea",
+        "desc": "进口",
+        "type": "tuan_limit",
+        "category_img": "http:\/\/h0.hucdn.com\/open\/201820\/67782e641da57950_180x180.png",
+        "target": "http:\/\/m.beibei.com?beibeiapp_info={\"target\":\"bb\/tuan\/category\/v1\",\"cat\" : \"oversea\"}"
+      }
+    ],
+    "martgoods_tuan_v3_style": [
+      {
+        "bottom_tabs": [
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04299127451383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04295432421383_180x129.png",
+            "tab_type": "tuan_list",
+            "desc": "限量秒杀",
+            "api_url": "",
+            "biz_type": "martgood_tuan"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1702\/13\/52265991881383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1702\/13\/52260760011383_180x129.png",
+            "tab_type": "tuan_hotback",
+            "desc": "爆款返场",
+            "api_url": "http:\/\/sapi.beibei.com\/martgoods\/hotback\/%d-%d.html",
+            "biz_type": "martgood_tuan_hotback"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1704\/24\/21946808790319_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1704\/24\/21939258640319_180x129.png",
+            "tab_type": "tuan_martgroup",
+            "desc": "必囤榜单",
+            "api_url": "http:\/\/sapi.beibei.com\/martgoods\/tuan\/group\/1-30.html",
+            "biz_type": "martgood_tuan_martgroup"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04283080421383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04279680371383_180x129.png",
+            "tab_type": "tuan_url_list",
+            "desc": "最后疯抢",
+            "api_url": "http:\/\/sapi.beibei.com\/martgoods\/tuan\/search_by_tag\/%d-%d-lastbuy--0_1-.html",
+            "biz_type": "martgood_tuan_lastbuy"
+          }
+        ],
+        "theme_style": 0,
+        "gmt_start": 0,
+        "gmt_end": 0
+      }
+    ],
+    "martgoods_group_v1_style": [
+      {
+        "bottom_tabs": [
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/03948564581383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/03817874761383_180x129.png",
+            "tab_type": "mart_group",
+            "desc": "超值量贩",
+            "api_url": "",
+            "biz_type": "martgood_group"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04069921151383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/03962266661383_180x129.png",
+            "tab_type": "mart_welfare",
+            "desc": "福利社",
+            "tag": "测试",
+            "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-discount-3.html",
+            "biz_type": "martgood_welfare"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04171965511383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04167202281383_180x129.png",
+            "tab_type": "webview",
+            "desc": "品牌团",
+            "api_url": "http:\/\/m.beibei.com\/app\/brandgroup\/index.html",
+            "biz_type": "martgood_brand"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04184026691383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1612\/29\/04180046491383_180x129.png",
+            "tab_type": "mart_tomorrow",
+            "desc": "下期预告",
+            "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-latter-3.html",
+            "biz_type": "martgood_tomorrow"
+          }
+        ],
+        "theme_style": 0,
+        "gmt_start": 0,
+        "gmt_end": 0
+      }
+    ],
+    "martgoods_tuan_v4_style": [
+      {
+        "bottom_tabs": [
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1702\/28\/62880677881383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1702\/28\/62877532431383_180x129.png",
+            "tab_type": "tuan_list",
+            "desc": "限量秒杀",
+            "api_url": "",
+            "biz_type": "martgood_tuan"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1702\/28\/62934126021383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1702\/28\/62930633551383_180x129.png",
+            "tab_type": "tuan_url_list",
+            "desc": "即将售罄",
+            "api_url": "http:\/\/sapi.beibei.com\/martgoods\/tuan\/search_by_tag\/%d-%d-lastbuy--0_1-.html",
+            "biz_type": "martgood_tuan_lastbuy"
+          },
+          {
+            "selected_img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1703\/21\/78609924261383_180x129.png",
+            "img": "http:\/\/b1.hucdn.com\/upload\/tuan\/1703\/21\/78606045451383_180x129.png",
+            "tab_type": "tuan_99buy",
+            "desc": "9.9秒杀",
+            "api_url": "",
+            "biz_type": "martgood_tuan_99buy"
+          }
+        ],
+        "theme_style": 0,
+        "gmt_start": 0,
+        "gmt_end": 0
+      }
+    ],
+    "ms_home_skin": {},
+    "ms_home_skin_7.10.00": {},
+    "ms_home_skin_7.18.00": {},
+    "ms_home_skin_7.21.00": {},
+    "martgroup_v1_top_tabs": [
+      {
+        "type": "martgroup",
+        "cat": "all",
+        "desc": "全部",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-all-%d-%s.html"
+      },
+      {
+        "type": "martgroup",
+        "cat": "paper_products",
+        "desc": "洗护",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-paper_products-%d.html"
+      },
+      {
+        "type": "martgroup",
+        "cat": "food",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-food-%d.html"
+      },
+      {
+        "type": "martgroup",
+        "cat": "babythings",
+        "desc": "母婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-babythings-%d.html"
+      },
+      {
+        "type": "martgroup",
+        "cat": "only_disapers",
+        "desc": "奶粉尿裤",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-only_disapers-%d.html"
+      },
+      {
+        "type": "martgroup",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-beauty-%d.html"
+      },
+      {
+        "type": "martgroup",
+        "cat": "feather",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-feather-%d.html"
+      },
+      {
+        "type": "martgroup",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-house-%d.html"
+      }
+    ],
+    "martgroup_v2_top_tabs": [
+      {
+        "type": "martgroup",
+        "cat": "all",
+        "desc": "全部",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-all-%d-%s.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "paper_products",
+        "desc": "洗护",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-paper_products-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "food",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-food-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "babythings",
+        "desc": "母婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-babythings-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "only_disapers",
+        "desc": "奶粉尿裤",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-only_disapers-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-beauty-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "feather",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-feather-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-house-%d.html",
+        "url_type": 0
+      }
+    ],
+    "martgroup_v3_top_tabs": [
+      {
+        "type": "martgroup",
+        "cat": "all",
+        "desc": "全部",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-all-%d-%s.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "paper_products",
+        "desc": "洗护",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-paper_products-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "food",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-food-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "babythings",
+        "desc": "母婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-babythings-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "only_disapers",
+        "desc": "奶粉尿裤",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-only_disapers-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-beauty-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "feather",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-feather-%d.html",
+        "url_type": 0
+      },
+      {
+        "type": "martgroup",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-house-%d.html",
+        "url_type": 0
+      }
+    ],
+    "martgoods_bargain_top_tabs": [
+      {
+        "type": "bargain",
+        "cat": "all",
+        "desc": "精选",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-all-%s.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes_wear",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes_wear.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-dress.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "bags",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-bags.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "toy_supplies",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-toy_supplies.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "under_wear",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-under_wear.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-house.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "beatuy",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-beatuy.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "tomorrow",
+        "desc": "明日9点",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-tomorrow.html"
+      }
+    ],
+    "martgoods_bargain_top_tabs_v2": [
+      {
+        "type": "bargain",
+        "cat": "all",
+        "desc": "精选",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-all-%s.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes_wear",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes_wear.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-dress.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "bags",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-bags.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "toy_supplies",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-toy_supplies.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "under_wear",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-under_wear.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-house.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "beatuy",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-beatuy.html"
+      },
+      {
+        "type": "bargain",
+        "cat": "tomorrow",
+        "desc": "明日9点",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-tomorrow.html"
+      }
+    ],
+    "martgoods_bargain_top_tabs_v3": [
+      {
+        "type": "bargain",
+        "cat": "all",
+        "desc": "精选",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-all-%s.html",
+        "img": {
+          "img_url": "http:\/\/b0.hucdn.com\/img\/op\/1703\/28\/85909953952650_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes_wear",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes_wear.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1705\/02\/01663740340319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-dress.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1705\/02\/01815426770319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72466328345686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "bags",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-bags.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72445398835686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "toy_supplies",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-toy_supplies.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1705\/02\/01853448600319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "under_wear",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-under_wear.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1706\/20\/64644130410319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-house.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72510733505686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "beatuy",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-beatuy.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72420994305686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "tomorrow",
+        "desc": "明日9点",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-tomorrow.html",
+        "img": {
+          "img_url": "http:\/\/b0.hucdn.com\/img\/op\/1703\/28\/86481742202650_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      }
+    ],
+    "martgoods_bargain_top_tabs_v4": [
+      {
+        "type": "bargain",
+        "cat": "all",
+        "desc": "精选",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-all-%s.html",
+        "img": {
+          "img_url": "http:\/\/b0.hucdn.com\/img\/op\/1703\/28\/85909953952650_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes_wear",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes_wear.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1705\/02\/01663740340319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-dress.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1705\/02\/01815426770319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "shoes",
+        "desc": "童鞋",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-shoes.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72466328345686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "bags",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-bags.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72445398835686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "toy_supplies",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-toy_supplies.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1705\/02\/01853448600319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "under_wear",
+        "desc": "内衣",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-under_wear.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1706\/20\/64644130410319_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-house.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72510733505686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      },
+      {
+        "type": "bargain",
+        "cat": "beatuy",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-beatuy.html",
+        "img": {
+          "img_url": "http:\/\/b1.hucdn.com\/upload\/category\/1704\/20\/72420994305686_75x60.png",
+          "width": 75,
+          "height": 60
+        }
+      }
+    ],
+    "fight_group_today": [
+      {
+        "type": "today_group",
+        "cat": "momthings",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-momthings.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "children_wear",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-children_wear.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-dress.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "toy",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-toy.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-beauty.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-house.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "fooddrink",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-fooddrink.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "shoes_bag",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-shoes_bag.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "health",
+        "desc": "进口",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-health.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "tomorrow",
+        "desc": "下期预告",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-tomorrow.html"
+      }
+    ],
+    "fight_group_tag": [
+      {
+        "type": "fightgroup",
+        "cat": "today_group",
+        "desc": "今日热团",
+        "icon": "http:\/\/b1.hucdn.com\/upload\/category\/1604\/05\/61060928280024_80x80.png",
+        "icon_selected": "http:\/\/b1.hucdn.com\/upload\/category\/1604\/05\/61080666130024_80x80.png",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-.html"
+      },
+      {
+        "type": "fightgroup",
+        "cat": "hot_group",
+        "desc": "热销排行",
+        "icon": "http:\/\/b1.hucdn.com\/upload\/category\/1604\/05\/60996862860024_80x80.png",
+        "icon_selected": "http:\/\/b1.hucdn.com\/upload\/category\/1604\/05\/61006006740024_80x80.png",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-hot_group-.html"
+      },
+      {
+        "type": "fightgroup",
+        "cat": "my_group",
+        "desc": "我的拼团",
+        "icon": "http:\/\/b1.hucdn.com\/upload\/category\/1604\/05\/61113906340024_80x80.png",
+        "icon_selected": "http:\/\/b1.hucdn.com\/upload\/category\/1604\/05\/61121360440024_80x80.png",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-my_group-.html"
+      },
+      {
+        "type": "fightgroup",
+        "cat": "mz_today_group",
+        "desc": "米折拼团类目",
+        "icon": "",
+        "icon_selected": "",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-mz_today_group-.html"
+      }
+    ],
+    "fight_group_today_v2": [
+      {
+        "type": "webview",
+        "cat": "",
+        "desc": "9块9包邮",
+        "api_url": "http:\/\/m.beibei.com\/gaea_pt\/mpt\/group\/party\/9k9.html",
+        "img": {
+          "img_url": "http:\/\/h0.hucdn.com\/images\/201743\/f763c1d7e64f2131_135x60.png",
+          "width": 135,
+          "height": 60
+        }
+      },
+      {
+        "type": "today_group",
+        "cat": "momthings",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-momthings.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "children_wear",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-children_wear.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-dress.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "toy",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-toy.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-beauty.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-house.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "fooddrink",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-fooddrink.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "shoes_bag",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-shoes_bag.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "health",
+        "desc": "进口",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-health.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "tomorrow",
+        "desc": "下期预告",
+        "api_url": "http:\/\/sapi.beibei.com\/item\/fightgroup\/%d-%d-today_group-tomorrow.html"
+      }
+    ],
+    "fight_group_today_v3": [
+      {
+        "type": "today_group",
+        "cat": "",
+        "desc": "精选",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/home\/v1\/%d-%d-%s.html"
+      },
+      {
+        "type": "webview",
+        "cat": "",
+        "desc": "9块9包邮",
+        "api_url": "http:\/\/m.beibei.com\/gaea_pt\/mpt\/group\/party\/9k9.html",
+        "img": {
+          "img_url": "http:\/\/h0.hucdn.com\/images\/201743\/f763c1d7e64f2131_135x60.png",
+          "width": 135,
+          "height": 60
+        }
+      },
+      {
+        "type": "today_group",
+        "cat": "momthings",
+        "desc": "孕婴",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-momthings.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "children_wear",
+        "desc": "童装",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-children_wear.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "dress",
+        "desc": "女装",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-dress.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "toy",
+        "desc": "玩具",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-toy.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "beauty",
+        "desc": "美妆",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-beauty.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "house",
+        "desc": "居家",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-house.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "fooddrink",
+        "desc": "食品",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-fooddrink.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "shoes_bag",
+        "desc": "鞋包",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-shoes_bag.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "health",
+        "desc": "进口",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-oversea_group-health.html"
+      },
+      {
+        "type": "today_group",
+        "cat": "tomorrow",
+        "desc": "下期预告",
+        "api_url": "http:\/\/sapi.beibei.com\/fightgroup\/item\/v1\/%d-%d-today_group-tomorrow.html"
+      }
+    ],
+    "buy_more_new_home_get_tab": [
+      {
+        "type": "buy_more_new_home",
+        "cat": "",
+        "desc": "推荐",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d"
+      },
+      {
+        "type": "buy_more_new_home_follow",
+        "cat": "",
+        "desc": "关注",
+        "api_url": ""
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "life",
+        "desc": "生活家",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=life"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "food",
+        "desc": "美食经",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=food"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "beauty",
+        "desc": "护肤党",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=beauty"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "fashion",
+        "desc": "时髦范",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=fashion"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "baby",
+        "desc": "亲子园",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=baby"
+      }
+    ],
+    "buy_more_new_home_get_tab_v71801": [
+      {
+        "type": "buy_more_new_home",
+        "cat": "",
+        "desc": "推荐",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d"
+      },
+      {
+        "type": "buy_more_new_home_follow",
+        "cat": "",
+        "desc": "关注",
+        "api_url": ""
+      },
+      {
+        "type": "buy_more_new_home_activity",
+        "desc": "活动",
+        "cat": "",
+        "api_url": ""
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "life",
+        "desc": "生活家",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=life"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "food",
+        "desc": "美食经",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=food"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "beauty",
+        "desc": "护肤党",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=beauty"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "fashion",
+        "desc": "时髦范",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=fashion"
+      },
+      {
+        "type": "buy_more_new_home",
+        "cat": "baby",
+        "desc": "亲子园",
+        "api_url": "http:\/\/api.beibei.com\/mroute.html?method=beibei.module.buy.more.new.home.get&page;=%d&page;_size=%d&cat=baby"
+      }
+    ],
+    "buy_better_tabs": [
+      {
+        "type": "buy_better",
+        "cat": "dress",
+        "desc": "潮流服饰",
+        "api_url": "http:\/\/sapi.beibei.com\/buymore\/better_item_get\/%d-20-dress.html"
+      },
+      {
+        "type": "buy_better",
+        "cat": "mother",
+        "desc": "我是辣妈",
+        "api_url": "http:\/\/sapi.beibei.com\/buymore\/better_item_get\/%d-20-mother.html"
+      },
+      {
+        "type": "buy_better",
+        "cat": "pregnant",
+        "desc": "安全育儿",
+        "api_url": "http:\/\/sapi.beibei.com\/buymore\/better_item_get\/%d-20-pregnant.html"
+      },
+      {
+        "type": "buy_better",
+        "cat": "childhood",
+        "desc": "童年良伴",
+        "api_url": "http:\/\/sapi.beibei.com\/buymore\/better_item_get\/%d-20-childhood.html"
+      },
+      {
+        "type": "buy_better",
+        "cat": "life",
+        "desc": "品质生活",
+        "api_url": "http:\/\/sapi.beibei.com\/buymore\/better_item_get\/%d-20-life.html"
+      },
+      {
+        "type": "buy_better",
+        "cat": "eat",
+        "desc": "吃货天堂",
+        "api_url": "http:\/\/sapi.beibei.com\/buymore\/better_item_get\/%d-20-eat.html"
+      }
+    ],
+    "oversea_fight_group_tab": [
+      {
+        "type": "oversea_fight_group",
+        "cat": "today_sales",
+        "desc": "今日拼团",
+        "animation_switch": 0,
+        "api_url": "",
+        "img": "http:\/\/b0.hucdn.com\/img\/op\/1608\/24\/30955664824656_44x44.png",
+        "select_img": "http:\/\/b0.hucdn.com\/img\/op\/1608\/24\/30968983014656_44x44.png",
+        "target": "bb\/oversea\/seckill"
+      },
+      {
+        "type": "oversea_fight_group",
+        "cat": "final_sales",
+        "desc": "热销榜",
+        "animation_switch": 0,
+        "api_url": "http:\/\/sapi.beibei.com\/oversea\/fight_group\/%d-0-1-0-0.html",
+        "img": "http:\/\/b0.hucdn.com\/img\/op\/1608\/24\/30926781514656_44x44.png",
+        "select_img": "http:\/\/b0.hucdn.com\/img\/op\/1608\/24\/30911083104656_44x44.png",
+        "target": "bb\/oversea\/finalbuy"
+      }
+    ],
+    "is_luaview_on": 1,
+    "app_dl": "((http|https):\/\/(m|www)\\.(beibei|mizhe)\\.com\\\/app\\\/(get|qr-code)(.*)|(http|https):\\\/\\\/(m|www|dl)\\.(beibei|mizhe|husor)\\.(com|cn)(.*)\\.apk$|(.*)\\.apk$|(http|https):\/\/a\\.app\\.qq\\.com\\\/(.*)pkgname=com.husor.beibei(.*))",
+    "live800_cached_reg": ".*(live800|\/live800\/chatClient\/chatbox\\.jsp\\?|\/live\/chatClient\/|\/help\/kfzx|chat\\.beibei\\.com\/live|api\\.beibei\\.com).*",
+    "cart_num": 40,
+    "update_type": 0,
+    "update_times": 100,
+    "welfare_remove_bd": "",
+    "pay_methods": [
+      "weixin",
+      "alipay",
+      "huabei",
+      "applepay",
+      "weixin_daifu",
+      "bdpay",
+      "bzbpay"
+    ],
+    "show_balance_detail": 0,
+    "mart_count_up_profile": 50,
+    "http_dns_ip": "119.29.29.29",
+    "shake_bg_img": "http:\/\/b4.hucdn.com\/upload\/c2c\/1605\/12\/39242193718855_750x1206.jpg",
+    "shake_circle_img": "",
+    "app_store_url": "https:\/\/itunes.apple.com\/cn\/app\/id863998476?mt=8",
+    "shake_share_url": "http:\/\/m.beibei.com\/party\/2015\/4\/yyylyb.html",
+    "checkin_url": "http:\/\/t.beibei.com\/qdpush",
+    "c2c_home_tab_config": "discovery",
+    "invite_friends_url": "http:\/\/m.beibei.com\/app\/checkin\/checkin.html",
+    "upstream_sms_time": 15,
+    "im_jump_regex": "(http|https):\/\/([\\w]+\\.)?(mizhe\\.com|beibei\\.com)[\\.\\w\\\/-]*(\\?)?[\\w\\\/\\&={},\\\"\\\":#%]*",
+    "dynamic_ab_tests": [
+      {
+        "method": "beibei.item.recom.html.get",
+        "ab_test_mode": 10,
+        "white_list": "29466237",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.item.fightgroup.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.index.get",
+        "ab_test_mode": 100,
+        "white_list": "3405978,28907716,20067",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.get",
+        "ab_test_mode": 100,
+        "white_list": "154877,100002,36627513,31980974,35700589,16429620,28805078,20111771,6174806,9052933,20813412,100103,32546549,19440735,17785604",
+        "modes": [
+          0,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.item.get",
+        "ab_test_mode": 100,
+        "white_list": "154877,100002,36627513,31980974,35700589,16429620,28805078,20111771,6174806,9052933,20813412,100103,32546549,19440735,17785604",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.tuan.get",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.diaper.milk.union.get",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.item.search",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.oversea.fightgroup.get",
+        "ab_test_mode": 10,
+        "white_list": "16857280,20111771,37240756",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.oversea.promotion",
+        "ab_test_mode": 10,
+        "white_list": "16857280,37240756",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.channel.get",
+        "ab_test_mode": 100,
+        "white_list": "24287820,28907716,29466237",
+        "modes": [
+          -1,
+          -1
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgoods.tuan.get",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.new.get",
+        "ab_test_mode": 10,
+        "white_list": "35576037,35110785,34649493,30110320,29466237,8284917,100103,19440735,34649493,11130398,16857280",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgoods.group.get",
+        "ab_test_mode": 10,
+        "white_list": "32162606,36627513,31980974,8220383,154647,5772875",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgroup.list",
+        "ab_test_mode": 10,
+        "white_list": "32162606,36627513,31980974,8220383,154647,5772875",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.dynamic.ads.get",
+        "ab_test_mode": 10,
+        "white_list": "3405978,154877,100002,36627513,31980974,35700589,16429620,28805078,20111771,6174806,9052933,20813412,100103,32546549,19440735,17785604,36627513,31980974,29466237",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.channel.get.husband--",
+        "ab_test_mode": 100,
+        "white_list": "35576037",
+        "modes": [
+          -1,
+          -1
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.item.new.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.goodthings.get",
+        "ab_test_mode": 10,
+        "white_list": "154647,28805078,9274267,6223599,35700589,6174806,32546549,19440735",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.oversea.home.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.fightgroup.home.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.discovery.newly.recom",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgoods.tuan.group.get",
+        "ab_test_mode": 100,
+        "white_list": "5772875, 29663540",
+        "modes": [
+          -1,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.wpshop.home.new.get",
+        "ab_test_mode": 100,
+        "white_list": "5126641",
+        "modes": [
+          -1,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.wpshop.item.get",
+        "ab_test_mode": 100,
+        "white_list": "5126641,15886575,16857280,11130398",
+        "modes": [
+          -1,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.hongren.pick.cate.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.channel.get.shoes--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.channel.get.dress--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.Channel.get.shoes--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.Channel.get.dress--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.module.buy.better.item.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.buy.more.home.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.all",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.dress",
+        "ab_test_mode": 100,
+        "white_list": "1",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.shoes",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.woman_shoes_bags",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.babythings",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.toy",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.woman_dress",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.food",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.house",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.bargainv2.get",
+        "ab_test_mode": 100,
+        "white_list": "5772875,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.bargain.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.pingtuan.home.v1.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.pingtuan.item.v1.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.channel.get.megabrand--",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.beauty",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.martmall.wp.home.v69",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.martmall.wp.all.item",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.shoes_bag",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.women_dress",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.department",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.oversea",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.navigation.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.tuan.lastbuy.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.hotback.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.tuan.lowprice.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.milkdiaper.index.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.brand.item.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.search",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.sub.page.item.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.buy.toast",
+        "ab_test_mode": 100,
+        "white_list": "1",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.order.notice",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.tuan.get.v2",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.timeslot",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.things",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.fruit",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.underwear",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      }
+    ],
+    "http_dns_type_pro": 0,
+    "tuan_bottom_pro_tabs": [
+      {
+        "biz_type": "martgood_tuan",
+        "type": "tuan_list",
+        "desc": "限量秒杀",
+        "selected_img": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/tuan\/ic_xianliangmiaosha_red.png",
+        "img": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/tuan\/ic_xianliangmiaosha.png",
+        "data": "",
+        "tuan_type": "limit",
+        "api_url": "",
+        "only_icon": 0,
+        "activity_selected_img": "",
+        "activity_img": ""
+      },
+      {
+        "biz_type": "martgood24biqiang",
+        "type": "webview",
+        "desc": "9.9必抢",
+        "selected_img": "",
+        "img": "",
+        "data": "http:\/\/mp.beibei.com\/hms2_page_n\/xlg2y\/24h.html",
+        "tuan_type": "",
+        "api_url": "http:\/\/mp.beibei.com\/hms2_page_n\/xlg2y\/24h.html",
+        "only_icon": 1,
+        "activity_selected_img": "http:\/\/b0.hucdn.com\/img\/op\/1702\/13\/53598715162650_180x129.png",
+        "activity_img": "http:\/\/b0.hucdn.com\/img\/op\/1702\/13\/53569483192650_180x129.png"
+      },
+      {
+        "biz_type": "martgood_tuan_lastbuy",
+        "type": "tuan_url_list",
+        "desc": "最后疯抢",
+        "selected_img": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/tuan\/ic_zuihoufengqiang_red.png",
+        "img": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/tuan\/ic_zuihoufengqiang.png",
+        "data": "http:\/\/sapi.beibei.com\/tuan\/%d-%d-new-0-0-1-0-0.html",
+        "tuan_type": "last_buy",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/tuan\/search_by_tag\/%d-%d-lastbuy--0_1-.html",
+        "only_icon": 0,
+        "activity_selected_img": "",
+        "activity_img": ""
+      }
+    ],
+    "check_server_url": "http:\/\/status.hucdn.com\/beibei\/status.json",
+    "pocket_money_rule": "http:\/\/m.beibei.com\/app\/livingcost\/rule.html",
+    "enable_im_custom_service": 1,
+    "hybrid_use_shared_image_cache": "true",
+    "test_pwd": "hello_beibei_123",
+    "use_webkit_webview": "true",
+    "hybrid_cache_version": 1547520857333,
+    "down_yuerbao_url": "http:\/\/mzs0.hucdn.com\/app\/yeb\/y_beibeiapp.signed.apk",
+    "list_view_img_header": "http:\/\/b0.hucdn.com\/prom\/2016\/compensation_slidedown_header.png",
+    "yuerbao_version_code": 20,
+    "yuerbao_silent_download": 0,
+    "martgroup_bottom_new_tabs": [
+      {
+        "target": "mart_group",
+        "desc": "超值量贩",
+        "icon": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/group\/ic_chaozhiliangfan1.png",
+        "icon_selected": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/group\/ic_chaozhiliangfan2.png",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-all-2.html"
+      },
+      {
+        "target": "mart_welfare",
+        "desc": "福利社",
+        "icon": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/group\/ic_fulishe1.png",
+        "icon_selected": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/group\/ic_fulishe2.png",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-discount-3.html"
+      },
+      {
+        "target": "webview",
+        "desc": "品牌团",
+        "icon": "http:\/\/b0.hucdn.com\/img\/op\/1612\/22\/97059771392650_66x66.png",
+        "icon_selected": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/group\/ic_pinpaituan2.png",
+        "api_url": "http:\/\/m.beibei.com\/app\/brandgroup\/index.html"
+      },
+      {
+        "target": "mart_tomorrow",
+        "desc": "下期预告",
+        "icon": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/group\/ic_xiaqiyugao1.png",
+        "icon_selected": "http:\/\/mzs0.hucdn.com\/prom\/2016\/icon\/group\/ic_xiaqiyugao2.png",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/group\/search\/%d-%d-latter-3.html"
+      }
+    ],
+    "yuerbao_gibbed": 1,
+    "home_bottom_tabs": [
+      {
+        "name": "今日上新",
+        "type": "martshow",
+        "img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51261004045686_180x165.png",
+        "select_img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51600270355686_180x165.png"
+      },
+      {
+        "name": "全球购",
+        "type": "oversea",
+        "img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51311777585686_180x165.png",
+        "select_img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51670196645686_180x165.png"
+      },
+      {
+        "name": "拼团",
+        "type": "fight_group",
+        "img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51387873205686_180x165.png",
+        "select_img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51739829755686_180x165.png"
+      },
+      {
+        "name": "购物车",
+        "type": "cart",
+        "img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51456964805686_180x165.png",
+        "select_img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51812864955686_180x165.png"
+      },
+      {
+        "name": "我的",
+        "type": "mine",
+        "img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51524668935686_180x165.png",
+        "select_img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/01\/51871542605686_180x165.png"
+      },
+      {
+        "name": "背景图",
+        "type": "bg_img",
+        "img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/14\/87872631552214_750x98.png",
+        "select_img": "http:\/\/b2.hucdn.com\/\/upload\/hmp\/1607\/14\/87872631552214_750x98.png"
+      }
+    ],
+    "home_bottom_tabs_start_time": 1467302400,
+    "home_bottom_tabs_end_time": 1469894400,
+    "martgoods_bargain_bottom_tabs": [
+      {
+        "target": "bargain_all",
+        "desc": "特价清仓",
+        "icon": "http:\/\/b0.hucdn.com\/img\/op\/1607\/26\/24855833802650_66x66.png",
+        "icon_selected": "http:\/\/b0.hucdn.com\/img\/op\/1607\/26\/24868092482650_66x66.png",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-all.html"
+      },
+      {
+        "target": "bargain_brand",
+        "desc": "品牌清仓",
+        "icon": "http:\/\/b0.hucdn.com\/img\/op\/1607\/26\/24843320532650_66x66.png",
+        "icon_selected": "http:\/\/b0.hucdn.com\/img\/op\/1607\/26\/24849289502650_66x66.png",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-bargain_brand.html"
+      },
+      {
+        "target": "bargain_last",
+        "desc": "爆款捡漏",
+        "icon": "http:\/\/b0.hucdn.com\/img\/op\/1607\/26\/24799504442650_66x66.png",
+        "icon_selected": "http:\/\/b0.hucdn.com\/img\/op\/1607\/26\/24830346492650_66x66.png",
+        "api_url": "http:\/\/sapi.beibei.com\/martgoods\/bargain\/v2\/%d-%d-last_hot.html"
+      }
+    ],
+    "dynamic_v2_ab_tests": [
+      {
+        "method": "beibei.item.recom.html.get",
+        "ab_test_mode": 10,
+        "white_list": "29466237",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.oversea.diaper.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          0,
+          11
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.item.fightgroup.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.index.get",
+        "ab_test_mode": 100,
+        "white_list": "3405978,28907716,20067",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.get",
+        "ab_test_mode": 100,
+        "white_list": "154877,100002,36627513,31980974,35700589,16429620,28805078,20111771,6174806,9052933,20813412,100103,32546549,19440735,17785604",
+        "modes": [
+          0,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.item.get",
+        "ab_test_mode": 100,
+        "white_list": "154877,100002,36627513,31980974,35700589,16429620,28805078,20111771,6174806,9052933,20813412,100103,32546549,19440735,17785604",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.tuan.get",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.diaper.milk.union.get",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.item.search",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.oversea.fightgroup.get",
+        "ab_test_mode": 10,
+        "white_list": "16857280,20111771,37240756",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.oversea.promotion",
+        "ab_test_mode": 10,
+        "white_list": "16857280,37240756",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.channel.get",
+        "ab_test_mode": 100,
+        "white_list": "24287820,28907716,29466237",
+        "modes": [
+          -1,
+          -1
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgoods.tuan.get",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.new.get",
+        "ab_test_mode": 10,
+        "white_list": "35576037,35110785,34649493,30110320,29466237,8284917,100103,19440735,34649493,11130398,16857280",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgoods.group.get",
+        "ab_test_mode": 10,
+        "white_list": "32162606,36627513,31980974,8220383,154647,5772875",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgroup.list",
+        "ab_test_mode": 10,
+        "white_list": "32162606,36627513,31980974,8220383,154647,5772875",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.dynamic.ads.get",
+        "ab_test_mode": 10,
+        "white_list": "3405978,154877,100002,36627513,31980974,35700589,16429620,28805078,20111771,6174806,9052933,20813412,100103,32546549,19440735,17785604,36627513,31980974,29466237",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.channel.get.husband--",
+        "ab_test_mode": 100,
+        "white_list": "35576037",
+        "modes": [
+          -1,
+          -1
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.item.new.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.goodthings.get",
+        "ab_test_mode": 10,
+        "white_list": "154647,28805078,9274267,6223599,35700589,6174806,32546549,19440735",
+        "modes": [
+          -1,
+          10
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.oversea.home.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.fightgroup.home.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.discovery.newly.recom",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martgoods.tuan.group.get",
+        "ab_test_mode": 100,
+        "white_list": "5772875, 29663540",
+        "modes": [
+          -1,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.wpshop.home.new.get",
+        "ab_test_mode": 100,
+        "white_list": "5126641",
+        "modes": [
+          -1,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.wpshop.item.get",
+        "ab_test_mode": 100,
+        "white_list": "5126641,15886575,16857280,11130398",
+        "modes": [
+          -1,
+          101
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.hongren.pick.cate.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.channel.get.shoes--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.channel.get.dress--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.Channel.get.shoes--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.Channel.get.dress--",
+        "ab_test_mode": 100,
+        "white_list": "16857280,3361111,32546549,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.module.buy.better.item.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.buy.more.home.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.all",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.dress",
+        "ab_test_mode": 100,
+        "white_list": "1",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.shoes",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.woman_shoes_bags",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.babythings",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.toy",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.woman_dress",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.food",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.house",
+        "ab_test_mode": 100,
+        "white_list": "16857280,15886575,35110785",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.bargainv2.get",
+        "ab_test_mode": 100,
+        "white_list": "5772875,15886575",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.bargain.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.pingtuan.home.v1.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.pingtuan.item.v1.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.channel.get.megabrand--",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 0
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.beauty",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.martmall.wp.home.v69",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.martmall.wp.all.item",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.shoes_bag",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.women_dress",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.department",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.oversea",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.navigation.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.tuan.lastbuy.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.hotback.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.tuan.lowprice.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.milkdiaper.index.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.brand.item.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.oversea.search",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.sub.page.item.get",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.module.buy.toast",
+        "ab_test_mode": 100,
+        "white_list": "1",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.order.notice",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.tuan.get.v2",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.timeslot",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.things",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.fruit",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.underwear",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          100
+        ],
+        "need_client_info": 1
+      }
+    ],
+    "refresh_header_type": "\bsanpei",
+    "business_ab_tests": [
+      {
+        "business": "marshow_index_tab",
+        "ab_test_mode": 10000000,
+        "white_list": "",
+        "modes": [
+          1,
+          2
+        ]
+      },
+      {
+        "business": "toutiao_index_headline",
+        "ab_test_mode": 10,
+        "white_list": "7589680,26012829",
+        "modes": [
+          -1,
+          10
+        ]
+      },
+      {
+        "business": "marshow_index_tuanlist",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          10
+        ]
+      },
+      {
+        "business": "martshow_popup_ads",
+        "ab_test_mode": 10,
+        "white_list": "",
+        "modes": [
+          -1,
+          5
+        ]
+      },
+      {
+        "business": "martshow_food_tab",
+        "ab_test_mode": 10,
+        "white_list": "24287820,16145685,11130398,6030432",
+        "modes": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "business": "martshow_haohuo_showtype",
+        "ab_test_mode": 1000000,
+        "white_list": "",
+        "modes": [
+          1,
+          2
+        ]
+      },
+      {
+        "business": "martshow_onnew_showtype",
+        "ab_test_mode": 100,
+        "white_list": "35576037,35110785,34649493,30110320,29466237,8284917,100103,19440735,34649493,5126641,36627513,31980974,28805078,32546549,15886575,39350437,21128033,6030432,11130398",
+        "modes": [
+          -1,
+          101
+        ]
+      },
+      {
+        "business": "martshow_themegroup_dynamic",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "business": "app_config_dynamic",
+        "ab_test_mode": 100,
+        "white_list": "25299209,34888684,3405978,28290713",
+        "modes": [
+          -1,
+          101
+        ]
+      },
+      {
+        "business": "marshow_channel_dynamic",
+        "ab_test_mode": 10,
+        "white_list": "2248601878",
+        "modes": [
+          -1,
+          4
+        ]
+      },
+      {
+        "business": "itemdetail_pintuan_req_combine",
+        "ab_test_mode": 100,
+        "white_list": "",
+        "modes": [
+          0,
+          50
+        ]
+      },
+      {
+        "business": "martshow_home_switch",
+        "ab_test_mode": 100,
+        "white_list": "16857280,36189830,35576037,41601929,30110320,26645178,37116750,41275856,8,8284917,5772875,35110785,31226339,57900038,21128033,82849178,15128636,29795821,52228301,26255818,33654912,11054510,21478325,39350437,8755921,8282382,27309253,19440735,37240756,32546549,28371836,100276",
+        "modes": [
+          -1,
+          100
+        ]
+      },
+      {
+        "business": "itemdetail_pintuan_ab_test",
+        "ab_test_mode": 100,
+        "white_list": "26645178,37116750,52151539,70661284,58414429,7032768,41137582",
+        "modes": [
+          -1,
+          100
+        ]
+      }
+    ],
+    "pay_method_details": [],
+    "beibei_service_tel": 10107788,
+    "user_grade_link": "http:\/\/t.beibei.com\/djqy",
+    "rate_link": "",
+    "navigator_redirect": "{\n    \"bb\/xx\/xx\": \"http:\/\/m.beibei.com\/detail\/detail_#{iid}.html?tttid=#{bid}\", \n    \"bb\/xx\/ss\": \"http:\/\/m.beibei.com\/detail\"\n}",
+    "pre_add_cart_push": 1,
+    "pre_add_cart_time": 180,
+    "detail_ask_switch": 1,
+    "dynamic_notlogin_dsapis": [
+      {
+        "method": "beibei.martshow.get",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.new.get",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.dynamic.ads.get",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.channel.get.beauty--",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.Channel.get.beauty--",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.all",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martgoods.tuan.get.v2",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.timeslot",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.things",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.fruit",
+        "need_client_info": 1
+      },
+      {
+        "method": "beibei.martshow.home.channel.get.baby",
+        "need_client_info": 1
+      }
+    ],
+    "is_degrade_cart": 0,
+    "ant_realname_auth_switch": 1,
+    "hybrid_cache_enable": 1,
+    "https_gate": 0,
+    "is_degrade_order_detail": 0,
+    "hybrid_cache_repeat_interval": 600,
+    "not_modify_switchon": 1,
+    "https_percent": 1,
+    "push_hw_gate": 1,
+    "is_degrade_pay": 0,
+    "events_threshold": 20,
+    "enable_moment_poll": 1,
+    "rtlog_max_count": 5,
+    "rtlog_min_interval": 50,
+    "rtlog_blacklist": "alipay",
+    "rtlog_retry_interval": "5000,30000,60000",
+    "rtlog_blacklists": "[\"alipay\"]",
+    "cart_login_desc": "",
+    "discovery_home_switch": 0,
+    "android_page_offset": 1,
+    "ios_page_offset": 1,
+    "itemdetail_pintuan_req_combine": "true",
+    "home_first_tab_title": "精选",
+    "h5_to_native_black_list": "mpt\/group\/detail.html,detail\/detail.html,gaea_pt\/mpt\/group\/detail.html,list\/list.html,oversea\/oversea-list.html,oversea\/oversea-category.html",
+    "index_show_pintuan_toast": "true",
+    "home_bottom_tab_names": "今日特卖,逛新品,亲子,育儿,我的",
+    "use_default_section_config_android": "true",
+    "use_default_section_config_ios": "true",
+    "home_bottom_fourth_tab_is_cart": "false",
+    "iflytek_speech_recognizer": 1,
+    "im_server_timeout": 0,
+    "infinitely_refresh_footer_start_offset": 1000,
+    "forum_promotion_lottery_img": "http:\/\/b7.hucdn.com\/upload\/forum\/1704\/13\/68907069945024_500x500.gif",
+    "yuer_quaner_search_placeholder": "知识 帖子 食谱",
+    "home_bottom_tab_names_v590": "今日特卖,逛新品,亲子,育儿,我的",
+    "weex_fallback_enabled_global": 0,
+    "scrren_shot_feedback_open": 1,
+    "screenshot_feedback_open": 1,
+    "topbar_logo": "{\n\t\"tuan_limit\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/9262a8e2a6b440af_208x44.png\",\n\t\t\"width\": 208,\n\t\t\"height\": 44\n\t},\n\t\"oversea\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/dd035b4bb068ec05_153x48.png\",\n\t\t\"width\": 153,\n\t\t\"height\": 48\n\t},\n\t\"pintuan\": {\n\t\t\"img\": \"http:\/\/b0.hucdn.com\/img\/op\/1712\/06\/62031672691578_243x66.png\",\n\t\t\"width\": 162,\n\t\t\"height\": 44\n\t},\n\t\"second_hand\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/fd3ffd1bc360f0a5_96x44.png\",\n\t\t\"width\": 96,\n\t\t\"height\": 44\n\t},\n\t\"fight_food\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/4ad1979b03ca4c86_129x44.png\",\n\t\t\"width\": 129,\n\t\t\"height\": 44\n\t},\n\t\"discovery\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/46b92cbe3877a86d_143x44.png\",\n\t\t\"width\": 143,\n\t\t\"height\": 44\n\t},\n\t\"yuer\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/c89c149b6c918d27_95x32.png\",\n\t\t\"width\": 95,\n\t\t\"height\": 32\n\t},\n\t\"life\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/72a8c3050e84775b_85x32.png\",\n\t\t\"width\": 85,\n\t\t\"height\": 32\n\t},\n\t\"fight_fruit\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/0a803c396b8013c7_132x44.png\",\n\t\t\"width\": 132,\n\t\t\"height\": 44\n\t},\n\t\"hongren\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/dd261bc2bfe64b30_100x32.png\",\n\t\t\"width\": 100,\n\t\t\"height\": 32\n\t},\n\t\"bargain\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/721a7f909e0ebc3f_87x44.png\",\n\t\t\"width\": 87,\n\t\t\"height\": 44\n\t},\n\t\"big_brand\": {\n\t\t\"img\": \"http:\/\/h0.hucdn.com\/open\/201722\/b127dd2e0d4aa78f_138x44.png\",\n\t\t\"width\": 138,\n\t\t\"height\": 44\n\t}\n}",
+    "ignore_background_crash": 1,
+    "pre_parse_dns": 1,
+    "home_bottom_tab_names_v630": "首页,值得买,育儿,亲子,我的",
+    "hybrid_api_url_v2": "http:\/\/sapi.beibei.com\/hybrid\/cache_json_v2_ios.html",
+    "use_web_p": "false",
+    "is_add_cart_sound_on": 0,
+    "search_option": {
+      "common": [
+        {
+          "name": "全部商品",
+          "name_en": "all"
+        },
+        {
+          "name": "特卖商品",
+          "name_en": "temai"
+        }
+      ],
+      "quaner": [
+        {
+          "name": "商品",
+          "name_en": "mall"
+        },
+        {
+          "name": "用户",
+          "name_en": "user"
+        }
+      ]
+    },
+    "pay_promotion": {
+      "weixin": "推荐"
+    },
+    "live800_cached_reg_v2": ".*(live800|\/live800\/chatClient\/chatbox\\.jsp\\?|\/live\/chatClient\/|\/help\/kfzx|\/help\/myService|\/help\/order-consult|\/help\/product-consult|chat\\.beibei\\.com\/live|api\\.beibei\\.com|\/help\/answer|\/help\/robot).*",
+    "ad_bds": [
+      "samsung",
+      "yingyongbao",
+      "xiaomi",
+      "nearme",
+      "cs48",
+      "qd2"
+    ],
+    "webp": {
+      "enable": true,
+      "quality": {
+        "wifi": "",
+        "cellular": ""
+      },
+      "format": {
+        "b1.hucdn.com": [
+          750,
+          640,
+          320,
+          200,
+          160,
+          100
+        ],
+        "b2.hucdn.com": [
+          750,
+          640,
+          320,
+          200,
+          160,
+          100
+        ],
+        "h0.hucdn.com": [
+          750
+        ]
+      }
+    },
+    "martshow_indexpage_flingads_switch": {
+      "isopen": false,
+      "access_count_for_today": 2,
+      "show_count_for_today": 2,
+      "last_access_martshowitem_count_for_tody": 10,
+      "show_seconds": 3
+    },
+    "realname_auth_url": "http:\/\/m.beibei.com\/app\/realname_auth\/authing.html",
+    "feedback_link": "http:\/\/m.beibei.com\/help\/feedback.html",
+    "grade_page_switch": 1,
+    "grade_page_url": "http:\/\/m.beibei.com\/app\/member\/grade.html",
+    "coupon_page_float_switch": 1,
+    "coupon_page_float_desc": "前往领券中心",
+    "coupon_page_float_icon": "http:\/\/h0.hucdn.com\/open\/201829\/fd49b79d4a505c61_72x72.png",
+    "coupon_page_float_url": "http:\/\/m.beibei.com\/app\/member\/coupon-center.html",
+    "checkin_page_text": "签到领钱",
+    "checkin_page_url": "http:\/\/m.beibei.com\/app\/member\/index.html?beibeiapp_info=%7B%22target%22%3A%22bb%2Fbase%2Fweex%22%2C%22url%22%3A%22http%3A%2F%2Fm.beibei.com%2Fweex%2Fvip.js%22%2C%22fallback_url%22%3A%22http%3A%2F%2Fm.beibei.com%2Fapp%2Fmember%2Findex.html%22%2C%22ver%22%3A%225.9.03%22%7D",
+    "config_pull_types": [
+      {
+        "type": "polling",
+        "interval": "600"
+      },
+      {
+        "type": "silent_push"
+      },
+      {
+        "type": "switch"
+      }
+    ],
+    "show_pdt_detail_mask_layer": true,
+    "big_sale_begin_time": 0,
+    "big_sale_end_time": 0,
+    "welfare": {
+      "unregistered_gift": {
+        "title": "新人福利",
+        "desc": "新人专享好货1元带回家，去看看>>",
+        "target": "http:\/\/t.beibei.com\/1yuangoupush",
+        "source": "新人福利_unregistered_gift"
+      },
+      "unregistered_goods": {
+        "title": "爆款首单1元购！",
+        "desc": "统统一块钱，新买家最爱，童装童鞋、居家百货、玩具用品，仅限首单，限量抢购！>>",
+        "target": "http:\/\/t.beibei.com\/1yuangoupush",
+        "source": "新人专享商品_unregistered_goods"
+      }
+    },
+    "http_dns_type_340": 0,
+    "config_center_test_value": "default_2",
+    "disable_webkit": "0",
+    "http_dns_auto_enable": 1,
+    "hms_redirect_enable_domains": [
+      "mp.beibei.com",
+      "mp.yuerbao.com",
+      "mp.mizhe.com",
+      "mp.ubei.com.cn",
+      "mp1.mfzvr.cn"
+    ],
+    "perf_apd_log_enable": 1,
+    "hybrid_api_url": "http:\/\/sapi.beibei.com\/hybrid\/cache_json.html",
+    "dynamic_ad_url": "dsapi.beibei.com\/dynamic_ads",
+    "hms_redirect_enable_domain": [
+      "mp.beibei.com",
+      "mp.yuerbao.com",
+      "mp.mizhe.com",
+      "mp.ubei.com.cn",
+      "mp1.mfzvr.cn"
+    ],
+    "home_bottom_tab_names_v900": "今日团购,社区,团长,购物车,我的"
+  }
+}
