@@ -23,12 +23,20 @@ import okhttp3.RequestBody;
 
 public class MMKVActivity extends AppCompatActivity {
 
-    private static String TAG = "config";
+    private static String TAG = "config1";
+    private static String TAG2 = "config2";
+    private static String TAG3 = "juhe";
+    private static String TAG4 = "config4";
+    private static String TAG5 = "config5";
+    private static String TAG6 = "config6";
+    private static String TAG7 = "config7";
+    private static String TAG8 = "config8";
+    private static String TAG9 = "config9";
 
     TextView text;
-    TextView content;
+    TextView content1, content2, content3;
     TextView time;
-    MMKV mmkv;
+    MMKV mmkv, mmkv2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,14 +48,17 @@ public class MMKVActivity extends AppCompatActivity {
         text.setText("mmkv root: " + rootDir);
 
         mmkv = MMKV.defaultMMKV();
-        content = findViewById(R.id.content);
+        mmkv2 = MMKV.mmkvWithID("second");
+        content1 = findViewById(R.id.content1);
+        content2 = findViewById(R.id.content2);
+        content3 = findViewById(R.id.content3);
 
         time = findViewById(R.id.time);
 
         findViewById(R.id.send).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                okhttpAsynPost();
+                okhttpAsynPost();
                 loadAssets();
             }
         });
@@ -63,17 +74,16 @@ public class MMKVActivity extends AppCompatActivity {
                 stringBuilder.append(line);
             }
             String configJson = stringBuilder.toString();
-            long time1 = System.currentTimeMillis();
             mmkv.encode(TAG, configJson);
-            long time2 = System.currentTimeMillis();
-            long encodeTime = time2 - time1;
-
-            long time3 = System.currentTimeMillis();
-            content.setText(mmkv.decodeString(TAG));
-            long time4 = System.currentTimeMillis();
-            long decodeTime = time4 - time3;
-
-            time.setText("encodeTime : " + encodeTime + " ; decodeTime : " + decodeTime);
+            mmkv2.encode(TAG2, configJson);
+            mmkv.encode(TAG4, configJson);
+            mmkv.encode(TAG5, configJson);
+            mmkv.encode(TAG6, configJson);
+            mmkv.encode(TAG7, configJson);
+            mmkv2.encode(TAG8, configJson);
+            mmkv2.encode(TAG9, configJson);
+            content1.setText(mmkv.decodeString(TAG));
+            content2.setText(mmkv2.decodeString(TAG2));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -107,17 +117,8 @@ public class MMKVActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        long time1 = System.currentTimeMillis();
-                        mmkv.encode(TAG, json);
-                        long time2 = System.currentTimeMillis();
-                        long encodeTime = time2 - time1;
-
-                        long time3 = System.currentTimeMillis();
-                        content.setText(mmkv.decodeString(TAG));
-                        long time4 = System.currentTimeMillis();
-                        long decodeTime = time4 - time3;
-
-                        time.setText("encodeTime : " + encodeTime + " ; decodeTime : " + decodeTime);
+                        mmkv.encode(TAG3, json);
+                        content3.setText(mmkv.decodeString(TAG3));
                     }
                 });
             }
