@@ -2,11 +2,14 @@ package com.example.lawson.androidsummery;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.IntentFilter;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.antfortune.freeline.FreelineCore;
+import com.didichuxing.doraemonkit.DoraemonKit;
 import com.example.lawson.androidsummery.beibei.hbaction.ActionManager;
+import com.example.lawson.androidsummery.picviry.GYReceiver;
 import com.example.lawson.androidsummery.thread.CrashHandler;
+import com.getui.gysdk.GYManager;
 import com.squareup.leakcanary.LeakCanary;
 import com.yanzhenjie.nohttp.OkHttpNetworkExecutor;
 import com.yolanda.nohttp.Logger;
@@ -15,6 +18,8 @@ import com.yolanda.nohttp.cache.DBCacheStore;
 import com.yolanda.nohttp.cookie.DBCookieStore;
 
 public class MyApplication extends Application {
+
+    private String GY_APP_ID = "az6YKqKD7d9WoFxNX36F33";
 
     @Override
     protected void attachBaseContext(Context base) {
@@ -31,6 +36,19 @@ public class MyApplication extends Application {
 //        initFreeLine();
         initARouter();
         initAction();
+        initGeTui();
+        initDoraemonKit();
+    }
+
+    private void initDoraemonKit() {
+        DoraemonKit.install(this);
+    }
+
+    private void initGeTui() {
+        GYReceiver gyReceiver = new GYReceiver();
+        IntentFilter filter = new IntentFilter("com.getui.gy.action." + GY_APP_ID);
+        registerReceiver(gyReceiver, filter);
+        GYManager.getInstance().init(this.getApplicationContext());
     }
 
     private void initAction() {
@@ -43,9 +61,6 @@ public class MyApplication extends Application {
         ARouter.init(this);
     }
 
-    private void initFreeLine() {
-        FreelineCore.init(this);
-    }
 
     private void initCrashHandler() {
         CrashHandler.getInstance().init(getApplicationContext());
@@ -56,13 +71,11 @@ public class MyApplication extends Application {
     }
 
     private void initNoHttp() {
-        NoHttp.initialize(this,
-                new NoHttp.Config()
-                        .setConnectTimeout(1000)
-                        .setReadTimeout(2000)
-                        .setCacheStore(new DBCacheStore(this).setEnable(true))
-                        .setCookieStore(new DBCookieStore(this).setEnable(true))
-                        .setNetworkExecutor(new OkHttpNetworkExecutor()));
+        NoHttp.initialize(this, new NoHttp.Config().setConnectTimeout(1000)
+                .setReadTimeout(2000)
+                .setCacheStore(new DBCacheStore(this).setEnable(true))
+                .setCookieStore(new DBCookieStore(this).setEnable(true))
+                .setNetworkExecutor(new OkHttpNetworkExecutor()));
         Logger.setDebug(true);
         Logger.setTag("IanNoHttp");
     }

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="root检查" />
+
+    <TextView
+        android:id="@+id/root_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="root状态" />
+
+    <Button
+        android:id="@+id/vm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="虚拟机检查" />
+
+    <TextView
+        android:id="@+id/vm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="虚拟机状态" />
+
+    <Button
+        android:id="@+id/multi_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="app多开" />
+
+    <TextView
+        android:id="@+id/multi_app_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="app多开状态" />
+
+    <Button
+        android:id="@+id/xposed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xposed" />
+
+    <TextView
+        android:id="@+id/xposed_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xposed状态" />
+
+</LinearLayout>

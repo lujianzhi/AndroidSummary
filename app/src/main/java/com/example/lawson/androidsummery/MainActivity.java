@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.example.lawson.androidsummery.drawerlayout.DrawerLayoutActivity;
 import com.example.lawson.androidsummery.fourcomponent.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.fourcomponent.activityabout.MyFragmentActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
@@ -30,7 +31,6 @@ import com.example.lawson.androidsummery.eventbus.StickyObj;
 import com.example.lawson.androidsummery.fourcomponent.FourComponentActivity;
 import com.example.lawson.androidsummery.fragment.normal.FragmentNormalActivity;
 import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity;
-import com.example.lawson.androidsummery.greendao.GreenDaoActivity;
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
 import com.example.lawson.androidsummery.hencoder.HenCoderActivity;
 import com.example.lawson.androidsummery.hidenavigationbar.HideNavigationBar;
@@ -44,6 +44,7 @@ import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
 import com.example.lawson.androidsummery.ongloballayoutlistener.OnGlobalLayoutListenerActivity;
 import com.example.lawson.androidsummery.permission.PermissionActivity;
+import com.example.lawson.androidsummery.picviry.GeTuiPicViryActivity;
 import com.example.lawson.androidsummery.pointtopoint.PointToPointActivity;
 import com.example.lawson.androidsummery.popupwindow.PopupWindowActivity;
 import com.example.lawson.androidsummery.pulltorefresh.PullToRefreshActivity;
@@ -53,6 +54,7 @@ import com.example.lawson.androidsummery.remoteviews.RemoteViewsActivity;
 import com.example.lawson.androidsummery.router.Constant;
 import com.example.lawson.androidsummery.rxjava.RxJava2Activity;
 import com.example.lawson.androidsummery.scroller.ScrollerActivity;
+import com.example.lawson.androidsummery.securitycheck.SecurityCheckActivity;
 import com.example.lawson.androidsummery.spinner.SpinnerActivity;
 import com.example.lawson.androidsummery.switchtheme.SwitchThemeActivity;
 import com.example.lawson.androidsummery.takephoto.TakePhotoActivity;
@@ -74,6 +76,8 @@ import com.example.lawson.androidsummery.windowandwindowmanager.WindowAndWindowM
 import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
+
+import me.ele.uetool.UETool;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -467,13 +471,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.green_dao).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, GreenDaoActivity.class));
-            }
-        });
-
         createDir();
 
         findViewById(R.id.record).setOnClickListener(new View.OnClickListener() {
@@ -522,6 +519,40 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DatePickerActivity.class));
+            }
+        });
+
+        findViewById(R.id.getui_pic_viry).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, GeTuiPicViryActivity.class));
+            }
+        });
+
+        findViewById(R.id.eleme_uetool_open).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                UETool.showUETMenu();
+            }
+        });
+        findViewById(R.id.eleme_uetool_close).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                UETool.dismissUETMenu();
+            }
+        });
+
+        findViewById(R.id.drawer_layout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DrawerLayoutActivity.class));
+            }
+        });
+
+        findViewById(R.id.security_check).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SecurityCheckActivity.class));
             }
         });
 

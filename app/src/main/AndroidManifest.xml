@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.lawson.androidsummery">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -16,9 +17,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/AppTheme.MyLaunch">
+        <activity android:name=".securitycheck.SecurityCheckActivity"></activity>
+        <activity android:name=".drawerlayout.DrawerLayoutActivity" />
+        <activity android:name=".picviry.GeTuiPicViryActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -164,6 +166,7 @@
             </intent-filter>
         </receiver>
         <receiver android:name=".fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver">
+
             <!-- priority在有序广播中代表优先级，范围是-1000到1000，数值越大优先级越高 -->
             <intent-filter android:priority="1000">
                 <action android:name="order" />
@@ -204,7 +207,7 @@
         <activity android:name=".diyview.timepicker.DatePickerActivity" />
         <activity android:name=".beibei.BeiBeiActivity" />
         <activity android:name=".beibei.hbaction.ActionActivity" />
-        <activity android:name=".fourcomponent.activityabout.MyFragmentActivity"></activity>
+        <activity android:name=".fourcomponent.activityabout.MyFragmentActivity" />
     </application>
 
 </manifest>

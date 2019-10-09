@@ -426,6 +426,43 @@
                 android:layout_height="wrap_content"
                 android:text="DatePicker" />
 
+            <Button
+                android:id="@+id/getui_pic_viry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个推图形验证" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/eleme_uetool_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="饿了么UETool 打开" />
+
+                <Button
+                    android:id="@+id/eleme_uetool_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="饿了么UETool 关闭" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/drawer_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DrawerLayout" />
+
+            <Button
+                android:id="@+id/security_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="root、双开、xpose检查" />
         </LinearLayout>
 
     </RelativeLayout>

@@ -24,9 +24,6 @@ public class IanDelegate {
         } else if (version >= 14) {
             //这里我们就重写了callActivityOnCreateView方法。
             return new IanAppCompatDelegateV14(context, window, callback);
-        } else if (version >= 11) {
-            //同理
-            return new AppCompatDelegateImplV11(context, window, callback);
         } else {
             //由于是依次继承关系，这个类又是AppCompatDelegateImplBase的子类
             //这里没必要去覆盖一些方法

@@ -5,6 +5,7 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
+import android.text.Html;
 import android.text.Selection;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -28,6 +29,15 @@ public class TestActivity extends AppCompatActivity {
         testPost();
 
 //        getBundle();
+
+        testHtml();
+    }
+
+    private void testHtml() {
+        TextView html_text = findViewById(R.id.html_text);
+        String title = "<font size=\"3\" color=\"#999999\">距离结束仅剩</font><br>" +
+                       "<font size=\"50\" color=\"#333333\">2天21时52分44秒</font>";
+        html_text.setText(Html.fromHtml(title, null, new SizeLabel(this, 30)));
     }
 
     private void getBundle() {
