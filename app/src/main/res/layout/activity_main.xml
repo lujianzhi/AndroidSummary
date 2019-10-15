@@ -469,6 +469,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="mmkv测试" />
+
+            <Button
+                android:id="@+id/fastjson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fastjson OOM测试" />
         </LinearLayout>
 
     </RelativeLayout>

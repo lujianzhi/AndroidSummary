@@ -136,6 +136,7 @@ dependencies {
     debugImplementation 'me.ele:uetool:1.0.17'
     releaseImplementation 'me.ele:uetool-no-op:1.0.17'
     implementation 'com.tencent:mmkv:1.0.23'
+    api 'com.alibaba:fastjson:1.1.46.android'
 }
 repositories {
     mavenCentral()
