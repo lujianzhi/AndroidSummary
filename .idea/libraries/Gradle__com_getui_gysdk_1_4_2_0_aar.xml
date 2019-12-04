@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.getui:gysdk:1.4.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/308d6108a3aff6496bfa0f349cf082c1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/308d6108a3aff6496bfa0f349cf082c1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/308d6108a3aff6496bfa0f349cf082c1/jars/libs/gysdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/d62b26921b10e0b75b1821548cee1db5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/d62b26921b10e0b75b1821548cee1db5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/d62b26921b10e0b75b1821548cee1db5/jars/libs/gysdk.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

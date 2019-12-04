@@ -28,15 +28,23 @@ public class TestActivity extends AppCompatActivity {
 
         testPost();
 
-//        getBundle();
+        //        getBundle();
 
         testHtml();
+
+        testScrollView();
+    }
+
+    private void testScrollView() {
+        TextView tv = findViewById(R.id.tv);
+//        tv.setMaxHeight(200);
+        tv.setText("1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\22\n23\n24\n25\n26");
     }
 
     private void testHtml() {
         TextView html_text = findViewById(R.id.html_text);
         String title = "<font size=\"3\" color=\"#999999\">距离结束仅剩</font><br>" +
-                       "<font size=\"50\" color=\"#333333\">2天21时52分44秒</font>";
+                "<font size=\"50\" color=\"#333333\">2天21时52分44秒</font>";
         html_text.setText(Html.fromHtml(title, null, new SizeLabel(this, 30)));
     }
 
@@ -49,12 +57,12 @@ public class TestActivity extends AppCompatActivity {
 
     private void testPost() {
         final TextView post = findViewById(R.id.post_view);
-//        post.post(new Runnable() {
-//            @Override
-//            public void run() {
-//                post.setText("width : " + post.getWidth() + " ; height : " + post.getHeight());
-//            }
-//        });
+        //        post.post(new Runnable() {
+        //            @Override
+        //            public void run() {
+        //                post.setText("width : " + post.getWidth() + " ; height : " + post.getHeight());
+        //            }
+        //        });
 
         final LinearLayout postViewGroup = findViewById(R.id.post_view_group);
         postViewGroup.post(new Runnable() {

@@ -4,10 +4,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
 import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.diyview.hideview.HideViewLVActivity;
 import com.example.lawson.androidsummery.diyview.hideview.HideViewRVActivity;
-import com.example.lawson.androidsummery.diyview.learn2draw.*;
+import com.example.lawson.androidsummery.diyview.justifyTextView.JustifyTextViewActivity;
+import com.example.lawson.androidsummery.diyview.learn2draw.AddableHorizontalTextViewActivity;
+import com.example.lawson.androidsummery.diyview.learn2draw.ChangeLineViewGroupActivity;
+import com.example.lawson.androidsummery.diyview.learn2draw.FadeInTextViewActivity;
+import com.example.lawson.androidsummery.diyview.learn2draw.LoadingViewActivity;
+import com.example.lawson.androidsummery.diyview.learn2draw.SubmitButtonActivity;
 
 public class ViewListActivity extends AppCompatActivity {
 
@@ -62,6 +68,13 @@ public class ViewListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getBaseContext(), AddableHorizontalTextViewActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), JustifyTextViewActivity.class));
             }
         });
     }

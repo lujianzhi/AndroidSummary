@@ -47,4 +47,10 @@
         android:layout_height="wrap_content"
         android:text="代码动态添加TextView" />
 
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中英混排textview" />
+
 </LinearLayout>
