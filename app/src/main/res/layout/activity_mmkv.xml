@@ -4,14 +4,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/send"
-        android:text="网络请求"
-        android:padding="10dp"
-        android:textColor="@color/white"
-        android:background="@color/app_day_bg_color"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/app_day_bg_color"
+            android:padding="10dp"
+            android:text="一起"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/send2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/app_day_bg_color"
+            android:padding="10dp"
+            android:text="sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/send3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/app_day_bg_color"
+            android:padding="10dp"
+            android:text="mmkv"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/text"
@@ -23,7 +54,25 @@
         android:id="@+id/time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="123"/>
+        android:text="123" />
+
+    <TextView
+        android:id="@+id/time3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123" />
+
+    <TextView
+        android:id="@+id/time4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,27 +81,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/content1"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:background="@color/app_day_text_bg_color"/>
+                android:layout_weight="1"
+                android:background="@color/app_day_text_bg_color"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/content2"
-                android:layout_width="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:background="@color/app_day_text_color"/>
+                android:layout_weight="1"
+                android:background="@color/app_day_text_color"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/content3"
-                android:layout_width="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:background="@color/app_night_bg_color"/>
+                android:layout_weight="1"
+                android:background="@color/app_night_bg_color"
+                android:textColor="@color/white" />
         </LinearLayout>
 
     </ScrollView>

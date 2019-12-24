@@ -1,10 +1,13 @@
 package com.example.lawson.androidsummery.mmkv;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;
@@ -36,7 +39,11 @@ public class MMKVActivity extends AppCompatActivity {
     TextView text;
     TextView content1, content2, content3;
     TextView time;
+    TextView time2;
+    TextView time3;
+    TextView time4;
     MMKV mmkv, mmkv2;
+    EditText input;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,17 +61,86 @@ public class MMKVActivity extends AppCompatActivity {
         content3 = findViewById(R.id.content3);
 
         time = findViewById(R.id.time);
+        time2 = findViewById(R.id.time2);
+        time3 = findViewById(R.id.time3);
+        time4 = findViewById(R.id.time4);
+
+        input = findViewById(R.id.input);
 
         findViewById(R.id.send).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                okhttpAsynPost();
-                loadAssets();
+                //                okhttpAsynPost();
+                loadAssetsMMKV();
+
+                loadAssetsSP();
+            }
+        });
+        findViewById(R.id.send2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //                okhttpAsynPost();
+
+                for (int i = 0; i < 100; i++) {
+                    loadAssetsSP();
+                    Log.i("Ian", "sp time:" + i);
+                }
+            }
+        });
+        findViewById(R.id.send3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //                okhttpAsynPost();
+
+                for (int i = 0; i < 100; i++) {
+                    loadAssetsMMKV();
+                    Log.i("Ian", "mmkv time:" + i);
+                }
+
             }
         });
     }
 
-    private void loadAssets() {
+
+    private void loadAssetsSP() {
+        StringBuilder stringBuilder = new StringBuilder();
+        try {
+            AssetManager assetManager = getAssets();
+            BufferedReader bf = new BufferedReader(new InputStreamReader(assetManager.open("config.json")));
+            String line;
+            while ((line = bf.readLine()) != null) {
+                stringBuilder.append(line);
+            }
+            SharedPreferences sharedPreferences = getSharedPreferences("a", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            String configJson = stringBuilder.toString();
+
+            if (!input.getText().toString().equals("config")) {
+                configJson = input.getText().toString();
+            }
+
+            long start = System.currentTimeMillis();
+            editor.putString("config", configJson);
+            editor.commit();
+            long end = System.currentTimeMillis();
+            long duration = end - start;
+            time2.setText("sp put : " + duration);
+            Log.i("Ian", "sp put : " + duration);
+
+            long start2 = System.currentTimeMillis();
+            String getString = sharedPreferences.getString("config", "");
+            long end2 = System.currentTimeMillis();
+            long duration2 = end2 - start2;
+            time4.setText("sp get : " + duration2);
+            Log.i("Ian", "sp get : " + duration2);
+            content2.setText(getString);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    private void loadAssetsMMKV() {
         StringBuilder stringBuilder = new StringBuilder();
         try {
             AssetManager assetManager = getAssets();
@@ -74,16 +150,26 @@ public class MMKVActivity extends AppCompatActivity {
                 stringBuilder.append(line);
             }
             String configJson = stringBuilder.toString();
+
+            if (!input.getText().toString().equals("config")) {
+                configJson = input.getText().toString();
+            }
+
+            long start = System.currentTimeMillis();
             mmkv.encode(TAG, configJson);
-            mmkv2.encode(TAG2, configJson);
-            mmkv.encode(TAG4, configJson);
-            mmkv.encode(TAG5, configJson);
-            mmkv.encode(TAG6, configJson);
-            mmkv.encode(TAG7, configJson);
-            mmkv2.encode(TAG8, configJson);
-            mmkv2.encode(TAG9, configJson);
-            content1.setText(mmkv.decodeString(TAG));
-            content2.setText(mmkv2.decodeString(TAG2));
+            long end = System.currentTimeMillis();
+            long duration = end - start;
+            time.setText("mmkv encode : " + duration);
+            Log.i("Ian", "mmkv encode : " + duration);
+
+            long start2 = System.currentTimeMillis();
+            String decode = mmkv.decodeString(TAG);
+            long end2 = System.currentTimeMillis();
+            long duration2 = end2 - start2;
+            time3.setText("mmkv decodeString : " + duration2);
+            Log.i("Ian", "mmkv decodeString : " + duration2);
+            content1.setText(decode);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
