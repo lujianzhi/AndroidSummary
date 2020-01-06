@@ -1,39 +1,39 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:1-9:12
 	package
-		ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:3:5-49
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
+		ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:5:5-32
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
+		ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:4:5-31
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
+		ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
 application
-ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml:7:5-20
+ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml:7:5-20
 uses-sdk
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-		ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+		ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-		ADDED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
-		INJECTED from /home/ian/development/project/as/AndroidSummary/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+		ADDED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/lujianzhi/Desktop/mine/project/AndroidSummary/library/src/main/AndroidManifest.xml

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.IntentFilter;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.didichuxing.doraemonkit.DoraemonKit;
 import com.example.lawson.androidsummery.beibei.hbaction.ActionManager;
 import com.example.lawson.androidsummery.picviry.GYReceiver;
 import com.example.lawson.androidsummery.thread.CrashHandler;
@@ -37,12 +36,12 @@ public class MyApplication extends Application {
         initARouter();
         initAction();
         initGeTui();
-        initDoraemonKit();
+//        initDoraemonKit();
     }
-
-    private void initDoraemonKit() {
-        DoraemonKit.install(this);
-    }
+//
+//    private void initDoraemonKit() {
+//        DoraemonKit.install(this);
+//    }
 
     private void initGeTui() {
         GYReceiver gyReceiver = new GYReceiver();

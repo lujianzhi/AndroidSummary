@@ -131,10 +131,12 @@ dependencies {
     //所在模块需要添加如下代码
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.4'
 //    implementation 'com.airbnb.android:lottie:3.0.1'
-    debugImplementation 'com.didichuxing.doraemonkit:doraemonkit:1.1.5'
-    releaseImplementation 'com.didichuxing.doraemonkit:doraemonkit-no-op:1.1.5'
+//    debugImplementation 'com.didichuxing.doraemonkit:doraemonkit:1.1.5'
+//    releaseImplementation 'com.didichuxing.doraemonkit:doraemonkit-no-op:1.1.5'
     debugImplementation 'me.ele:uetool:1.0.17'
     releaseImplementation 'me.ele:uetool-no-op:1.0.17'
+    implementation 'com.tencent:mmkv:1.0.23'
+    api 'com.alibaba:fastjson:1.1.46.android'
 }
 repositories {
     mavenCentral()

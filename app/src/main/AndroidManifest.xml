@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.lawson.androidsummery">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".MyApplication"
@@ -17,7 +17,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".securitycheck.SecurityCheckActivity"></activity>
+        <activity android:name=".diyview.justifyTextView.JustifyTextViewActivity"></activity>
+        <activity android:name=".fastjson.FastJsonActivity" />
+        <activity android:name=".securitycheck.SecurityCheckActivity" />
         <activity android:name=".drawerlayout.DrawerLayoutActivity" />
         <activity android:name=".picviry.GeTuiPicViryActivity" />
         <activity android:name=".MainActivity">
@@ -127,57 +129,12 @@
         <activity
             android:name=".ipc.activity.process.FullProcessActivity"
             android:process="com.example.lawson.androidsummery.ian" />
-
-        <service
-            android:name=".ipc.service.MessengerService"
-            android:process=":MessengerService" />
-
         <activity android:name=".ipc.activity.messenger.MessengerActivity" />
         <activity android:name=".ipc.activity.aidl.AIDLActivity" />
-
-        <service
-            android:name=".ipc.service.AIDLService"
-            android:process=":AIDLService" />
-
         <activity android:name=".remoteviews.RemoteViewsActivity" />
-
-        <receiver android:name=".remoteviews.MyAppWidgetProvider">
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/my_widget_info" />
-
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-        </receiver>
-
         <activity android:name=".thread.AndroidThreadActivity" />
-
-        <service android:name=".thread.intentservice.MyIntentService" />
-
         <activity android:name=".bitmap.BitmapAndCacheActivity" />
         <activity android:name=".fourcomponent.FourComponentActivity" />
-
-        <service android:name=".fourcomponent.service.MyService" />
-
-        <receiver android:name=".fourcomponent.broadcastreceiver.NormalBroadcastReceiver">
-            <intent-filter>
-                <action android:name="normal" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name=".fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver">
-
-            <!-- priority在有序广播中代表优先级，范围是-1000到1000，数值越大优先级越高 -->
-            <intent-filter android:priority="1000">
-                <action android:name="order" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name=".fourcomponent.broadcastreceiver.OrderThreeBroadcastReceiver">
-            <intent-filter android:priority="-1000">
-                <action android:name="order" />
-            </intent-filter>
-        </receiver>
-
         <activity android:name=".junittest.UITestActivity" />
         <activity android:name=".hencoder.HenCoderActivity" />
         <activity android:name=".hencoder.ui.UIActivity" />
@@ -208,6 +165,43 @@
         <activity android:name=".beibei.BeiBeiActivity" />
         <activity android:name=".beibei.hbaction.ActionActivity" />
         <activity android:name=".fourcomponent.activityabout.MyFragmentActivity" />
+        <activity android:name=".mmkv.MMKVActivity" />
+
+        <receiver android:name=".remoteviews.MyAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_widget_info" />
+        </receiver>
+        <receiver android:name=".fourcomponent.broadcastreceiver.NormalBroadcastReceiver">
+            <intent-filter>
+                <action android:name="normal" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver">
+
+            <!-- priority在有序广播中代表优先级，范围是-1000到1000，数值越大优先级越高 -->
+            <intent-filter android:priority="1000">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".fourcomponent.broadcastreceiver.OrderThreeBroadcastReceiver">
+            <intent-filter android:priority="-1000">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".ipc.service.MessengerService"
+            android:process=":MessengerService" />
+        <service
+            android:name=".ipc.service.AIDLService"
+            android:process=":AIDLService" />
+        <service android:name=".thread.intentservice.MyIntentService" />
+        <service android:name=".fourcomponent.service.MyService" />
     </application>
 
 </manifest>

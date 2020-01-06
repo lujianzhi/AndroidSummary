@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.example.lawson.androidsummery.drawerlayout.DrawerLayoutActivity;
+import com.example.lawson.androidsummery.fastjson.FastJsonActivity;
 import com.example.lawson.androidsummery.fourcomponent.activityabout.AboutActivity;
 import com.example.lawson.androidsummery.fourcomponent.activityabout.MyFragmentActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
@@ -39,6 +40,7 @@ import com.example.lawson.androidsummery.junittest.UITestActivity;
 import com.example.lawson.androidsummery.killprocess.KillProcessActivity;
 import com.example.lawson.androidsummery.levelcount.LevelCountActivity;
 import com.example.lawson.androidsummery.lottie.LottieActivity;
+import com.example.lawson.androidsummery.mmkv.MMKVActivity;
 import com.example.lawson.androidsummery.mvp.view.NewsActivity;
 import com.example.lawson.androidsummery.net.ui.NetActivity;
 import com.example.lawson.androidsummery.nohttp.NoHttpActivity;
@@ -553,6 +555,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SecurityCheckActivity.class));
+            }
+        });
+
+        findViewById(R.id.mmkv).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MMKVActivity.class));
+            }
+        });
+
+        findViewById(R.id.fastjson).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, FastJsonActivity.class));
             }
         });
 
