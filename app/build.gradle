@@ -42,7 +42,7 @@ android {
             keyPassword '38246953725'
         }
 //        debug {
-            //个推验证使用Demo里的
+        //个推验证使用Demo里的
 //            storeFile file("yg_test.jks")
 //            storePassword "gy123456"
 //            keyAlias "getui.com"
