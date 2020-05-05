@@ -73,21 +73,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="delete">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TaskAffinityActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_task_affinity.xml" afterDir="false" />
+    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="启动模式">
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/aidl/AIDLActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/aidl/AIDLActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/TestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/TestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" afterDir="false" />
     </list>
     <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
     <list id="95839285-bb59-4d62-978f-d973452dd3ed" name="ignore" comment="ignore" />
@@ -100,7 +96,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="2db0196d" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -146,47 +142,6 @@
   <component name="FindBugs-IDEA-Workspace">
     <runInBackground>true</runInBackground>
     <toolWindowEditorPreview>false</toolWindowEditorPreview>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mObserver</find>
-      <find>okhttp_asyn_get</find>
-      <find>dispatcher</find>
-      <find>mViewInfoStore</find>
-      <find>onBindViewHolder</find>
-      <find>mRequestedCacheMax</find>
-      <find>mViewCacheMax</find>
-      <find>tryGetViewHolderForPositionByDeadline</find>
-      <find>getViewForPosition</find>
-      <find>recycleView</find>
-      <find>maxLineHeight should not be -1.  maxLines:2 lineCount:2</find>
-      <find>StaticLayout</find>
-      <find>OkHttpClient</find>
-      <find>client</find>
-      <find>mmkv</find>
-      <find>MMKVActivity</find>
-      <find>成功的返回</find>
-      <find>juhe</find>
-      <find>config2</find>
-      <find>config</find>
-      <find>test_btn</find>
-      <find>MyViewGroup</find>
-      <find>doraemonkit</find>
-      <find>DoraemonKit</find>
-      <find>time</find>
-      <find>taskAffinity</find>
-      <find>Activity</find>
-      <find>Activity相关</find>
-      <find>about_activity</find>
-      <find>TaskAffinityActivity</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>500</replace>
-      <replace>LinearLayout</replace>
-      <replace>26.0.2</replace>
-      <replace>api</replace>
-      <replace>implementation</replace>
-    </replaceStrings>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="E:\AS\ian2.jks" />
@@ -742,7 +697,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -818,13 +773,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475486850205</updated>
-    </task>
-    <task id="LOCAL-00063" summary="HenCoder Android 开发进阶: 自定义 View 1-3 drawText() 文字的绘制">
-      <created>1511407394427</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1511407394428</updated>
     </task>
     <task id="LOCAL-00064" summary="View层级测试">
       <created>1511771317830</created>
@@ -1162,7 +1110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578300296330</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="启动模式">
+      <created>1585042732961</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1585042732962</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1211,7 +1166,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -1226,7 +1183,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="移动" />
     <MESSAGE value="横向view拼接" />
     <MESSAGE value="指定item位置时显示" />
     <MESSAGE value="补交" />
@@ -1251,7 +1207,8 @@
     <MESSAGE value="TextView" />
     <MESSAGE value="mmkv对比" />
     <MESSAGE value="delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete" />
+    <MESSAGE value="启动模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="启动模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1282,7 +1239,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/TestActivity.java</url>
-          <line>55</line>
+          <line>84</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

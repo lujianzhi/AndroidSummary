@@ -28,7 +28,7 @@ public class AIDLActivity extends AppCompatActivity {
             IBookManager iBookManager = IBookManager.Stub.asInterface(service);
             try {
                 List<Book> bookList = iBookManager.getBookList();
-                bookList.add(new Book(4, "第四本书"));
+                iBookManager.addBook(new Book(4, "第四本书"));
                 typeOfListTv.setText("客户端接受的List类型为 : " + bookList.getClass().getCanonicalName());
                 dataFromServerTv.setText(bookList.toString());
             } catch (RemoteException e) {
