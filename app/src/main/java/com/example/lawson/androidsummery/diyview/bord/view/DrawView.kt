@@ -34,7 +34,6 @@ class DrawView @JvmOverloads constructor(context: Context, attrs: AttributeSet?,
     }
 
     fun saveLayer(){
-        mCanvas.saveLayer()
     }
 
     fun eraser() {
