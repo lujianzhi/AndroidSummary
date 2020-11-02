@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.lawson.androidsummery.R;
+import com.example.lawson.androidsummery.diyview.bord.BordActivity;
 import com.example.lawson.androidsummery.diyview.primary.PrimaryViewListActivity;
 import com.example.lawson.androidsummery.diyview.view.FirstView;
 
@@ -36,9 +37,16 @@ public class DIYViewActivity extends Activity {
             }
         });
 
-//        firstView = (FirstView) findViewById(R.id.first_view);
-//
-//        new Thread(firstView).start();
+        findViewById(R.id.bord).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), BordActivity.class));
+            }
+        });
+
+        //        firstView = (FirstView) findViewById(R.id.first_view);
+        //
+        //        new Thread(firstView).start();
 
     }
 }

@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.yolanda.nohttp:nohttp:1.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nohttp-1.1.0.aar/f77c1c81280896395488ad1cdaa37b57/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nohttp-1.1.0.aar/f77c1c81280896395488ad1cdaa37b57/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nohttp-1.1.0.aar/eeffc64cb4f5cb7f7c0adebf993341e7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nohttp-1.1.0.aar/eeffc64cb4f5cb7f7c0adebf993341e7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nohttp-1.1.0.aar/eeffc64cb4f5cb7f7c0adebf993341e7/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operate"
+        android:orientation="vertical">
+
+        <com.example.lawson.androidsummery.diyview.bord.view.DrawView
+            android:id="@+id/drawView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/operate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/eraser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="橡皮" />
+
+            <Button
+                android:id="@+id/paint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="画笔" />
+
+            <Button
+                android:id="@+id/changeCanvas1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="切1" />
+
+            <Button
+                android:id="@+id/changeCanvas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="切2" />
+
+            <Button
+                android:id="@+id/export1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="导出1" />
+
+            <Button
+                android:id="@+id/export2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="导出2" />
+
+            <Button
+                android:id="@+id/draw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="简单画板" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
