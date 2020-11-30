@@ -3,19 +3,21 @@ package com.example.lawson.androidsummery.diyview.hideview;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.recyclerview.widget.RecyclerView;
+
 /**
  * Created by Ian.Lu on 2018/5/30.
  * Project : AndroidSummary
  */
-public class HideView extends android.support.v7.widget.AppCompatImageView {
+public class HideView extends AppCompatImageView {
     private boolean hide;
 
     public HideView(Context context) {

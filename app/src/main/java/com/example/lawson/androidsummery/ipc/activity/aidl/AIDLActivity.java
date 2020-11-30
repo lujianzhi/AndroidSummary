@@ -7,7 +7,7 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;
@@ -28,7 +28,7 @@ public class AIDLActivity extends AppCompatActivity {
             IBookManager iBookManager = IBookManager.Stub.asInterface(service);
             try {
                 List<Book> bookList = iBookManager.getBookList();
-                bookList.add(new Book(4, "第四本书"));
+                iBookManager.addBook(new Book(4, "第四本书"));
                 typeOfListTv.setText("客户端接受的List类型为 : " + bookList.getClass().getCanonicalName());
                 dataFromServerTv.setText(bookList.toString());
             } catch (RemoteException e) {

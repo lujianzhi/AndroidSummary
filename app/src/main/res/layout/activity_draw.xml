@@ -4,7 +4,7 @@
     android:id="@+id/activity_draw"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lawson.androidsummery.draw.DrawActivity">
+    tools:context=".diyview.bord.draw.DrawActivity">
 
     <ImageView
         android:id="@+id/background"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:scaleType="fitStart" />
 
-    <com.example.lawson.androidsummery.draw.DrawView
+    <com.example.lawson.androidsummery.diyview.bord.draw.DrawView
         android:id="@+id/draw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

@@ -1,11 +1,6 @@
 package com.example.lawson.androidsummery.fragment.normal;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 
 import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.fragment.normal.fragment.NormalFragmentOne;
@@ -13,6 +8,12 @@ import com.example.lawson.androidsummery.fragment.normal.fragment.NormalFragment
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 public class FragmentNormalActivity extends AppCompatActivity {
 

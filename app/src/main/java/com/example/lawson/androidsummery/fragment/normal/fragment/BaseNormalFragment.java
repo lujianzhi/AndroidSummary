@@ -1,6 +1,7 @@
 package com.example.lawson.androidsummery.fragment.normal.fragment;
 
-import android.support.v4.app.Fragment;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by Ian.Lu on 2018/3/27.

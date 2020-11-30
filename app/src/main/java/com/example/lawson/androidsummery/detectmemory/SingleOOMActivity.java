@@ -1,13 +1,12 @@
 package com.example.lawson.androidsummery.detectmemory;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;
-import com.example.lawson.androidsummery.detectmemory.entity.ObjWithContext;
-import com.example.lawson.androidsummery.detectmemory.entity.ObjWithoutContext;
 import com.example.lawson.androidsummery.detectmemory.utils.SingleOOM;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SingleOOMActivity extends AppCompatActivity {
 

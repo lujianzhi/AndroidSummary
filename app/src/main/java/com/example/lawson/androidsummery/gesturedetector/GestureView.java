@@ -1,12 +1,13 @@
 package com.example.lawson.androidsummery.gesturedetector;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.widget.ImageView;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by Ian.Lu on 2017/4/11.

@@ -1,11 +1,12 @@
 package com.example.lawson.androidsummery.detectmemory;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.example.lawson.androidsummery.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DetectMemoryActivity extends AppCompatActivity {
 

@@ -29,7 +29,7 @@ import android.graphics.Shader;
 import android.graphics.SumPathEffect;
 import android.graphics.SweepGradient;
 import android.graphics.Xfermode;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.View;

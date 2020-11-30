@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.example.lawson.androidsummery.ipc.binder.Book;
 import com.example.lawson.androidsummery.ipc.binder.IBookManager;

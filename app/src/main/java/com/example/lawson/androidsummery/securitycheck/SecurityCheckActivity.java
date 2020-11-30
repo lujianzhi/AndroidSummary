@@ -1,12 +1,13 @@
 package com.example.lawson.androidsummery.securitycheck;
 
-import android.support.annotation.IdRes;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;
+
+import androidx.annotation.IdRes;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SecurityCheckActivity extends AppCompatActivity {
 

@@ -17,7 +17,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".diyview.justifyTextView.JustifyTextViewActivity"></activity>
+        <activity android:name=".diyview.bord.BordActivity" />
+        <activity
+            android:name=".fourcomponent.activityabout.TaskAffinityActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.ian" />
+        <activity android:name=".diyview.justifyTextView.JustifyTextViewActivity" />
         <activity android:name=".fastjson.FastJsonActivity" />
         <activity android:name=".securitycheck.SecurityCheckActivity" />
         <activity android:name=".drawerlayout.DrawerLayoutActivity" />
@@ -48,7 +53,7 @@
         <activity android:name=".hidenavigationbar.HideNavigationBar" />
         <activity android:name=".pulltorefresh.PullToRefreshActivity" />
         <activity android:name=".nohttp.NoHttpActivity" />
-        <activity android:name=".draw.DrawActivity" />
+        <activity android:name=".diyview.bord.draw.DrawActivity" />
         <activity android:name=".ongloballayoutlistener.OnGlobalLayoutListenerActivity" />
         <activity android:name=".fragment.fragmentlazy.lazyone.FragmentLazyLoadActivity" />
         <activity android:name=".diyview.dragview.DragViewActivity" />

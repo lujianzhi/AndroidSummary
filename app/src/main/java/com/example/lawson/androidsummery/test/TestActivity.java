@@ -3,15 +3,18 @@ package com.example.lawson.androidsummery.test;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.Html;
 import android.text.Selection;
 import android.text.TextWatcher;
 import android.util.Log;
+import android.view.View;
 import android.widget.*;
 
 import com.example.lawson.androidsummery.R;
+
+import java.util.Random;
 
 public class TestActivity extends AppCompatActivity {
 
@@ -33,11 +36,37 @@ public class TestActivity extends AppCompatActivity {
         testHtml();
 
         testScrollView();
+
+        shaizi();
+    }
+
+    private void shaizi() {
+        Button btn1 = findViewById(R.id.btn1);
+        Button btn2 = findViewById(R.id.btn2);
+        final TextView txt1 = findViewById(R.id.txt1);
+        final TextView txt2 = findViewById(R.id.txt2);
+
+        final Random random = new Random();
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int num = random.nextInt(5) + 1;
+                txt1.setText("孙" + num);
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int num = random.nextInt(5) + 1;
+                txt2.setText("卢" + num);
+            }
+        });
     }
 
     private void testScrollView() {
         TextView tv = findViewById(R.id.tv);
-//        tv.setMaxHeight(200);
+        //        tv.setMaxHeight(200);
         tv.setText("1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\22\n23\n24\n25\n26");
     }
 

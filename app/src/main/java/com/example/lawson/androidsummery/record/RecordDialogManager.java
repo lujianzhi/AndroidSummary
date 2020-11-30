@@ -1,7 +1,6 @@
 package com.example.lawson.androidsummery.record;
 
 import android.content.Context;
-import android.support.v4.app.FragmentManager;
 import android.text.TextUtils;
 
 import com.example.lawson.androidsummery.record.dialog.RecordDialog;
@@ -9,6 +8,8 @@ import com.example.lawson.androidsummery.record.dialog.RecordDialog;
 import java.io.File;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+import androidx.fragment.app.FragmentManager;
 
 /**
  * 录音管理类

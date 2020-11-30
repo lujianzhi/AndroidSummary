@@ -1,7 +1,7 @@
 package com.example.lawson.androidsummery.rxjava;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -50,6 +50,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
     private Button button8;
     private Button button9;
     private Button button9_1;
+    private Button button10;
 
     private Observable<RxBeen> observable;
     private Observer<RxBeen> observer;
@@ -72,6 +73,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
         button8 = findViewById(R.id.button8);
         button9 = findViewById(R.id.button9);
         button9_1 = findViewById(R.id.button9_1);
+        button10 = findViewById(R.id.button10);
 
         button.setOnClickListener(this);
         button2.setOnClickListener(this);
@@ -84,6 +86,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
         button8.setOnClickListener(this);
         button9.setOnClickListener(this);
         button9_1.setOnClickListener(this);
+        button10.setOnClickListener(this);
 
     }
 
@@ -133,6 +136,10 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
             case R.id.button9_1:
                 request();
                 break;
+
+            case R.id.button10:
+                merge();
+                break;
         }
     }
 
@@ -152,7 +159,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
         Flowable.create(new FlowableOnSubscribe<RxBeen>() {
             @Override
             public void subscribe(FlowableEmitter<RxBeen> e) {
-//                for (int i = 0; i < 1000; i++) {
+                //                for (int i = 0; i < 1000; i++) {
                 int i = 0;
                 while (true) {
                     i++;
@@ -193,15 +200,15 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
         Flowable.create(new FlowableOnSubscribe<RxBeen>() {
             @Override
             public void subscribe(FlowableEmitter<RxBeen> e) {
-//                Log.i("Ian", "FlowableOnSubscribe-onNext : 1");
-//                e.onNext(new RxBeen(1, "Flowable : 1"));
-//                Log.i("Ian", "FlowableOnSubscribe-onNext : 2");
-//                e.onNext(new RxBeen(2, "Flowable : 2"));
-//                Log.i("Ian", "FlowableOnSubscribe-onNext : 3");
-//                e.onNext(new RxBeen(3, "Flowable : 3"));
-//
-//                Log.i("Ian", "onComplete");
-//                e.onComplete();
+                //                Log.i("Ian", "FlowableOnSubscribe-onNext : 1");
+                //                e.onNext(new RxBeen(1, "Flowable : 1"));
+                //                Log.i("Ian", "FlowableOnSubscribe-onNext : 2");
+                //                e.onNext(new RxBeen(2, "Flowable : 2"));
+                //                Log.i("Ian", "FlowableOnSubscribe-onNext : 3");
+                //                e.onNext(new RxBeen(3, "Flowable : 3"));
+                //
+                //                Log.i("Ian", "onComplete");
+                //                e.onComplete();
 
                 int i = 0;
                 while (true) {
@@ -252,19 +259,19 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                     i++;
                     e.onNext(new RxBeen(i, "背压 : " + i));
                     //方法一：限制速度
-//                    Thread.sleep(1000);
+                    //                    Thread.sleep(1000);
                 }
             }
         })
                 //方法二：限制流量，过滤：但是会造成数据丢失
-//                .filter(new Predicate<RxBeen>() {
-//                    @Override
-//                    public boolean test(RxBeen rxBeen) throws Exception {
-//                        return rxBeen.getId() % 100 == 0;
-//                    }
-//                })
+                //                .filter(new Predicate<RxBeen>() {
+                //                    @Override
+                //                    public boolean test(RxBeen rxBeen) throws Exception {
+                //                        return rxBeen.getId() % 100 == 0;
+                //                    }
+                //                })
                 //方法二：限制流量，取样：也会造成数据丢失
-//                .sample(2,TimeUnit.MILLISECONDS)
+                //                .sample(2,TimeUnit.MILLISECONDS)
                 .subscribeOn(Schedulers.io())
                 .observeOn(Schedulers.io())
                 .subscribe(new Consumer<RxBeen>() {
@@ -287,6 +294,19 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 }
             }
         });
+    }
+
+    private void merge() {
+        Observable<String> local = Observable.just("aaa");
+        Observable<String> net = Observable.just("bbb");
+
+        Observable.merge(local, net)
+                .subscribe(new Consumer<String>() {
+                    @Override
+                    public void accept(String s) throws Exception {
+                        Log.i("Ian", "merge : " + s);
+                    }
+                });
     }
 
     /**
@@ -388,16 +408,16 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                     }
                 })
                 //无序
-//                .flatMap(new Function<RxBeen, ObservableSource<Integer>>() {
-//                    @Override
-//                    public ObservableSource<Integer> apply(RxBeen rxBeen) throws Exception {
-//                        List<Integer> list = new ArrayList<Integer>();
-//                        for (int i = 0; i < 3; i++) {
-//                            list.add(rxBeen.getId());
-//                        }
-//                        return Observable.fromIterable(list).delay(200, TimeUnit.MILLISECONDS);
-//                    }
-//                })
+                //                .flatMap(new Function<RxBeen, ObservableSource<Integer>>() {
+                //                    @Override
+                //                    public ObservableSource<Integer> apply(RxBeen rxBeen) throws Exception {
+                //                        List<Integer> list = new ArrayList<Integer>();
+                //                        for (int i = 0; i < 3; i++) {
+                //                            list.add(rxBeen.getId());
+                //                        }
+                //                        return Observable.fromIterable(list).delay(200, TimeUnit.MILLISECONDS);
+                //                    }
+                //                })
                 .subscribe(new Consumer<Integer>() {
                     @Override
                     public void accept(Integer integer) {
@@ -531,7 +551,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 e.onNext(new RxBeen(3, "我是链式3"));
                 Log.i("Ian", "Observable - onNext : 4");
                 e.onNext(new RxBeen(4, "我是链式4"));
-//                e.onError(new MyError("调用onError"));
+                //                e.onError(new MyError("调用onError"));
                 Log.i("Ian", "Observable - onNext : 5");
                 e.onNext(new RxBeen(5, "我是链式5"));
                 Log.i("Ian", "Observable - onNext : onComplete");
@@ -542,12 +562,12 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
         })
 
                 //subscribe的不同重载方法
-//        .subscribe(new Consumer<RxBeen>() {
-//            @Override
-//            public void accept(RxBeen rxBeen) throws Exception {
-//                Log.i("Ian", "Consumer - accept : RxBeen->" + rxBeen.toString());
-//            }
-//        })
+                //        .subscribe(new Consumer<RxBeen>() {
+                //            @Override
+                //            public void accept(RxBeen rxBeen) throws Exception {
+                //                Log.i("Ian", "Consumer - accept : RxBeen->" + rxBeen.toString());
+                //            }
+                //        })
 
                 //subscribe的不同重载方法
                 .subscribe(new Observer<RxBeen>() {
@@ -603,7 +623,7 @@ public class RxJava2Activity extends AppCompatActivity implements View.OnClickLi
                 e.onNext(new RxBeen(2, "我是非链式2"));
                 e.onNext(new RxBeen(3, "我是非链式3"));
                 e.onNext(new RxBeen(4, "我是非链式4"));
-//                e.onError(new MyError("调用onError"));
+                //                e.onError(new MyError("调用onError"));
                 e.onNext(new RxBeen(5, "我是非链式5"));
                 e.onComplete();
                 e.onNext(new RxBeen(6, "我是非链式6"));

@@ -3,7 +3,7 @@ package com.example.lawson.androidsummery.androidtools.traceviewtool;
 import android.os.Bundle;
 import android.os.Debug;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 

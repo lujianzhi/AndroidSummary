@@ -8,20 +8,26 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/primary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="View初步"/>
+            android:text="View初步" />
 
         <Button
             android:id="@+id/enter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="自定义View"/>
+            android:text="自定义View" />
+
+        <Button
+            android:id="@+id/bord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画板" />
 
     </LinearLayout>
 
@@ -65,7 +71,7 @@
     <com.example.lawson.androidsummery.diyview.view.MatrixImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="matrix"/>
+        android:scaleType="matrix" />
 
     <com.example.lawson.androidsummery.diyview.view.MultiCircleView
         android:layout_width="match_parent"

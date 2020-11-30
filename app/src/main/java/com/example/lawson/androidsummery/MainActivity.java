@@ -3,15 +3,10 @@ package com.example.lawson.androidsummery;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.example.lawson.androidsummery.drawerlayout.DrawerLayoutActivity;
-import com.example.lawson.androidsummery.fastjson.FastJsonActivity;
-import com.example.lawson.androidsummery.fourcomponent.activityabout.AboutActivity;
-import com.example.lawson.androidsummery.fourcomponent.activityabout.MyFragmentActivity;
 import com.example.lawson.androidsummery.animation.AnimationActivity;
 import com.example.lawson.androidsummery.beibei.BeiBeiActivity;
 import com.example.lawson.androidsummery.bitmap.BitmapActivity;
@@ -25,11 +20,14 @@ import com.example.lawson.androidsummery.diyview.DIYViewActivity;
 import com.example.lawson.androidsummery.diyview.dragview.DragViewActivity;
 import com.example.lawson.androidsummery.diyview.timepicker.DatePickerActivity;
 import com.example.lawson.androidsummery.diyview.timer.TimerManager;
-import com.example.lawson.androidsummery.draw.DrawActivity;
+import com.example.lawson.androidsummery.drawerlayout.DrawerLayoutActivity;
 import com.example.lawson.androidsummery.edittext.EditTextActivity;
 import com.example.lawson.androidsummery.eventbus.EventBusActivity;
 import com.example.lawson.androidsummery.eventbus.StickyObj;
+import com.example.lawson.androidsummery.fastjson.FastJsonActivity;
 import com.example.lawson.androidsummery.fourcomponent.FourComponentActivity;
+import com.example.lawson.androidsummery.fourcomponent.activityabout.AboutActivity;
+import com.example.lawson.androidsummery.fourcomponent.activityabout.MyFragmentActivity;
 import com.example.lawson.androidsummery.fragment.normal.FragmentNormalActivity;
 import com.example.lawson.androidsummery.gesturedetector.GestureDetectorActivity;
 import com.example.lawson.androidsummery.handler.HandlerPolicyActivity;
@@ -79,6 +77,7 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
 
+import androidx.appcompat.app.AppCompatActivity;
 import me.ele.uetool.UETool;
 
 public class MainActivity extends AppCompatActivity {
@@ -204,13 +203,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, NoHttpActivity.class));
-            }
-        });
-
-        findViewById(R.id.draw).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, DrawActivity.class));
             }
         });
 

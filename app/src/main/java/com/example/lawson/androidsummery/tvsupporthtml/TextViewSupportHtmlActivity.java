@@ -1,7 +1,7 @@
 package com.example.lawson.androidsummery.tvsupporthtml;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.Html;
 import android.widget.TextView;
 import com.alibaba.android.arouter.facade.annotation.Route;

@@ -1,9 +1,6 @@
 package com.example.lawson.androidsummery.pulltorefresh;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.RadioButton;
@@ -14,6 +11,10 @@ import com.example.lawson.androidsummery.pulltorefresh.fragment.PullFragment;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 public class PullToRefreshActivity extends AppCompatActivity implements View.OnClickListener {
 

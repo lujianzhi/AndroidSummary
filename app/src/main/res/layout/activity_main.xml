@@ -149,12 +149,6 @@
                 android:text="Nohttp" />
 
             <Button
-                android:id="@+id/draw"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="画板" />
-
-            <Button
                 android:id="@+id/ongloballayoutlistener"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

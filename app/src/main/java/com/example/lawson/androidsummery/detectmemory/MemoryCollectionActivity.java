@@ -1,6 +1,5 @@
 package com.example.lawson.androidsummery.detectmemory;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,11 +10,11 @@ import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.detectmemory.entity.ObjWithContext;
-import com.example.lawson.androidsummery.detectmemory.entity.ObjWithoutContext;
-import com.example.lawson.androidsummery.detectmemory.entity.SinglePoolObj;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MemoryCollectionActivity extends AppCompatActivity {
 

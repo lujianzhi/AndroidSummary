@@ -4,10 +4,11 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.lawson.androidsummery.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ListenerActivity extends AppCompatActivity implements SensorEventListener {
 

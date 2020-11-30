@@ -3,7 +3,7 @@ package com.example.lawson.androidsummery.fourcomponent.activityabout;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +19,7 @@ public class AboutActivity extends AppCompatActivity {
     private EditText editText;
     private Button button;
     private Button button2;
+    private Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class AboutActivity extends AppCompatActivity {
         editText = findViewById(R.id.text);
         button = findViewById(R.id.button);
         button2 = findViewById(R.id.button2);
+        button3 = findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,6 +42,12 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(AboutActivity.this, AboutSecondActivity.class));
+            }
+        });
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(AboutActivity.this, TaskAffinityActivity.class));
             }
         });
         if (savedInstanceState != null) {
@@ -87,11 +95,11 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-//        try {
-//            Thread.sleep(5000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+        //        try {
+        //            Thread.sleep(5000);
+        //        } catch (InterruptedException e) {
+        //            e.printStackTrace();
+        //        }
         Log.i("Ian", "AboutActivity - onStart");
     }
 
