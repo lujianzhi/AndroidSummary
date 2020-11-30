@@ -1,14 +1,14 @@
 package com.example.lawson.androidsummery.touchevent.view;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import static android.content.ContentValues.TAG;
+import androidx.annotation.Nullable;
+
 
 /**
  * Created by Ian.Lu on 2017/4/10.

@@ -1,7 +1,7 @@
 package com.example.lawson.androidsummery.eventbus;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;

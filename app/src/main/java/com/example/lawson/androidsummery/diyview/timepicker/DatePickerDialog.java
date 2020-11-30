@@ -1,8 +1,9 @@
 package com.example.lawson.androidsummery.diyview.timepicker;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 
 /**
  * Created by Ian.Lu on 2018/10/16.

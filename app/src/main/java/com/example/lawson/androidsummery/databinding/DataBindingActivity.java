@@ -1,8 +1,7 @@
 package com.example.lawson.androidsummery.databinding;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
@@ -10,6 +9,8 @@ import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.databinding.been.ObservableStudent;
 import com.example.lawson.androidsummery.databinding.been.Student;
 import com.example.lawson.androidsummery.databindingbeen.ActivityDataBindingHelper;
+
+import androidx.databinding.DataBindingUtil;
 
 public class DataBindingActivity extends AppCompatActivity implements View.OnClickListener {
 

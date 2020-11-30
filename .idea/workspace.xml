@@ -73,70 +73,380 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="修改">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/bord/BordActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/bord/view/DrawView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
+    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="画板">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_annotation_1_0_4_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_3_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_dynamic_animation_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_dynamic_animation_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_dynamic_animation_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gysdk_1_4_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gysdk_1_4_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mcxiaoke_volley_library_1_0_19_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_analyzer_1_4_beta2_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_4_beta2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_4_beta2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_watcher_1_4_beta2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_11_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yolanda_nohttp_nohttp_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yolanda_nohttp_nohttp_1_1_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AndroidSummary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidSummary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateImplN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateImplV23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanAppCompatDelegateV14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/support/v7/app/IanDelegate.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/DIYViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/DIYViewActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/draw/DrawActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/bord/draw/DrawActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/draw/DrawView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/bord/draw/DrawView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/androidtools/AndroidToolsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/androidtools/AndroidToolsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/androidtools/traceviewtool/TraceViewToolActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/androidtools/traceviewtool/TraceViewToolActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/androidtools/uiautomatorviewer/UiAutoMatorViewerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/androidtools/uiautomatorviewer/UiAutoMatorViewerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/AnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/AnimationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/frameanimation/FrameAnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/frameanimation/FrameAnimationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/propertyanimation/PropertyAnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/propertyanimation/PropertyAnimationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/viewanimation/ViewAnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/animation/viewanimation/ViewAnimationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/BeiBeiActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/BeiBeiActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/DelegateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/DelegateActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/view/IanTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/delegate/view/IanTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/beibei/hbaction/ActionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/BitmapActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/BitmapActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/BitmapAndCacheActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/BitmapAndCacheActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/utils/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/utils/ImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/view/SquareImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/bitmap/view/SquareImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/collection/Collection_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/collection/Collection_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/constraintlayout/ConstraintLayoutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/constraintlayout/ConstraintLayoutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/databinding/DataBindingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/databinding/DataBindingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/databinding/been/ObservableStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/databinding/been/ObservableStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/debug/DebugActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/debug/DebugActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/DetectMemoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/DetectMemoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/HandlerLeakActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/HandlerLeakActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/InnerAnonymityClassActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/InnerAnonymityClassActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/InnerClassActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/InnerClassActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/ListenerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/ListenerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/MemoryCollectionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/MemoryCollectionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/SingleOOMActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/SingleOOMActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/ThreadTimerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/ThreadTimerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/entity/SinglePoolObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/detectmemory/entity/SinglePoolObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/ViewListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/ViewListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/bord/draw/DrawActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/bord/draw/DrawActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/dragview/DragViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/dragview/DragViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideViewLVActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideViewLVActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideViewRVActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideViewRVActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/MyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/justifyTextView/JustifyTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/justifyTextView/JustifyTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/justifyTextView/JustifyTextViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/justifyTextView/JustifyTextViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/AddableHorizontalTextViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/AddableHorizontalTextViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/ChangeLineViewGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/ChangeLineViewGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/FadeInTextViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/FadeInTextViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/LoadingViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/LoadingViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/SubmitButtonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/SubmitButtonActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/view/FadeInTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/view/FadeInTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/view/LoadingView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/view/LoadingView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/view/SubmitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/learn2draw/view/SubmitButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/PrimaryViewListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/PrimaryViewListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/view/PrimaryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/view/PrimaryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/view/PrimaryViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/view/PrimaryViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/viewgroup/PrimaryViewGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/primary/viewgroup/PrimaryViewGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/timepicker/DatePickerDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/view/CanvasView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/view/CanvasView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/DrawerLayoutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/DrawerLayoutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/InterceptDrawerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/InterceptDrawerLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/MyRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/MyRecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/edittext/EditTextActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/edittext/EditTextActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/eventbus/EventBusActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/eventbus/EventBusActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fastjson/FastJsonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fastjson/FastJsonActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/FourComponentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutSecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutSecondActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutThirdActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/AboutThirdActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/MyFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/MyFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TaskAffinityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TaskAffinityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TestFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/activityabout/TestFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fourcomponent/service/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/FragmentLazyLoadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/FragmentLazyLoadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/OneFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/OneFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/ThreeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/ThreeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/TwoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazyone/fragment/TwoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazytwo/FragmentLazyLoadTwoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazytwo/FragmentLazyLoadTwoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazytwo/fragment/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/fragmentlazy/lazytwo/fragment/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/FragmentNormalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/FragmentNormalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/fragment/BaseNormalFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/fragment/BaseNormalFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/fragment/NormalFragmentOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/fragment/NormalFragmentOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/fragment/NormalFragmentTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/fragment/normal/fragment/NormalFragmentTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/gesturedetector/GestureDetectorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/gesturedetector/GestureDetectorActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/gesturedetector/GestureView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/gesturedetector/GestureView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/handler/HandlerPolicyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/handler/HandlerPolicyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/HenCoderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/HenCoderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/PropertyAnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/PropertyAnimationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/UIActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/UIActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/imitative/ImitativeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/imitative/ImitativeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/imitative/views/UpDownTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/imitative/views/UpDownTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ArcAnimationView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ArcAnimationView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/NameImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/NameImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/ViewChapterTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hidenavigationbar/HideNavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/hidenavigationbar/HideNavigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/IPCActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/IPCActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/aidl/AIDLActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/aidl/AIDLActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/messenger/MessengerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/messenger/MessengerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/process/ColonProcessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/process/ColonProcessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/process/FullProcessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/activity/process/FullProcessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/service/AIDLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/service/AIDLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/junittest/UITestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/junittest/UITestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/killprocess/KillProcessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/killprocess/KillProcessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/levelcount/LevelCountActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/levelcount/LevelCountActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/lottie/LottieActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/mmkv/MMKVActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/mmkv/MMKVActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/mvp/view/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/mvp/view/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/net/ui/NetActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/net/ui/NetActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/nohttp/NoHttpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/nohttp/NoHttpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/nohttp/yanzhenjie/OriginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/nohttp/yanzhenjie/OriginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ongloballayoutlistener/OnGlobalLayoutListenerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ongloballayoutlistener/OnGlobalLayoutListenerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/permission/PermissionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/permission/PermissionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GeTuiPicViryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/picviry/GeTuiPicViryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pointtopoint/PointToPointActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pointtopoint/PointToPointActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/popupwindow/PopupWindowActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/popupwindow/PopupWindowActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/PullToRefreshActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/PullToRefreshActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/adapter/MyViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/adapter/MyViewPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/entity/PullBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/entity/PullBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/fragment/PullFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/pulltorefresh/fragment/PullFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/record/RecordDialogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/record/RecordDialogManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/record/dialog/RecordDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/record/dialog/RecordDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/MyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/MyDividerItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/MyDividerItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/RecyclerViewsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/recyclerview/RecyclerViewsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/remoteviews/RemoteViewsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/remoteviews/RemoteViewsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/router/activity/ARouterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/router/activity/ARouterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/router/activity/ParamActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/router/activity/ParamActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/router/activity/StartActivityForResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/router/activity/StartActivityForResultActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/rxjava/RxJava2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/rxjava/RxJava2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_diyview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_diyview.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_draw.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_draw.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_rx_java2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rx_java2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyDragView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyDragView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyScrollerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/MyScrollerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/ScrollerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/scroller/ScrollerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/securitycheck/SecurityCheckActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/securitycheck/SecurityCheckActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/spinner/SpinnerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/spinner/SpinnerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/switchtheme/SwitchThemeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/switchtheme/SwitchThemeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/takephoto/TakePhotoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/takephoto/TakePhotoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/TestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/test/TestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/AndroidThreadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/AndroidThreadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/ThreadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/ThreadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/thread/intentservice/MyIntentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/timeline/WXTimelineShareActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/timeline/WXTimelineShareActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/toast/ToastActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/toast/ToastActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/ScrollEventActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/ScrollEventActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/TouchEventActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/TouchEventActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/view/LongPressView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/touchevent/view/LongPressView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/tvsupporthtml/TextViewSupportHtmlActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/tvsupporthtml/TextViewSupportHtmlActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/velocitytracker/VelocityImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/velocitytracker/VelocityImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/velocitytracker/VelocityTrackerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/velocitytracker/VelocityTrackerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ListViewVisibilityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ListViewVisibilityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/NormalViewVisibilityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/NormalViewVisibilityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ScrollViewVisibilityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ScrollViewVisibilityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ViewVisibilityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/viewvisibility/ViewVisibilityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/webview/WebViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/webview/WebViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/windowandwindowmanager/WindowAndWindowManagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/windowandwindowmanager/WindowAndWindowManagerActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/generated/source/buildConfig/debug/com/handmark/pulltorefresh/library/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/generated/source/buildConfig/debug/com/handmark/pulltorefresh/library/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/generated/source/r/debug/com/handmark/pulltorefresh/library/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/attr/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/anim/slide_in_from_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/anim/slide_in_from_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/anim/slide_out_to_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/anim/slide_out_to_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_rotate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-hdpi-v4/indicator_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/default_ptr_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/default_ptr_rotate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-mdpi-v4/indicator_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/default_ptr_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/default_ptr_rotate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/indicator_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-ar/values-ar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-cs/values-cs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-de/values-de.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-es/values-es.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-fi/values-fi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-fr/values-fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-he/values-he.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-it/values-it.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-iw/values-iw.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-ja/values-ja.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-ko/values-ko.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-nl/values-nl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-pl/values-pl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-pt/values-pt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-ro/values-ro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-ru/values-ru.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values-zh/values-zh.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/debug/res/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/ILoadingLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/IPullToRefresh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/LoadingLayoutProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/OverscrollHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/OverscrollHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshAdapterViewBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$AnimationStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$Mode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$OnLastItemVisibleListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$OnPullEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$OnRefreshListener2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$OnSmoothScrollFinishedListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$Orientation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$SmoothScrollRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView$InternalExpandableListViewSDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshExpandableListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshGridView$InternalGridViewSDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshGridView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView$InternalHorizontalScrollViewSDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshHorizontalScrollView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshListView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshListView$InternalListViewSDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshScrollView$InternalScrollViewSDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshScrollView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshWebView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshWebView$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshWebView$InternalWebViewSDK9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/PullToRefreshWebView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2$JsValueCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/extras/SoundPullEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/EmptyViewMethodAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/FlipLoadingLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/IndicatorLayout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/IndicatorLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/LoadingLayout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/LoadingLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/RotateLoadingLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/ViewCompat$SDK16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/classes/debug/com/handmark/pulltorefresh/library/internal/ViewCompat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/compileDebugAidl/dependency.store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/javaPrecompile/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/aapt/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifests/full/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
     <list id="95839285-bb59-4d62-978f-d973452dd3ed" name="ignore" comment="ignore" />
@@ -148,7 +458,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="d0571184" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R5CN504WQHR]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -173,9 +483,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="AndroidSummary" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -294,7 +601,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -312,6 +618,14 @@
     <property name="ScreenshotViewer.SavePath" value="$PROJECT_DIR$/../../.." />
     <property name="SearchEverywhereHistoryKey" value="Android Devic&#9;ACTION&#9;Android.RunDdms&#10;show hi&#9;ACTION&#9;LocalHistory.ShowHistory" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+    <property name="android-custom-view/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideView.java_SELECTED" value="HideView" />
+    <property name="android-custom-view/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/diyview/justifyTextView/JustifyTextView.java_SELECTED" value="JustifyTextView" />
+    <property name="android-custom-view/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/InterceptDrawerLayout.java_SELECTED" value="InterceptDrawerLayout" />
+    <property name="android-custom-view/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/MyRecyclerView.java_SELECTED" value="MyRecyclerView" />
+    <property name="android-custom-view/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/gesturedetector/GestureView.java_SELECTED" value="GestureView" />
+    <property name="android-custom-view/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/NameImageView.java_SELECTED" value="NameImageView" />
+    <property name="android-custom-view/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/touchevent/view/LongPressView.java_SELECTED" value="LongPressView" />
+    <property name="android-custom-view/Users/lujianzhi/Library/Android/sdk/sources/android-29/android/widget/ImageView.java_SELECTED" value="ImageView" />
     <property name="android.profiler.active" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -320,7 +634,15 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="device.picker.selection" value="2db0196d" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="multi-representation-preview/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/diyview/hideview/HideView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/diyview/justifyTextView/JustifyTextView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/InterceptDrawerLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/drawerlayout/MyRecyclerView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/gesturedetector/GestureView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/hencoder/ui/views/NameImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/lujianzhi/Desktop/mine/project/AndroidSummary/app/src/main/java/com/example/lawson/androidsummery/touchevent/view/LongPressView.java_selected" value="Custom views" />
+    <property name="multi-representation-preview/Users/lujianzhi/Library/Android/sdk/sources/android-29/android/widget/ImageView.java_selected" value="Custom views" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -337,8 +659,8 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.parentActivityClass">
-      <recent name="" />
+    <key name="android.template.-1278636049">
+      <recent name="com.example.lawson.androidsummery.coordinatorlayout" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.lawson.androidsummery.junittest" />
@@ -360,12 +682,15 @@
       <recent name="com.example.lawson.androidsummery.fragment" />
       <recent name="com.example.lawson.androidsummery.mvp" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
       <recent name="E:\AS\Project\AndroidSummary\app\src\main\assets" />
-      <recent name="E:\AS\Project\AndroidSummary\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.lawson.androidsummery.test" />
@@ -377,8 +702,8 @@
     <key name="android.template.-1548582378">
       <recent name="com.example.lawson.androidsummery.diyview.bord" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -436,7 +761,7 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
     <configuration name="JUnitTestTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+      <module name="AndroidSummary.app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.lawson.androidsummery.junittest.*" />
@@ -453,7 +778,7 @@
       </method>
     </configuration>
     <configuration name="JUnitTestTest.sub" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+      <module name="AndroidSummary.app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.lawson.androidsummery.junittest.*" />
@@ -471,7 +796,7 @@
       </method>
     </configuration>
     <configuration name="JUnitTestTest.test" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+      <module name="AndroidSummary.app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.lawson.androidsummery.junittest.*" />
@@ -502,6 +827,7 @@
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -537,22 +863,28 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
+      <module name="AndroidSummary.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -588,17 +920,22 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ApplicationTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+      <module name="AndroidSummary.app" />
       <option name="TESTING_TYPE" value="2" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="com.example.lawson.androidsummery.ApplicationTest" />
@@ -638,8 +975,11 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -685,15 +1025,18 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="save()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+      <module name="AndroidSummary.app" />
       <option name="TESTING_TYPE" value="3" />
       <option name="METHOD_NAME" value="save" />
       <option name="CLASS_NAME" value="com.example.lawson.androidsummery.UITestActivityTest" />
@@ -733,8 +1076,11 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sampled (Java)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -822,20 +1168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475486850205</updated>
-    </task>
-    <task id="LOCAL-00065" summary="自定义 View 1-4 Canvas 对绘制的辅助 clipXXX() 和 Matrix">
-      <created>1511771415051</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1511771415051</updated>
-    </task>
-    <task id="LOCAL-00066" summary="多种实现方法">
-      <created>1511941000515</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1511941000516</updated>
     </task>
     <task id="LOCAL-00067" summary="自定义 View 1-5 绘制顺序">
       <created>1512022290090</created>
@@ -1166,40 +1498,22 @@
       <option name="project" value="LOCAL" />
       <updated>1588720254219</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="画板">
+      <created>1604318762686</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1604318762686</updated>
+    </task>
+    <task id="LOCAL-00115" summary="画板">
+      <created>1604318780988</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1604318780988</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="JUnitTestTest_test - 2018.07.27 at 10h 48m 41s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.07.27 at 10h 49m 18s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.07.27 at 10h 50m 16s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.07.27 at 10h 51m 17s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.07.27 at 10h 52m 04s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.07.27 at 10h 55m 52s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.08.01 at 15h 06m 43s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.08.01 at 15h 07m 45s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JUnitTestTest_test - 2018.08.02 at 17h 51m 21s.xml">
-      <configuration name="JUnitTestTest.test" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="save() - 2017.10.18 at 17h 16m 30s.xml">
-      <configuration name="save()" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1215,13 +1529,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1232,7 +1545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="指定item位置时显示" />
     <MESSAGE value="补交" />
     <MESSAGE value="WebView" />
     <MESSAGE value="无痕打点初步" />
@@ -1257,29 +1569,38 @@
     <MESSAGE value="delete" />
     <MESSAGE value="启动模式" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="画板" />
+    <option name="LAST_COMMIT_MESSAGE" value="画板" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="773" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1606706139564">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="773" y="313" key="#com.intellij.ide.util.MemberChooser/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1606706139564" />
     <state x="407" y="532" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603698402865">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="407" y="532" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1603698402865" />
-    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603698039247">
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606706086159">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1603698039247" />
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1606706086159" />
     <state x="821" y="372" key="AndroidProcessChooserDialog" timestamp="1603704218070">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="821" y="372" key="AndroidProcessChooserDialog/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1603704218070" />
-    <state x="167" y="199" key="CommitChangelistDialog2" timestamp="1604318762100">
+    <state x="167" y="199" key="CommitChangelistDialog2" timestamp="1604318780871">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="167" y="199" key="CommitChangelistDialog2/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1604318762100" />
+    <state x="167" y="199" key="CommitChangelistDialog2/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1604318780871" />
     <state width="441" height="466" key="DebuggerActiveHint" timestamp="1603701670805">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="441" height="466" key="DebuggerActiveHint/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1603701670805" />
+    <state x="192" y="109" key="DiffContextDialog" timestamp="1606705914640">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="192" y="109" key="DiffContextDialog/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1606705914640" />
     <state width="1878" height="414" key="GridCell.Tab.0.bottom" timestamp="1603937937253">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -1324,10 +1645,18 @@
     <state width="1878" height="414" key="GridCell.Tab.1.right/1920.-289.1920.1057/0.0.1920.1175@0.0.1920.1175" timestamp="1603704222513" />
     <state width="1878" height="414" key="GridCell.Tab.1.right/1920.-289.1920.1057/0.23.1920.1152@0.23.1920.1152" timestamp="1603703458994" />
     <state width="1878" height="414" key="GridCell.Tab.1.right/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1603937937255" />
-    <state x="560" y="328" key="Vcs.Push.Dialog.v2" timestamp="1604318764469">
+    <state x="638" y="309" key="RollbackChangesDialog" timestamp="1606705916786">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="328" key="Vcs.Push.Dialog.v2/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1604318764469" />
+    <state x="638" y="309" key="RollbackChangesDialog/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1606705916786" />
+    <state width="500" height="447" key="SwitcherDM" timestamp="1606706573533">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="500" height="447" key="SwitcherDM/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1606706573533" />
+    <state x="560" y="328" key="Vcs.Push.Dialog.v2" timestamp="1604318782353">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="328" key="Vcs.Push.Dialog.v2/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1604318782353" />
     <state width="960" height="600" key="XDebugger.FullValuePopup" timestamp="1603704239831">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -1341,10 +1670,10 @@
       <screen x="0" y="23" width="1920" height="1152" />
     </state>
     <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.-289.1920.1057/0.23.1920.1152@0.23.1920.1152" timestamp="1603698137331" />
-    <state x="630" y="357" width="660" height="486" key="find.popup" timestamp="1603697856353">
+    <state x="630" y="357" width="700" height="604" key="find.popup" timestamp="1606706891275">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="630" y="357" width="660" height="486" key="find.popup/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1603697856353" />
+    <state x="630" y="357" width="700" height="604" key="find.popup/1920.-312.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1606706891275" />
     <state x="625" y="262" width="670" height="676" key="search.everywhere.popup" timestamp="1603769899406">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -1384,12 +1713,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/justifyTextView/JustifyTextView.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/diyview/bord/view/DrawView.kt</url>
-          <line>50</line>
+          <line>49</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>

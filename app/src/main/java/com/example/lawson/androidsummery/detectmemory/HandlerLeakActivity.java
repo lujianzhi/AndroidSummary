@@ -3,9 +3,10 @@ package com.example.lawson.androidsummery.detectmemory;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 
 import com.example.lawson.androidsummery.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class HandlerLeakActivity extends AppCompatActivity {
 

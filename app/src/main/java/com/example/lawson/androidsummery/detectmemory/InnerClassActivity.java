@@ -1,7 +1,7 @@
 package com.example.lawson.androidsummery.detectmemory;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.lawson.androidsummery.R;
 import com.example.lawson.androidsummery.detectmemory.utils.Constant;

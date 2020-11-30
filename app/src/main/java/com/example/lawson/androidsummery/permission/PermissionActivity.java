@@ -3,11 +3,9 @@ package com.example.lawson.androidsummery.permission;
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -17,6 +15,11 @@ import com.example.lawson.androidsummery.R;
 
 import java.io.File;
 import java.io.IOException;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class PermissionActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -52,6 +55,7 @@ public class PermissionActivity extends AppCompatActivity implements View.OnClic
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     private void requestPermisson() {
         int permissionState = checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE);
         if (permissionState != PackageManager.PERMISSION_GRANTED) {
@@ -59,7 +63,8 @@ public class PermissionActivity extends AppCompatActivity implements View.OnClic
                 showRequestPermissionDialog("你需要去重新申请权限", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, ASK_WRITE_PERMISSION);
+                        requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                                ASK_WRITE_PERMISSION);
                     }
                 });
             } else {
@@ -80,7 +85,8 @@ public class PermissionActivity extends AppCompatActivity implements View.OnClic
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+                                           @NonNull int[] grantResults) {
         switch (requestCode) {
             case ASK_WRITE_PERMISSION:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
@@ -102,7 +108,9 @@ public class PermissionActivity extends AppCompatActivity implements View.OnClic
                 write();
                 break;
             case R.id.button2:
-                requestPermisson();
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    requestPermisson();
+                }
                 break;
             default:
                 break;

@@ -5,7 +5,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-public class InterceptDrawerLayout extends android.support.v4.widget.DrawerLayout {
+import androidx.drawerlayout.widget.DrawerLayout;
+
+public class InterceptDrawerLayout extends DrawerLayout {
     public InterceptDrawerLayout(Context context) {
         this(context, null);
     }

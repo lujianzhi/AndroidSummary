@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.getui:gysdk:1.4.2.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/5920cd07e646be2c54b78544493c3c85/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/5920cd07e646be2c54b78544493c3c85/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/5920cd07e646be2c54b78544493c3c85/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gysdk-1.4.2.0.aar/5920cd07e646be2c54b78544493c3c85/jars/libs/gysdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/491119de836217c053af6614295b2eaa/jetified-gysdk-1.4.2.0/jars/libs/gysdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/491119de836217c053af6614295b2eaa/jetified-gysdk-1.4.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/491119de836217c053af6614295b2eaa/jetified-gysdk-1.4.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/491119de836217c053af6614295b2eaa/jetified-gysdk-1.4.2.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

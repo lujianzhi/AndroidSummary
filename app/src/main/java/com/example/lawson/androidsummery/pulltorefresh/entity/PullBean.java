@@ -1,6 +1,7 @@
 package com.example.lawson.androidsummery.pulltorefresh.entity;
 
-import android.support.v4.util.Pools;
+
+import androidx.core.util.Pools;
 
 /**
  * Created by Ian.Lu on 2016/10/21.

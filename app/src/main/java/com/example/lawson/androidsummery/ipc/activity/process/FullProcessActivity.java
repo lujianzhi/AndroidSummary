@@ -4,7 +4,7 @@ import android.app.ActivityManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Process;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;

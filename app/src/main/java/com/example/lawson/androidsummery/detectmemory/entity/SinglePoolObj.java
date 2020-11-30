@@ -1,6 +1,7 @@
 package com.example.lawson.androidsummery.detectmemory.entity;
 
-import android.support.v4.util.Pools;
+
+import androidx.core.util.Pools;
 
 public class SinglePoolObj {
     private static final Pools.SynchronizedPool<SinglePoolObj> MY_OBJ_POOL = new Pools.SynchronizedPool<>(10);

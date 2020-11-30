@@ -2,8 +2,6 @@ package com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.lawson.androidsummery.R;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by Ian.Lu on 2016/11/12.

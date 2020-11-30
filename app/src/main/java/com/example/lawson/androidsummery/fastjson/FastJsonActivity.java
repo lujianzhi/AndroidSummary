@@ -1,7 +1,7 @@
 package com.example.lawson.androidsummery.fastjson;
 
 import android.content.res.AssetManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 

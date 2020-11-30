@@ -3,7 +3,6 @@ package com.example.lawson.androidsummery;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -78,6 +77,7 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
 
+import androidx.appcompat.app.AppCompatActivity;
 import me.ele.uetool.UETool;
 
 public class MainActivity extends AppCompatActivity {

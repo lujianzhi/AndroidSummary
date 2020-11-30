@@ -1,12 +1,6 @@
 package com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone;
 
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.example.lawson.androidsummery.R;
@@ -17,9 +11,16 @@ import com.example.lawson.androidsummery.fragment.fragmentlazy.lazyone.fragment.
 import com.example.lawson.androidsummery.test.ModelOne;
 import com.example.lawson.androidsummery.test.ModelThree;
 import com.example.lawson.androidsummery.test.ModelTwo;
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 @Route(path = FragmentLazyLoadActivity.PATH)
 public class FragmentLazyLoadActivity extends AppCompatActivity {

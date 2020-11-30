@@ -1,6 +1,7 @@
 package com.example.lawson.androidsummery.databinding.been;
 
-import android.databinding.ObservableField;
+
+import androidx.databinding.ObservableField;
 
 /**
  * Created by Ian.Lu on 2017/8/17.

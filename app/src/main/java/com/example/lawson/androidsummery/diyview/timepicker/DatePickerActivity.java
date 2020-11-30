@@ -4,7 +4,7 @@ import android.annotation.TargetApi;
 import android.app.DatePickerDialog;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import com.example.lawson.androidsummery.R;
 import java.lang.reflect.Field;

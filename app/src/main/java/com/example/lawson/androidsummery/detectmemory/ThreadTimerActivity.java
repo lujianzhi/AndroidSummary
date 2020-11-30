@@ -1,12 +1,13 @@
 package com.example.lawson.androidsummery.detectmemory;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.lawson.androidsummery.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ThreadTimerActivity extends AppCompatActivity {
 

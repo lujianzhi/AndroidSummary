@@ -1,12 +1,13 @@
 package com.example.lawson.androidsummery.beibei.delegate;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatDelegate;
-import android.support.v7.app.IanDelegate;
 import android.widget.TextView;
+
 import com.example.lawson.androidsummery.R;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 public class DelegateActivity extends AppCompatActivity {
 
@@ -17,7 +18,8 @@ public class DelegateActivity extends AppCompatActivity {
     @Override
     public AppCompatDelegate getDelegate() {
         if (mIanDelegate == null) {
-            mIanDelegate = IanDelegate.create(this, this);
+            //            mIanDelegate = IanDelegate.create(this, this);
+            mIanDelegate = super.getDelegate();
         }
         return mIanDelegate;
     }
