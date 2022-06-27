@@ -159,6 +159,11 @@
     <option name="KEY_ALIAS" value="key2" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
@@ -1234,10 +1239,10 @@
       <screen x="0" y="-1055" width="1920" height="1055" />
     </state>
     <state x="424" y="-838" key="#HTTP_Proxy/0.-1055.1920.1055/0.25.1920.1120@0.-1055.1920.1055" timestamp="1656342388577" />
-    <state x="335" y="-948" width="796" height="421" key="CommitChangelistDialog2" timestamp="1656343124412">
+    <state x="335" y="-948" width="796" height="421" key="CommitChangelistDialog2" timestamp="1656345210702">
       <screen x="0" y="-1055" width="1920" height="1055" />
     </state>
-    <state x="335" y="-948" width="796" height="421" key="CommitChangelistDialog2/0.-1055.1920.1055/0.25.1920.1120@0.-1055.1920.1055" timestamp="1656343124412" />
+    <state x="335" y="-948" width="796" height="421" key="CommitChangelistDialog2/0.-1055.1920.1055/0.25.1920.1120@0.-1055.1920.1055" timestamp="1656345210702" />
     <state width="1425" height="257" key="GridCell.Tab.0.bottom" timestamp="1656342081726">
       <screen x="0" y="-1055" width="1920" height="1055" />
     </state>
@@ -1258,10 +1263,14 @@
       <screen x="0" y="-1055" width="1920" height="1055" />
     </state>
     <state x="235" y="-892" key="SettingsEditor/0.-1055.1920.1055/0.25.1920.1120@0.-1055.1920.1055" timestamp="1656342398014" />
-    <state x="333" y="-791" key="Vcs.Push.Dialog.v2" timestamp="1656344341744">
+    <state x="333" y="-791" key="Vcs.Push.Dialog.v2" timestamp="1656344427778">
       <screen x="0" y="-1055" width="1920" height="1055" />
     </state>
-    <state x="333" y="-791" key="Vcs.Push.Dialog.v2/0.-1055.1920.1055/0.25.1920.1120@0.-1055.1920.1055" timestamp="1656344341744" />
+    <state x="333" y="-791" key="Vcs.Push.Dialog.v2/0.-1055.1920.1055/0.25.1920.1120@0.-1055.1920.1055" timestamp="1656344427778" />
+    <state x="523" y="-610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656345192951">
+      <screen x="0" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="523" y="-610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.-1055.1920.1055/0.25.1920.1120@0.-1055.1920.1055" timestamp="1656345192951" />
     <state x="398" y="-821" width="670" height="676" key="search.everywhere.popup" timestamp="1656341697288">
       <screen x="0" y="-1055" width="1920" height="1055" />
     </state>
