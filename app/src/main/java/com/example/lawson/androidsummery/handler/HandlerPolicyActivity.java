@@ -4,12 +4,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.lawson.androidsummery.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class HandlerPolicyActivity extends AppCompatActivity {
 
@@ -75,7 +76,7 @@ public class HandlerPolicyActivity extends AppCompatActivity {
             Bundle data = msg.getData();
             switch (msg.what) {
                 case 1:
-                    Log.i("Ian", "msg.what : " + msg.what + " ; msg.getData() : " + data.toString());
+                    Log.i("Ian", "msg : " + msg.toString() + " ; msg.getData() : " + data.toString());
                     break;
             }
         }
@@ -88,6 +89,8 @@ public class HandlerPolicyActivity extends AppCompatActivity {
         MyHandler myHandler = new MyHandler();
         Message message = new Message();
         message.what = 1;
+        message.arg1 = 2;
+        message.arg2 = 3;
         Bundle data = new Bundle();
         data.putString(STRING_TAG, "这是来自主线程的handler任务");
         message.setData(data);
