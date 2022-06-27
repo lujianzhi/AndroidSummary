@@ -44,6 +44,13 @@ public class DIYViewActivity extends Activity {
             }
         });
 
+        findViewById(R.id.color_picker).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getBaseContext(), BordActivity.class));
+            }
+        });
+
         //        firstView = (FirstView) findViewById(R.id.first_view);
         //
         //        new Thread(firstView).start();

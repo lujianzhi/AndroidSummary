@@ -171,6 +171,7 @@
         <activity android:name=".beibei.hbaction.ActionActivity" />
         <activity android:name=".fourcomponent.activityabout.MyFragmentActivity" />
         <activity android:name=".mmkv.MMKVActivity" />
+        <activity android:name=".diyview.colorpicker.ColorPickerActivity" />
 
         <receiver android:name=".remoteviews.MyAppWidgetProvider">
             <intent-filter>
