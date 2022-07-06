@@ -27,7 +27,8 @@
         <activity android:name=".securitycheck.SecurityCheckActivity" />
         <activity android:name=".drawerlayout.DrawerLayoutActivity" />
         <activity android:name=".picviry.GeTuiPicViryActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -65,7 +66,8 @@
         <activity android:name=".thread.ThreadActivity" />
         <activity
             android:name="com.github.mzule.activityrouter.router.RouterActivity"
-            android:theme="@android:style/Theme.NoDisplay">
+            android:theme="@android:style/Theme.NoDisplay"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -94,7 +96,8 @@
             android:launchMode="standard" />
         <activity
             android:name=".fourcomponent.activityabout.AboutThirdActivity"
-            android:launchMode="standard">
+            android:launchMode="standard"
+            android:exported="true">
             <intent-filter>
                 <action android:name="action_one" />
                 <action android:name="action_two" />
@@ -173,7 +176,8 @@
         <activity android:name=".mmkv.MMKVActivity" />
         <activity android:name=".diyview.colorpicker.ColorPickerActivity" />
 
-        <receiver android:name=".remoteviews.MyAppWidgetProvider">
+        <receiver android:name=".remoteviews.MyAppWidgetProvider"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -182,19 +186,22 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/my_widget_info" />
         </receiver>
-        <receiver android:name=".fourcomponent.broadcastreceiver.NormalBroadcastReceiver">
+        <receiver android:name=".fourcomponent.broadcastreceiver.NormalBroadcastReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="normal" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver">
+        <receiver android:name=".fourcomponent.broadcastreceiver.OrderOneBroadcastReceiver"
+            android:exported="true">
 
             <!-- priority在有序广播中代表优先级，范围是-1000到1000，数值越大优先级越高 -->
             <intent-filter android:priority="1000">
                 <action android:name="order" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".fourcomponent.broadcastreceiver.OrderThreeBroadcastReceiver">
+        <receiver android:name=".fourcomponent.broadcastreceiver.OrderThreeBroadcastReceiver"
+            android:exported="true">
             <intent-filter android:priority="-1000">
                 <action android:name="order" />
             </intent-filter>

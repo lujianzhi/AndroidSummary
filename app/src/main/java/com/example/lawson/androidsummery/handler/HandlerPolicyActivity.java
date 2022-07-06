@@ -2,30 +2,35 @@ package com.example.lawson.androidsummery.handler;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
+import android.os.MessageQueue;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.lawson.androidsummery.R;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class HandlerPolicyActivity extends AppCompatActivity {
 
     private static String STRING_TAG = "string_tag";
 
-    private Button button;
-    private Button button2;
+    private MyHandler myHandler = new MyHandler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_handler_policy);
 
-        button = findViewById(R.id.button);
-        button2 = findViewById(R.id.button2);
+        Button button = findViewById(R.id.button);
+        Button button2 = findViewById(R.id.button2);
+        Button button3 = findViewById(R.id.button3);
+        Button button4 = findViewById(R.id.button4);
+        Button button5 = findViewById(R.id.button5);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +44,67 @@ public class HandlerPolicyActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mainThread();
             }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                handlerPost();
+            }
+        });
+
+        button4.setOnClickListener((view) -> {
+            handlerThread();
+        });
+
+        button5.setOnClickListener((view) -> {
+            idleHandler();
+        });
+    }
+
+    private void idleHandler() {
+        Looper.myQueue().addIdleHandler(new MessageQueue.IdleHandler() {
+            @Override
+            public boolean queueIdle() {
+                Log.i("ian", "IdleHandler 开始执行");
+                return false; //返回true则一直保留该IdleHandler；返回false则在运行完一次后移除该IdleHandler
+            }
+        });
+    }
+
+    private void handlerThread() {
+        HandlerThread ht = new HandlerThread("ian");
+        ht.start();
+
+        new Thread() {
+            @Override
+            public void run() {
+                super.run();
+
+                Handler workHandler = new Handler(ht.getLooper()) {
+                    @Override
+                    public void handleMessage(@NonNull Message msg) {
+                        super.handleMessage(msg);
+                        switch (msg.what) {
+                            case 1:
+                                Log.i("ian", "Thread" + Thread.currentThread() + " - obj:" + msg.obj);
+                                break;
+                        }
+                        ht.quit();
+                    }
+                };
+
+                Message message = new Message();
+                message.what = 1;
+                message.obj = "aaaaa";
+                workHandler.sendMessage(message);
+            }
+        }.start();
+    }
+
+    private void handlerPost() {
+        myHandler.post(() -> {
+            Log.i("ian", "post");
         });
     }
 
@@ -78,6 +144,9 @@ public class HandlerPolicyActivity extends AppCompatActivity {
                 case 1:
                     Log.i("Ian", "msg : " + msg.toString() + " ; msg.getData() : " + data.toString());
                     break;
+                case 2:
+                    Log.i("Ian", "msg : " + msg.toString() + " ; msg.getData() : " + data.toString());
+                    break;
             }
         }
     }
@@ -86,8 +155,7 @@ public class HandlerPolicyActivity extends AppCompatActivity {
      * 主线程
      */
     private void mainThread() {
-        MyHandler myHandler = new MyHandler();
-        Message message = new Message();
+        Message message = Message.obtain();
         message.what = 1;
         message.arg1 = 2;
         message.arg2 = 3;

@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId "com.example.lawson.androidsummery"
         minSdkVersion 19
-        targetSdkVersion 29
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
 
@@ -76,6 +76,10 @@ android {
 
     packagingOptions {
         exclude 'LICENSE.txt'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
 }
