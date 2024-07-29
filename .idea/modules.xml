@@ -4,7 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidSummary.iml" filepath="$PROJECT_DIR$/AndroidSummary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidSummary.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/AndroidSummary.library.unitTest.iml" />
     </modules>
   </component>
 </project>
