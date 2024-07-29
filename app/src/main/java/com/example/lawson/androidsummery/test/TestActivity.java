@@ -1,20 +1,34 @@
 package com.example.lawson.androidsummery.test;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.os.Process;
 import android.text.Editable;
 import android.text.Html;
 import android.text.Selection;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
-import android.widget.*;
+import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.Switch;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lawson.androidsummery.R;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Random;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class TestActivity extends AppCompatActivity {
 
@@ -38,6 +52,36 @@ public class TestActivity extends AppCompatActivity {
         testScrollView();
 
         shaizi();
+
+        linkedHashMap();
+
+        restartApp();
+    }
+
+    private void restartApp() {
+        findViewById(R.id.restart).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = getBaseContext().getPackageManager()
+                        .getLaunchIntentForPackage(getBaseContext().getPackageName());
+                PendingIntent restartIntent = PendingIntent.getActivity(getApplicationContext(), 0, intent, PendingIntent.FLAG_ONE_SHOT);
+                AlarmManager mgr = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
+                mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 5000, restartIntent); // 1秒钟后重启应用
+                Process.killProcess(android.os.Process.myPid());
+            }
+        });
+    }
+
+    private void linkedHashMap() {
+        LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<>();
+        HashMap<String, String> hashMap = new HashMap<>();
+        for (int i = 0; i < 9; i++) {
+            linkedHashMap.put("name" + i, "" + i);
+            hashMap.put("name" + i, "" + i);
+        }
+
+        Log.i("ian", "LinkedHashMap " + linkedHashMap);
+        Log.i("ian", "HashMap " + hashMap);
     }
 
     private void shaizi() {
@@ -52,14 +96,14 @@ public class TestActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int num = random.nextInt(5) + 1;
-                txt1.setText("孙" + num);
+                txt1.setText("A" + num);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int num = random.nextInt(5) + 1;
-                txt2.setText("卢" + num);
+                txt2.setText("B" + num);
             }
         });
     }

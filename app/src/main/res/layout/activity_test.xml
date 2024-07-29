@@ -100,7 +100,7 @@
                 android:id="@+id/btn1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="老孙掷骰子了!" />
+                android:text="A掷骰子了!" />
 
             <TextView
                 android:id="@+id/txt1"
@@ -118,7 +118,7 @@
                 android:id="@+id/btn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="我也要掷骰子" />
+                android:text="B也要掷骰子" />
 
             <TextView
                 android:id="@+id/txt2"
@@ -128,4 +128,10 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重启app"/>
 </LinearLayout>

@@ -4,14 +4,14 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.os.RemoteException;
-import androidx.annotation.Nullable;
 
 import com.example.lawson.androidsummery.ipc.binder.Book;
 import com.example.lawson.androidsummery.ipc.binder.IBookManager;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by Ian.Lu on 2017/9/3.
@@ -29,6 +29,7 @@ public class AIDLService extends Service {
         public List<Book> getBookList() {
             return bookCopyOnWriteArrayList;
         }
+
         @Override
         public void addBook(Book book) {
             bookCopyOnWriteArrayList.add(book);
