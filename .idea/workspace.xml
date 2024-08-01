@@ -100,60 +100,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="feat: 补交">
-      <change afterPath="$PROJECT_DIR$/library/.gitignore" afterDir="false" />
+    <list default="true" id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/receiver/TestReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <list id="a588c25e-9a0d-4749-9276-4d689d53620a" name="dagger2" comment="" />
-    <list id="95839285-bb59-4d62-978f-d973452dd3ed" name="ignore" comment="ignore">
-      <change afterPath="$PROJECT_DIR$/library/build/.transforms/f0363d5d9fefa2d401a433de7455630c.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/build/.transforms/f0363d5d9fefa2d401a433de7455630c/classes/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/build/.transforms/fa9bb9131188dd412934bc34983b2b5c.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/build/.transforms/fa9bb9131188dd412934bc34983b2b5c/classes/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_3_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gysdk_1_4_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getui_gysdk_1_4_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_4_beta2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_4_beta2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yolanda_nohttp_nohttp_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yolanda_nohttp_nohttp_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidSummary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AndroidSummary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AndroidSummery.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/.transforms/1151daa9c7c32de8a9a06486f0823e6a.bin" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/.transforms/29b8189e6a5056fbfc3798dd3607c322.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/.transforms/1151daa9c7c32de8a9a06486f0823e6a/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/.transforms/4a440ef189a581d90b85df9acfdc7f94/classes/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/.transforms/1dcba62861f5fbf24f98564bfd28680b.bin" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/.transforms/4a440ef189a581d90b85df9acfdc7f94.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/.transforms/1dcba62861f5fbf24f98564bfd28680b/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/.transforms/29b8189e6a5056fbfc3798dd3607c322/classes/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_in_from_bottom.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_in_from_bottom.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_in_from_top.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_in_from_top.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_out_to_bottom.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_out_to_bottom.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_out_to_top.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/anim_slide_out_to_top.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_default_ptr_flip.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_default_ptr_flip.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_default_ptr_rotate.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_default_ptr_rotate.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_indicator_arrow.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-hdpi-v4_indicator_arrow.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_default_ptr_flip.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_default_ptr_flip.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_default_ptr_rotate.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_default_ptr_rotate.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_indicator_arrow.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-mdpi-v4_indicator_arrow.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_default_ptr_flip.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_default_ptr_flip.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_default_ptr_rotate.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_default_ptr_rotate.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_indicator_arrow.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable-xhdpi-v4_indicator_arrow.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable_indicator_bg_bottom.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable_indicator_bg_bottom.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable_indicator_bg_top.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/drawable_indicator_bg_top.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/layout_pull_to_refresh_header_horizontal.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/layout_pull_to_refresh_header_horizontal.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/layout_pull_to_refresh_header_vertical.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/compiled_local_resources/debug/out/layout_pull_to_refresh_header_vertical.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +120,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/lujianzhi/.android/avd/Pixel_6_API_25.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=Default, isTemplate=false, identifier=serial=10.10.240.201:5555;connection=a625bcf7)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -198,9 +150,9 @@
         <option value="resourceFile" />
         <option value="Interface" />
         <option value="layoutResourceFile_vertical" />
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -246,9 +198,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="1ZZIP5qIgmPFFksb1dh0IFv2SQ9" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -339,33 +291,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lujianzhi/mine/project/Mine/Github/AndroidSummary/library",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;DEBUGGABLE_DEVICE&quot;: &quot;Pixel_6_API_25 [emulator-5554]&quot;,
+    &quot;DEBUGGABLE_PROCESS&quot;: &quot;com.example.lawson.androidsummery&quot;,
+    &quot;DEBUGGER_ID&quot;: &quot;Auto&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHOW_ALL_PROCESSES&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lujianzhi/mine/project/Mine/Github/AndroidSummary/library/src/main/java/com/handmark/pulltorefresh/library&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Signing Configs" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-1278636049">
-      <recent name="com.example.lawson.androidsummery.coordinatorlayout" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.example.lawson.androidsummery.junittest" />
-    </key>
     <key name="android.template.packageName">
       <recent name="com.example.lawson.androidsummery.fourcomponent.activityabout" />
       <recent name="com.example.lawson.androidsummery.diyview.justifyTextView" />
@@ -373,7 +323,26 @@
       <recent name="com.example.lawson.androidsummery.mmkv" />
       <recent name="com.example.lawson.androidsummery.securitycheck" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/library/src/main/java/com/handmark/pulltorefresh/library" />
+      <recent name="$PROJECT_DIR$/library" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="android.template.-1548582378">
+      <recent name="com.example.lawson.androidsummery.diyview.bord" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-1278636049">
+      <recent name="com.example.lawson.androidsummery.coordinatorlayout" />
+    </key>
+    <key name="android.template.parentActivityClass">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -383,15 +352,8 @@
       <recent name="com.example.lawson.androidsummery.fragment" />
       <recent name="com.example.lawson.androidsummery.mvp" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="E:\AS\Project\AndroidSummary\app\src\main\res\drawable" />
-      <recent name="E:\AS\Project\AndroidSummary\app\src\main\assets" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.lawson.androidsummery.junittest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.lawson.androidsummery.test" />
@@ -399,12 +361,6 @@
       <recent name="com.example.lawson.androidsummery.diyview.hideview" />
       <recent name="com.example.lawson.androidsummery.fragment.fragmentlazy.lazytwo.fragment" />
       <recent name="com.example.lawson.androidsummery.fragment.normal.fragment" />
-    </key>
-    <key name="android.template.-1548582378">
-      <recent name="com.example.lawson.androidsummery.diyview.bord" />
-    </key>
-    <key name="android.template.parentActivityClass">
-      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -889,7 +845,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="89372955-64e8-4060-99f7-a534e92ed80d" name="Default" comment="" />
-      <changelist id="95839285-bb59-4d62-978f-d973452dd3ed" name="ignore" comment="" />
       <changelist id="a588c25e-9a0d-4749-9276-4d689d53620a" name="annotation" comment="" />
       <created>1475486850205</created>
       <option name="number" value="Default" />
@@ -1239,7 +1194,7 @@
       <option name="project" value="LOCAL" />
       <updated>1657078471129</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1271,8 +1226,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="点击事件代理" />
-    <MESSAGE value="LottieAnimationView" />
     <MESSAGE value="时间选择器" />
     <MESSAGE value="Action" />
     <MESSAGE value="序列化测试" />
@@ -1296,7 +1249,9 @@
     <MESSAGE value="commit" />
     <MESSAGE value="handler" />
     <MESSAGE value="feat: 补交" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 补交" />
+    <MESSAGE value="feat: 添加 ignore" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1314,6 +1269,11 @@
           <url>file://$USER_HOME$/Library/Android/sdk/sources/android-29/java/util/HashMap.java</url>
           <line>677</line>
           <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/lawson/androidsummery/ipc/receiver/TestReceiver.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
