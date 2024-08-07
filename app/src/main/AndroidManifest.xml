@@ -176,6 +176,7 @@
         <activity android:name=".fourcomponent.activityabout.MyFragmentActivity" />
         <activity android:name=".mmkv.MMKVActivity" />
         <activity android:name=".diyview.colorpicker.ColorPickerActivity" />
+        <activity android:name=".pulltofront.PullToFrontActivity" />
 
         <receiver
             android:name=".remoteviews.MyAppWidgetProvider"
