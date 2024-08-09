@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/pull_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="唤起指定 app"/>
+        android:text="唤起指定 app" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/front_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取前台 app" />
+        <Button
+            android:id="@+id/loop_front_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="循环获取前台 app" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/running_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取运行的所有 app" />
+
+    <Button
+        android:id="@+id/start_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动指定 app" />
+
+    <Button
+        android:id="@+id/kill_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="杀死指定 app" />
 </LinearLayout>
